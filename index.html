@@ -1,0 +1,81 @@
+<html>
+  <head>
+    <title>OIPL | Mock Test</title>
+    
+    <style>
+      * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background:#F79F1F;
+    line-height: 60px;
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+}
+
+#text {
+    margin-right: 50px;
+}
+
+footer {
+    background: #2d3433;
+    color: #eee;
+    text-align: center;
+    line-height: 50px;
+}
+
+
+iframe {
+    width: 100%;
+    height: 100vh;
+}
+    </style>
+  </head>
+  
+  <body>
+    <header>
+   					     <span id="text">Times left</span><span id="minutes">00</span>:<span id="seconds">00</span>
+								    </header>
+    <main>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdAdPskwcQq_9TxSx6Pt98aUJ5fpraG7THODga-d6USp8CuYw/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    </main>
+    <footer>
+        <p>Copyright&copy;OIPL, Gonda-2022</p>
+    </footer>
+    
+    <script>
+      var minutes = document.getElementById("minutes");
+var seconds = document.getElementById("seconds");
+
+min = 5;
+sec = 5;
+
+minutes.innerHTML = min - 1;
+seconds.innerHTML = sec;
+
+var interval = setInterval(function(){
+    
+    if(sec === 0) {
+        if(min === 0) {
+            clearInterval(interval);
+            window.close();
+            alert("Times Out!!");
+        }
+        else {
+            sec = 5;
+            min = min - 1;
+            minutes.innerHTML = min;    
+        }
+        
+    }
+    sec=sec-1;
+    seconds.innerHTML = sec; 
+},1000);
+
+    </script>
+  </body>
+</html>
