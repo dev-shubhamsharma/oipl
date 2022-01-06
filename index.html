@@ -62,8 +62,9 @@ var interval = setInterval(function(){
     if(sec === 0) {
         if(min === 0) {
             clearInterval(interval);
+		alert("Times Out!!");
             window.close();
-            alert("Times Out!!");
+            
         }
         else {
             sec = 5;
