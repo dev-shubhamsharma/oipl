@@ -136,6 +136,10 @@ main h3 {
     overflow: hidden;
 }
 
+a {
+    text-decoration: none;
+}
+
 #sign-in-btn::before {
     content: '';
     width: 100%;

@@ -17,7 +17,7 @@
 </head>
 <body>
     <header>
-        <h1 id="logo">OIPL</h1>
+        <a href="index.html"><h1 id="logo">OIPL</h1></a>
         <label for="menu-check">
             <input type="checkbox" name="menu" id="menu-check">
             <div class="menu-btn">
@@ -42,18 +42,29 @@
         <div class="form">
             <div class="input-container">   
                 <label for="username">Username</label>
-                <input type="text" id="username">
+                <input type="text" id="username" onclick="clearLoginMsg()" required>
             </div>
             <div class="input-container">
                 <label for="password">Password</label>
-                <input type="password" id="password">
+                <input type="password" id="password" onclick="clearLoginMsg()" required>
             </div>
             <div class="input-container">
-                <button id="sign-in-btn">Sign in</button>
+                <button id="sign-in-btn" onclick="validateUser()">Start Exam</button>
             </div>
             <p id="msg">User id or Password is incorrect</p>
         </div>
     </main>
+
+    <div class="preloader">
+        <div class="circle"></div>
+        <p class="text">Please wait...<br> Connecting to exam server...</p>
+    </div>
+
+
+    <script src="signin.js"></script>
+    <script src="students.js"></script>
+
+
     
 </body>
 </html>
