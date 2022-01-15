@@ -1,0 +1,42 @@
+.form {
+    background: rgba(0,0,0,0.7);
+    min-width: 400px;
+    padding: 30px 40px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.form input {
+    border: none;
+    border-radius: 3px;
+}
+
+#msg {
+    text-align: center;
+    color: red;
+}
+
+@media(max-width:700px) {
+
+main {
+    height: 100vh;
+}
+
+main h2 {
+    font-size: 40px;
+}
+
+.form {
+    min-width: 100vw;
+}
+
+
+#sign-in-btn {
+    padding: 10px 20px;
+}
+
+
+}
