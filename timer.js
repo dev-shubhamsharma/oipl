@@ -2,7 +2,7 @@
 
 function startTimer() {
 
-    var startMinutes = 5
+    var startMinutes = 60
     var startSeconds = 60  // also change on update time 
 
     var minutes = startMinutes

@@ -5,36 +5,10 @@ let indexNumber = 0
 var indexList = [0];
 
 
-
-
-
-
-function fullScreenBrowser() {
-    document.getElementById("header").addEventListener("dblclick",()=>{
-        document.documentElement.requestFullscreen();
-    });
-}
-
-
-
-
-
-
-
 // clear error message when an option is selected
 function clearMsg() {
     document.getElementById("msg").innerHTML = ""
 }
-
-document.getElementById("header").addEventListener("dblclick",()=>{
-    document.documentElement.requestFullscreen();
-    document.addEventListener("keydown",e=>{
-        console.log(e.key);
-        if(e.key == "Escape") e.preventDefault();
-        // if(e.key == "F11") e.preventDefault();
-        
-    });
-});
 
 
 function loadNext(index) {
@@ -54,8 +28,8 @@ function loadNext(index) {
     document.getElementById("option4").innerHTML = questions[indexNumber].optionD
     
     
-//     if question reaches its limit then stop the quiz
-    if(document.getElementById("current-question").innerHTML == "9") {
+//     if current question reaches at second last question then change save btn text to submit
+    if(document.getElementById("current-question").innerHTML == "59") {
         document.getElementById("next-btn").innerHTML = "Submit"
     }
     
@@ -68,9 +42,9 @@ function loadNext(index) {
 
 //  to clear all the selected radio buttons
 function clearSelection() {
-    var ele = document.getElementsByName("question1");
-    for(var i=0;i<ele.length;i++)
-      ele[i].checked = false;
+    var elem = document.getElementsByName("question1");
+    for(var i=0;i<elem.length;i++)
+      elem[i].checked = false;
 }
 
 
@@ -103,19 +77,19 @@ function checkAnswerAndNext() {
             // document.getElementById("score").innerHTML = score
         }
         if(currentQuestion == 10) {
-
-            
+            // submit the paper and display result
             submitExam()
             
         }
         else {
-//             submit the paper and display result
+
 
             // indexNumber++
-            let index = generateRandomNumber(0,24);
+            let index = generateRandomNumber(0,199);
             
+            // to check if current index question is already displayed
             while(indexList.includes(index) == true) {
-                index = generateRandomNumber(0,25);
+                index = generateRandomNumber(0,199);
             }
             
             indexList.push(index)

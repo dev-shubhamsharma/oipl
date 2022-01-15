@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate | OIPL</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            /* height: 500px; */
+            width: 800px;
+            border: 10px solid #1488CC;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        #student-name {
+            font-size: 30px;
+            margin: 10px 0;
+        }
+
+        #main-logo {
+            width: 100px;
+            margin-top: 20px;
+        }
+
+        h2 {
+            font-size: 35px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #1488CC;
+            margin: 20px 0;
+        }
+
+        p {
+            line-height: 30px;
+        }
+
+        img {
+            width: 180px;
+            margin-top: 40px;
+        }
+
+        .note {
+            color: grey;
+            margin: 20px 0;
+        }
+
+        #achieved-score,#achieved-grade {
+            color: green;
+            font-weight: bold;
+        }
+        
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <img id="main-logo" src="images/logo.png" alt="oipl-logo">
+        <h2>Certificate of Appreciation</h2>
+        <p>This certificate is awarded to</p>
+        <p id="student-name">Shubham Sharma</p>
+        <p>for participating in Online Test. He has correctly answered<br>
+            Total <span id="achieved-score">55</span> / 60
+    and achieved the Grade <span id="achieved-grade">A</span><br>
+    by solving total 60 MCQ Questions in <span id="spend-minutes">00</span>m : <span id="spend-seconds">21</span>s time.
+        </p>
+        <img src="images/signature.png" alt="signature image">
+        <p class="note">This certificate is only for real exam experience and it is not your course final certificate</p>
+        
+
+    </div>
+</body>
+</html>

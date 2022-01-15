@@ -1,237 +1,354 @@
 const questions = [
-    {
-        question: "The following symbol represent :",
-        optionA: "Decision",
-        optionB: "Initialization",
-        optionC: "Input / Output",
-        optionD: "None of the mentioned",
-        correctAnswer: "Decision"
+    {   
+        // 1
+        question: "The SaveAs dialog box can be used :",
+        optionA: "for saving the file for the first time",
+        optionB: "to save file by some alternative name",
+        optionC: "to save file in a format other than Word",
+        optionD: "All of the above",
+        correctAnswer: "All of the above"
     },
 
     {
-        question: "When an algorithm is written in the form of a programming language, it becomes a :",
-        optionA: "Flowchart",
-        optionB: "Program",
-        optionC: "Pseudo code",
-        optionD: "Syntax",
-        correctAnswer: "Pseudo code"
-    },
-
-    {
-        question: "Which of the following is not a keyword in Python ?",
-        optionA: "eval",
-        optionB: "assert",
-        optionC: "nonlocal",
-        optionD: "pass",
-        correctAnswer: "nonlocal"
-    },
-
-    {
-        question: "Which one of the following has the highest precedence in the expression ?",
-        optionA: "Exponential",
-        optionB: "Addition",
-        optionC: "Multiplication",
-        optionD: "Parentheses",
-        correctAnswer: "Parentheses"
-    },
-
-    {
-        question: "Which of the following is correct about Python ?",
-        optionA: "It supports automatic grabage collection",
-        optionB: "It can be easily integrated with C, C++, COM, ActiveX, CORBA and Java",
-        optionC: "Both of the above",
+        // 2
+        question: "Non-impact based printing device is :",
+        optionA: "Dot matrix printer",
+        optionB: "Scanner",
+        optionC: "Laser Printer",
         optionD: "None of the above",
-        correctAnswer: "It supports automatic grabage collection"
+        correctAnswer: "Laser Printer"
     },
 
     {
-        question: "Which of the following environment variable for Python tells the Python interpreter where to locate the module files imported into a program ?",
-        optionA: "PYTHONPATH",
-        optionB: "PYTHONSTARTUP",
-        optionC: "PYTHONCASEOK",
-        optionD: "PYTHONHOME",
-        correctAnswer: "PYTHONPATH"
+        // 3
+        question: "To cut text from the document, press the keys :",
+        optionA: "Ctrl and V",
+        optionB: "Ctrl and C",
+        optionC: "Ctrl and A",
+        optionD: "Ctrl and X",
+        correctAnswer: "Ctrl and X"
     },
 
     {
-        question: "Which of the following data types is not supported in python ?",
-        optionA: "Numbers",
-        optionB: "String",
-        optionC: "List",
-        optionD: "Slice",
-        correctAnswer: "Slice"
+        // 4
+        question: "__________ maps IP addresses with the domain names of the sites.",
+        optionA: "URL",
+        optionB: "DNS",
+        optionC: "FTP",
+        optionD: "None of the above",
+        correctAnswer: "DNS"
     },
 
     {
-        question: "Which of the following function of dictionary gets all the keys from the dictionary ?",
-        optionA: "getkeys()",
-        optionB: "key()",
-        optionC: "keys()",
-        optionD: "None of the mentioned",
-        correctAnswer: "keys()"
+        // 5
+        question: "A Nibble consists of __________ Bits :",
+        optionA: "2",
+        optionB: "4",
+        optionC: "8",
+        optionD: "16",
+        correctAnswer: "4"
     },
 
     {
-        question: "Select the reserved keyword in python :",
-        optionA: "else",
-        optionB: "raise",
-        optionC: "import",
-        optionD: "All of the mentioned",
-        correctAnswer: "import"
+        // 6
+        question: "User interact with the operating system through a set of __________.",
+        optionA: "USB Sticks",
+        optionB: "Commands",
+        optionC: "Scanner",
+        optionD: "All of the above",
+        correctAnswer: "Commands"
     },
 
     {
-        question: "Which statement is correct ?",
-        optionA: "List is mutable & Tuple is immutable.",
-        optionB: "List is immutable & Tuple is mutable.",
-        optionC: "Both List and Tuple are Mutable.",
-        optionD: "Both List and Tuple are Immutable.",
-        correctAnswer: "List is mutable & Tuple is immutable."
+        // 7
+        question: "Which is the technology used in the evaluation of aptitude test ?",
+        optionA: "OCR",
+        optionB: "OMR",
+        optionC: "MICR",
+        optionD: "MCR",
+        correctAnswer: "OMR"
     },
 
     {
-        question: "In computer science, algorithm refers to a special method usable by a computer for the solution to a problem",
-        optionA: "True",
-        optionB: "False",
+        // 8
+        question: "To create a Paragraph Break in MSWORD, which key is used ?",
+        optionA: "Enter",
+        optionB: "Esc",
+        optionC: "Tab",
+        optionD: "Shift",
+        correctAnswer: "Enter"
+    },
+
+    {
+        // 9
+        question: "MIDI means :",
+        optionA: "Multimedia Instrument Digital Information",
+        optionB: "Multimedia Instrument Digital Interface",
+        optionC: "Musical Instrument Digital Interface",
+        optionD: "Musical Information Digital Information",
+        correctAnswer: "Musical Instrument Digital Interface"
+    },
+
+    {
+        // 10
+        question: "Full form of ASCII :",
+        optionA: "American Standard Code for Information Interconnection",
+        optionB: "American Situation Code for Information Intercommunication",
+        optionC: "American Standard Code for Information Interchange",
+        optionD: "American Standard Coding for Information Interconnection",
+        correctAnswer: "American Standard Code for Information Interchange"
+    },
+
+    {
+        // 11
+        question: "You can add words not available in Word dictionary to :",
+        optionA: "My dictionary",
+        optionB: "User dictionary",
+        optionC: "Custom dictionary",
+        optionD: "Live dictionary",
+        correctAnswer: "Custom dictionary"
+    },
+
+    {
+        // 12
+        question: "Portrait is used to refer to page orientation, which is :",
+        optionA: "vertical",
+        optionB: "horizontal",
+        optionC: "flip",
+        optionD: "upside down",
+        correctAnswer: "vertical"
+    },
+
+    {
+        // 13
+        question: "'Passport Seva' website is :",
+        optionA: "www.passportindia.gov.in",
+        optionB: "www.passportindia.com",
+        optionC: "www.passportindia.edu",
+        optionD: "www.e-passportindia.gov.in",
+        correctAnswer: "www.passportindia.gov.in"
+    },
+
+    {
+        // 14
+        question: "ORS stands for :",
+        optionA: "Open Resource System",
+        optionB: "Online Registration System",
+        optionC: "Open Reform System",
+        optionD: "Open Repair System",
+        correctAnswer: "Online Registration System"
+    },
+
+    {
+        // 15
+        question: "UMANG is integrated with :",
+        optionA: "Aadhaar and Digilocker",
+        optionB: "Aadhaar or Digilocker",
+        optionC: "Digilocker only",
+        optionD: "Aadhaar only",
+        correctAnswer: "Aadhaar and Digilocker"
+    },
+
+    {
+        // 16
+        question: "Which box overflows with emails generally ?",
+        optionA: "Inbox",
+        optionB: "Outbox",
+        optionC: "AddressBox",
+        optionD: "MessageBox",
+        correctAnswer: "Inbox"
+    },
+
+    {
+        // 17
+        question: "Gmail is a software used to ",
+        optionA: "Search web pages",
+        optionB: "Check Emails",
+        optionC: "Find hotels",
+        optionD: "Search Files",
+        correctAnswer: "Check Emails"
+    },
+
+    {
+        // 18
+        question: "What is the minimum age to join Facebook ?",
+        optionA: "18 years",
+        optionB: "15 years",
+        optionC: "13 years",
+        optionD: "10 years",
+        correctAnswer: "13 years"
+    },
+
+    {
+        // 19
+        question: "When was Twitter launched ?",
+        optionA: "01-03-2006",
+        optionB: "01-04-2006",
+        optionC: "01-10-2006",
+        optionD: "01-12-2006",
+        correctAnswer: "01-10-2006"
+    },
+
+    {
+        // 20
+        question: "Which option helps us to send the same letter to different persons ?",
+        optionA: "Mail Merge",
+        optionB: "Macros",
+        optionC: "Multiple Letter",
+        optionD: "Template",
+        correctAnswer: "Mail Merge"
+    },
+
+    {
+        // 21
+        question: "Numbers in base 16 are called as",
+        optionA: "Octal System",
+        optionB: "Hexadecimal System",
+        optionC: "Decimal System",
+        optionD: "Binary System",
+        correctAnswer: "Hexadecimal System"
+    },
+
+    {
+        // 22
+        question: "The formula in cell A2 is =B2+C3 on copying this formula in cell C2 the formula will be :",
+        optionA: "=D3+E4",
+        optionB: "=D2+E3",
+        optionC: "=D2+E4",
+        optionD: "=D3+E3",
+        correctAnswer: "=D2+E3"
+    },
+
+    {
+        // 23
+        question: "Which of the following file extensions indicate file created in Paint ?",
+        optionA: "BMP",
+        optionB: "DOC",
+        optionC: "STK",
+        optionD: "PPT",
+        correctAnswer: "BMP"
+    },
+
+    {
+        // 24
+        question: "Which of the following is an input device ?",
+        optionA: "Screen",
+        optionB: "Speaker",
+        optionC: "Keyboard",
+        optionD: "Printer",
+        correctAnswer: "Keyboard"
+    },
+
+    {
+        // 25
+        question: "The cost of storing a bit is minimum in :",
+        optionA: "Cache",
+        optionB: "RAM",
+        optionC: "Register",
+        optionD: "Magnetic Disc",
+        correctAnswer: "Magnetic Disc"
+    },
+
+    {
+        // 26
+        question: "________ is known as High level language.",
+        optionA: "Windows 7",
+        optionB: "Operating System",
+        optionC: "Java",
+        optionD: "Apple",
+        correctAnswer: "Java"
+    },
+
+    {
+        // 27
+        question: "",
+        optionA: "",
+        optionB: "",
         optionC: "",
         optionD: "",
-        correctAnswer: "False"
+        correctAnswer: ""
     },
 
     {
-        question: "Any algorithm is a program",
-        optionA: "True",
-        optionB: "False",
+        // 28
+        question: "",
+        optionA: "",
+        optionB: "",
         optionC: "",
         optionD: "",
-        correctAnswer: "False"
+        correctAnswer: ""
     },
 
     {
-        question: "Python is case sensitive when dealing with identifiers.",
-        optionA: "True",
-        optionB: "False",
+        // 29
+        question: "",
+        optionA: "",
+        optionB: "",
         optionC: "",
         optionD: "",
-        correctAnswer: "True"
+        correctAnswer: ""
     },
 
-
     {
-        question: "Mathematical operations can be performed on a string.",
-        optionA: "True",
-        optionB: "False",
+        // 30
+        question: "",
+        optionA: "",
+        optionB: "",
         optionC: "",
         optionD: "",
-        correctAnswer: "False"
+        correctAnswer: ""
     },
 
     {
-        question: "Addition and Subtraction has the same precedence level.",
-        optionA: "True",
-        optionB: "False",
+        // 31
+        question: "",
+        optionA: "",
+        optionB: "",
         optionC: "",
         optionD: "",
-        correctAnswer: "True"
+        correctAnswer: ""
     },
 
     {
-        question: "The expression int(x) implies that the variable x is converted to integer",
-        optionA: "True",
-        optionB: "False",
+        // 32
+        question: "",
+        optionA: "",
+        optionB: "",
         optionC: "",
         optionD: "",
-        correctAnswer: "True"
+        correctAnswer: ""
     },
 
     {
-        question: "values () is a function of dictionary gets all the values from the dictionary",
-        optionA: "True",
-        optionB: "False",
+        // 33
+        question: "",
+        optionA: "",
+        optionB: "",
         optionC: "",
         optionD: "",
-        correctAnswer: "False"
+        correctAnswer: ""
     },
 
     {
-        question: "nested if-else are allowed in Python",
-        optionA: "True",
-        optionB: "False",
+        // 34
+        question: "",
+        optionA: "",
+        optionB: "",
         optionC: "",
         optionD: "",
-        correctAnswer: "True"
+        correctAnswer: ""
     },
 
     {
-        question: "unichr(x) function convert an integer to octal string in python.",
-        optionA: "True",
-        optionB: "False",
+        // 35
+        question: "",
+        optionA: "",
+        optionB: "",
         optionC: "",
         optionD: "",
-        correctAnswer: "False"
+        correctAnswer: ""
     },
 
-    {
-        question: "frozenset(s)function convert a sequence of tuples to dictionary in python.",
-        optionA: "True",
-        optionB: "False",
-        optionC: "",
-        optionD: "",
-        correctAnswer: "True"
-    },
-
-    {
-        question: "How many sides does an hexagon have ?",
-        optionA: "Six",
-        optionB: "Sevene",
-        optionC: "Four",
-        optionD: "Five",
-        correctAnswer: "Six"
-    },
-
-    {
-        question: "How many planets are currently in the solar system ?",
-        optionA: "Eleven",
-        optionB: "Seven",
-        optionC: "Nine",
-        optionD: "Eight",
-        correctAnswer: "Eight"
-    },
-
-    {
-        question: "Which Planet is the hottest ?",
-        optionA: "Jupitar",
-        optionB: "Mercury",
-        optionC: "Earth",
-        optionD: "Venus",
-        correctAnswer: "Mercury"
-    },
-
-    {
-        question: "where is the smallest bone in human body located?",
-        optionA: "Toes",
-        optionB: "Ears",
-        optionC: "Fingers",
-        optionD: "Nose",
-        correctAnswer: "Ears"
-    },
-
-    {
-        question: "How many hearts does an Octopus have ?",
-        optionA: "One",
-        optionB: "Two",
-        optionC: "Three",
-        optionD: "Four",
-        correctAnswer: "Three"
-    },
-
-    {
-        question: "How many teeth does an adult human have ?",
-        optionA: "28",
-        optionB: "30",
-        optionC: "32",
-        optionD: "36",
-        correctAnswer: "32"
-    }
+    
 
 ]

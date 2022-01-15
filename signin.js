@@ -12,7 +12,7 @@ function validateUser() {
         window.localStorage.setItem("password",password);
 
         const timeout = setTimeout(function() {
-            window.open("ExamWindow.html","_self")
+            window.open("examwindow.html","_self")
             clearTimeout(timeout)
         },5000)
     }
