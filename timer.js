@@ -1,30 +1,35 @@
 
+var totalTiming = 2
+
+
+
+
+var secondsCounter = 0
 
 function startTimer() {
 
-    var startMinutes = 60
+    var startMinutes = totalTiming
     var startSeconds = 60  // also change on update time 
 
     var minutes = startMinutes
     var seconds = startSeconds
-    let secondsCounter = 0
-
+    
     minutes-=1
     document.getElementById("minutes").innerHTML = minutes
     // document.getElementById("seconds").innerHTML = seconds - 1
 
     loadNext(0)
+    document.getElementById("total-question").innerHTML = totalQuestions.toString()
 
     let interval = setInterval(() => {
 
         
-        if((minutes == 0 && seconds == 0) || document.getElementById("next-btn").innerHTML == "Submit") {
+        if((minutes == 0 && seconds == 0)) {
 
-
+            alert("Time end")
             clearInterval(interval)
             // alert("timer ends")
-            window.localStorage.setItem("secondsTaken",secondsCounter.toString());
-            submitExam()
+            submitExam("TimeEnd")
             
         }
         if(seconds == 0) {

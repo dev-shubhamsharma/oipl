@@ -13,12 +13,14 @@
             box-sizing: border-box;
         }
         body {
+            font-size: 1rem;
+            padding: 20px;
             display: flex;
             align-items: center;
             justify-content: center;
         }
         .container {
-            /* height: 500px; */
+            padding: 20px;
             width: 800px;
             border: 10px solid #1488CC;
             display: flex;
@@ -30,7 +32,7 @@
         }
 
         #student-name {
-            font-size: 30px;
+            font-size: 2rem;
             margin: 10px 0;
         }
 
@@ -40,8 +42,8 @@
         }
 
         h2 {
-            font-size: 35px;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 2.5rem;
+            
             color: #1488CC;
             margin: 20px 0;
         }
@@ -69,21 +71,52 @@
     </style>
 
 </head>
-<body>
+<body onload="loadCertificateData()">
     <div class="container">
         <img id="main-logo" src="images/logo.png" alt="oipl-logo">
         <h2>Certificate of Appreciation</h2>
         <p>This certificate is awarded to</p>
-        <p id="student-name">Shubham Sharma</p>
-        <p>for participating in Online Test. He has correctly answered<br>
-            Total <span id="achieved-score">55</span> / 60
-    and achieved the Grade <span id="achieved-grade">A</span><br>
-    by solving total 60 MCQ Questions in <span id="spend-minutes">00</span>m : <span id="spend-seconds">21</span>s time.
+        <p id="student-name">
+            <!-- Shubham Sharma -->
+        </p>
+        <p>for participating in Online Test. He&nbsp;has&nbsp;correctly&nbsp;answered<br>
+            Total <span id="achieved-score">
+                <!-- 55 -->
+            </span> / <span id="total-questions">
+                <!-- 60 -->
+            </span> 
+            
+            Questions and achieved the Grade <span id="achieved-grade">
+        <!-- A -->
+    </span><br>
+    in <span id="spend-minutes">
+        <!-- 00 -->
+    </span>
+    m : <span id="spend-seconds">
+        <!-- 21 -->
+    </span>s time.
         </p>
         <img src="images/signature.png" alt="signature image">
         <p class="note">This certificate is only for real exam experience and it is not your course final certificate</p>
         
 
     </div>
+
+
+    <script>
+        function loadCertificateData() {
+            document.getElementById("student-name").innerHTML = window.localStorage.getItem("username")
+            document.getElementById("achieved-score").innerHTML = window.localStorage.getItem("score")
+            document.getElementById("total-questions").innerHTML = window.localStorage.getItem("totalquestions")
+            document.getElementById("achieved-grade").innerHTML = window.localStorage.getItem("grade")
+            document.getElementById("spend-minutes").innerHTML = window.localStorage.getItem("minutes")
+            document.getElementById("spend-seconds").innerHTML = window.localStorage.getItem("seconds")
+        }
+
+
+
+    </script>
+
+
 </body>
 </html>
