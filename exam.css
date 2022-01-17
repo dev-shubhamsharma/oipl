@@ -6,7 +6,7 @@
 
 
 body {
-    font-family: 'calibri',sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #form-container {
@@ -107,7 +107,7 @@ body {
 /* main exam window started */
 
 header {
-    height: 70px;
+    /* height: 70px; */
     padding: 10px 20px;
 /*     border-bottom: 3px solid #ddd; */
     background: #fff;
@@ -118,12 +118,12 @@ header {
 
 header h1 {
     color: #777;
-    font-family: 'Ubuntu', sans-serif;
     font-weight: 200;
 }
 
 header img {
-    max-height: 100%;
+    height: 60px;
+
 }
 
 section {
@@ -135,7 +135,6 @@ section {
     align-items: center;
     justify-content: space-between;
     font-size: 11px;
-    font-family: 'Ubuntu', sans-serif;
     font-weight: lighter;
 }
 
@@ -184,7 +183,6 @@ main {
 .question-container {
     border: 1px solid #eee;
     padding: 10px;
-    font-family: 'Noto Sans', sans-serif;
     color: #555;
     font-weight: lighter;
     margin-bottom: 20px;
@@ -194,7 +192,6 @@ main {
 .option-container {
     border: 1px solid #eee;
     padding: 10px;
-    font-family: 'calibri',sans-serif;
     font-size: 18px;
     margin-bottom: 10px;
 /*     cursor: pointer; */
@@ -216,7 +213,6 @@ main {
 
 .msg {
     text-align: center;
-    font-family: 'calibri',sans-serif;
     color: red;
     margin-top: 30px;
     font-size: 18px;
@@ -283,6 +279,29 @@ main {
 
 /*     result window closed */
 
+
+
+
+@media(max-width:700px){
+    #right-section {
+        display: none;
+    }
+
+    #left-section {
+        width: 100%;
+        border: none;
+        
+    }
+}
+
+
+@media(max-width:600px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+        font-size: 1rem;
+    }
+}
 
 
 
