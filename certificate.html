@@ -111,6 +111,9 @@
             document.getElementById("achieved-grade").innerHTML = window.localStorage.getItem("grade")
             document.getElementById("spend-minutes").innerHTML = window.localStorage.getItem("minutes")
             document.getElementById("spend-seconds").innerHTML = window.localStorage.getItem("seconds")
+
+            // remove the username from local storage
+            window.localStorage.removeItem("username")
         }
 
 

@@ -8,8 +8,14 @@ var secondsCounter = 0
 
 function startTimer() {
 
+    if(window.localStorage.getItem("username") == null || window.localStorage.getItem("username") == undefined)
+    {
+        window.open("signin.html","_self")
+    }
+
     var startMinutes = totalTiming
     var startSeconds = 60  // also change on update time 
+
 
     var minutes = startMinutes
     var seconds = startSeconds
