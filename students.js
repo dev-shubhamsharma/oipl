@@ -22,4 +22,5 @@ var students = {
     "Subhi Singh":"Subhi",
     "Vivek Khasyap":"Vivek",
     "Mamta Verma":"Mamta",
+    "Tushar Srivastava":"Tushar",
 };
