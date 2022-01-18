@@ -1,5 +1,5 @@
 
-var totalTiming = 2
+var totalTiming = 60
 
 
 
