@@ -1,11 +1,11 @@
 
 // declared total questions to attempt
-var totalQuestions = 10
+var totalQuestions = 60
 
 
 
 // declared total questions entered in the "questions.js" file
-var totalQuestionsAddedInList = 26
+var totalQuestionsAddedInList = 100
 
 let score = 0
 let currentQuestion = 0
