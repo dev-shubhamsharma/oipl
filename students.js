@@ -11,5 +11,6 @@ var students = {
     "Tanu Shukla":"Tanu",
     "Vinay Mishra":"Vinay",
     "Priyanshu Mishra":"Priyanshu",
-    
+    "Pramila":"Pramila",
+    "Raunak Srivastava":"Raunak",
 };
