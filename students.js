@@ -13,6 +13,7 @@ var students = {
     "Garima Singh":"Garima",
     "Vinay Mishra":"Vinay",
     "Priyanshu Mishra":"Priyanshu",
+    "Tushar Srivastava":"Tushar",
     "Abhishek Sharma":"Abhishek",
     "Abdul Rahman":"Abdul",
     "Kalpana Srivastava":"Kalpana",
@@ -22,5 +23,4 @@ var students = {
     "Subhi Singh":"Subhi",
     "Vivek Khasyap":"Vivek",
     "Mamta Verma":"Mamta",
-    "Tushar Srivastava":"Tushar",
 };

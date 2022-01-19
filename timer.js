@@ -12,6 +12,7 @@ function startTimer() {
     {
         window.open("signin.html","_self")
     }
+    disable()
 
     var startMinutes = totalTiming
     var startSeconds = 60  // also change on update time 

@@ -16,7 +16,7 @@
     <!-- main exam window open -->
 
     
-    <header id="header">
+    <header id="header" ondblclick="document.documentElement.requestFullscreen()">
         <img src="images/logo.png" alt="OIPL logo image">
         <h1>CCC/OLevel Online&nbsp;Exam</h1>
     </header>    
@@ -111,6 +111,17 @@
     <script src="main.js"></script>    
     <script src="questions.js"></script>
     <script src="result.js"></script>
+
+
+    <script>
+
+        // to disable the keyboard
+        function disable() {
+            document.onkeydown = function (e) {
+                return false;
+            }
+        }
+    </script>
 
         
 </body>
