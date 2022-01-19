@@ -998,6 +998,542 @@ const questions = [
         optionD: "By copying image to all slide",
         correctAnswer: "Define background image into Slide Master"
     },
+// 
+// *************************************************
+//
+    {
+        // 101
+        question: "Which of the following statements is correct ?",
+        optionA: "1 KB = 1024 bytes",
+        optionB: "1 MB = 2048 bytes",
+        optionC: "1 MB = 1000 kilobytes",
+        optionD: "1 KB = 1000 bytes",
+        correctAnswer: "1 KB = 1024 bytes"
+    },
+
+    {
+        // 102
+        question: "A collection of hyperlinked documents on the internet forms the ?",
+        optionA: "WWW",
+        optionB: "Email System",
+        optionC: "Mailing list",
+        optionD: "Hypertext Markup Language",
+        correctAnswer: "WWW"
+    },
+
+    {
+        // 103
+        question: "The location of a resource on the internet is given by its?",
+        optionA: "Protocol",
+        optionB: "URL",
+        optionC: "E-mail address",
+        optionD: "ICQ",
+        correctAnswer: ""
+    },
+
+    {
+        // 104
+        question: "The term HTTP stands for?",
+        optionA: "Hyper terminal tracing program",
+        optionB: "Hypertext tracing protocol",
+        optionC: "Hypertext transfer program",
+        optionD: "Hypertext transfer protocol",
+        correctAnswer: "Hypertext transfer protocol"
+    },
+
+    {
+        // 105
+        question: "Which software prevents the external access to a system?",
+        optionA: "Firewall",
+        optionB: "Gateway",
+        optionC: "Router",
+        optionD: "Virus checker",
+        correctAnswer: "Firewall"
+    },
+
+    {
+        // 106
+        question: "Which one of the following is a valid email address?",
+        optionA: "oipl@gonda.com",
+        optionB: "oiplgonda.com",
+        optionC: "oiplgonda@.com",
+        optionD: "oipl@gonda",
+        correctAnswer: "oipl@gonda.com"
+    },
+
+    {
+        // 107
+        question: " Which of the following best describes uploading information?",
+        optionA: "Sorting data on a disk drive",
+        optionB: "Sending information to a host computer",
+        optionC: "Receiving information from a host computer",
+        optionD: "Sorting data on a hard drive",
+        correctAnswer: "Sending information to a host computer"
+    },
+
+    {
+        // 108
+        question: "Which one of the following is the most common internet protocol?",
+        optionA: "HTML",
+        optionB: "NetBEUI",
+        optionC: "TCP/IP",
+        optionD: "IPX/SPX",
+        correctAnswer: "TCP/IP"
+    },
+
+    {
+        // 109
+        question: "The term FTP stands for?",
+        optionA: "File transfer program",
+        optionB: "File transmission protocol",
+        optionC: "File transfer protocol",
+        optionD: "File transfer protection",
+        correctAnswer: "File transfer protocol"
+    },
+
+    {
+        // 110
+        question: "Which one of the following is not a network topology?",
+        optionA: "Star",
+        optionB: "Ring",
+        optionC: "Bus",
+        optionD: "Peer to Peer",
+        correctAnswer: "Peer to Peer"
+    },
+
+    {
+        // 111
+        question: "When the mail server sends mail to other mail servers it becomes ___ ?",
+        optionA: "SMTP client",
+        optionB: "SMTP server",
+        optionC: "Peer",
+        optionD: "Master",
+        correctAnswer: "SMTP client"
+    },
+
+    {
+        // 112
+        question: "The length of an IPv6 address is?",
+        optionA: "32 bits",
+        optionB: "64 bits",
+        optionC: "128 bits",
+        optionD: "256 bits",
+        correctAnswer: "128 bits"
+    },
+
+    {
+        // 113
+        question: "Which of the following address belongs class A?",
+        optionA: "121.12.12.248",
+        optionB: "130.12.12.248",
+        optionC: "128.12.12.248",
+        optionD: "129.12.12.248",
+        correctAnswer: "121.12.12.248"
+    },
+
+    {
+        // 114
+        question: "Which of the following is correct IPv4 address?",
+        optionA: "124.201.3.1.52",
+        optionB: "01.200.128.123",
+        optionC: "300.142.210.64",
+        optionD: "128.64.0.0",
+        correctAnswer: "128.64.0.0"
+    },
+
+    {
+        // 115
+        question: "The term WAN stands for?",
+        optionA: "Wide Area Net",
+        optionB: "Wide Access Network",
+        optionC: "Wide Area Network",
+        optionD: "Wide Access Net",
+        correctAnswer: "Wide Area Network"
+    },
+
+    {
+        // 116
+        question: "What IP address class allocates 8 bits for the host identification part?",
+        optionA: "Class A",
+        optionB: "Class B",
+        optionC: "Class C",
+        optionD: "Class D",
+        correctAnswer: "Class C"
+    },
+
+    {
+        // 117
+        question: "How many versions available of IP?",
+        optionA: "6 version",
+        optionB: "4 version",
+        optionC: "2 version",
+        optionD: "1 version",
+        correctAnswer: "2 version"
+    },
+
+    {
+        // 118
+        question: "In specific, if the systems use separate protocols, which one of the following devices is used to link two systems?",
+        optionA: "Repeater",
+        optionB: "Gateway",
+        optionC: "Bridge",
+        optionD: "Hub",
+        correctAnswer: "Gateway"
+    },
+
+    {
+        // 119
+        question: "What is an operating system?",
+        optionA: "interface between the hardware and application programs",
+        optionB: "collection of programs that manages hardware resources",
+        optionC: "system service provider to the application programs",
+        optionD: "all of the mentioned",
+        correctAnswer: "all of the mentioned"
+    },
+
+    {
+        // 120
+        question: "Which of the following is not an operating system",
+        optionA: "Windows",
+        optionB: "Linux",
+        optionC: "Oracle",
+        optionD: "DOS",
+        correctAnswer: "Oracle"
+    },
+
+    {
+        // 121
+        question: "When were MS windows operating systems proposed?",
+        optionA: "1994",
+        optionB: "1990",
+        optionC: "1992",
+        optionD: "1985",
+        correctAnswer: "1985"
+    },
+
+    {
+        // 122
+        question: " Which of the following is the extension of Notepad?",
+        optionA: ".txt",
+        optionB: ".xls",
+        optionC: ".ppt",
+        optionD: ".bmp",
+        correctAnswer: ".txt"
+    },
+
+    {
+        // 123
+        question: " What else is a command interpreter called :",
+        optionA: "prompt",
+        optionB: "kernel",
+        optionC: "shell",
+        optionD: "command",
+        correctAnswer: "shell"
+    },
+
+    {
+        // 124
+        question: "When you delete a file in your computer, where does it go?",
+        optionA: "Recycle bin",
+        optionB: "Hard disk",
+        optionC: "Taskbar",
+        optionD: "None of these",
+        correctAnswer: "Recycle bin"
+    },
+
+    {
+        // 125
+        question: "Which is the Linux operating system",
+        optionA: "Private operating system",
+        optionB: "Windows operating system",
+        optionC: "Open-source operating system",
+        optionD: "None of these",
+        correctAnswer: "Open-source operating system"
+    },
+
+    {
+        // 126
+        question: "Which of the following is a single-user operating system?",
+        optionA: "Windows",
+        optionB: "MAC",
+        optionC: "Ms-Dos",
+        optionD: "None of these",
+        correctAnswer: "Ms-Dos"
+    },
+
+    {
+        // 127
+        question: "Which of the following is not application software?",
+        optionA: "Windows 7",
+        optionB: "WordPad",
+        optionC: "Photoshop",
+        optionD: "MS-excel",
+        correctAnswer: "Windows 7"
+    },
+
+    {
+        // 128
+        question: "Which of the following operating systems does not support more than one program at a time?",
+        optionA: "Linux",
+        optionB: "Windows",
+        optionC: "MAC",
+        optionD: "DOS",
+        correctAnswer: "DOS"
+    },
+
+    {
+        // 129
+        question: "Which of the following is system software?",
+        optionA: "Operating system",
+        optionB: "Compiler",
+        optionC: "Utilities",
+        optionD: "All of the above",
+        correctAnswer: "All of the above"
+    },
+
+    {
+        // 130
+        question: "The operating system work between",
+        optionA: "User and Computer",
+        optionB: "Network and User",
+        optionC: "One user to another user",
+        optionD: "All of the these",
+        correctAnswer: "User and Computer"
+    },
+
+    {
+        // 131
+        question: "Which of the following programs is loaded first into memory, when starting a computer?",
+        optionA: "Window desktop",
+        optionB: "Network connection program",
+        optionC: "Operating system",
+        optionD: "CMD",
+        correctAnswer: "Operating system"
+    },
+
+    {
+        // 132
+        question: "What is full the name of KYC",
+        optionA: "Know your customer",
+        optionB: "Know your cash",
+        optionC: "Knowledge of your customer",
+        optionD: "None of these",
+        correctAnswer: "Know your customer"
+    },
+
+    {
+        // 133
+        question: "Helps in faster disposal of large number of checks in banking sector?",
+        optionA: "OMR",
+        optionB: "OCR",
+        optionC: "Bar Code Reader",
+        optionD: "MICR",
+        correctAnswer: "MICR"
+    },
+
+    {
+        // 134
+        question: "Full name of MMID",
+        optionA: "Mobile Money Identify",
+        optionB: "Mobile Money Identifier",
+        optionC: "Both",
+        optionD: "None",
+        correctAnswer: "Mobile Money Identifier"
+    },
+
+    {
+        // 135
+        question: "How many digits are there in the printed number on the ATM debit card?",
+        optionA: "12",
+        optionB: "14",
+        optionC: "16",
+        optionD: "10",
+        correctAnswer: "16"
+    },
+
+    {
+        // 136
+        question: "What does 'T' mean in RTGS",
+        optionA: "Tea",
+        optionB: "Time",
+        optionC: "Today",
+        optionD: "Transfer",
+        correctAnswer: "Time"
+    },
+
+    {
+        // 137
+        question: "Full form of IMEI ?",
+        optionA: "Internet Mobile Equipment Identity",
+        optionB: "International Mobile Electronic Identity",
+        optionC: "International Mobile Equipment Identity",
+        optionD: "None",
+        correctAnswer: "International Mobile Equipment Identity"
+    },
+
+    {
+        // 138
+        question: "Full name of UIDAI",
+        optionA: "University Identification Authority of India",
+        optionB: "Unique Identification Authority of India",
+        optionC: "Unique Information Authority of India",
+        optionD: "None",
+        correctAnswer: "Unique Identification Authority of India"
+    },
+
+    {
+        // 139
+        question: "Full name of BHIM ?",
+        optionA: "Bharat Information Money",
+        optionB: "Bharatiya Interface for Mobile",
+        optionC: "Bharat Interface for Money",
+        optionD: "Bharatiya Interface for Money",
+        correctAnswer: "Bharat Interface for Money"
+    },
+
+    {
+        // 140
+        question: "What is the full name of PAN ?",
+        optionA: "A kind of Account",
+        optionB: "Position Account Number",
+        optionC: "Permanent Account Number",
+        optionD: "Primary Account Number",
+        correctAnswer: "Permanent Account Number"
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
 
     {
         question: "",
