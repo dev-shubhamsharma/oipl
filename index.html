@@ -16,6 +16,97 @@
     <!-- css style link -->
     <link rel="stylesheet" href="style.css">
 
+    <style>
+        .course-section {
+            display: flex;
+            flex-direction: row;
+            padding: 40px;
+            background: #dcdde1;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .card {
+            /* border: 1px solid grey; */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #fff;
+            position: relative;
+            width:45vmin;
+            border-radius: 20px;
+            padding-bottom: 20px;
+            overflow: hidden;
+            box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+            margin: 0 10px;
+        }
+
+        .img-wrapper {
+            width: 100%;
+            height: 70%;
+            /* border: 1px solid red; */
+            overflow: hidden;
+        }
+
+        .img-wrapper img {
+            min-height: 100%;
+            width: 100%;
+        }
+
+        h3.course-title {
+            font-size: 18px;;
+            margin: 10px 20px;
+        }
+
+        .duration {
+            font-size: 15px;
+            margin: 0 20px;
+        }
+
+        .level {
+            font-size: 12px;
+            margin: 10px 20px;
+        }
+
+        .more-btn {
+            text-decoration: none;
+            color: #fff;
+            background: linear-gradient(to left,#1488CC,#2B32B2) ;
+            padding: 8px 20px;
+            border-radius: 20px;
+            position: absolute;
+            bottom: 30px;
+            right: 20px;
+        }
+
+
+        @media(max-width:1111px) {
+            .course-section {
+                overflow:scroll;
+                -webkit-overflow-scrolling: touch;
+                
+            }
+
+            .course-section::-webkit-scrollbar {
+                display: none;
+            }
+
+            .card {
+                min-width: 50vmin;
+            }
+        }
+
+        @media(max-width: 500px){
+            .course-section {
+                padding: 30px 20px;
+            }
+
+            .card {
+                min-width: 70vmin;
+            }
+        }
+
+
+    </style>
+    
 
 </head>
 <body>
@@ -30,7 +121,7 @@
             </div>
 
             <ul id="nav">
-                <li><a href="#" target="" class="links">Home</a></li>
+                <li><a href="index.html" target="" class="links">Home</a></li>
                 <li><a href="#" target="" class="links">Courses</a></li>
                 <li><a href="signin.html" target="_self" class="links">Online&nbsp;Tests</a></li>
                 <li><a href="#" target="" class="links">About</a></li>
@@ -51,6 +142,53 @@
         <a href="signin.html" target="_self" id="sign-in-btn">Sign in</a>
 
     </main>
+
+
+    <section class="course-section">
+        <div class="card">
+            <div class="img-wrapper">
+                <img src="images/pic1.jpg" alt="course image">
+            </div>
+            <h3 class="course-title">Course on Computer Concept</h3>
+            <p class="duration">3 Months</p>
+            <p class="level">Beginner</p>
+            <a href="#" class="more-btn">More Details</a>
+        </div>
+
+        <div class="card">
+            <div class="img-wrapper">
+                <img src="images/pic1.jpg" alt="course image">
+            </div>
+            <h3 class="course-title">Course on Computer Concept</h3>
+            <p class="duration">3 Months</p>
+            <p class="level">Beginner</p>
+            <a href="#" class="more-btn">More Details</a>
+        </div>
+
+        <div class="card">
+            <div class="img-wrapper">
+                <img src="images/pic1.jpg" alt="course image">
+            </div>
+            <h3 class="course-title">Course on Computer Concept</h3>
+            <p class="duration">3 Months</p>
+            <p class="level">Beginner</p>
+            <a href="#" class="more-btn">More Details</a>
+        </div>
+
+        <div class="card">
+            <div class="img-wrapper">
+                <img src="images/pic1.jpg" alt="course image">
+            </div>
+            <h3 class="course-title">Course on Computer Concept</h3>
+            <p class="duration">3 Months</p>
+            <p class="level">Beginner</p>
+            <a href="#" class="more-btn">More Details</a>
+        </div>
+
+    </section>
+
+
+    
 
     <!-- footer section -->
 
