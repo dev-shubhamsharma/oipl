@@ -105,12 +105,28 @@
 
     <script>
         function loadCertificateData() {
-            document.getElementById("student-name").innerHTML = window.localStorage.getItem("username")
-            document.getElementById("achieved-score").innerHTML = window.localStorage.getItem("score")
-            document.getElementById("total-questions").innerHTML = window.localStorage.getItem("totalquestions")
-            document.getElementById("achieved-grade").innerHTML = window.localStorage.getItem("grade")
-            document.getElementById("spend-minutes").innerHTML = window.localStorage.getItem("minutes")
-            document.getElementById("spend-seconds").innerHTML = window.localStorage.getItem("seconds")
+            // values placed in variables
+            let username = window.localStorage.getItem("username")
+            let score = window.localStorage.getItem("score")
+            let tq = window.localStorage.getItem("totalquestions")
+            let grade = window.localStorage.getItem("grade")
+            let sm = window.localStorage.getItem("minutes")
+            let ss = window.localStorage.getItem("seconds")
+
+
+            document.getElementById("student-name").innerHTML = username
+            document.getElementById("achieved-score").innerHTML = score
+            document.getElementById("total-questions").innerHTML = tq
+            document.getElementById("achieved-grade").innerHTML = grade
+            document.getElementById("spend-minutes").innerHTML = sm
+            document.getElementById("spend-seconds").innerHTML = ss
+
+
+            // code to send data to whatsapp
+
+            // var url = "https://wa.me/919140309348?text="+username+"%0a"+" has achieved the grade "+grade+"%0a"+" and solved correct answers "+score+"%0a"+" in "+sm+"m : "+ss+"s.";
+            // window.open(url,"_blank").focus();
+
 
             // remove the username from local storage
             window.localStorage.removeItem("username")
