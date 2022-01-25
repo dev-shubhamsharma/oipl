@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessment | OIPL</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-size: 15px;
+        }
+
+        body {
+            display: grid;
+            place-items: center;
+        }
+
+        .flex-container {
+            padding: 20px; 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            row-gap: 1.5rem;
+            background-color: whitesmoke;
+            min-height: 100vh;
+        }
+
+        .card {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            /* border: 1px solid #aaa; */
+            padding: 10px 20px;
+            column-gap: 2rem;
+            border-radius: 10px;
+            background-color: #fff;
+            min-width: 100%;
+            transition: box-shadow 0.2s ease;
+        }
+
+        .card:hover {
+            box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+        }
+
+        .col-2 {
+            min-width: 300px;
+            /* border: 1px solid red; */
+        }
+
+        .start-btn {
+            text-decoration: none;
+            color: #fff;
+            background: linear-gradient(to left,#1488CC,#2B32B2); 
+            padding: 10px 20px;
+            border-radius: 20px;
+        }
+
+        .img-wrapper img{
+            width: 50px;
+            min-height: 50px;
+        }
+
+        @media(max-width: 850px) {
+
+            html {
+                font-size: 20px;
+            }
+
+            .flex-container {
+                padding: 20px;
+            }
+
+
+            .card {
+                flex-direction: column;
+                text-align: center;
+                /* justify-content: space-between; */
+                padding: 20px;
+                row-gap: 0.5rem;
+            }
+
+            .card div {
+                /* border: 1px solid red; */
+            }
+
+            .start-btn {
+                display: block;
+                padding: 10px 30px;
+                margin-top: 1rem;
+            }
+
+
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="flex-container">
+
+        <div class="card col-1">
+            <div class="img-wrapper">
+                <img src="images/python.png" alt="icon-image">
+            </div>
+            <div class="title col-2">
+                <h3>Computer fundamental MCQ</h3>
+            </div>
+            <div class="col3">
+                <p class="questions">Questions : 20</p>
+            </div>
+            <div class="col-4">
+                <p class="time">Time : 10 Min</p>
+            </div>
+            <div class="col-5">
+                <a href="#" class="start-btn">Start Test</a>
+            </div>
+            
+        </div>
+
+
+        <div class="card col-1">
+            <div class="img-wrapper">
+                <img src="images/pic1.jpg" alt="icon-image">
+            </div>
+            <div class="title col-2">
+                <h3>Operating System MCQ</h3>
+            </div>
+            <div class="col3">
+                <p class="questions">Questions : 20</p>
+            </div>
+            <div class="col-4">
+                <p class="time">Time : 10 Min</p>
+            </div>
+            <div class="col-5">
+                <a href="#" class="start-btn">Start Test</a>
+            </div>
+            
+        </div>
+
+
+        <div class="card col-1">
+            <div class="img-wrapper">
+                <img src="images/tally.png" alt="icon-image">
+            </div>
+            <div class="title col-2">
+                <h3>Microsoft office Word MCQ</h3>
+            </div>
+            <div class="col3">
+                <p class="questions">Questions : 20</p>
+            </div>
+            <div class="col-4">
+                <p class="time">Time : 10 Min</p>
+            </div>
+            <div class="col-5">
+                <a href="#" class="start-btn">Start Test</a>
+            </div>
+            
+        </div>
+
+        <div class="card col-1">
+            <div class="img-wrapper">
+                <img src="images/python.png" alt="icon-image">
+            </div>
+            <div class="title col-2">
+                <h3>Microsoft office Excel MCQ</h3>
+            </div>
+            <div class="col3">
+                <p class="questions">Questions : 20</p>
+            </div>
+            <div class="col-4">
+                <p class="time">Time : 10 Min</p>
+            </div>
+            <div class="col-5">
+                <a href="#" class="start-btn">Start Test</a>
+            </div>
+            
+        </div>
+
+        <div class="card col-1">
+            <div class="img-wrapper">
+                <img src="images/python.png" alt="icon-image">
+            </div>
+            <div class="title col-2">
+                <h3>Microsoft office Powerpoint MCQ</h3>
+            </div>
+            <div class="col3">
+                <p class="questions">Questions : 20</p>
+            </div>
+            <div class="col-4">
+                <p class="time">Time : 10 Min</p>
+            </div>
+            <div class="col-5">
+                <a href="#" class="start-btn">Start Test</a>
+            </div>
+            
+        </div>
+
+    </div>
+</body>
+</html>
