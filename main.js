@@ -96,13 +96,19 @@ function checkAnswerAndNext() {
             // indexNumber++
             let index = generateRandomNumber(0, totalQuestionsAddedInList-1);
             
-            // to check if current index question is already displayed
+            // // to check if current index question is already displayed
             while(indexList.includes(index) == true) {
                 index = generateRandomNumber(0,totalQuestionsAddedInList - 1);
             }
             
-            indexList.push(index)
+
+            if(indexList.length <=60) {
+                indexList.push(index)
+            }
+                
+            // indexList.push(indexNumber);
             console.log(indexList);
+            
             indexNumber = index
 
             // console.log(indexNumber)
@@ -133,6 +139,9 @@ function submitExam(str) {
 
     window.localStorage.setItem("grade",grade)
 
+    window.sessionStorage.setItem("questions",indexList)
+ // console.log(window.localStorage.getItem("questions"))
+    
     window.localStorage.setItem("score",score.toString())
     window.localStorage.setItem("totalquestions",totalQuestions.toString())
 

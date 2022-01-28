@@ -606,7 +606,7 @@ const questions = [
         optionB: "It can be used to generate same document to send multiple persons",
         optionC: "It has autocorrect facility and dictionary facility.",
         optionD: "It can create a graph from given data",
-        correctAnswer: "It can be used to prepare annual report"
+        correctAnswer: "It can be used to prepare annual report."
     },
 
     {
@@ -696,7 +696,7 @@ const questions = [
         optionB: "111101.001",
         optionC: "110111.100",
         optionD: "100101.101",
-        correctAnswer: "10101.101"
+        correctAnswer: "110101.101"
     },
 
     {
@@ -765,8 +765,8 @@ const questions = [
         optionA: "B4:B9",
         optionB: "B$4:B$9",
         optionC: "$B$4:$B$9",
-        optionD: "$B$4:$B$9",
-        correctAnswer: "ROM"
+        optionD: "$B4:$B9",
+        correctAnswer: "$B$4:$B$9"
     },
 
     {
@@ -1028,7 +1028,7 @@ const questions = [
         optionB: "URL",
         optionC: "E-mail address",
         optionD: "ICQ",
-        correctAnswer: ""
+        correctAnswer: "URL"
     },
 
     {
@@ -1700,7 +1700,7 @@ const questions = [
         optionB: "SMTP",
         optionC: "IMAP",
         optionD: "UART",
-        correctAnswer: ""
+        correctAnswer: "SMTP"
     },
 
     {
@@ -1710,7 +1710,7 @@ const questions = [
         optionB: "Host Address",
         optionC: "Both Network and Host address",
         optionD: "None of the above",
-        correctAnswer: "Both A) and B)"
+        correctAnswer: "Both Network and Host address"
     },
 
     {
