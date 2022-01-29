@@ -53,12 +53,45 @@ function loadNext(index) {
 function clearSelection() {
     var elem = document.getElementsByName("question1");
     for(var i=0;i<elem.length;i++)
-      elem[i].checked = false;
+        elem[i].checked = false;
 }
 
 
 // to check the answer on click on save
 function checkAnswerAndNext() {
+
+    var elements = document.getElementsByName("question1")
+
+    if(elements[0].checked == false && elements[1].checked == false && elements[2].checked == false && elements[3].checked == false) {
+        // alert("hello")
+        document.getElementById("msg").innerHTML = "Please select an option";
+    }
+    else {
+        var selectedAnswer = "";
+        var elements = document.getElementsByName("question1");       
+
+        if(elements[0].checked==true) {
+            selectedAnswer = document.querySelector("#opt1 ~ span").innerHTML
+        }
+        else if(elements[1].checked==true) {
+            selectedAnswer = document.querySelector("#opt2 ~ span").innerHTML
+        }
+        else if(elements[2].checked==true) {
+            selectedAnswer = document.querySelector("#opt3 ~ span").innerHTML
+        }
+        else if(elements[3].checked==true) {
+            selectedAnswer = document.querySelector("#opt4 ~ span").innerHTML
+        }
+
+        if(selectedAnswer == questions[indexNumber].correctAnswer) {
+            score++
+            console.log('score'+score)
+            document.getElementById("score-count").innerHTML = score
+        }
+        
+    }
+
+    // **********************************************
 
     var correctAnswer = questions[indexNumber].correctAnswer;
 
@@ -106,35 +139,35 @@ function checkAnswerAndNext() {
 
 
     setTimeout(() => {
-        var elements = document.getElementsByName("question1")
-        //     to check if any radio button is not selected
+        // var elements = document.getElementsByName("question1")
+        // //     to check if any radio button is not selected
     
-        if(elements[0].checked == false && elements[1].checked == false && elements[2].checked == false && elements[3].checked == false) {
-        // alert("hello")
-            document.getElementById("msg").innerHTML = "Please select an option"
-        }
-        else {
-            var selectedAnswer = "";
-            var elements = document.getElementsByName("question1");       
+        // if(elements[0].checked == false && elements[1].checked == false && elements[2].checked == false && elements[3].checked == false) {
+        // // alert("hello")
+        //     document.getElementById("msg").innerHTML = "Please select an option"
+        // }
+        // else {
+        //     var selectedAnswer = "";
+        //     var elements = document.getElementsByName("question1");       
 
-            if(elements[0].checked==true) {
-                selectedAnswer = document.querySelector("#opt1 ~ span").innerHTML
-            }
-            else if(elements[1].checked==true) {
-                selectedAnswer = document.querySelector("#opt2 ~ span").innerHTML
-            }
-            else if(elements[2].checked==true) {
-                selectedAnswer = document.querySelector("#opt3 ~ span").innerHTML
-            }
-            else if(elements[3].checked==true) {
-                selectedAnswer = document.querySelector("#opt4 ~ span").innerHTML
-            }
+        //     if(elements[0].checked==true) {
+        //         selectedAnswer = document.querySelector("#opt1 ~ span").innerHTML
+        //     }
+        //     else if(elements[1].checked==true) {
+        //         selectedAnswer = document.querySelector("#opt2 ~ span").innerHTML
+        //     }
+        //     else if(elements[2].checked==true) {
+        //         selectedAnswer = document.querySelector("#opt3 ~ span").innerHTML
+        //     }
+        //     else if(elements[3].checked==true) {
+        //         selectedAnswer = document.querySelector("#opt4 ~ span").innerHTML
+        //     }
             
-            if(selectedAnswer == questions[indexNumber].correctAnswer) {
-                score++
-                console.log('score'+score)
-                document.getElementById("score-count").innerHTML = score
-            }
+        //     if(selectedAnswer == questions[indexNumber].correctAnswer) {
+        //         score++
+        //         console.log('score'+score)
+        //         document.getElementById("score-count").innerHTML = score
+        //     }
             if(currentQuestion == totalQuestions.toString()) {
             // submit the paper and display result
                 submitExam("QuestionEnd")            
@@ -165,7 +198,7 @@ function checkAnswerAndNext() {
                 // console.log(indexNumber)
                 loadNext(indexNumber)
             }
-        }
+        // }
         
     }, 2000); 
 }
