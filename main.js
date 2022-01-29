@@ -59,63 +59,115 @@ function clearSelection() {
 
 // to check the answer on click on save
 function checkAnswerAndNext() {
-    
-    var elements = document.getElementsByName("question1")
-//     to check if any radio button is not selected
-    
-    if(elements[0].checked == false && elements[1].checked == false && elements[2].checked == false && elements[3].checked == false) {
-        // alert("hello")
-        document.getElementById("msg").innerHTML = "Please select an option"
+
+    var correctAnswer = questions[indexNumber].correctAnswer;
+
+    if(document.querySelector("#opt1 ~ span").innerHTML == correctAnswer) {
+        document.querySelector(".first-option-container").style.borderColor = "green"
+        document.querySelector(".first-option-container").style.background = "rgba(0,255,0,0.2)"
     }
     else {
-        var selectedAnswer = "";
-        var elements = document.getElementsByName("question1");
+        document.querySelector(".first-option-container").style.borderColor = "red"
+        document.querySelector(".first-option-container").style.background = "rgba(255,0,0,0.2)"
+    }
         
-        if(elements[0].checked==true)
-            selectedAnswer = document.querySelector("#opt1 ~ span").innerHTML
-        else if(elements[1].checked==true)
-            selectedAnswer = document.querySelector("#opt2 ~ span").innerHTML
-        else if(elements[2].checked==true)
-            selectedAnswer = document.querySelector("#opt3 ~ span").innerHTML
-        else if(elements[3].checked==true)
-            selectedAnswer = document.querySelector("#opt4 ~ span").innerHTML
+
+    if(document.querySelector("#opt2 ~ span").innerHTML == correctAnswer) {
+        document.querySelector(".second-option-container").style.borderColor = "green"
+        document.querySelector(".second-option-container").style.background = "rgba(0,255,0,0.2)"
+    }
+    else {
+        document.querySelector(".second-option-container").style.borderColor = "red"
+        document.querySelector(".second-option-container").style.background = "rgba(255,0,0,0.2)"
+    }
+        
+
+    if(document.querySelector("#opt3 ~ span").innerHTML == correctAnswer) {
+        document.querySelector(".third-option-container").style.borderColor = "green"
+        document.querySelector(".third-option-container").style.background = "rgba(0,255,0,0.2)"
+    }
+    else {
+        document.querySelector(".third-option-container").style.borderColor = "red"
+        document.querySelector(".third-option-container").style.background = "rgba(255,0,0,0.2)"
+    }
+        
+
+    if(document.querySelector("#opt4 ~ span").innerHTML == correctAnswer) {
+        document.querySelector(".fourth-option-container").style.borderColor = "green"
+        document.querySelector(".fourth-option-container").style.background = "rgba(0,255,0,0.2)"
+    }
+    else {
+        document.querySelector(".fourth-option-container").style.borderColor = "red"
+        document.querySelector(".fourth-option-container").style.background = "rgba(255,0,0,0.2)"
+    }
+
+
+
+
+
+    setTimeout(() => {
+        var elements = document.getElementsByName("question1")
+        //     to check if any radio button is not selected
     
-        if(selectedAnswer == questions[indexNumber].correctAnswer) {
-            score++
-            console.log('score'+score)
-            // document.getElementById("score").innerHTML = score
-        }
-        if(currentQuestion == totalQuestions.toString()) {
-            // submit the paper and display result
-            submitExam("QuestionEnd")
-            
+        if(elements[0].checked == false && elements[1].checked == false && elements[2].checked == false && elements[3].checked == false) {
+        // alert("hello")
+            document.getElementById("msg").innerHTML = "Please select an option"
         }
         else {
+            var selectedAnswer = "";
+            var elements = document.getElementsByName("question1");       
 
+            if(elements[0].checked==true) {
+                selectedAnswer = document.querySelector("#opt1 ~ span").innerHTML
+            }
+            else if(elements[1].checked==true) {
+                selectedAnswer = document.querySelector("#opt2 ~ span").innerHTML
+            }
+            else if(elements[2].checked==true) {
+                selectedAnswer = document.querySelector("#opt3 ~ span").innerHTML
+            }
+            else if(elements[3].checked==true) {
+                selectedAnswer = document.querySelector("#opt4 ~ span").innerHTML
+            }
+            
+            if(selectedAnswer == questions[indexNumber].correctAnswer) {
+                score++
+                console.log('score'+score)
+                document.getElementById("score-count").innerHTML = score
+            }
+            if(currentQuestion == totalQuestions.toString()) {
+            // submit the paper and display result
+                submitExam("QuestionEnd")            
+            }
+            else {
 
             // indexNumber++
-            let index = generateRandomNumber(0, totalQuestionsAddedInList-1);
+                let index = generateRandomNumber(0, totalQuestionsAddedInList-1);
             
-            // // to check if current index question is already displayed
-            while(indexList.includes(index) == true) {
-                index = generateRandomNumber(0,totalQuestionsAddedInList - 1);
-            }
+            // to check if current index question is already displayed
+                while(indexList.includes(index) == true) {
+                    index = generateRandomNumber(0,totalQuestionsAddedInList - 1);
+                }
             
-
-            if(indexList.length <=60) {
                 indexList.push(index)
-            }
+                console.log(indexList);
+                indexNumber = index
                 
-            // indexList.push(indexNumber);
-            console.log(indexList);
-            
-            indexNumber = index
+                // reset border color before loading next question
 
-            // console.log(indexNumber)
-            loadNext(indexNumber)
+                var options = document.querySelectorAll(".option-container")
+                console.log(options)
+                for(var i=0; i<options.length; i++) {
+                    options[i].style.borderColor = '#eee';
+                    options[i].style.background = '#fff';
+                }
+
+                // console.log(indexNumber)
+                loadNext(indexNumber)
+            }
         }
-    }    
-    
+        
+    }, 2000); 
 }
 
 
@@ -139,9 +191,6 @@ function submitExam(str) {
 
     window.localStorage.setItem("grade",grade)
 
-    window.sessionStorage.setItem("questions",indexList)
- // console.log(window.localStorage.getItem("questions"))
-    
     window.localStorage.setItem("score",score.toString())
     window.localStorage.setItem("totalquestions",totalQuestions.toString())
 

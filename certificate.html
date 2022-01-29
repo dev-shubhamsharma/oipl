@@ -15,14 +15,13 @@
         body {
             font-size: 1rem;
             padding: 20px;
-            /* display: flex;
+            display: flex;
             align-items: center;
-            justify-content: center; */
+            justify-content: center;
         }
         .container {
-            margin: auto;
             padding: 20px;
-            max-width: 800px;
+            width: 800px;
             border: 10px solid #1488CC;
             display: flex;
             flex-direction: column;
@@ -69,33 +68,6 @@
         }
         
 
-        /* styles for another parts */
-
-        .review-btn {
-            background: green;
-            padding: 10px 20px;
-            border: none;
-            display: block;
-            border-radius: 5px;
-            color: #fff;
-            margin: 20px auto;
-            text-align: center;
-            cursor: pointer;
-            font-size: medium;
-        }
-
-        .question-container {
-            border: 1px solid #aaa;
-            margin: 10px auto;
-            padding: 10px 30px;
-        }
-
-        .question {
-            font-weight: bold;
-        }
-
-
-
     </style>
 
 </head>
@@ -130,15 +102,6 @@
 
     </div>
 
-    <button class="review-btn" onclick="reviewquestions()">Review Questions</button>
-
-
-    
-
-
-
-
-    <script src="questions.js"></script>
 
     <script>
         function loadCertificateData() {
@@ -170,72 +133,9 @@
         }
 
 
-        function reviewquestions() {
-
-            var questionsList = window.sessionStorage.getItem("questions");
-
-            for (let i = 0; i < questionsList.length; i++) {
-
-                var correctAnswer = questions[i].correctAnswer.toString();
-
-                const div = document.createElement("div");
-                div.classList.add("question-container");
-
-                const pq = document.createElement("p");
-                pq.classList.add("question");
-                pq.innerHTML = "Q. "+(i+1)+" : "+questions[i].question.toString();
-                div.appendChild(pq);
-
-                // option 1
-
-                const po1 = document.createElement("p");
-                po1.classList.add("opt1");
-                po1.innerHTML = "(A) "+questions[i].optionA.toString();
-                if(questions[i].optionA == correctAnswer) {
-                    po1.style.color = "green";
-                }
-                div.appendChild(po1);
-
-                const po2 = document.createElement("p");
-                po2.classList.add("opt2");
-                po2.innerHTML = "(B) "+questions[i].optionB.toString();
-                if(questions[i].optionB == correctAnswer) {
-                    po2.style.color = "green";
-                }
-                div.appendChild(po2);
-
-                const po3 = document.createElement("p");
-                po3.classList.add("opt3");
-                po3.innerHTML = "(C) "+questions[i].optionC.toString();
-                if(questions[i].optionC == correctAnswer) {
-                    po3.style.color = "green";
-                }
-                div.appendChild(po3);
-
-                const po4 = document.createElement("p");
-                po4.classList.add("opt4");
-                po4.innerHTML = "(D) "+questions[i].optionD.toString();
-                if(questions[i].optionD == correctAnswer) {
-                    po4.style.color = "green";
-                }
-                div.appendChild(po4);
-
-                document.body.appendChild(div);
-
-            }
-
-            
-            
-        }
-        
-
-        window.addEventListener('beforeunload', function (e) {
-            e.preventDefault();
-            e.returnValue = '';
-        });
 
     </script>
 
-    
+
 </body>
 </html>

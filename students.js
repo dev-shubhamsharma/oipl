@@ -23,14 +23,12 @@ var students = {
     "Subhi Singh":"Subhi",
     "Vivek Khasyap":"Vivek",
     "Mamta Verma":"Mamta",
-    "Shusant Upadhyay":"SU123",
-    "Vedant Upadhyay":"VU11",
-    "Shubham Vishwakarma":"Shubham",
-    "Sweta Gaur":"SG156",
-    "Shilpi Chaurasiya":"SC555",
-    "Anshika Chaurasiya":"AC222",
-    "Prince Chaurasiya":"PC333",
-    "Komal Mishra":"KM666",
-    "Pratibha Ranjan":"PR156",
-
+    "Sweta Gaur":"Sweta",
+    "Prince Chaurasiya":"Prince",
+    "Silpi Chaurasiya":"Shilpi",
+    "Anshika Chaurasiya":"Anshika",
+    "Komal Mishra":"Komal",
+    "Hemant":"Hemant",
+    "Pratibha Ranjan":"Pratibha"
+    
 };
