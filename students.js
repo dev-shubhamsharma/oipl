@@ -29,6 +29,8 @@ var students = {
     "Anshika Chaurasiya":"Anshika",
     "Komal Mishra":"Komal",
     "Hemant":"Hemant",
-    "Pratibha Ranjan":"Pratibha"
-    
+    "Pratibha Ranjan":"Pratibha",
+    "Vedant Upadhyay":"Vedant",
+    "Shubham Vishwakarma":"Shubham",
+    "Sushant Upadhyay":"Sushant"
 };
