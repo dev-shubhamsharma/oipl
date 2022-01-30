@@ -1764,7 +1764,7 @@ const questions = [
     },
 
     {
-        // 176
+        // 177
         question: "Which class of IP address has the most host addresses available by default?",
         optionA: "A",
         optionB: "B",
@@ -1774,7 +1774,7 @@ const questions = [
     },
 
     {
-        // 177
+        // 178
         question: "FTP is",
         optionA: "Server side encryption protocol",
         optionB: "Control connection to remote computer to transfer files",
@@ -1784,7 +1784,7 @@ const questions = [
     },
 
     {
-        // 178
+        // 179
         question: "To join on the Internet, the computer has to be connected through the",
         optionA: "Internet architecture board",
         optionB: "Internet society",
@@ -1794,7 +1794,7 @@ const questions = [
     },
 
     {
-        // 179
+        // 180
         question: "Which protocol assigns IP address to the client connected in the Internet?",
         optionA: "DHCP",
         optionB: "IP",
@@ -1804,7 +1804,7 @@ const questions = [
     },
 
     {
-        // 180
+        // 181
         question: "Protocols are",
         optionA: "Agreements on how communication components and DTE's are to communicate",
         optionB: "Logical communication channels for transferring data ",
@@ -1814,7 +1814,7 @@ const questions = [
     },
 
     {
-        // 181
+        // 182
         question: "The topology with highest reliability is?",
         optionA: "Bus topology",
         optionB: "Star topology",
@@ -1824,7 +1824,7 @@ const questions = [
     },
 
     {
-        // 182
+        // 183
         question: "HTML is",
         optionA: "Hyper Text Markedup Language",
         optionB: "Hyper Text Markup Language",
@@ -1834,7 +1834,7 @@ const questions = [
     },
 
     {
-        // 183
+        // 184
         question: "Which is the type of page orientation in LibreOffice writer?",
         optionA: "Portrait",
         optionB: "Landscape",
@@ -1844,7 +1844,7 @@ const questions = [
     },
 
     {
-        // 184
+        // 185
         question: "Which functiion key is used for spell check :",
         optionA: "F7",
         optionB: "Ctrl + C",
@@ -1854,7 +1854,7 @@ const questions = [
     },
 
     {
-        // 185
+        // 186
         question: "Shortcut key for manage template in LibreOffice writer",
         optionA: "Ctrl + V",
         optionB: "Ctrl + Shift + N",
@@ -1864,7 +1864,7 @@ const questions = [
     },
 
     {
-        // 186
+        // 187
         question: "Which key is used to go to beginning of the line in LibreOffie writer",
         optionA: "Ctrl + Home",
         optionB: "Home",
@@ -1874,7 +1874,7 @@ const questions = [
     },
 
     {
-        // 187
+        // 188
         question: "Which of the following is not a component of the LibreOffice suite",
         optionA: "Writer",
         optionB: "Impress",
@@ -1884,7 +1884,7 @@ const questions = [
     },
 
     {
-        // 188
+        // 189
         question: "What is minimum font size in LibreOffice writer :",
         optionA: "1",
         optionB: "2",
@@ -1894,7 +1894,7 @@ const questions = [
     },
 
     {
-        // 189
+        // 190
         question: "What is the default file extension in LibreOffice Writer?",
         optionA: ".doc",
         optionB: ".docx",
@@ -1904,7 +1904,7 @@ const questions = [
     },
 
     {
-        // 190
+        // 191
         question: "What is maximum font size in LibreOffice Writer?",
         optionA: "999.9",
         optionB: "80",
@@ -1914,7 +1914,7 @@ const questions = [
     },
 
     {
-        // 191
+        // 192
         question: "What is maximum zoom percentage in LibreOffice Writer?",
         optionA: "100%",
         optionB: "500%",
@@ -1924,7 +1924,7 @@ const questions = [
     },
 
     {
-        // 192
+        // 193
         question: "Shortcut for insert table in LibreOffice writer",
         optionA: "Ctrl + F7",
         optionB: "Ctrl + F12",
@@ -1934,7 +1934,7 @@ const questions = [
     },
 
     {
-        // 193
+        // 194
         question: "Print Preview Shortcut in LibreOffice writer",
         optionA: "Ctrl + Shift + O",
         optionB: "Ctrl + Shift + P",
@@ -1944,7 +1944,7 @@ const questions = [
     },
 
     {
-        // 194
+        // 195
         question: "Footnote is located at __________ in LibreOffice writer",
         optionA: "Header of page",
         optionB: "Middle of page",
@@ -1954,7 +1954,7 @@ const questions = [
     },
 
     {
-        // 195
+        // 196
         question: "What is the default file name in LibreOffice writer",
         optionA: "New file",
         optionB: "Odt file",
@@ -1964,7 +1964,7 @@ const questions = [
     },
 
     {
-        // 196
+        // 197
         question: "Which sign is mandatory before any formaula",
         optionA: "+",
         optionB: "-",
@@ -1974,7 +1974,7 @@ const questions = [
     },
 
     {
-        // 197
+        // 198
         question: "Header and footer is available in which of the following menus",
         optionA: "File",
         optionB: "Insert",
@@ -1984,7 +1984,7 @@ const questions = [
     },
 
     {
-        // 198
+        // 199
         question: "To show of hide the ruler, we should go to ______ menu",
         optionA: "Tools",
         optionB: "Insert",
@@ -1994,7 +1994,7 @@ const questions = [
     },
 
     {
-        // 199
+        // 200
         question: "Which technique selects a sentence in writer",
         optionA: "Single click",
         optionB: "Double click",
@@ -2004,7 +2004,7 @@ const questions = [
     },
 
     {
-        // 200
+        // 201
         question: "Spellings are corrected automatically in writer because of the ____________",
         optionA: "Auto Text",
         optionB: "Auto Correct",
@@ -2013,7 +2013,8 @@ const questions = [
         correctAnswer: "Auto Correct"
     },
 
-{
+    {
+        // 202
         question: "",
         optionA: "",
         optionB: "",

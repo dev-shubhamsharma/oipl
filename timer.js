@@ -1,4 +1,5 @@
 
+// time in minutes
 var totalTiming = 60
 
 
@@ -33,7 +34,7 @@ function startTimer() {
         
         if((minutes == 0 && seconds == 0)) {
 
-            alert("Time end")
+            alert("Redirecting to Next section...")
             clearInterval(interval)
             // alert("timer ends")
             submitExam("TimeEnd")

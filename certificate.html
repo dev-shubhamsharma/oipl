@@ -86,18 +86,12 @@
                 <!-- 60 -->
             </span> 
             
-            Questions and achieved the Grade <span id="achieved-grade">
+            Questions and achieved the Grade <span id="achieved-grade">.
         <!-- A -->
-    </span><br>
-    in <span id="spend-minutes">
-        <!-- 00 -->
     </span>
-    m : <span id="spend-seconds">
-        <!-- 21 -->
-    </span>s time.
         </p>
         <img src="images/signature.png" alt="signature image">
-        <p class="note">This certificate is only for real exam experience and it is not your course final certificate</p>
+        <p class="note"></p>
         
 
     </div>
@@ -107,19 +101,59 @@
         function loadCertificateData() {
             // values placed in variables
             let username = window.localStorage.getItem("username")
-            let score = window.localStorage.getItem("score")
-            let tq = window.localStorage.getItem("totalquestions")
-            let grade = window.localStorage.getItem("grade")
-            let sm = window.localStorage.getItem("minutes")
-            let ss = window.localStorage.getItem("seconds")
+            let mcqscore = parseInt(window.localStorage.getItem("mcqScore"))
+            let mcqtq = parseInt(window.localStorage.getItem("totalMcqQuestions"))
 
+            let tfscore = parseInt(window.localStorage.getItem("trueFalseScore"))
+            let tftq = parseInt(window.localStorage.getItem("totalTrueFalseQuestions"))
+
+
+            let score = mcqscore + tfscore
+            let tq = mcqtq +  tftq
+
+            let grade = ""
+            let percentage = score*100/tq
+            
+            if(percentage >= 85) { grade = "S" }
+            else if(percentage >= 75) { grade = "A" }
+            else if(percentage >= 65) { grade = "B" }
+            else if(percentage >= 55) { grade = "C" } 
+            else if(percentage >= 50) { grade = "D" }
+            else { grade = "F" }
 
             document.getElementById("student-name").innerHTML = username
             document.getElementById("achieved-score").innerHTML = score
             document.getElementById("total-questions").innerHTML = tq
             document.getElementById("achieved-grade").innerHTML = grade
-            document.getElementById("spend-minutes").innerHTML = sm
-            document.getElementById("spend-seconds").innerHTML = ss
+
+            if(grade == "F") {
+                document.querySelector(".note").innerHTML = "Read books and Try to do better, next time!"
+                document.querySelector(".note").style.color = "red"
+            }
+            else if(grade == "D") {
+                document.querySelector(".note").innerHTML = "You need to practice and learn, Try again!"
+                document.querySelector(".note").style.color = "green"
+            }
+            else if(grade == "C") {
+                document.querySelector(".note").innerHTML = "You can jump long, practice makes perfect!"
+                document.querySelector(".note").style.color = "green"
+            }
+            else if(grade == "B") {
+                document.querySelector(".note").innerHTML = "Good, You are a genius!"
+                document.querySelector(".note").style.color = "green"
+            }
+            else if(grade == "A") {
+                document.querySelector(".note").innerHTML = "Excellent, You can go to the moon!"
+                document.querySelector(".note").style.color = "green"
+            }
+            else {
+                document.querySelector(".note").innerHTML = "Perfect, You deep dive into computer world!"
+                document.querySelector(".note").style.color = "green"
+            }
+            
+
+
+
 
 
             // code to send data to whatsapp
@@ -130,6 +164,8 @@
 
             // remove the username from local storage
             window.localStorage.removeItem("username")
+
+            
         }
 
 
