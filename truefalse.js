@@ -241,363 +241,497 @@ const trueFalseQuestions = [
 
     {
         // 41
-        question: "",
-        correctAnswer: ""
+        question: "Unix is a free, reliable alternative to Windows XP.",
+        correctAnswer: "False"
     },
 
     {
         // 42
-        question: "",
-        correctAnswer: ""
+        question: "Windows clipboard can hold multiple pieces of information at the same point of time.",
+        correctAnswer: "False"
     },
 
     {
         // 43
-        question: "",
-        correctAnswer: ""
+        question: "By default, the numbers are left aligned and text is right aligned in a spreadsheet.",
+        correctAnswer: "False"
     },
 
     {
         // 44
-        question: "",
-        correctAnswer: ""
+        question: "A Browser is a software program used for viewing Web pages on the Internet",
+        correctAnswer: "True"
     },
 
     {
         // 45
-        question: "",
-        correctAnswer: ""
+        question: "Word file cannot be protected by password.",
+        correctAnswer: "False"
     },
 
     {
         // 46
-        question: "",
-        correctAnswer: ""
+        question: "A series of specially designed documents, all linked together to be viewed on the Internet is World Wide Web.",
+        correctAnswer: "True"
     },
 
     {
         // 47
-        question: "",
-        correctAnswer: ""
+        question: "ROM is volatile Memory",
+        correctAnswer: "False"
     },
 
     {
         // 48
-        question: "",
-        correctAnswer: ""
+        question: "MS word is a system software",
+        correctAnswer: "False"
     },
 
     {
         // 49
-        question: "",
+        question: "In microsoft access deleted record can be undone.",
         correctAnswer: ""
     },
 
     {
         // 50
-        question: "",
-        correctAnswer: ""
+        question: "A network interface card (NIC) is an expansion card or a PC Card that connects your computer to a network and provides the doorway for information to flow in and out.",
+        correctAnswer: "True"
     },
 
     {
         // 51
-        question: "",
-        correctAnswer: ""
+        question: "A switch is a device that connects multiple computers into a network in which multiple Communications links can be in operation simultaneously.",
+        correctAnswer: "True"
     },
 
     {
         // 52
-        question: "",
-        correctAnswer: ""
+        question: "A firewall is software and/or hardware that protects a computer or network from intruders",
+        correctAnswer: "True"
     },
 
     {
         // 53
-        question: "",
-        correctAnswer: ""
+        question: "A WAN covers a large geographic distance, such as a state, a country, or even the entire world.",
+        correctAnswer: "True"
     },
 
     {
         // 54
-        question: "",
-        correctAnswer: ""
+        question: "A repeater is a device that receives a radio signal, strengthens it, and sends it on.",
+        correctAnswer: "True"
     },
 
     {
         // 55
-        question: "",
-        correctAnswer: ""
+        question: "A computer network consists of five or more computers connected to one another.",
+        correctAnswer: "True"
     },
 
     {
         // 56
-        question: "",
-        correctAnswer: ""
+        question: "HTML is not an encoding scheme which is used to create a web page.",
+        correctAnswer: "True"
     },
 
     {
         // 57
-        question: "",
-        correctAnswer: ""
+        question: "MIME stands for Multipurpose Internet Mail Extensions.",
+        correctAnswer: "True"
     },
 
     {
         // 58
-        question: "",
-        correctAnswer: ""
+        question: "Email is limited to text based messages.",
+        correctAnswer: "False"
     },
 
     {
         // 59
-        question: "",
-        correctAnswer: ""
+        question: "Coaxial cable and twisted pair cable are type of wireless media",
+        correctAnswer: "False"
     },
 
     {
         // 60
-        question: "",
-        correctAnswer: ""
+        question: "Firewall is used to block sites on a LAN.",
+        correctAnswer: "True"
     },
 
     {
         // 61
-        question: "",
-        correctAnswer: ""
+        question: "The IP address space is divided into classes four in all which are given letters A through D.",
+        correctAnswer: "False"
     },
 
     {
         // 62
-        question: "",
-        correctAnswer: ""
+        question: "The act of exploring Web is known as surfing",
+        correctAnswer: "True"
     },
 
     {
         // 63
-        question: "",
-        correctAnswer: ""
+        question: "The two parts of an e-mail address is separated by @ symbol.",
+        correctAnswer: "True"
     },
 
     {
         // 64
-        question: "",
-        correctAnswer: ""
+        question: "URL stands for Uniform Record Locator.",
+        correctAnswer: "False"
     },
 
     {
         // 65
-        question: "",
-        correctAnswer: ""
+        question: "Every computer (or server) on the internet has its own IP address number.",
+        correctAnswer: "True"
     },
 
     {
         // 66
-        question: "",
-        correctAnswer: ""
+        question: "ASP pages are active web pages.",
+        correctAnswer: "False"
     },
 
     {
         // 67
-        question: "",
-        correctAnswer: ""
+        question: "Freeware is a software that is available for use at no monetary cost.",
+        correctAnswer: "True"
     },
 
     {
         // 68
-        question: "",
-        correctAnswer: ""
+        question: "Magnetic Tape used random access method.",
+        correctAnswer: "False"
     },
 
     {
         // 69
-        question: "",
-        correctAnswer: ""
+        question: "GNU / Linux is a open source operating system",
+        correctAnswer: "True"
     },
 
     {
         // 70
-        question: "",
-        correctAnswer: ""
+        question: "Object code is a source code translated into machine language through a compiler.",
+        correctAnswer: "True"
     },
 
     {
         // 71
-        question: "",
-        correctAnswer: ""
+        question: "Presentation graphics software can convert numeric data into charts.",
+        correctAnswer: "True"
     },
 
     {
         // 72
-        question: "",
-        correctAnswer: ""
+        question: "Light pen and joystick are both pointing devices.",
+        correctAnswer: "True"
     },
 
     {
         // 73
-        question: "",
-        correctAnswer: ""
+        question: "The Internet was created by a U.S. military research agency.",
+        correctAnswer: "True"
     },
 
     {
         // 74
-        question: "",
-        correctAnswer: ""
+        question: "A client/server network is a network in which only one computer is a server and provides services to the other computers, which are called clients.",
+        correctAnswer: "True"
     },
 
     {
         // 75
-        question: "",
-        correctAnswer: ""
+        question: "Extranet is a web within a web.",
+        correctAnswer: "True"
     },
 
     {
         // 76
-        question: "",
-        correctAnswer: ""
+        question: "You should always open an attachment before saving it",
+        correctAnswer: "True"
     },
 
     {
         // 77
-        question: "",
-        correctAnswer: ""
+        question: "E - commerce is not about technology - it’s about your business.",
+        correctAnswer: "True"
     },
 
     {
         // 78
-        question: "",
-        correctAnswer: ""
+        question: "Volatile memory is directly accessible by the CPU.",
+        correctAnswer: "True"
     },
 
     {
         // 79
-        question: "",
-        correctAnswer: ""
+        question: "Many operating systems are designed as collection of program modules",
+        correctAnswer: "True"
     },
 
     {
         // 80
-        question: "",
-        correctAnswer: ""
+        question: "Multitasking is also called parallel processing.",
+        correctAnswer: "False"
     },
 
     {
         // 81
-        question: "",
-        correctAnswer: ""
+        question: "Page setup option is in Table menu in MS Word.",
+        correctAnswer: "False"
     },
 
     {
         // 82
-        question: "",
-        correctAnswer: ""
+        question: "Maximum zoom percentage in word document is 500.",
+        correctAnswer: "True"
     },
 
     {
         // 83
-        question: "",
-        correctAnswer: ""
+        question: "A string of 8 Bits is called Byte.",
+        correctAnswer: "True"
     },
 
     {
         // 84
-        question: "",
-        correctAnswer: ""
+        question: "F5 is the short-cut key to start slide show in Power-point",
+        correctAnswer: "True"
     },
 
     {
         // 85
-        question: "",
-        correctAnswer: ""
+        question: "1011 is an example of valid decimal number",
+        correctAnswer: "True"
     },
 
     {
         // 86
-        question: "",
-        correctAnswer: ""
+        question: "Red Hat is a company who distributes license for Windows",
+        correctAnswer: "False"
     },
 
     {
         // 87
-        question: "",
-        correctAnswer: ""
+        question: "Converter is a system software that translates high-level language into machine code.",
+        correctAnswer: "False"
     },
 
     {
         // 88
-        question: "",
-        correctAnswer: ""
+        question: "Device driver is a program that controls a particular device attached to a computer",
+        correctAnswer: "True"
     },
 
     {
         // 89
-        question: "",
-        correctAnswer: ""
+        question: "Large Area Network is a network of computers that spreads in a large building.",
+        correctAnswer: "False"
     },
 
     {
         // 90
-        question: "",
-        correctAnswer: ""
+        question: "Letter, A4, Legal are the example of type of presentation",
+        correctAnswer: "False"
     },
 
     {
         // 91
-        question: "",
-        correctAnswer: ""
+        question: "dir is command of DOS that works like ls command in Linux",
+        correctAnswer: "True"
     },
 
     {
         // 92
-        question: "",
-        correctAnswer: ""
+        question: "Scanner and speaker are the types of input devices",
+        correctAnswer: "False"
     },
 
     {
         // 93
-        question: "",
-        correctAnswer: ""
+        question: "The process of transferring files from a computer on the Internet to your computer is called Downloading.",
+        correctAnswer: "False"
     },
 
     {
         // 94
-        question: "",
-        correctAnswer: ""
+        question: "Dynamic address doesn’t change every day.",
+        correctAnswer: "False"
     },
 
     {
         // 95
-        question: "",
-        correctAnswer: ""
+        question: "Cache memory has lowest speed in memory hierarchy.",
+        correctAnswer: "False"
     },
 
     {
         // 96
-        question: "",
-        correctAnswer: ""
+        question: "During the installation of Windows, it asks for Administrator Password.",
+        correctAnswer: "True"
     },
 
     {
         // 97
-        question: "",
-        correctAnswer: ""
+        question: "Ext2 file system can be used in Windows 7 Operating System.",
+        correctAnswer: "False"
     },
 
     {
         // 98
-        question: "",
-        correctAnswer: ""
+        question: "Defragmentation of Hard Disk will increase access speed of data",
+        correctAnswer: "True"
     },
 
     {
         // 99
+        question: "ALU unit of microprocessor is responsible to perform computations.",
+        correctAnswer: "True"
+    },
+
+    {
+        // 100
+        question: "In Linux, root login is administrator login.",
+        correctAnswer: "True"
+    },
+
+    {
+        // 101
+        question: "Computer can understand and manipulate binary data only",
+        correctAnswer: "True"
+    },
+
+    {
+        // 102
+        question: "DVD stands for Digital Versatile Disc.",
+        correctAnswer: "True"
+    },
+
+    {
+        // 103
+        question: "Apache is only most popular web browser.",
+        correctAnswer: "False"
+    },
+
+    {
+        // 104
+        question: "UDP stands for User Datagram Protocol",
+        correctAnswer: "True"
+    },
+
+    {
+        // 105
+        question: "Use keyboard keys to turn on the computer",
+        correctAnswer: "False"
+    },
+
+    {
+        // 106
+        question: "Monitor and printer are output devices",
+        correctAnswer: "True"
+    },
+
+    {
+        // 107
+        question: "A computer system can be split into input, processing and output.",
+        correctAnswer: "True"
+    },
+
+    {
+        // 108
+        question: "The bits can have only 2 values.",
+        correctAnswer: "True"
+    },
+
+    {
+        // 109
+        question: "UNIX is an operating system.",
+        correctAnswer: "True"
+    },
+
+    {
+        // 110
+        question: "DOS is an example of GUI.",
+        correctAnswer: "False"
+    },
+
+    {
+        // 111
+        question: "Primary memory is usually referred to as RAM.",
+        correctAnswer: "True"
+    },
+
+    {
+        // 112
+        question: "Arranging Data in a Particular Order is known as sorting",
+        correctAnswer: "True"
+    },
+
+    {
+        // 113
+        question: "Hexadecimal Value of 11 is C",
+        correctAnswer: "False"
+    },
+
+    {
+        // 114
+        question: "Mesh topology is highly reliable.",
+        correctAnswer: "True"
+    },
+
+    {
+        // 115
+        question: "Printer can be shared in LAN by many users",
+        correctAnswer: "True"
+    },
+
+    {
+        // 116
+        question: ".com represents education domain name",
+        correctAnswer: "False"
+    },
+
+    {
+        // 117
+        question: "Internet Service Provider provides services for web hosting.",
+        correctAnswer: "True"
+    },
+
+    {
+        // 118
+        question: "A byte is bigger than nibble.",
+        correctAnswer: "True"
+    },
+
+    {
+        // 119
+        question: "OCR stands for Optical Care Reader.",
+        correctAnswer: "False"
+    },
+
+    {
+        // 120
+        question: "A Linux is a command line user interface operating system.",
+        correctAnswer: "False"
+    },
+
+    {
+        // 121
         question: "",
         correctAnswer: ""
     },
 
     {
-        // 100
+        // 122
         question: "",
         correctAnswer: ""
-    }
+    },
+
+
 
 
 

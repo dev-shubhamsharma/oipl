@@ -2013,8 +2013,7 @@ const questions = [
         correctAnswer: "Auto Correct"
     },
 
-    {
-        // 202
+{
         question: "",
         optionA: "",
         optionB: "",
