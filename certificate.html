@@ -151,10 +151,11 @@
 
             let today = new Date().toLocaleDateString()
             document.querySelector("#date-box").value = today
+            console.log(today)
 
             let time = new Date().toLocaleTimeString();
             document.querySelector("#time-box").value = time
-
+            console.log(time)
             
 
 
@@ -189,7 +190,7 @@
                  
             // submit form automatically
             document.getElementById("hidden-form").submit();
-            alert("Your result is recorded in database!")
+            // alert("Your result is recorded in database!")
 
 
 
@@ -203,8 +204,8 @@
             // remove the username from local storage
             window.localStorage.removeItem("username")
             
-            window.onbeforeunload = function(){
-            return 'Are you sure you want to leave?';
+            // window.onbeforeunload = function(){
+            // return 'Are you sure you want to leave?';
 
         };
             
