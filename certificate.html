@@ -105,8 +105,8 @@
             <input id="name-box" name="name" type="text" placeholder="Enter name" required>
             <input id="marks-box" name="marks" type="number" placeholder="marks" required>
             <input id="grade-box" name="grade" type="text" placeholder="grade" required>
-            <input id="date-box" name="date" type="date" placeholder="date" required>
-            <input id="time-box" name="time" type="time" placeholder="time" required>
+            <input id="date-box" name="date" type="text" placeholder="date" required>
+            <input id="time-box" name="time" type="text" placeholder="time" required>
             <button id="send-btn" type="submit">Send</button>
         </form>
         
@@ -150,11 +150,11 @@
             document.querySelector("#grade-box").value = grade
 
             let today = new Date().toLocaleDateString()
-            document.querySelector("#date-box").value = today
+            document.querySelector("#date-box").value = today.toString()
             console.log(today)
 
             let time = new Date().toLocaleTimeString();
-            document.querySelector("#time-box").value = time
+            document.querySelector("#time-box").value = time.toString()
             console.log(time)
             
 
