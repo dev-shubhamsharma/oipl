@@ -66,6 +66,10 @@
             color: green;
             font-weight: bold;
         }
+
+        #hidden-form {
+            display: none;
+        }
         
 
     </style>
@@ -92,6 +96,19 @@
         </p>
         <img src="images/signature.png" alt="signature image">
         <p class="note"></p>
+
+
+
+        <!-- ************   Hidden form   ***************** -->
+
+        <form id="hidden-form" action="https://api.sheetmonkey.io/form/2dRujg2cPqh2hGvARBYX7i" method="post" autocomplete="off">
+            <input id="name-box" name="name" type="text" placeholder="Enter name" required>
+            <input id="marks-box" name="marks" type="number" placeholder="marks" required>
+            <input id="grade-box" name="grade" type="text" placeholder="grade" required>
+            <input id="date-box" name="date" type="date" placeholder="date" required>
+            <input id="time-box" name="time" type="time" placeholder="time" required>
+            <button id="send-btn" type="submit">Send</button>
+        </form>
         
 
     </div>
@@ -126,6 +143,23 @@
             document.getElementById("total-questions").innerHTML = tq
             document.getElementById("achieved-grade").innerHTML = grade
 
+            // save certificate data into form
+
+            document.querySelector("#name-box").value = "username"
+            document.querySelector("#marks-box").value = 86
+            document.querySelector("#grade-box").value = "A"
+
+            let today = new Date().toLocaleDateString()
+            document.querySelector("#date-box").value = today
+
+            let time = new Date().toLocaleTimeString();
+            document.querySelector("#time-box").value = time
+
+            
+
+
+
+
             if(grade == "F") {
                 document.querySelector(".note").innerHTML = "Read books and Try to do better, next time!"
                 document.querySelector(".note").style.color = "red"
@@ -150,8 +184,12 @@
                 document.querySelector(".note").innerHTML = "Perfect, You deep dive into computer world!"
                 document.querySelector(".note").style.color = "green"
             }
-            
 
+
+                 
+            // submit form automatically
+            document.getElementById("hidden-form").submit();
+            alert("Your result is recorded in database!")
 
 
 
@@ -164,11 +202,15 @@
 
             // remove the username from local storage
             window.localStorage.removeItem("username")
-
             
-        }
+            window.onbeforeunload = function(){
+            return 'Are you sure you want to leave?';
 
+        };
+            
+        
 
+    }
 
     </script>
 
