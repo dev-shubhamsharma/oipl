@@ -186,12 +186,14 @@
                 document.querySelector(".note").style.color = "green"
             }
 
-
-                 
-            // submit form automatically
-            document.getElementById("hidden-form").submit();
-            // alert("Your result is recorded in database!")
-
+            
+            if(window.localStorage.getItem("username") != NaN)
+            {
+                // submit form automatically
+                document.getElementById("hidden-form").submit();
+                // alert("Your result is recorded in database!")
+            }
+            
 
 
 
