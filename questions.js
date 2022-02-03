@@ -2013,7 +2013,43 @@ const questions = [
         correctAnswer: "Auto Correct"
     },
 
-{
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
         question: "",
         optionA: "",
         optionB: "",
@@ -2067,4 +2103,157 @@ const questions = [
         correctAnswer: ""
     },
 
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
 ]

@@ -101,14 +101,14 @@
 
         <!-- ************   Hidden form   ***************** -->
 
-        <form id="hidden-form" action="https://api.sheetmonkey.io/form/2dRujg2cPqh2hGvARBYX7i" method="post" autocomplete="off">
+        <!-- <form id="hidden-form" action="https://api.sheetmonkey.io/form/2dRujg2cPqh2hGvARBYX7i" method="post" autocomplete="off">
             <input id="name-box" name="name" type="text" placeholder="Enter name" required>
             <input id="marks-box" name="marks" type="number" placeholder="marks" required>
             <input id="grade-box" name="grade" type="text" placeholder="grade" required>
             <input id="date-box" name="date" type="text" placeholder="date" required>
             <input id="time-box" name="time" type="text" placeholder="time" required>
             <button id="send-btn" type="submit">Send</button>
-        </form>
+        </form> -->
         
 
     </div>
@@ -138,24 +138,24 @@
             else if(percentage >= 50) { grade = "D" }
             else { grade = "F" }
 
+            // set in certificate
             document.getElementById("student-name").innerHTML = username
             document.getElementById("achieved-score").innerHTML = score
             document.getElementById("total-questions").innerHTML = tq
             document.getElementById("achieved-grade").innerHTML = grade
 
-            // save certificate data into form
+            // // save certificate data into form
+            // document.querySelector("#name-box").value = username
+            // document.querySelector("#marks-box").value = score
+            // document.querySelector("#grade-box").value = grade
 
-            document.querySelector("#name-box").value = username
-            document.querySelector("#marks-box").value = score
-            document.querySelector("#grade-box").value = grade
+            // let today = new Date().toLocaleDateString()
+            // document.querySelector("#date-box").value = today.toString()
+            // console.log(today)
 
-            let today = new Date().toLocaleDateString()
-            document.querySelector("#date-box").value = today.toString()
-            console.log(today)
-
-            let time = new Date().toLocaleTimeString();
-            document.querySelector("#time-box").value = time.toString()
-            console.log(time)
+            // let time = new Date().toLocaleTimeString();
+            // document.querySelector("#time-box").value = time.toString()
+            // console.log(time)
             
 
 
@@ -187,12 +187,10 @@
             }
 
             
-            if(window.localStorage.getItem("username") != NaN)
-            {
-                // submit form automatically
-                document.getElementById("hidden-form").submit();
-                // alert("Your result is recorded in database!")
-            }
+            // submit form automatically
+            // document.getElementById("hidden-form").submit();
+            // alert("Your result is recorded in database!")
+            
             
 
 
