@@ -1,15 +1,10 @@
 var students = {
-    "Shubham Sharma":"Shubham",
-
-    "Vimal Chaubey":"Vimal",
-    "Manish Jaiswal":"Manish",
+    
     "Ranjeet Mishra":"Ranjeet",
     "Pinki Mishra":"Pinki",
     "Julli Arya":"Julli",
     "Tanu Shukla":"Tanu",
-    "Pramila":"Pramila",
     "Raunak Srivastava":"Raunak",
-    "Hemant":"Hemant",
 
     "Akash Singh":"Akash",
     "Akansha Tiwari":"Akansha",
@@ -30,14 +25,13 @@ var students = {
     "Karan Paswan":"Karan",
 
     "Sweta Gaur":"Sweta",
-    "Prince Chaurasiya":"Prince",
-    "Silpi Chaurasiya":"Shilpi",
-    "Anshika Chaurasiya":"Anshika",
-    "Komal Mishra":"Komal",
-    
-    "Pratibha Ranjan":"Pratibha",
-    "Vedant Upadhyay":"Vedant",
     "Shubham Vishwakarma":"Shubham",
-    "Sushant Upadhyay":"Sushant",
-    "Sunil Chaudhary":"Sunil"
+    "Sunil Chaudhary":"Sunil",
+    "Nirupma Pandey":"Nirupma",
+    "Jyotsana":"Jyotsana",
+
+    "Shivani":"Shivani",
+    "Mohd Irshad":"Irshad",
+    "Mukesh Mishra":"Mukesh",
+    "Prema Devi":"Prema"
 };
