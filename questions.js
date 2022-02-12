@@ -2206,6 +2206,617 @@ const questions = [
 
     {
         // 221
+        question: "Number System to base 2",
+        optionA: "Octal",
+        optionB: "Binary",
+        optionC: "Decimal",
+        optionD: "Hexadecimal",
+        correctAnswer: "Binary"
+    },
+
+    {
+        // 222
+        question: "Set of rules",
+        optionA: "Internet",
+        optionB: "Softwares",
+        optionC: "Auto correct",
+        optionD: "Protocol",
+        correctAnswer: "Protocol"
+    },
+
+    {
+        // 223
+        question: "Shortcut to close a document",
+        optionA: "Ctrl + w",
+        optionB: "Alt + F4",
+        optionC: "Ctrl + C",
+        optionD: "Ctrl + S",
+        correctAnswer: "Ctrl + w"
+    },
+
+    {
+        // 224
+        question: "A type of file system in Windows operating system",
+        optionA: "NTFS",
+        optionB: "ASCII",
+        optionC: "Unicode",
+        optionD: "EBCDIC",
+        correctAnswer: "NTFS"
+    },
+
+    {
+        // 225
+        question: "Any part of the computer that you can physically touch",
+        optionA: "Software",
+        optionB: "Hardware",
+        optionC: "Internet",
+        optionD: "Functions",
+        correctAnswer: "Hardware"
+    },
+
+    {
+        // 226
+        question: "The arranging of data in a logical sequence is called",
+        optionA: "Filtering",
+        optionB: "Sorting",
+        optionC: "Arranging",
+        optionD: "Merging",
+        correctAnswer: "Sorting"
+    },
+
+    {
+        // 227
+        question: "Readymade formulas of Excel",
+        optionA: "Formulas",
+        optionB: "Functions",
+        optionC: "Chart",
+        optionD: "Graph",
+        correctAnswer: "Functions"
+    },
+
+    {
+        // 228
+        question: "Global System of interconnected computer networks.",
+        optionA: "Internet",
+        optionB: "Extranet",
+        optionC: "Intranet",
+        optionD: "Ethernet",
+        correctAnswer: "Internet"
+    },
+
+    {
+        // 229
+        question: "Facility can automatically recitify common spelling mistakes and often used acronyms etc.",
+        optionA: "Auto Right",
+        optionB: "Auto Correct",
+        optionC: "Word wrap",
+        optionD: "Auto text",
+        correctAnswer: "Auto Correct"
+    },
+
+    {
+        // 230
+        question: "Which of the following deals with cybercrime and electronic commerce.",
+        optionA: "IT Act",
+        optionB: "Cybercrime",
+        optionC: "Mailbox",
+        optionD: "Link",
+        correctAnswer: "IT Act"
+    },
+
+    {
+        // 231
+        question: "Relational Database contains",
+        optionA: "Tables",
+        optionB: "Query",
+        optionC: "Tables and Query",
+        optionD: "Images",
+        correctAnswer: "Tables and Query"
+    },
+
+    {
+        // 232
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        // 233
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        // 234
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        // 235
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        // 236
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        // 237
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        // 238
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        // 239
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        // 240
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        // 241
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        // 242
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        // 243
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        // 244
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        // 245
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        // 246
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        // 247
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        // 248
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        // 249
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        // 250
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        // 251
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        // 252
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        // 253
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        // 254
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        // 255
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        // 256
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        // 257
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        // 258
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        // 259
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        // 260
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        // 261
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        // 262
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        // 263
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        // 264
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        // 265
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
         question: "",
         optionA: "",
         optionB: "",
