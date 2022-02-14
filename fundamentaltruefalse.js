@@ -339,8 +339,8 @@ const trueFalseQuestions = [
 
     {
         // 57
-        question: ".com represents education domain name",
-        correctAnswer: "False"
+        question: ".zip represents compressed file",
+        correctAnswer: "True"
     },
 
     {
@@ -363,12 +363,12 @@ const trueFalseQuestions = [
 
     {
         // 62
-        question: "",
-        correctAnswer: ""
+        question: "ENIAC was the first electronic general purpose computer",
+        correctAnswer: "True"
     },
 
     {
-        // 122
+        // 63
         question: "",
         correctAnswer: ""
     },
