@@ -4,7 +4,7 @@ var totalQuestions = 60
 
 
 // declared total questions entered in the "questions.js" file
-var totalQuestionsAddedInList = 220
+var totalQuestionsAddedInList = 252
 
 let score = 0
 let currentQuestion = 0

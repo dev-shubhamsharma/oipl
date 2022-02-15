@@ -2206,6 +2206,326 @@ const questions = [
 
     {
         // 221
+        question: "Populat RDBMS is",
+        optionA: "NTFS",
+        optionB: "ORACLE",
+        optionC: "Octal",
+        optionD: "Internet",
+        correctAnswer: "ORACLE"
+    },
+
+    {
+        // 222
+        question: "Number system to base 2",
+        optionA: "Binary",
+        optionB: "Octal",
+        optionC: "Decimal",
+        optionD: "Hexadecimal",
+        correctAnswer: "Binary"
+    },
+
+    {
+        // 223
+        question: "Set of rules ",
+        optionA: "Softwares",
+        optionB: "Functions",
+        optionC: "Programs",
+        optionD: "Protocols",
+        correctAnswer: "Protocols"
+    },
+
+    {
+        // 224
+        question: "Shortcut to close a document",
+        optionA: "Ctrl + S",
+        optionB: "Alt + F4",
+        optionC: "Ctrl + w",
+        optionD: "Ctrl + F4",
+        correctAnswer: "Ctrl + w"
+    },
+
+    {
+        // 225
+        question: "A type of file system in Windows operating system",
+        optionA: "NTFS",
+        optionB: "EXT",
+        optionC: "Hardware",
+        optionD: "Software",
+        correctAnswer: "NTFS"
+    },
+
+    {
+        // 226
+        question: "Any part of the computer that you can physically touch",
+        optionA: "Software",
+        optionB: "Hardware",
+        optionC: "Functions",
+        optionD: "Mouse",
+        correctAnswer: "Hardware"
+    },
+
+    {
+        // 227
+        question: "The arranging of data in a logical sequence",
+        optionA: "Sorting",
+        optionB: "Filtering",
+        optionC: "Auto correct",
+        optionD: "Auto complete",
+        correctAnswer: "Sorting"
+    },
+
+    {
+        // 228
+        question: "Readymade formulas of Excel",
+        optionA: "Auto correct",
+        optionB: "Auto right",
+        optionC: "Sorting",
+        optionD: "Functions",
+        correctAnswer: "Functions"
+    },
+
+    {
+        // 229
+        question: "Global system of interconnected computer networks",
+        optionA: "Internet",
+        optionB: "LAN",
+        optionC: "Intranet",
+        optionD: "Protocol",
+        correctAnswer: "Internet"
+    },
+
+    {
+        // 230
+        question: "Facility can automatically rectify common spelling mistakes and often used acronyms etc.",
+        optionA: "Auto complete",
+        optionB: "Auto text",
+        optionC: "Auto right",
+        optionD: "Auto correct",
+        correctAnswer: "Auto correct"
+    },
+
+    {
+        // 231
+        question: "_________ deals with cybercrime and electronic commerce.",
+        optionA: "Cyber crime",
+        optionB: "Mailbox",
+        optionC: "IT Act",
+        optionD: "Link",
+        correctAnswer: "IT Act"
+    },
+
+    {
+        // 232
+        question: "Relational database contains __________",
+        optionA: "Control",
+        optionB: "Hard disk drive",
+        optionC: "Link",
+        optionD: "Tables and Queries",
+        correctAnswer: "Tables and Queries"
+    },
+
+    {
+        // 233
+        question: "The ________ tab is to take you to first page of website.",
+        optionA: "Link",
+        optionB: "Home",
+        optionC: "Control",
+        optionD: "Mailbox",
+        correctAnswer: "Home"
+    },
+
+    {
+        // 234
+        question: "Inventory _________ is concerned with minimizing the total cost of inventory.",
+        optionA: "Control",
+        optionB: "End",
+        optionC: "Autosum",
+        optionD: "Link",
+        correctAnswer: "Control"
+    },
+
+    {
+        // 235
+        question: "________ is used in MS-Excel to total rows and/or columns",
+        optionA: "Autosum",
+        optionB: "Mailbox",
+        optionC: "Link",
+        optionD: "Autocorrect",
+        correctAnswer: "Autosum"
+    },
+
+    {
+        // 236
+        question: "Save as dialog box is open by pressing ______ key",
+        optionA: "F11",
+        optionB: "F10",
+        optionC: "Ctrl + S",
+        optionD: "F12",
+        correctAnswer: "F12"
+    },
+
+    {
+        // 237
+        question: "A clipboard is a temporary storage area used for text which is _______ ",
+        optionA: "Cut/Copied",
+        optionB: "Deleted",
+        optionC: "Hidden",
+        optionD: "Formated",
+        correctAnswer: "Cut/Copied"
+    },
+
+    {
+        // 238
+        question: "________ an area of memory or disk that is assigned to store e-mail messages sent by other users.",
+        optionA: "Inbox",
+        optionB: "Outbox",
+        optionC: "Sent",
+        optionD: "Draft",
+        correctAnswer: "Inbox"
+    },
+
+    {
+        // 239
+        question: "______ is both an Input-Output device.",
+        optionA: "Hard disk drive",
+        optionB: "Mouse",
+        optionC: "Printer",
+        optionD: "Monitor",
+        correctAnswer: "Hard disk drive"
+    },
+
+    {
+        // 240
+        question: "Ctrl + X",
+        optionA: "Copy",
+        optionB: "Cut",
+        optionC: "Move",
+        optionD: "Delete",
+        correctAnswer: "Cut"
+    },
+
+    {
+        // 241
+        question: "It is a file format to store video file.",
+        optionA: "WMA",
+        optionB: "MP3",
+        optionC: "MP4",
+        optionD: "AAC",
+        correctAnswer: "MP4"
+    },
+
+    {
+        // 242
+        question: "Protocol used for network file transfers in www environment.",
+        optionA: "HTTP",
+        optionB: "LAN",
+        optionC: "WAN",
+        optionD: "SMTP",
+        correctAnswer: "HTTP"
+    },
+
+    {
+        // 243
+        question: "Computer network limited in a building",
+        optionA: "LAN",
+        optionB: "WAN",
+        optionC: "MAN",
+        optionD: "Internet of things",
+        correctAnswer: "LAN"
+    },
+
+    {
+        // 244
+        question: "gmail is",
+        optionA: "Application software",
+        optionB: "Hardware",
+        optionC: "System software",
+        optionD: "E-mail System",
+        correctAnswer: "E-mail System"
+    },
+
+    {
+        // 245
+        question: "Example of web browser",
+        optionA: "Ubuntu",
+        optionB: "Libreoffice",
+        optionC: "Mozilla Firefox",
+        optionD: "Windows Exolorer",
+        correctAnswer: "Mozilla Firefox"
+    },
+
+    {
+        // 246
+        question: "Money can be kept for e-payment in",
+        optionA: "Email System",
+        optionB: "E-wallet",
+        optionC: "Application software",
+        optionD: "LAN",
+        correctAnswer: "E-wallet"
+    },
+
+    {
+        // 247
+        question: "IOT",
+        optionA: "Web of Things",
+        optionB: "Intranet of Things",
+        optionC: "Internet of Things",
+        optionD: "Introduction of Things",
+        correctAnswer: "Internet of Things"
+    },
+
+    {
+        // 248
+        question: "Developed application for specific purpose.",
+        optionA: "Application software",
+        optionB: "System software",
+        optionC: "Hardware",
+        optionD: "E-mail System",
+        correctAnswer: "Application software"
+    },
+
+    {
+        // 249
+        question: "A set of rules for solving a problem in a given number of steps.",
+        optionA: "Solutions",
+        optionB: "Program",
+        optionC: "Algorithm",
+        optionD: "Software",
+        correctAnswer: "Algorithm"
+    },
+
+    {
+        // 250
+        question: "The first screen that appears after the computer is switched on.",
+        optionA: "Main screen",
+        optionB: "Taskbar",
+        optionC: "Boot menu",
+        optionD: "Desktop",
+        correctAnswer: "Desktop"
+    },
+
+    {
+        // 251
+        question: "Software to translate HLL to machine code.",
+        optionA: "Assembler",
+        optionB: "Interpreter",
+        optionC: "Programmer",
+        optionD: "Debugger",
+        correctAnswer: "Interpreter"
+    },
+
+    {
+        // 252
+        question: "It is used to create Curriculum Vitae (CV).",
+        optionA: "Word-processing",
+        optionB: "Speadsheet",
+        optionC: "Presentation",
+        optionD: "Database",
+        correctAnswer: "Word-processing"
+    },
+
+    {
+        // 253
         question: "",
         optionA: "",
         optionB: "",
@@ -2232,6 +2552,437 @@ const questions = [
         correctAnswer: ""
     },
 
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
+
+    {
+        question: "",
+        optionA: "",
+        optionB: "",
+        optionC: "",
+        optionD: "",
+        correctAnswer: ""
+    },
     {
         question: "",
         optionA: "",
