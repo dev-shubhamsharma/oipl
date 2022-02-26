@@ -1,10 +1,27 @@
 
 // declared total questions to attempt
-var totalQuestions = 60
+var totalQuestions = 0
 
 
-// declared total questions entered in the "questions.js" file
-var totalQuestionsAddedInList = 252
+// let url = window.location.search.toString()
+// let i = url.indexOf("=")
+let testId = url.substring(i+1)
+console.log(testId)
+
+var totalQuestionsAddedInList = 0
+
+for(let index = 0; index < tests.length; index++) {
+    if(tests[index].id == testId) {
+        console.log(tests[index].totalQuestions)
+        totalQuestions = Number.parseInt(tests[index].totalQuestions)
+        totalQuestionsAddedInList = Number.parseInt(tests[index].questionsAddedInFile)
+        
+        // set exam window title element
+        document.querySelector("#exam-title").innerHTML = tests[index].name.toString()+" Quiz"
+        
+    }
+}
+
 
 let score = 0
 let currentQuestion = 0
@@ -36,11 +53,14 @@ function loadNext(index) {
     document.getElementById("option3").innerHTML = questions[indexNumber].optionC
     document.getElementById("option4").innerHTML = questions[indexNumber].optionD
     
-    
+    console.log("Problem check")
 //     if current question reaches at second last question then change save btn text to submit
     if(document.getElementById("current-question").innerHTML == (totalQuestions - 1).toString()) {
         document.getElementById("next-btn").innerHTML = "Submit"
     }
+
+
+
     
 //     increament question number 
     currentQuestion++
@@ -85,7 +105,7 @@ function checkAnswerAndNext() {
 
         if(selectedAnswer == questions[indexNumber].correctAnswer) {
             score++
-            console.log('score'+score)
+            console.log('score = '+score)
             document.getElementById("score-count").innerHTML = score
         }
 
@@ -189,7 +209,7 @@ function checkAnswerAndNext() {
                     // reset border color before loading next question
     
                     var options = document.querySelectorAll(".option-container")
-                    console.log(options)
+                    // console.log(options)
                     for(var i=0; i<options.length; i++) {
                         options[i].style.borderColor = '#eee';
                         options[i].style.background = '#fff';
@@ -231,7 +251,7 @@ function submitExam(str) {
     window.localStorage.setItem("mcqScore",score.toString())
     window.localStorage.setItem("totalMcqQuestions",totalQuestions.toString())
 
-    window.open("TrueFalseWindow.html","_self")
+    // window.open("TrueFalseWindow.html","_self")
 }
 
 

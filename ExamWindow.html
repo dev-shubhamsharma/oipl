@@ -12,16 +12,18 @@
     <!-- bootstrap cdn link -->
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"> -->
 
+    
 </head>
 
-<body onload="startTimer()">
+<!-- add questions file and then start timer -->
+<body onload="addQuestionFile()">
 
     <!-- main exam window open -->
 
     
     <header id="header" ondblclick="document.documentElement.requestFullscreen()">
         <img src="images/logo.png" alt="OIPL logo image">
-        <h1>CCC/OLevel Online&nbsp;Exam</h1>
+        <h1 id="exam-title">CCC/OLevel Online&nbsp;Exam</h1>
     </header>    
         
     <section>
@@ -110,10 +112,58 @@
 
     <!-- result window closed -->
 
+    <script src="testnames.js"></script>
     <script src="timer.js"></script>   
-    <script src="main.js"></script>    
-    <script src="questions.js"></script>
-    <script src="result.js"></script>
+    
+    <script src="main.js"></script>
+    
+
+    <script>
+
+        function addQuestionFile() {
+
+            let url = window.location.search.toString()
+            let i = url.indexOf("=")
+            let testId = url.substring(i+1)
+            console.log(testId)
+
+            let fileName = NaN
+
+            for (let index = 0; index < tests.length; index++) {
+                if(tests[index].id == testId) {
+                    fileName = tests[index].filename
+                }
+                
+            }
+            
+
+            let fileScript = document.createElement("script")
+            fileScript.src = fileName    
+            try {
+                
+                
+                document.body.append(fileScript)
+
+            } catch (error) {
+                console.log("Questions File Not Found\n"+error)
+            }
+                
+
+            fileScript.onload = function() {
+                startTimer()
+            }
+            
+
+
+        }
+
+        
+    </script>
+
+    
+
+    <!-- <script src="questions.js"></script> -->
+    <!-- <script src="result.js"></script> -->
 
 
     <script>

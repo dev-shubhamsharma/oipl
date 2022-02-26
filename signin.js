@@ -23,7 +23,10 @@ function validateUser() {
         window.localStorage.setItem("password",password);
 
         const timeout = setTimeout(function() {
-            window.open("ExamWindow.html","_self")
+            let url = window.location.search.toString()
+            let i = url.indexOf("=")
+            // console.log(url.substring(i+1))
+            window.open("ExamWindow.html?testname="+url.substring(i+1),"_self")
             clearTimeout(timeout)
         },5000)
     }

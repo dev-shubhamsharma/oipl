@@ -1,6 +1,16 @@
 
+let url = window.location.search.toString()
+let i = url.indexOf("=")
+console.log(url.substring(i+1))
+testId = url.substring(i+1)
+for(let index=0; index<tests.length; index++) {
+    if(testId == tests[index].id) {
+        var totalTiming = Number.parseInt(tests[index].timeInMinutes)
+    }
+    
+}
+
 // time in minutes
-var totalTiming = 60
 
 
 
@@ -63,7 +73,7 @@ function startTimer() {
             document.getElementById("seconds").innerHTML = seconds
         
 
-            console.log("seconds",secondsCounter)
+            // console.log("seconds",secondsCounter)
             secondsCounter+=1
         // console.log(secondsCounter)
 

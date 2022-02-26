@@ -61,6 +61,7 @@
             background: linear-gradient(to left,#1488CC,#2B32B2); 
             padding: 10px 20px;
             border-radius: 20px;
+            cursor: pointer;
         }
 
         .img-wrapper img{
@@ -99,8 +100,9 @@
     </style>
 
 </head>
-<body>
-    <div class="flex-container">
+<body onload="createCards()">
+
+    <!-- <div class="flex-container">
 
         <div class="card col-1">
             <div class="img-wrapper">
@@ -199,6 +201,87 @@
             
         </div>
 
-    </div>
+    </div> -->
+
+
+    <script src="testnames.js"></script>
+    <script>
+        
+        function createCards() {
+
+            let flexContainer = document.createElement("div")
+            flexContainer.classList.add("flex-container")
+
+            for (let index = 0; index < tests.length; index++) {
+
+
+                
+
+                let card = document.createElement("div")
+                card.classList.add("card")
+                // card.classList.add("col-1")
+
+                let col1 = document.createElement("div")
+                col1.classList.add("img-wrapper")
+                let img = document.createElement("img")
+                img.src = tests[index].imgUrl.toString()
+                col1.append(img)
+
+                let col2 = document.createElement("div")
+                col2.classList.add("title")
+                col2.classList.add("col-2")
+                let title = document.createElement("h3")
+                title.innerHTML = tests[index].name.toString()
+                col2.append(title)
+
+                let col3 = document.createElement("div")
+                col3.classList.add("col-3")
+                let ques = document.createElement("p")
+                ques.classList.add("questions")
+                ques.innerHTML= "Questions : "+tests[index].totalQuestions
+                col3.append(ques)
+
+                let col4 = document.createElement("div")
+                col4.classList.add("col-4")
+                let timeText = document.createElement("p")
+                timeText.classList.add("time")
+                timeText.innerHTML= "Time : "+tests[index].timeInMinutes+" Min"
+                col4.append(timeText)
+
+            
+                let col5 = document.createElement("div")
+                col5.classList.add("col-5")
+                let anchor = document.createElement("a")
+                anchor.classList.add("start-btn")
+                anchor.innerHTML= "Start Test"
+                anchor.id = tests[index].id
+                // anchor.setAttribute("onclick","takeAction()")
+                anchor.href = "signin.html?testname="+tests[index].id
+
+                col5.append(anchor)
+
+
+                card.append(col1)
+                card.append(col2)
+                card.append(col3)
+                card.append(col4)
+                card.append(col5)
+
+                flexContainer.append(card)
+                document.body.append(flexContainer)
+
+
+            }
+
+            
+        }
+
+
+        // function takeAction() {
+        //     console.log(this.id)
+        //     // window.open("signin.html?testname="+this.id,"_self")
+        // }
+
+    </script>
 </body>
 </html>
