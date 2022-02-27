@@ -1,23 +1,23 @@
 const tests = [
     {
         name :"Introduction to Computer",
-        totalQuestions : "5",
-        timeInMinutes : "5",
+        totalQuestions : "20",
+        timeInMinutes : "20",
         imgUrl : "images/python.png",
         id :"intro",
-        filename:"intro.js",
-        questionsAddedInFile:"30"
+        filename:"introduction.js",
+        questionsAddedInFile:"59"
 
     },
 
     {
         name :"Operating System",
-        totalQuestions : "0",
-        timeInMinutes : "0",
+        totalQuestions : "20",
+        timeInMinutes : "20",
         imgUrl : "images/python.png",
         id :"os",
         filename:"operatingsystem.js",
-        questionsAddedInFile:"0"
+        questionsAddedInFile:"31"
 
     },
 

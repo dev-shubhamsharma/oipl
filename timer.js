@@ -19,10 +19,7 @@ var secondsCounter = 0
 
 function startTimer() {
 
-    if(window.localStorage.getItem("username") == null || window.localStorage.getItem("username") == undefined)
-    {
-        window.open("index.html","_self")
-    }
+    
     disable()
 
     var startMinutes = totalTiming
