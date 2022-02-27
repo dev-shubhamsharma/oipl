@@ -53,7 +53,6 @@ function loadNext(index) {
     document.getElementById("option3").innerHTML = questions[indexNumber].optionC
     document.getElementById("option4").innerHTML = questions[indexNumber].optionD
     
-    console.log("Problem check")
 //     if current question reaches at second last question then change save btn text to submit
     if(document.getElementById("current-question").innerHTML == (totalQuestions - 1).toString()) {
         document.getElementById("next-btn").innerHTML = "Submit"
@@ -248,10 +247,80 @@ function checkAnswerAndNext() {
 
 function submitExam(str) {
 
+    // Save total-score and Total-Questions attempted in local storage
     window.localStorage.setItem("mcqScore",score.toString())
     window.localStorage.setItem("totalMcqQuestions",totalQuestions.toString())
+    
 
     // window.open("TrueFalseWindow.html","_self")
+
+
+    // window.localStorage.setItem("trueFalseScore",score.toString())
+    // window.localStorage.setItem("totalTrueFalseQuestions",totalQuestions.toString())
+    
+    // calculate total score and grade
+    
+    // let mcqscore = parseInt(window.localStorage.getItem("mcqScore"))
+    // let mcqtq = parseInt(window.localStorage.getItem("totalMcqQuestions"))
+
+    // let totalScore = mcqscore + score
+    // let tq = mcqtq +  totalQuestions
+    
+
+    // ********************************************
+
+    let username = window.localStorage.getItem("username")
+    let grade = ""
+    let percentage = score*100/totalQuestions
+    console.log("score : "+score)
+    console.log("TotalQuestions : "+totalQuestions)
+            
+    if(percentage >= 85) { grade = "S" }
+    else if(percentage >= 75) { grade = "A" }
+    else if(percentage >= 65) { grade = "B" }
+    else if(percentage >= 55) { grade = "C" } 
+    else if(percentage >= 50) { grade = "D" }
+    else { grade = "F" }
+    
+
+    // *************************************************
+
+    // window.localStorage.setItem("trueFalseScore",score.toString())
+    // window.localStorage.setItem("totalTrueFalseQuestions",totalQuestions.toString())
+
+
+    // window.localStorage.setItem("grade",grade.toString())
+
+
+    // ********************************************************
+
+    // FORM SUBMITTED THROUGH FORM TO SAVE DATA ON GOOGLE SHEET
+
+    // **********************************************************
+
+    // save certificate data into form
+    document.querySelector("#name-box").value = username
+    document.querySelector("#marks-box").value = score
+    document.querySelector("#testname-box").value = document.querySelector("#exam-title").innerHTML.toString()
+    document.querySelector("#grade-box").value = grade
+
+
+    let today = new Date().toLocaleDateString()
+    document.querySelector("#date-box").value = today.toString()
+    console.log(today)
+
+    let time = new Date().toLocaleTimeString();
+    document.querySelector("#time-box").value = time.toString()
+    console.log(time)
+
+    // // submit form automatically
+    document.getElementById("hidden-form").submit();
+
+    alert("show certificate")
+    // after save the data move to the certificate
+    // window.open("certificate.html","_self")
+
+
 }
 
 

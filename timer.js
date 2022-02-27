@@ -21,7 +21,7 @@ function startTimer() {
 
     if(window.localStorage.getItem("username") == null || window.localStorage.getItem("username") == undefined)
     {
-        window.open("signin.html","_self")
+        window.open("index.html","_self")
     }
     disable()
 

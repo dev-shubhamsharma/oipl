@@ -82,6 +82,18 @@
         </aside>
         
         <aside id="right-section">
+
+            <!-- ************   Hidden form   ***************** -->
+
+            <form id="hidden-form" style="display:none;" action="https://api.sheetmonkey.io/form/2dRujg2cPqh2hGvARBYX7i" method="post" autocomplete="off">
+                <input id="name-box" name="name" type="text" placeholder="Enter name" required>
+                <input id="marks-box" name="marks" type="number" placeholder="marks" required>
+                <input id="testname-box" name="testname" type="text" placeholder="testname" required>
+                <input id="grade-box" name="grade" type="text" placeholder="grade" required>
+                <input id="date-box" name="date" type="text" placeholder="date" required>
+                <input id="time-box" name="time" type="text" placeholder="time" required>
+                <button id="send-btn" type="submit">Send</button>
+            </form>
             
         </aside>
 
@@ -127,31 +139,40 @@
             let testId = url.substring(i+1)
             console.log(testId)
 
-            let fileName = NaN
+            if(testId!="") {
 
-            for (let index = 0; index < tests.length; index++) {
-                if(tests[index].id == testId) {
-                    fileName = tests[index].filename
-                }
+                // create empty file to place js file name into it
+                let fileName = NaN
+                for (let index = 0; index < tests.length; index++) {
+                    if(tests[index].id == testId) {
+                        fileName = tests[index].filename
+                    }
                 
-            }
+                }
             
 
-            let fileScript = document.createElement("script")
-            fileScript.src = fileName    
-            try {
+                let fileScript = document.createElement("script")
+                fileScript.src = fileName    
+                try {
                 
-                
-                document.body.append(fileScript)
+                    document.body.append(fileScript)
 
-            } catch (error) {
-                console.log("Questions File Not Found\n"+error)
-            }
+                } 
+                catch (error) {
+                    console.log("Questions File Not Found\n"+error)
+                }
                 
 
-            fileScript.onload = function() {
-                startTimer()
+                fileScript.onload = function() {
+                    startTimer()
+                }
             }
+            else {
+                alert("Questions Not Found!\nPlease Start over...!")
+                window.open("assesment.html","_self")
+            }
+
+            
             
 
 

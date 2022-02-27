@@ -2,7 +2,7 @@ const tests = [
     {
         name :"Introduction to Computer",
         totalQuestions : "5",
-        timeInMinutes : "30",
+        timeInMinutes : "5",
         imgUrl : "images/python.png",
         id :"intro",
         filename:"intro.js",

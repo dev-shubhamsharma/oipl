@@ -121,15 +121,15 @@
             let mcqscore = parseInt(window.localStorage.getItem("mcqScore"))
             let mcqtq = parseInt(window.localStorage.getItem("totalMcqQuestions"))
 
-            let tfscore = parseInt(window.localStorage.getItem("trueFalseScore"))
-            let tftq = parseInt(window.localStorage.getItem("totalTrueFalseQuestions"))
+            // let tfscore = parseInt(window.localStorage.getItem("trueFalseScore"))
+            // let tftq = parseInt(window.localStorage.getItem("totalTrueFalseQuestions"))
 
 
-            let score = mcqscore + tfscore
-            let tq = mcqtq +  tftq
+            // let score = mcqscore + tfscore
+            // let tq = mcqtq +  tftq
 
             let grade = ""
-            let percentage = score*100/tq
+            let percentage = mcqscore*100/mcqtq
             
             if(percentage >= 85) { grade = "S" }
             else if(percentage >= 75) { grade = "A" }
@@ -140,8 +140,8 @@
 
             // set in certificate
             document.getElementById("student-name").innerHTML = username
-            document.getElementById("achieved-score").innerHTML = score
-            document.getElementById("total-questions").innerHTML = tq
+            document.getElementById("achieved-score").innerHTML = mcqscore
+            document.getElementById("total-questions").innerHTML = mcqtq
             document.getElementById("achieved-grade").innerHTML = grade
 
             // // save certificate data into form
