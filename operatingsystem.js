@@ -312,7 +312,22 @@ const questions = [
 
     {
         // 32
-        
+        question: "It is a file format to store video file.",
+        optionA: "WMA",
+        optionB: "MP3",
+        optionC: "MP4",
+        optionD: "AAC",
+        correctAnswer: "MP4"
+    },
+
+    {
+        // 33
+        question: "A set of rules for solving a problem in a given number of steps.",
+        optionA: "Solutions",
+        optionB: "Program",
+        optionC: "Algorithm",
+        optionD: "Software",
+        correctAnswer: "Algorithm"
     }
 
 ]

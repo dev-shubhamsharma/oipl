@@ -1,4 +1,6 @@
 
+
+
 let url = window.location.search.toString()
 let i = url.indexOf("=")
 console.log(url.substring(i+1))
@@ -19,7 +21,10 @@ var secondsCounter = 0
 
 function startTimer() {
 
-    
+    if(window.localStorage.getItem("username") == null || window.localStorage.getItem("username") == undefined)
+    {
+        window.open("signin.html","_self")
+    }
     disable()
 
     var startMinutes = totalTiming

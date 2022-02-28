@@ -315,6 +315,7 @@ function submitExam(str) {
 
     // // submit form automatically
     document.getElementById("hidden-form").submit();
+    // this.close()
 
     // alert("show certificate")
     // after save the data move to the certificate
