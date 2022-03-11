@@ -14,9 +14,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
 
     <!-- css style link -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/main.css">
 
     <style>
+        /************************  for courses section  ********************/
+
         section.section-header {
             background: #dcdde1;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -88,6 +90,29 @@
         }
 
 
+/* **************************** for call button *********************** */
+
+        #call-btn {
+            position: fixed;
+            bottom: 30px;
+            right: 20px;
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            background-color: #2B32B2;
+            font-size: 1.5rem;
+            cursor: pointer;
+            border-radius: 50%;
+        }
+
+        #call-btn a {
+            color: #fff;
+        }
+
+
+        /* ********************* for responsive screen **************************** */
+
         @media(max-width:1111px) {
             .course-section {
                 overflow:scroll;
@@ -145,8 +170,8 @@
             <ul id="nav">
                 <li><a href="index.html" target="" class="links">Home</a></li>
                 <li><a href="#courses" target="" class="links">Courses</a></li>
-                <li><a href="assesment.html" target="_self" class="links">Assessment</a></li>
-                <li><a href="signin.html" target="" class="links">Sign in</a></li>
+                <li><a href="practice_tests.html" target="_self" class="links">Practice</a></li>
+                <li><a href="exams.html" target="" class="links">Exams</a></li>
                 <li><a href="#contact-form" target="" class="links">Contact</a></li>
             </ul>
 
@@ -161,7 +186,7 @@
     <main>
         <h2>Learn, Practice & Get&nbsp;Certified</h2>
         <h3>We're always here to&nbsp;mentor&nbsp;you</h3>
-        <a href="signin.html" target="_self" id="sign-in-btn">Sign in</a>
+        <a href="#courses" target="_self" id="sign-in-btn">View Courses</a>
 
     </main>
 
@@ -273,6 +298,11 @@
 
     </footer>
 
-
+    <div id="call-btn">
+        <a href="tel:7800422341">
+             <span class="fa fa-phone"></span>
+        </a>
+    </div>
+    
 </body>
 </html>

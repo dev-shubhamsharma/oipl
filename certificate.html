@@ -15,14 +15,13 @@
         body {
             font-size: 1rem;
             padding: 20px;
-            /* display: flex;
+            display: flex;
             align-items: center;
-            justify-content: center; */
+            justify-content: center;
         }
         .container {
-            margin: auto;
             padding: 20px;
-            max-width: 800px;
+            width: 800px;
             border: 10px solid #1488CC;
             display: flex;
             flex-direction: column;
@@ -67,34 +66,11 @@
             color: green;
             font-weight: bold;
         }
+
+        #hidden-form {
+            display: none;
+        }
         
-
-        /* styles for another parts */
-
-        .review-btn {
-            background: green;
-            padding: 10px 20px;
-            border: none;
-            display: block;
-            border-radius: 5px;
-            color: #fff;
-            margin: 20px auto;
-            text-align: center;
-            cursor: pointer;
-            font-size: medium;
-        }
-
-        .question-container {
-            border: 1px solid #aaa;
-            margin: 10px auto;
-            padding: 10px 30px;
-        }
-
-        .question {
-            font-weight: bold;
-        }
-
-
 
     </style>
 
@@ -114,49 +90,109 @@
                 <!-- 60 -->
             </span> 
             
-            Questions and achieved the Grade <span id="achieved-grade">
+            Questions and achieved the Grade <span id="achieved-grade">.
         <!-- A -->
-    </span><br>
-    in <span id="spend-minutes">
-        <!-- 00 -->
     </span>
-    m : <span id="spend-seconds">
-        <!-- 21 -->
-    </span>s time.
         </p>
         <img src="images/signature.png" alt="signature image">
-        <p class="note">This certificate is only for real exam experience and it is not your course final certificate</p>
+        <p class="note"></p>
+
+
+
+        <!-- ************   Hidden form   ***************** -->
+
+        <!-- <form id="hidden-form" action="https://api.sheetmonkey.io/form/2dRujg2cPqh2hGvARBYX7i" method="post" autocomplete="off">
+            <input id="name-box" name="name" type="text" placeholder="Enter name" required>
+            <input id="marks-box" name="marks" type="number" placeholder="marks" required>
+            <input id="grade-box" name="grade" type="text" placeholder="grade" required>
+            <input id="date-box" name="date" type="text" placeholder="date" required>
+            <input id="time-box" name="time" type="text" placeholder="time" required>
+            <button id="send-btn" type="submit">Send</button>
+        </form> -->
         
 
     </div>
 
-    <button class="review-btn" onclick="reviewquestions()">Review Questions</button>
-
-
-    
-
-
-
-
-    <script src="questions.js"></script>
 
     <script>
         function loadCertificateData() {
             // values placed in variables
             let username = window.localStorage.getItem("username")
-            let score = window.localStorage.getItem("score")
-            let tq = window.localStorage.getItem("totalquestions")
-            let grade = window.localStorage.getItem("grade")
-            let sm = window.localStorage.getItem("minutes")
-            let ss = window.localStorage.getItem("seconds")
+            let mcqscore = parseInt(window.localStorage.getItem("mcqScore"))
+            let mcqtq = parseInt(window.localStorage.getItem("totalMcqQuestions"))
+
+            // let tfscore = parseInt(window.localStorage.getItem("trueFalseScore"))
+            // let tftq = parseInt(window.localStorage.getItem("totalTrueFalseQuestions"))
 
 
+            // let score = mcqscore + tfscore
+            // let tq = mcqtq +  tftq
+
+            let grade = ""
+            let percentage = mcqscore*100/mcqtq
+            
+            if(percentage >= 85) { grade = "S" }
+            else if(percentage >= 75) { grade = "A" }
+            else if(percentage >= 65) { grade = "B" }
+            else if(percentage >= 55) { grade = "C" } 
+            else if(percentage >= 50) { grade = "D" }
+            else { grade = "F" }
+
+            // set in certificate
             document.getElementById("student-name").innerHTML = username
-            document.getElementById("achieved-score").innerHTML = score
-            document.getElementById("total-questions").innerHTML = tq
+            document.getElementById("achieved-score").innerHTML = mcqscore
+            document.getElementById("total-questions").innerHTML = mcqtq
             document.getElementById("achieved-grade").innerHTML = grade
-            document.getElementById("spend-minutes").innerHTML = sm
-            document.getElementById("spend-seconds").innerHTML = ss
+
+            // // save certificate data into form
+            // document.querySelector("#name-box").value = username
+            // document.querySelector("#marks-box").value = score
+            // document.querySelector("#grade-box").value = grade
+
+            // let today = new Date().toLocaleDateString()
+            // document.querySelector("#date-box").value = today.toString()
+            // console.log(today)
+
+            // let time = new Date().toLocaleTimeString();
+            // document.querySelector("#time-box").value = time.toString()
+            // console.log(time)
+            
+
+
+
+
+            if(grade == "F") {
+                document.querySelector(".note").innerHTML = "Read books and Try to do better, next time!"
+                document.querySelector(".note").style.color = "red"
+            }
+            else if(grade == "D") {
+                document.querySelector(".note").innerHTML = "You need to practice and learn, Try again!"
+                document.querySelector(".note").style.color = "green"
+            }
+            else if(grade == "C") {
+                document.querySelector(".note").innerHTML = "You can jump long, practice makes perfect!"
+                document.querySelector(".note").style.color = "green"
+            }
+            else if(grade == "B") {
+                document.querySelector(".note").innerHTML = "Good, You are a genius!"
+                document.querySelector(".note").style.color = "green"
+            }
+            else if(grade == "A") {
+                document.querySelector(".note").innerHTML = "Excellent, You can go to the moon!"
+                document.querySelector(".note").style.color = "green"
+            }
+            else {
+                document.querySelector(".note").innerHTML = "Perfect, You deep dive into computer world!"
+                document.querySelector(".note").style.color = "green"
+            }
+
+            
+            // submit form automatically
+            // document.getElementById("hidden-form").submit();
+            // alert("Your result is recorded in database!")
+            
+            
+
 
 
             // code to send data to whatsapp
@@ -167,75 +203,18 @@
 
             // remove the username from local storage
             window.localStorage.removeItem("username")
-        }
-
-
-        function reviewquestions() {
-
-            var questionsList = window.sessionStorage.getItem("questions");
-
-            for (let i = 0; i < questionsList.length; i++) {
-
-                var correctAnswer = questions[i].correctAnswer.toString();
-
-                const div = document.createElement("div");
-                div.classList.add("question-container");
-
-                const pq = document.createElement("p");
-                pq.classList.add("question");
-                pq.innerHTML = "Q. "+(i+1)+" : "+questions[i].question.toString();
-                div.appendChild(pq);
-
-                // option 1
-
-                const po1 = document.createElement("p");
-                po1.classList.add("opt1");
-                po1.innerHTML = "(A) "+questions[i].optionA.toString();
-                if(questions[i].optionA == correctAnswer) {
-                    po1.style.color = "green";
-                }
-                div.appendChild(po1);
-
-                const po2 = document.createElement("p");
-                po2.classList.add("opt2");
-                po2.innerHTML = "(B) "+questions[i].optionB.toString();
-                if(questions[i].optionB == correctAnswer) {
-                    po2.style.color = "green";
-                }
-                div.appendChild(po2);
-
-                const po3 = document.createElement("p");
-                po3.classList.add("opt3");
-                po3.innerHTML = "(C) "+questions[i].optionC.toString();
-                if(questions[i].optionC == correctAnswer) {
-                    po3.style.color = "green";
-                }
-                div.appendChild(po3);
-
-                const po4 = document.createElement("p");
-                po4.classList.add("opt4");
-                po4.innerHTML = "(D) "+questions[i].optionD.toString();
-                if(questions[i].optionD == correctAnswer) {
-                    po4.style.color = "green";
-                }
-                div.appendChild(po4);
-
-                document.body.appendChild(div);
-
-            }
-
             
+            // window.onbeforeunload = function(){
+            // return 'Are you sure you want to leave?';
+
+        };
             
-        }
         
 
-        window.addEventListener('beforeunload', function (e) {
-            e.preventDefault();
-            e.returnValue = '';
-        });
+    
 
     </script>
 
-    
+
 </body>
 </html>

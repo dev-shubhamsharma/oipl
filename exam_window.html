@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Window | OIPL</title>
+
+    <!--    css file link     -->
+    <link rel="stylesheet" href="css/exam_window.css">
+
+</head>
+<!-- loadQuestionBtns() -->
+<body onload="addQuestionFile()" class="unselectable" onmousedown="" oncontextmenu="">
+    <header>
+        <img id="logo" src="images/logo.png" alt="oipl logo">
+        <h1 id="title">Examination System</h1>
+        <button class="btn" id="submit-btn" onclick="submitExam('userSubmitted')">Submit</button>
+
+        
+    </header>
+
+    <section id="top-ribbon">
+
+        <label for="mcq-radio">
+            <input type="radio" name="test" id="mcq-radio" checked="true" disabled="true">
+            <div id="mcq-btn">Multiple choice</div>
+        </label>
+
+        <label for="truefalse-radio">
+            <input type="radio" name="test" id="truefalse-radio" disabled="true">
+            <div id="truefalse-btn">True False</div>
+        </label>
+
+        <!-- <div class="score">
+            Score : <span>00</span>
+        </div> -->
+
+        <div class="timer">
+            <span class="text">Times left : </span>
+            <span id="minutes">00</span> : 
+            <span id="seconds">00</span>
+        </div>
+
+
+        <label for="menu-btn-check">
+            <input type="checkbox" name="menu-btn" id="menu-btn-check" onchange="toggleMenu()">
+            <div id="menu-btn">
+                <span class="top line"></span>
+                <span class="middle line"></span>
+                <span class="bottom line"></span>
+            </div>
+        </label>
+
+    </section>
+
+    <main>
+        <section id="left-section">
+            <div class="question-container">
+                <p class="en">This is the question</p>
+                <p class="hi">यह हिन्दी का प्रश्न है।</p>
+            </div>
+
+            <label for="radio-btn1">
+                <input type="radio" value="A" name="question" class="radio-btn" id="radio-btn1" onchange="clearMsg()">
+                <div class="option-container" id="option1">
+                    <p class="en">This is option A</p>
+                    <p class="hi">यह हिन्दी का पहला विकल्प है।</p>
+                </div>
+            </label>
+
+            <label for="radio-btn2">
+                <input type="radio" value="B" name="question" class="radio-btn" id="radio-btn2" onchange="clearMsg()">
+                <div class="option-container" id="option2">
+                    <p class="en">This is option B</p>
+                    <p class="hi">यह हिन्दी का दूसरा विकल्प है।</p>
+                </div>
+            </label>
+
+            <label for="radio-btn3">
+                <input type="radio" value="C" name="question" class="radio-btn" id="radio-btn3" onchange="clearMsg()">
+                <div class="option-container" id="option3">
+                    <p class="en">This is option C</p>
+                    <p class="hi">यह हिन्दी का तीसरा विकल्प है।</p>
+                </div>
+            </label>
+
+            <label for="radio-btn4">
+                <input type="radio" value="D" name="question" class="radio-btn" id="radio-btn4" onchange="clearMsg()">
+                <div class="option-container" id="option4">
+                    <p class="en">This is option D</p>
+                    <p class="hi">यह हिन्दी का चौथा विकल्प है।</p>
+                </div>
+            </label>
+
+            <div class="btn-container">
+                <button id="prev-btn" class="btn" onclick="goToPrev()">Prev</button>
+                <p id="msg">Please select an option</p>
+                <!-- <button id="clear-btn" class="btn" onclick="alert('clear clicked')">Clear Answer</button> -->
+                <button id="next-btn" class="btn" onclick="saveAnswer()">Save&nbsp;&&nbsp;Next</button>
+            </div>
+
+        </section>
+
+        <section id="right-section">
+            <div class="container">
+                <h4>Button Indicators</h4>
+                <p class="instruction">Not Answered <button class="question-btn">1</button></p>
+                <p class="instruction">Current Question <button class="question-btn current">1</button></p>
+                <p class="instruction">Answered <button class="question-btn answered">1</button></p>
+                
+            </div>
+            <!-- <hr> -->
+            <h4 style="margin: 25px 0 15px 0;">Questions List View</h4>
+            <div class="grid-container">
+                
+                <!-- <button id="btn0" class="question-btn">
+                    <span class="btn-text">1</span>
+                    <span class="ques-index">1</span>
+                    <span class="ans-option">A</span>
+                </button> -->
+
+            </div>
+            
+        </section>
+    </main>
+
+
+    <section id="overlay">
+        <p id="progress-count">22%</p>
+        <div class="progressbar">
+            <div class="progress-content"></div>
+        </div>
+        <p>Please wait....</p>
+        <p>While we are calculating your result</p>
+    </section>
+
+    <section id="result-section">
+        <!-- <div class="flex-items">
+            <div class="question">This is question</div>
+            <div class="option">this is option 1</div>
+            <div class="option">this is option 1</div>
+            <div class="option">this is option 1</div>
+            <div class="option">this is option 1</div>
+        </div>         -->
+
+
+        <form id="hidden-form" style="display:none;" action="https://api.sheetmonkey.io/form/2dRujg2cPqh2hGvARBYX7i" method="post" target="_self" autocomplete="off">
+            <input id="name-box" name="name" type="text" placeholder="Enter name" required>
+            <input id="marks-box" name="marks" type="number" placeholder="marks" required>
+            <input id="testname-box" name="testname" type="text" placeholder="testname" required>
+            <input id="grade-box" name="grade" type="text" placeholder="grade" required>
+            <input id="date-box" name="date" type="text" placeholder="date" required>
+            <input id="time-box" name="time" type="text" placeholder="time" required>
+            <button id="send-btn" type="submit">Send</button>
+        </form>
+        
+    </section>
+
+    <!-- <script src="timer.js"></script> -->
+    <!--- <script src="fundamental.js"></script> -->
+
+    <script src="js/examnames.js"></script>
+    <script src="js/exam_script.js"></script>
+    <script src="js/exam_students.js"></script>
+
+    <script>
+        function addQuestionFile() {
+
+            if(window.localStorage.getItem("username") == null || window.localStorage.getItem("username") == undefined)
+            {
+                // console.log("returned to home")
+                window.open("index.html","_self")
+            }
+            else {
+
+
+                let url = window.location.search.toString()
+                let i = url.indexOf("=")
+                let testId = url.substring(i+1)
+                console.log(testId)
+
+                if(testId!="") {
+
+                    // create empty file to place js file name into it
+                    let fileName = NaN
+
+                    // read filename from examfile
+                    for (let index = 0; index < exams.length; index++) {
+                        if(exams[index].id == testId) {
+                            fileName = exams[index].filename
+                        }
+                
+                    }
+
+
+                    let fileScript = document.createElement("script")
+                    fileScript.src = fileName    
+
+                    try {
+                
+                        document.body.append(fileScript)
+
+                    } 
+                    catch (error) {
+                        console.log("Questions File Not Found\n"+error)
+                    }
+                
+
+                    fileScript.onload = function() {
+                        // startTimer()
+                        console.log("loaded question btns")
+                        loadQuestionBtns();
+                        
+                    }
+                }
+                else {
+                    alert("You have not selected a exam subject, please try again!")
+                    window.open("index.html","_self")
+                }
+
+
+            }
+
+
+            
+
+
+
+
+        }
+    </script>
+
+
+
+    
+</body>
+</html>
