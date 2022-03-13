@@ -309,7 +309,7 @@ function calculateAndShowResult() {
             calculateScore()
             saveExamDataInGoogleSheet()
         }
-    },10);
+    },100);
     
 }
 
@@ -393,7 +393,7 @@ function saveExamDataInGoogleSheet() {
     else { grade = "F" }
 
 
-    alert("username "+ username+"\nscore : "+score+"\ntest id "+testId+"\ngrade :"+grade)
+    // alert("username "+ username+"\nscore : "+score+"\ntest id "+testId+"\ngrade :"+grade)
 
     document.querySelector("#name-box").value = username
     document.querySelector("#marks-box").value = score
@@ -410,9 +410,9 @@ function saveExamDataInGoogleSheet() {
     console.log(time)
 
     // // submit form automatically
-    alert("submit result")
-    // document.getElementById("hidden-form").submit();
-    window.open("certificate.html","_self")
+    // alert("submit result")
+    document.getElementById("hidden-form").submit();
+    // window.open("certificate.html","_self")
 
 }
 

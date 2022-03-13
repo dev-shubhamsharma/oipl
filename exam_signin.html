@@ -63,19 +63,23 @@
             justify-content: center;
             text-align: center;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            color: #fff;
-            background: linear-gradient(to right, #0575E6, #00F260); 
+            font-size: 1.1rem;
+            line-height: 30px;
+            color: #333;
+            /* font-weight: bold; */
+            /* background: linear-gradient(to right, #0575E6, #00F260);  */
+            background: rgba(241, 239, 239, 0.9);
             z-index: 9;
 
         }
 
         .circle {
-            width: 80px;
-            height: 80px;
-            border: 4px solid #333;
-            border-top-color:#1488CC;
+            width: 60px;
+            height: 60px;
+            border: 2px solid #333;
+            border-top-color:rgba(241, 239, 239, 0.9);
             border-radius: 50%;
-            animation: animate 0.5s linear infinite forwards;
+            animation: animate 700ms linear infinite forwards;
         }
 
         @keyframes animate {
@@ -241,13 +245,14 @@
                     const timeout = setTimeout(function() {
                         let url = window.location.search.toString()
                         let i = url.indexOf("=")
-                    // console.log(url.substring(i+1))
+                        // console.log(url.substring(i+1))
+                        // window.localStorage.setItem("examstatus","attempted")
                         window.open("exam_window.html?examname="+url.substring(i+1),"_self")
                         clearTimeout(timeout)
                     },5000)
                 }
                 else {
-                    alert("attempted found")
+                    // alert("attempted found")
                     msg.innerHTML = "You have already attempted the Exam!"
                     msg.style.display = "block"    
                 }
@@ -256,7 +261,7 @@
             }
             else {
                 // alert("not matched")
-                alert("password not matched")
+                // alert("password not matched")s
                 msg.innerHTML = "Username or password is incorrect"
                 msg.style.display = "block"
 

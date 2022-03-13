@@ -418,10 +418,10 @@ main {
         display: flex;
     }
 
-    body {
-        /* overflow: hidden; */
-        /* border: 1px solid blue; */
-    }
+    /* body {
+        overflow: hidden;
+         border: 1px solid blue;
+    } */
 
     main {
         /* overflow: hidden; */

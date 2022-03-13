@@ -500,7 +500,6 @@ const questions = [
         },
 
         {
-            // 24
             question: "लिनक्स है -",
             optionA: "एक कम्पाइलर",
             optionB: "एक एसेम्बलर",
@@ -883,7 +882,7 @@ const questions = [
         },
 
         {   
-            question: "Which tasks are performed by operating system in a computer (i) Memory management (ii) Process management (iii) Device management (iv) File management",
+            question: "एक कम्प्यूटर में आपरेटिंग सिस्टम द्वारा कौन से कार्य किए जाते हैं (i) मेमोरी मैनेजमेंट (ii) प्रोसेस मैनेजमेंट (iii) डिवाइस मैनेजमेंट (iv) फाइल मैनेजमेंट",
             optionA: "(i),(ii),(iii),(iv)",
             optionB: "(i),(ii),(iv)",
             optionC: "(ii),(iii)",
@@ -904,7 +903,12 @@ const questions = [
         },
 
         {
-
+            question: "कौन सा मेमोरी का प्रकार नहीं है",
+            optionA: "रोम",
+            optionB: "कैश",
+            optionC: "ईईपी रोम",
+            optionD: "जॉय-स्टिक",
+            correctAnswer: "जॉय-स्टिक"
         }
     ],
 
@@ -912,6 +916,15 @@ const questions = [
         {
             // 44
             question: "Binary equivalent of decimal 53.625 is",
+            optionA: "110101.101",
+            optionB: "111101.001",
+            optionC: "110111.100",
+            optionD: "100101.101",
+            correctAnswer: "110101.101"
+        },
+
+        {
+            question: "डेसिमल 53.625 का बाइनरी समतुल्य है",
             optionA: "110101.101",
             optionB: "111101.001",
             optionC: "110111.100",
@@ -929,6 +942,15 @@ const questions = [
             optionC: "Folder Allocation Transition",
             optionD: "File Allocation Transition",
             correctAnswer: "File Allocation Table"
+        },
+
+        {
+            question: "फैट (FAT) का अर्थ है",
+            optionA: "फाइल एलोकेशन टेबल",
+            optionB: "फोल्डर एलोकेशन टेबल",
+            optionC: "फोल्डर एलोकेशन ट्रांजिशन",
+            optionD: "फाइल एलोकेशन ट्रांजिशन",
+            correctAnswer: "फाइल एलोकेशन टेबल"
         }
     ],
 
@@ -944,7 +966,12 @@ const questions = [
         },
 
         {
-
+            question: "फाइल या फोल्डर के स्थान को स्थानान्तरित करने के लिए आवश्यक आपरेशन",
+            optionA: "कॉपी उसके बाद पेस्ट",
+            optionB: "कट उसके बाद पेस्ट",
+            optionC: "मूव उसके बाद पेस्ट",
+            optionD: "चेंज लोकेशन",
+            correctAnswer: "कट उसके बाद पेस्ट"
         }
     ],
 
@@ -957,6 +984,15 @@ const questions = [
             optionC: "F3 key",
             optionD: "F4 key",
             correctAnswer: "F1 key"
+        },
+
+        {
+            question: "ऑफिस का उपयोग करते समय सहायता प्राप्त करने के लिए, आप दबाएंगे",
+            optionA: "F1 कुंजी",
+            optionB: "F2 कुंजी",
+            optionC: "F3 कुंजी",
+            optionD: "F4 कुंजी",
+            correctAnswer: "F1 कुंजी"
         }
     ],
 
@@ -969,6 +1005,15 @@ const questions = [
             optionC: "Remote Installation",
             optionD: "All of the above",
             correctAnswer: "All of the above"
+        },
+
+        {
+            question: "ऑपरेटिंग सिस्टम निम्नलिखित संसाधनों से स्थापित किया जा सकता है",
+            optionA: "डिस्क",
+            optionB: "नेटवर्क",
+            optionC: "दूर से स्थापना",
+            optionD: "उपरोक्त सभी",
+            correctAnswer: "उपरोक्त सभी"
         }
     ],
 
@@ -981,6 +1026,15 @@ const questions = [
             optionC: "7.25 inch",
             optionD: "All of the above",
             correctAnswer: "5.25 inch"
+        },
+
+        {
+            question: "फ्लॉपी डिस्क का आकार है",
+            optionA: "5.25 इंच",
+            optionB: "2.25 इंच",
+            optionC: "7.25 इंच",
+            optionD: "उपरोक्त सभी",
+            correctAnswer: "5.25 इंच"
         }
     ],
 
@@ -993,6 +1047,15 @@ const questions = [
             optionC: "Microsoft .NET",
             optionD: "Apple",
             correctAnswer: "Microsoft .NET"
+        },
+
+        {
+            question: "____________ उच्च स्तरीय भाषा के जैसे जाना जाता है",
+            optionA: "विडोंज 7",
+            optionB: "लिनक्स",
+            optionC: "माइक्रोसॉफ्ट डॉट नेट",
+            optionD: "एपल",
+            correctAnswer: "माइक्रोसॉफ्ट डॉट नेट"
         }
     ],
 
@@ -1000,6 +1063,15 @@ const questions = [
         {
             // 51
             question: "Which output device is used for translating information from a computer into pictorial form on paper?",
+            optionA: "Mouse",
+            optionB: "Plotter",
+            optionC: "Touch panel",
+            optionD: "Card Punch",
+            correctAnswer: "Plotter"
+        },
+
+        {
+            question: "कंम्प्यूटर ",
             optionA: "Mouse",
             optionB: "Plotter",
             optionC: "Touch panel",
@@ -1017,6 +1089,10 @@ const questions = [
             optionC: "optical scanners",
             optionD: "Magnetic tape",
             correctAnswer: "OMR"
+        },
+
+        {
+
         }
     ],
 
@@ -1029,6 +1105,10 @@ const questions = [
             optionC: "Decimal System",
             optionD: "Binary Numbering System",
             correctAnswer: "Binary Numbering System"
+        },
+
+        {
+
         }
     ],
 
@@ -1041,6 +1121,10 @@ const questions = [
             optionC: "4",
             optionD: "32",
             correctAnswer: "8"
+        },
+
+        {
+
         }
     ],
 
@@ -1053,6 +1137,10 @@ const questions = [
             optionC: "Union Serial Bus",
             optionD: "Unknown Serial Bus",
             correctAnswer: "Universal Serial Bus"
+        },
+
+        {
+
         }
     ],
 
@@ -1065,6 +1153,10 @@ const questions = [
             optionC: "Output",
             optionD: "Word processing",
             correctAnswer: "Input"
+        },
+
+        {
+
         }
     ],
 
@@ -1077,6 +1169,10 @@ const questions = [
             optionC: "Memory, Input/Output, CPU",
             optionD: "Control Circuits, ALU, Registers",
             correctAnswer: "Memory, Input/Output, CPU"
+        },
+
+        {
+
         }
     ],
 
@@ -1089,6 +1185,10 @@ const questions = [
             optionC: "ROM",
             optionD: "Magnetic Disc",
             correctAnswer: "RAM"
+        },
+
+        {
+
         }
     ],
 
@@ -1101,6 +1201,10 @@ const questions = [
             optionC: "Hertz",
             optionD: "Inches",
             correctAnswer: "Dots per inch"
+        },
+
+        {
+
         }
     ],
 
@@ -1113,6 +1217,10 @@ const questions = [
             optionC: "Programming Standard",
             optionD: "Proprietary Operating System",
             correctAnswer: "Operating System"
+        },
+
+        {
+            
         }
     ]
 
