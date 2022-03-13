@@ -1,5 +1,5 @@
 var totalQuestionsForTest = 0
-
+var totalTiming = 0;
 
 
 let url = window.location.search.toString()
@@ -21,6 +21,7 @@ for(let index = 0; index < exams.length; index++) {
         // console.log(totalQuestionsForTest)
         
         totalQuestionsAddedInList = Number.parseInt(exams[index].questionsAddedInFile)
+        totalTiming = Number.parseInt(exams[index].timeInMinutes)
         
         // console.log(totalQuestionsAddedInList)
 
@@ -50,6 +51,10 @@ var indexList = []
 
 function loadQuestionBtns() {
 
+    if(window.localStorage.getItem("username") == null || window.localStorage.getItem("username") == undefined)
+    {
+        window.open("index.html","_self")
+    }
     
     for(let i=0; i<totalQuestionsForTest; i++) {
 
@@ -94,7 +99,7 @@ function loadQuestionBtns() {
 
     // call first question clicked event to load first question
     showQuestion("btn"+currentBtnIdNo)
-
+    startTimer()
 
 }
 
@@ -265,7 +270,6 @@ function goToPrev() {
 
 function submitExam(str) {
 
-
     if(str == "TimeEnd") {
         alert("Exam timer has ended\nWe are submitting your exam!")
         // submit the exam
@@ -301,16 +305,75 @@ function calculateAndShowResult() {
 
             // showResult()
             
-            // show the certificate
+            // to save the data in google sheet and show the certificate
+            calculateScore()
             saveExamDataInGoogleSheet()
         }
     },10);
     
 }
 
+
+function calculateScore() {
+
+    for(let index = 0; index < indexList.length; index++) {
+        
+        // ************** ADD TO THE RESULT SECTION *****************
+
+        let selectedOption = document.querySelector("#btn"+index+" .ans-option").innerHTML
+
+        // console.log(selectedOption)
+        if(selectedOption == "A" || selectedOption == "B" || selectedOption == "C" || selectedOption == "D") {
+
+            let questionIndex = document.querySelector("#btn"+index+" .ques-index").innerHTML
+
+            // let flexItems = document.createElement("div")
+            // flexItems.classList.add("flex-items")
+
+            // flexItems.innerHTML = `
+            //     <div class="question" style="font-weight:bold;">${index+1}. ${questions[questionIndex][0].question}</div>
+            //     <div class="option" id="option-${index}-a">A. ${questions[questionIndex][0].optionA}</div>
+            //     <div class="option" id="option-${index}-b">B. ${questions[questionIndex][0].optionB}</div>
+            //     <div class="option" id="option-${index}-c">C. ${questions[questionIndex][0].optionC}</div>
+            //     <div class="option" id="option-${index}-d">D. ${questions[questionIndex][0].optionD}</div>
+            //     `
+            // resultSection.append(flexItems)
+
+            // console.log(questionIndex+"    "+selectedOption)
+            // for correct answers
+            if(questions[questionIndex][0].correctAnswer === questions[questionIndex][0]["option"+selectedOption]) {
+                // document.querySelector("#option-"+index+"-"+selectedOption.toLowerCase()).style.cssText = `color:green; font-weight:bold;`;
+                score++
+
+                console.log("score" + score)
+            }
+            // else {
+            //    document.querySelector("#option-"+index+"-"+selectedOption.toLowerCase()).style.cssText = `color:red; font-weight:bold;`;
+            // }
+        }
+        
+
+    }
+
+
+    // resultSection.style.display = "flex"
+
+    // hide the overlay
+    // document.querySelector("#overlay").style.display = "none"
+}
+
+
+
+
+
+
+
+
 function saveExamDataInGoogleSheet() {
 
+    // alert(score)
     window.localStorage.setItem("mcqScore",score.toString())
+    // alert(totalQuestionsForTest)
     window.localStorage.setItem("totalMcqQuestions",totalQuestionsForTest.toString())
 
 
@@ -329,9 +392,12 @@ function saveExamDataInGoogleSheet() {
     else if(percentage >= 50) { grade = "D" }
     else { grade = "F" }
 
+
+    alert("username "+ username+"\nscore : "+score+"\ntest id "+testId+"\ngrade :"+grade)
+
     document.querySelector("#name-box").value = username
     document.querySelector("#marks-box").value = score
-    document.querySelector("#testname-box").value = testId
+    document.querySelector("#testname-box").value = testId+" exam"
     document.querySelector("#grade-box").value = grade
 
 
@@ -344,8 +410,9 @@ function saveExamDataInGoogleSheet() {
     console.log(time)
 
     // // submit form automatically
-    document.getElementById("hidden-form").submit();
-
+    alert("submit result")
+    // document.getElementById("hidden-form").submit();
+    window.open("certificate.html","_self")
 
 }
 
@@ -408,6 +475,77 @@ function showResult() {
 
 function toggleMenu() {
     document.querySelector("#right-section").classList.toggle("open");
+}
+
+
+var secondsCounter = 0
+
+function startTimer() {
+
+    console.log("timer started")
+    disable()
+
+    var startMinutes = totalTiming
+    var startSeconds = 60  // also change on update time 
+
+
+    var minutes = startMinutes
+    var seconds = startSeconds
+    
+    minutes-=1
+    document.querySelector("#minutes").innerHTML = minutes
+    // document.getElementById("seconds").innerHTML = seconds - 1
+
+    // loadNext(0)
+    // document.getElementById("total-question").innerHTML = totalQuestions.toString()
+
+    let interval = setInterval(() => {
+
+        
+        if((minutes == 0 && seconds == 0)) {
+
+            // alert("Redirecting to Next section...")
+            clearInterval(interval)
+            // alert("timer ends")
+            submitExam("TimeEnd")
+            
+        }
+        if(seconds == 0) {
+            //************************************************** */
+
+            seconds = 60       // update seconds here also
+
+            //**************************************************** */
+            minutes-=1     
+            if(minutes <= 9)
+                document.querySelector("#minutes").innerHTML = "0"+minutes
+            else
+                document.querySelector("#minutes").innerHTML = minutes
+
+            
+        }
+        
+
+        seconds-=1      
+        if(seconds <= 9)
+            document.querySelector("#seconds").innerHTML = "0"+seconds
+        else 
+            document.querySelector("#seconds").innerHTML = seconds
+        
+
+            // console.log("seconds",secondsCounter)
+            secondsCounter+=1
+        // console.log(secondsCounter)
+
+    }, 1000);
+}
+
+
+
+function disable() {
+    document.onkeydown = function (e) {
+        return false;
+    }
 }
 
 

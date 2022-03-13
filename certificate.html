@@ -128,6 +128,8 @@
             // let score = mcqscore + tfscore
             // let tq = mcqtq +  tftq
 
+            alert("username : "+username+"\nscore: "+mcqscore+"\ntotal : "+mcqtq)
+
             let grade = ""
             let percentage = mcqscore*100/mcqtq
             
@@ -202,7 +204,7 @@
 
 
             // remove the username from local storage
-            window.localStorage.removeItem("username")
+            // window.localStorage.removeItem("username")
             
             // window.onbeforeunload = function(){
             // return 'Are you sure you want to leave?';
