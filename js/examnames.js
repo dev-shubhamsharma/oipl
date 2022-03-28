@@ -1,12 +1,12 @@
 const exams = [
     {
         name :"It Tools and Networks",
-        totalQuestions : "50",
-        timeInMinutes : "25",
+        totalQuestions : "60",
+        timeInMinutes : "30",
         imgUrl : "images/python.png",
         id :"it",
         filename:"exam_questions/it.js",
-        questionsAddedInFile:"50"
+        questionsAddedInFile:"60"
 
     },
 
