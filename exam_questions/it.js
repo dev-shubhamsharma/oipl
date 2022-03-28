@@ -1071,12 +1071,12 @@ const questions = [
         },
 
         {
-            question: "कंम्प्यूटर ",
-            optionA: "Mouse",
-            optionB: "Plotter",
-            optionC: "Touch panel",
-            optionD: "Card Punch",
-            correctAnswer: "Plotter"
+            question: "कंम्प्यूटर से सूचना को कागज पर चित्रात्मक रूप में अनुवाद करने के लिए किस आउटपुट डिवाइस का उपयोग किया जाता है ",
+            optionA: "माउस",
+            optionB: "प्लॉटर",
+            optionC: "टच पैनल",
+            optionD: "कार्ड पंच",
+            correctAnswer: "प्लॉटर"
         }
     ],
 
@@ -1092,7 +1092,12 @@ const questions = [
         },
 
         {
-
+            question: "एक आप्टिकल इनपुट डिवाइस जो पेपर मीडिया पर पेंसिल के निशान की व्याख्या करता है",
+            optionA: "ओ एम आर",
+            optionB: "पंच कार्ड रीडर",
+            optionC: "आप्टिकल स्कैनर",
+            optionD: "मैग्नेटिक टेप",
+            correctAnswer: "ओ एम आर"
         }
     ],
 
@@ -1108,7 +1113,12 @@ const questions = [
         },
 
         {
-
+            question: "आधार 2 की संख्याएँ कहलाती हैं",
+            optionA: "आक्टल सिस्टम",
+            optionB: "हेक्साडेसिमल सिस्टम",
+            optionC: "डेसिमल सिस्टम",
+            optionD: "बाइनरी नंबरिंग सिस्टम",
+            correctAnswer: "बाइनरी नंबरिंग सिस्टम"
         }
     ],
 
@@ -1124,7 +1134,12 @@ const questions = [
         },
 
         {
-
+            question: "एक बाइट में कितने बिट होंगे",
+            optionA: "आठ",
+            optionB: "सोलह",
+            optionC: "चार",
+            optionD: "बत्तीस",
+            correctAnswer: "आठ"
         }
     ],
 
@@ -1140,7 +1155,12 @@ const questions = [
         },
 
         {
-
+            question: "यू एस बी है",
+            optionA: "यूनिक सीरियल बस",
+            optionB: "यूनिवर्सल सीरियल बस",
+            optionC: "यूनियन सीरियल बस",
+            optionD: "अनोन सीरियल बस",
+            correctAnswer: "यूनिवर्सल सीरियल बस"
         }
     ],
 
@@ -1156,7 +1176,12 @@ const questions = [
         },
 
         {
-
+            question: "एक कीबोर्ड इस प्रकार का डिवाइस है",
+            optionA: "काला",
+            optionB: "इनपुट",
+            optionC: "आउटपुट",
+            optionD: "वर्ड प्रोसेसिंग",
+            correctAnswer: "इनपुट"
         }
     ],
 
@@ -1172,7 +1197,12 @@ const questions = [
         },
 
         {
-
+            question: "डिजिटल कम्प्यूटर सिस्टम के तीन मुख्य घटक हैं",
+            optionA: "मेमोरी, इनपुट-आउटपुट, डी एम ए",
+            optionB: "ए एल यू, सीपीयू, मेमोरी",
+            optionC: "मेमोरी, इनपुट-आउटपुट, सीपीयू",
+            optionD: "कन्ट्रोल सर्किट्स, ए एल यू, रजिस्टर्स",
+            correctAnswer: "मोरी, इनपुट-आउटपुट, सीपीयू"
         }
     ],
 
@@ -1188,7 +1218,12 @@ const questions = [
         },
 
         {
-
+            question: "निम्नलिखित में से कौन अस्थिर है",
+            optionA: "बबल मेमोरी",
+            optionB: "रैम",
+            optionC: "रोम",
+            optionD: "मैग्नेटिक डिस्क",
+            correctAnswer: "रैम"
         }
     ],
 
@@ -1204,7 +1239,12 @@ const questions = [
         },
 
         {
-
+            question: "डॉट मैट्रिक्स प्रिंटर का रिजोल्यूशन मापा जाता है",
+            optionA: "मेगाबिट्स",
+            optionB: "डॉट्स पर इंच",
+            optionC: "हर्टज",
+            optionD: "इंच",
+            correctAnswer: "डॉट्स पर इंच"
         }
     ],
 
@@ -1220,7 +1260,12 @@ const questions = [
         },
 
         {
-            
+            question: "लिनक्स ओपन सोर्स एक है",
+            optionA: "आपरेटिंग सिस्टम",
+            optionB: "आफिस टूल",
+            optionC: "प्रोंग्रामिंग स्डैण्डर्ड",
+            optionD: "प्रोप्राइटरी आपरेटिंग सिस्टम",
+            correctAnswer: "आपरेटिंग सिस्टम"
         }
     ]
 
