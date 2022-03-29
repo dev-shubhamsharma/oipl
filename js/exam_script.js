@@ -289,6 +289,10 @@ function submitExam(str) {
 
 function calculateAndShowResult() {
 
+
+    window.localStorage.setItem("examstatus","attempted")
+
+
     // to show the loading animation after exam submit
     document.querySelector("#overlay").style.display = "flex"
     let no = 100, count = 0
@@ -301,13 +305,20 @@ function calculateAndShowResult() {
         if(no == -1) {
             // stop loading animation and show result
             clearInterval(interval)
+            
             // show the result section
 
             // showResult()
             
             // to save the data in google sheet and show the certificate
-            calculateScore()
-            saveExamDataInGoogleSheet()
+            
+            // calculateScore()
+            // saveExamDataInGoogleSheet()
+
+
+            // Show Review and Certificate buttons
+            document.querySelector("#review-btn").style.display = 'block'
+            document.querySelector("#view-certificate-btn").style.display = 'block'
         }
     },100);
     
@@ -360,6 +371,7 @@ function calculateScore() {
 
     // hide the overlay
     // document.querySelector("#overlay").style.display = "none"
+    saveExamDataInGoogleSheet()
 }
 
 
@@ -467,6 +479,14 @@ function showResult() {
 
 
     resultSection.style.display = "flex"
+
+    // ***************************************************** VIEW CERTIFICATE BTN ADDED HERE **********
+    let viewBtn = document.createElement("button")
+    viewBtn.innerHTML = "View Certificate"
+    viewBtn.classList.add("btn")
+    viewBtn.style.margin = 'auto'
+    viewBtn.setAttribute("onclick","calculateScore()")
+    resultSection.append(viewBtn)
 
     // hide the overlay
     document.querySelector("#overlay").style.display = "none"
