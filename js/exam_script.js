@@ -434,7 +434,9 @@ function saveExamDataInGoogleSheet() {
 
 
 function showResult() {
+//  reset score to zero 
     
+    score= 0
     
     let resultSection = document.querySelector("#result-section")
 
