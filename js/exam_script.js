@@ -326,7 +326,7 @@ function calculateAndShowResult() {
 
 
 function calculateScore() {
-
+    score = 0
     for(let index = 0; index < indexList.length; index++) {
         
         // ************** ADD TO THE RESULT SECTION *****************
