@@ -344,7 +344,7 @@ main {
 
 
 #result-section {
-    /* display: none; */
+    display: none;
     flex-direction: column;
     align-items: baseline;
     position:absolute;
