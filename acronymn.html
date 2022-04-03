@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acronymn Test | OIPL</title>
+
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+
+        header {
+            width: 100%;
+            /* display: flex; */
+            /* align-items: center; */
+            /* justify-content: space-between; */
+            padding: 10px 30px;
+            font-size: 25px;
+            background: whitesmoke;
+            /* position: fixed; */
+            /* top: 0; */
+            /* left: 0; */
+            display: none;
+            /* overflow: visible; */
+
+        }
+
+        #score-container {
+            padding: 10px 30px;
+            background: #ff6a00;
+            border-radius: 30px;
+            color: white;
+        }
+
+        .container {
+            padding: 20px;
+            background: linear-gradient(to bottom, #ee0979, #ff6a00);
+            min-height: 100vh;
+            text-align: center;
+            /* font-family: 'Libre Baskerville', serif; */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            /* border: 3px solid red; */
+        }
+
+        #question {
+            max-width: 100%;
+        /*     width: 300px; */
+            padding: 10px 20px;
+        /*     height: 50px; */
+        /*     line-height: 50px; */
+            background: whitesmoke;
+            border-radius:  2px;
+            box-shadow: 10px 10px 10px rgb(0,0,0,0.1);
+            color: #111;
+            user-select: none;
+        }
+
+        #text-box {
+            max-width: 100%;
+            width: 500px;
+        /*     height: 50px; */
+            border-radius: 2px;
+            border: none;
+            box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
+            background: whitesmoke;
+            outline: none;
+            font-size: 25px;
+            /* font-family: 'Libre Baskerville', serif; */
+            padding: 10px;
+            margin: 50px 0;
+            color: #111;
+            text-align: center;
+            border-radius: 30px;
+        }
+
+        #next-btn {
+            width: 300px;
+    
+            height: 50px;
+        /*     background: linear-gradient(to right, #ff00cc, #333399); */
+            background: linear-gradient(to right, #ff00cc, #004e92);
+            border: none;
+            border-radius: 30px;
+            box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
+            color: whitesmoke;
+            font-size: 18px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
+
+        .top-section {
+            /* border: 2px solid green; */
+            width: 100%;
+            /* display: flex; */
+            flex-direction: row;
+            padding: 10px;
+            background-color: transparent;
+            position: fixed;
+            top: 0;
+            display: none;
+            overflow:scroll;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .top-section::-webkit-scrollbar {
+            display: none;
+        }
+
+        .circle {
+            font-size: 1.2rem;
+            /* padding: 10px;  */
+            min-width: 40px;
+            min-height: 40px;
+            line-height: 40px;
+            text-align: center;
+            border-radius: 50%;
+            background: #ff00cc;
+            margin-left: 10px;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .circle:hover {
+            background: #004e92;
+        }
+
+        .right {
+            background: #0c9207;
+        }
+
+        .wrong {
+            background: #c41d1d;
+        }
+
+        @media (max-width: 400px ) {
+
+            header {
+                font-size: 1.3rem;
+                padding: 10px;
+            }
+
+
+            #next-btn {
+                width: 100%;
+            }
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <header>
+        <div id="score-container">Score : <span id="score">0</span></div>
+        <div id="timer-container">Time Taken : 
+            <span id="minutes">00</span>:<span id="seconds">00</span>
+        </div>
+        
+    </header>
+
+    <div class="top-section">
+        <!-- <div class="circle right">1</div>
+        <div class="circle right">2</div>
+        <div class="circle wrong">3</div> -->
+    </div>
+    
+    <div class="container">
+        <div id="question">
+            <h2>Enter Your Name</h2>
+        </div>
+        <input type="text" id="text-box" name="answer" autofocus>
+        <input type="submit" value="Next" id="next-btn" onclick="if(isTestFinished == false) next(); else alert('Test Finished')">
+        <p style="line-height: 30px; color:#333;">OR<br>PRESS [ Shift + Enter ]</p>
+    </div>
+</body>
+
+<script>
+
+    const questions = {
+        "Enter Your Name":"",
+        "CPU":"central processing unit",
+        "ASCII":"american standard code for information interchange",
+        "NIC":"network interface card",
+        "ALU":"arithmetic logic unit",
+        "CU":"control unit",
+        "PCI":"peripheral component interconnect",
+        "VGA":"video graphic adapter",
+        "AGP":"accelrated graphics port",
+        "BIOS":"basic input output system",
+        "RAM":"random access memory",
+        "ROM":"read only memory",
+        "LAN":"local area network",
+        "MAN":"metropolitan area network",
+        "WAN":"wide area network",
+        "VPN":"virtual private network",
+        "AI":"artifial intelligence",
+        "ISP":"internet service provider",
+        "MICR":"magnetic ink character reader",
+        "OMR":"optical mark reader",
+        "OCR":"optical character recognition"
+    }
+
+    var name = ""    
+    var isName = true
+    var indexCount = 0
+    let score = 0
+    let isTestFinished = false
+
+    let textBox = document.querySelector("#text-box")
+    let questionBox = document.querySelector("#question h2")
+
+    let keys = Object.keys(questions)
+    console.log(keys)
+
+    // let demo = "CPU"
+    // console.log(questions[demo])
+
+
+
+    function next() {
+
+        if(isName == true) {
+            if(textBox.value == "") {
+                alert("Please Enter Your Name")
+            }
+            else {
+                // save the name in variable 
+                name = textBox.value.trim()
+                console.log(name)
+                textBox.value = ""
+                isName = false
+                document.querySelector(".top-section").style.display = 'flex'
+                next()
+            }
+                        
+            
+        }
+        else {
+            console.log("question")
+
+            // check previous score
+            console.log(questions[keys[indexCount]])
+            console.log(textBox.value.trim().toLowerCase())
+
+            // savedAnswer = questions[questionBox.innerHTML]
+            
+            let circleElem = document.createElement("div")
+            circleElem.innerHTML = indexCount+1
+            circleElem.classList.add("circle")
+            circleElem.setAttribute("onclick","showAnswer(this.innerHTML)")
+
+
+
+            if(textBox.value.trim().toLowerCase() == questions[questionBox.innerHTML]) {
+                score++
+                document.querySelector("#score").innerHTML = score
+                console.log("right")
+                circleElem.classList.add("right")
+            }
+            else 
+            {
+                console.log("wrong")
+                circleElem.classList.add("wrong")
+            }
+
+            document.querySelector(".top-section").appendChild(circleElem)
+
+            indexCount++
+            // Load next key
+            if(indexCount < keys.length) {
+                questionBox.innerHTML = keys[indexCount].toString()
+                textBox.value = ""
+            }
+            else {
+                alert("Test Finished")
+                isTestFinished = true
+            }
+            
+
+            
+        }
+        
+    }
+
+    // function getRandomKeys(questions) {
+    //     const keys = Object.keys(questions)
+    //     return keys[Math.floor(Math.random() * keys.len)]
+    // }
+
+    let keysDown = {}
+    window.onkeydown = function(e) {
+        keysDown[e.key] = true;
+
+        if(keysDown["Shift"] && keysDown["Enter"]) {
+            console.log("Shift + Enter")
+            if(isTestFinished == false) {
+                next()
+            }
+            else {
+                alert("Test Finished")
+            }
+            
+        }
+    }
+
+    window.onkeyup = function(e) {
+        keysDown[e.key] = false
+    }
+
+
+    function showAnswer(index) {
+        if(isTestFinished == true) {
+            console.log(index)
+            index = Number.parseInt(index) - 1
+            questionBox.innerHTML = keys[index]
+            textBox.value = questions[questionBox.innerHTML]
+        }
+        else {
+            alert("Please Complete Test")
+        }
+        
+    }
+
+    
+
+
+
+
+</script>
+
+</html>
