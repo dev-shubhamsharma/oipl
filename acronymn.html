@@ -184,7 +184,7 @@
             <h2>Enter Your Name</h2>
         </div>
         <input type="text" id="text-box" name="answer" autofocus>
-        <input type="submit" value="Next" id="next-btn" onclick="if(isTestFinished == false) next(); else alert('Test Finished')">
+        <input type="submit" value="Next" id="next-btn" onclick="if(isTestFinished == false) next(); else alert('Test Finished');" onselectstart="return false;" oncut="return false;" oncopy="return false;" onpaste="return false;" ondrag="return false;" ondrop="return false;">
         <p style="line-height: 30px; color:#333;">OR<br>PRESS [ Shift + Enter ]</p>
     </div>
 </body>
@@ -195,6 +195,10 @@
         "Enter Your Name":"",
         "CPU":"central processing unit",
         "ASCII":"american standard code for information interchange",
+        "EBCDIC":"extended binary coded decimal interchange code",
+        "COBOL":"common business oriented language",
+        "ALGOL":"algorithmic language",
+        "BASIC":"beginners all purposes symbolic instructions code",
         "NIC":"network interface card",
         "ALU":"arithmetic logic unit",
         "CU":"control unit",
@@ -204,15 +208,41 @@
         "BIOS":"basic input output system",
         "RAM":"random access memory",
         "ROM":"read only memory",
+        "SDRAM":"synchronous dynamic random access memory",
         "LAN":"local area network",
         "MAN":"metropolitan area network",
         "WAN":"wide area network",
         "VPN":"virtual private network",
-        "AI":"artifial intelligence",
+        "AI":"artificial intelligence",
         "ISP":"internet service provider",
         "MICR":"magnetic ink character reader",
         "OMR":"optical mark reader",
-        "OCR":"optical character recognition"
+        "OCR":"optical character recognition",
+        "NEFT":"national electronics fund transfer",
+        "RTGS":"real time gross settlement",
+        "IMPS":"immediate payment service",
+        "USSD":"unstructured supplementary service data",
+        "MMID":"mobile money identifier",
+        "UPI":"unified payment interface",
+        "QR":"quick response",
+        "SMTP":"simple mail transfer protocol",
+        "FTP":"file transfer protocol",
+        "TCP":"transmission control protocol",
+        "IP":"internet protocol",
+        "DHCP":"dynamic host configuration protocol",
+        "IMAP":"internet message access protocol",
+        "ICMP":"internet control management protocol",
+        "SNMP":"simple network management protocol",
+        "UDP":"user datagram protocol",
+        "DDR":"double data rate",
+        "DVD":"digital video disk",
+        "CMOS":"complementary metal oxide semiconductor",
+        "ARPANET":"advanced research project ajency network",
+        "WLAN":"wireless local area network",
+        "LCD":"liquid crystal display",
+        "LED":"light emitting diode",
+        "DPI":"dots per inch",
+        "RPM":"rotations per minute"
     }
 
     var name = ""    
@@ -321,6 +351,31 @@
     window.onkeyup = function(e) {
         keysDown[e.key] = false
     }
+
+    // TO DISABLE THE RIGHT CLICK
+
+    // document.addEventListener('contextmenu', event => event.preventDefault());
+    
+    var options = {
+        // Set this false to deactivate alert
+        enableAlert: true, 
+        // Customize this to change alert text
+        alertText: "Mouse right click is disabled!" 
+    
+    }
+
+    document.addEventListener("contextmenu", function (e) {
+        e.preventDefault();
+        if(options.enableAlert) {
+            alert(options.alertText);
+        }
+    });
+
+    // document.addEventListener("contextmenu", function (e) {
+    //     e.preventDefault();
+    // });
+
+
 
 
     function showAnswer(index) {
