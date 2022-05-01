@@ -47,153 +47,6 @@ const questions = [
     [
         {
             // 3
-            question: "Passport Seva website is :",
-            optionA: "www.passportindia.gov.in",
-            optionB: "www.passportindia.com",
-            optionC: "www.passportindia.edu",
-            optionD: "www.e-passportindia.gov.in",
-            correctAnswer: "www.passportindia.gov.in"
-        },
-
-        {
-            question: "पासपोर्ट सेवा वेबसाइट है",
-            optionA: "www.passportindia.gov.in",
-            optionB: "www.passportindia.com",
-            optionC: "www.passportindia.edu",
-            optionD: "www.e-passportindia.gov.in",
-            correctAnswer: "www.passportindia.gov.in"
-        }
-    ],
-
-    [
-        {
-            // 4
-            question: "ORS stands for :",
-            optionA: "Open Resource System",
-            optionB: "Online Registeration System",
-            optionC: "Open Reform System",
-            optionD: "Open Repair System",
-            correctAnswer: "Online Registeration System"
-        },
-
-        {
-            question: "ओ.आर.एस. का पूर्ण रूप है",
-            optionA: "ओपन रिसोर्स सिस्टम",
-            optionB: "ऑनलाइन रजिस्ट्रेशन सिस्टम",
-            optionC: "ओपन रिफॉर्म सिस्टम",
-            optionD: "ओपन रिपेयर सिस्टम",
-            correctAnswer: "ऑनलाइन रजिस्ट्रेशन सिस्टम"
-        }
-    ],
-
-    [
-        {
-            // 5
-            question: "UMANG is integrated with :",
-            optionA: "Aadhaar and Digilocker",
-            optionB: "Aadhaar or Digilocker",
-            optionC: "Digilocker only",
-            optionD: "Aadhaar only",
-            correctAnswer: "Aadhaar and Digilocker"
-        },
-
-        {
-            question: "यू.एम.ए.एन.जी. को किसके साथ समन्वित किया गया है",
-            optionA: "आधार और डिजीलॉकर",
-            optionB: "आधार या डिजीलॉकर",
-            optionC: "केवल डिजीलॉकर",
-            optionD: "केवल आधार",
-            correctAnswer: "आधार और डिजीलॉकर"
-        }
-    ],
-
-    [
-        {
-            // 6
-            question: "Which box overflows with emails generally?",
-            optionA: "Inbox",
-            optionB: "Outbox",
-            optionC: "AddressBox",
-            optionD: "MessageBox",
-            correctAnswer: "Inbox"
-        },
-
-        {
-            question: "सामान्यतः ईमेल के साथ कौन-सा बॉक्स ओवरफ्लो होता है",
-            optionA: "इनबॉक्स",
-            optionB: "आउटबॉक्स",
-            optionC: "एड्रेसबॉक्स",
-            optionD: "मेसेजबॉक्स",
-            correctAnswer: "इनबॉक्स"
-        }
-    ],
-
-    [
-        {
-            // 7
-            question: "Gmail is a software used to :",
-            optionA: "Search Web Pages",
-            optionB: "Check Emails",
-            optionC: "Find Hotels",
-            optionD: "Search Files",
-            correctAnswer: "Check Emails"
-        },
-
-        {
-            question: "जीमेल सॉफ्टवेयर किसके लिए प्रयोग किया जाता है",
-            optionA: "वेब पेज खोजने",
-            optionB: "ईमेल जांच करने",
-            optionC: "होटल ढूँढने",
-            optionD: "फाइल खोजने",
-            correctAnswer: "ईमेल जांच करने"
-        }
-    ],
-
-    [
-        {
-            // 8
-            question: "What is the minimum age to join Facebook?",
-            optionA: "18 years",
-            optionB: "15 years",
-            optionC: "13 years",
-            optionD: "10 years",
-            correctAnswer: "13 years"
-        },
-
-        {
-            question: "फेसबुक में शामिल होने के लिए न्यूनतम आयु क्या है",
-            optionA: "18 वर्ष",
-            optionB: "15 वर्ष",
-            optionC: "13 वर्ष",
-            optionD: "10 वर्ष",
-            correctAnswer: "13 वर्ष"
-        }
-    ],
-
-    [
-        {
-            // 9
-            question: "When was Twitter launched ?",
-            optionA: "01-03-2006",
-            optionB: "01-04-2006",
-            optionC: "01-10-2006",
-            optionD: "01-12-2006",
-            correctAnswer: "01-04-2006"
-        },
-
-        {
-            question: "टविटर कब आरम्भ हुआ था",
-            optionA: "01-03-2006",
-            optionB: "01-04-2006",
-            optionC: "01-10-2006",
-            optionD: "01-12-2006",
-            correctAnswer: "01-04-2006"
-        }
-    ],
-
-    [
-        {
-            // 10
             question: "Which option helps us to send the same letter to different persons ?",
             optionA: "Mail Merge",
             optionB: "Macros",
@@ -212,11 +65,9 @@ const questions = [
         }
     ],
 
-    // *************** MATCH THE FOLLOWING - JULY 2021 IT & NETWORK ************************
-
     [
         {
-            // 11
+            // 4
             question: "Core2Duo is a type of",
             optionA: "Hard disk",
             optionB: "Processor",
@@ -237,7 +88,7 @@ const questions = [
 
     [
         {
-            // 12
+            // 5
             question: "MS Office is a",
             optionA: "System software",
             optionB: "Operating system",
@@ -258,7 +109,7 @@ const questions = [
 
     [
         {
-            // 13
+            // 6
             question: "Open Office and AbiWorld",
             optionA: "System software",
             optionB: "Operating system",
@@ -279,7 +130,7 @@ const questions = [
 
     [
         {
-            // 14
+            // 7
             question: "Pendrive is related with",
             optionA: "Hard disk",
             optionB: "Processor",
@@ -300,28 +151,7 @@ const questions = [
 
     [
         {
-            // 15
-            question: "BHIM mobile app",
-            optionA: "Foreign Exchange",
-            optionB: "Money Transfer",
-            optionC: "OSS",
-            optionD: "System software",
-            correctAnswer: "Money Transfer"
-        },
-
-        {
-            question: "भीम मोबाइल ऐप",
-            optionA: "विदेशी मुद्रा",
-            optionB: "मनी ट्रांसफर",
-            optionC: "ओ.एस.एस.",
-            optionD: "सिस्टम सॉफ्टवेयर",
-            correctAnswer: "मनी ट्रांसफर"
-        }
-    ],
-
-    [
-        {
-            // 16
+            // 8
             question: "Compiler is an example of",
             optionA: "System software",
             optionB: "Operating system",
@@ -342,7 +172,7 @@ const questions = [
 
     [
         {
-            // 17
+            // 9
             question: "L1",
             optionA: "Hard disk",
             optionB: "Processor",
@@ -363,7 +193,7 @@ const questions = [
 
     [
         {
-            // 18
+            // 10
             question: "Key to permanently delete the file without sending it to the recycle bin",
             optionA: "Del",
             optionB: "Shift + Del",
@@ -384,7 +214,7 @@ const questions = [
 
     [
         {
-            // 19
+            // 11
             question: "Layout style",
             optionA: "Vertical and Horizontal",
             optionB: "Portrait and Landscape",
@@ -405,7 +235,7 @@ const questions = [
 
     [
         {
-            // 20
+            // 12
             question: "To create hanging indent in a word document",
             optionA: "Ctrl + T",
             optionB: "Shift + T",
@@ -424,11 +254,9 @@ const questions = [
         }
     ],
 
-    // ************** FILL IN THE BLANKS - JULY 2021 IT & NETWORK **********
-
     [
         {
-            // 21
+            // 13
             question: "The most common input devices are the _______",
             optionA: "Keyboard",
             optionB: "Mouse",
@@ -449,7 +277,7 @@ const questions = [
 
     [
         {
-            // 22
+            // 14
             question: "Hard disk drives are considered _________ storage",
             optionA: "Digital",
             optionB: "Non-Volatile",
@@ -470,7 +298,7 @@ const questions = [
 
     [
         {
-            // 23
+            // 15
             question: "The term _________ designates equipment that might be added to a computer system to enhance its functionality",
             optionA: "Format painter",
             optionB: "Cookies",
@@ -491,7 +319,7 @@ const questions = [
 
     [
         {
-            // 24
+            // 16
             question: "_________ is a painting and drawing device",
             optionA: "Keyboard",
             optionB: "Mouse",
@@ -512,7 +340,7 @@ const questions = [
 
     [
         {
-            // 25
+            // 17
             question: "A(n) _________ camera is a peripheral device used to capture still images in a digital format",
             optionA: "Tape",
             optionB: "Digital",
@@ -533,7 +361,7 @@ const questions = [
 
     [
         {
-            // 26
+            // 18
             question: "A _______ can make easier to play games",
             optionA: "Mouse",
             optionB: "Keyboard",
@@ -554,7 +382,7 @@ const questions = [
 
     [
         {
-            // 27
+            // 19
             question: "In Windows operating system, the clock is visible on the ________",
             optionA: "Title Bar",
             optionB: "Status Bar",
@@ -575,7 +403,7 @@ const questions = [
 
     [
         {
-            // 28
+            // 20
             question: "In order to copy formatting features from source point to destination _______ is used",
             optionA: "Copy",
             optionB: "Paste",
@@ -596,7 +424,7 @@ const questions = [
 
     [
         {
-            // 29
+            // 21
             question: "All the deleted files or folders goes to the _________ ",
             optionA: "Hard disk",
             optionB: "Clipboard",
@@ -617,7 +445,7 @@ const questions = [
 
     [
         {
-            // 30
+            // 22
             question: "To make a window wider, you would move the pointer until it changes to the Horizontal Resize shape and then ______ ",
             optionA: "Click",
             optionB: "Double Click",
@@ -636,13 +464,9 @@ const questions = [
         }
     ],
 
-
-
-    // *************** MULTIPLE CHOICE - JAN 2021 IT & NETWORK *********
-
     [
         {
-            // 1
+            // 23
             question: "To paste the text from the clipboard in the document being edited, press the keys :",
             optionA: "Ctrl and V",
             optionB: "Ctrl and X",
@@ -663,7 +487,7 @@ const questions = [
 
     [
         {
-            // 2
+            // 24
             question: "Which of the following is an input device ?",
             optionA: "Screen",
             optionB: "Speaker",
@@ -684,7 +508,7 @@ const questions = [
 
     [
         {
-            // 3
+            // 25
             question: "Which of the following file extensions indicate file created in Paint ?",
             optionA: "BMP",
             optionB: "DOC",
@@ -705,7 +529,7 @@ const questions = [
 
     [
         {
-            // 4
+            // 26
             question: "OTP stand for",
             optionA: "One Time Password",
             optionB: "Once and Twice Password",
@@ -726,28 +550,7 @@ const questions = [
 
     [
         {
-            // 5
-            question: "CC in E-mail stand for :",
-            optionA: "Carbon catch",
-            optionB: "Carbon Copy",
-            optionC: "Consider copy",
-            optionD: "Carbon Coupon",
-            correctAnswer: "Carbon Copy"
-        },
-
-        {
-            question: "ई-मेल में CC का पूर्ण रूप है",
-            optionA: "कार्बन कैच",
-            optionB: "कार्बन कॉपी",
-            optionC: "कंसीडर कॉपी",
-            optionD: "कार्बन कूपन",
-            correctAnswer: "कार्बन कॉपी"
-        }
-    ],
-
-    [
-        {
-            // 6
+            // 27
             question: "To get help when using Office, you would press the :",
             optionA: "F1 key",
             optionB: "F3 key",
@@ -768,28 +571,7 @@ const questions = [
 
     [
         {
-            // 7
-            question: "Size of IPv4 is :",
-            optionA: "32",
-            optionB: "48",
-            optionC: "62",
-            optionD: "128",
-            correctAnswer: "32"
-        },
-
-        {
-            question: "IPv4 का आकार है।",
-            optionA: "32",
-            optionB: "48",
-            optionC: "62",
-            optionD: "128",
-            correctAnswer: "32"
-        }
-    ],
-
-    [
-        {
-            // 8
+            // 28
             question: "Which of the following is a tool to send letter to many recipients in LibreOffice ?",
             optionA: "What-if",
             optionB: "Mail merge",
@@ -810,7 +592,7 @@ const questions = [
 
     [
         {
-            // 9
+            // 29
             question: "Twitter is an Example of :",
             optionA: "E-mail System",
             optionB: "System application",
@@ -831,7 +613,7 @@ const questions = [
 
     [
         {
-            // 10
+            // 30
             question: "Which of the following refers to the fastest, biggest and most expensive computer ?",
             optionA: "Personal computer",
             optionB: "Laptops",
@@ -850,12 +632,9 @@ const questions = [
         }
     ],
 
-    // *********** MATCH THE FOLLOWING - JAN 2021 - IT & NETWORK ********
-
-
     [
         {
-            // 1
+            // 31
             question: "CTRL + X",
             optionA: "Extend Operation",
             optionB: "Cut operation",
@@ -876,7 +655,7 @@ const questions = [
 
     [
         {
-            // 2
+            // 32
             question: "It is a file format to store video file.",
             optionA: "GIF",
             optionB: "JPEG",
@@ -897,134 +676,7 @@ const questions = [
 
     [
         {
-            // 3
-            question: "Protocol used for network file transfers in www environment.",
-            optionA: "SMTP",
-            optionB: "HTTP",
-            optionC: "LAN",
-            optionD: "WAN",
-            correctAnswer: "HTTP"
-        },
-
-        {
-            question: "www वातावरण में नेटवर्क फाइल अंतरण के लिए प्रयोग किया जाने वाला प्रोटोकॉल",
-            optionA: "एस.एम.टी.पी.",
-            optionB: "एच.टी.टी.पी.",
-            optionC: "एल.ए.एन.",
-            optionD: "डब्ल्यू.ए.एन.",
-            correctAnswer: "एच.टी.टी.पी."
-        }
-    ],
-
-    [
-        {
-            // 4
-            question: "Computer network limited in a building.",
-            optionA: "MAN",
-            optionB: "WAN",
-            optionC: "CAN",
-            optionD: "LAN",
-            correctAnswer: "LAN"
-        },
-
-        {
-            question: "एक बिल्डिंग में सीमित कंप्यूटर नेटवर्क",
-            optionA: "मैन",
-            optionB: "वैन",
-            optionC: "कैन",
-            optionD: "लैन",
-            correctAnswer: "लैन"
-        }
-    ],
-
-    [
-        {
-            // 5
-            question: "gmail is",
-            optionA: "System software",
-            optionB: "Application software",
-            optionC: "E-mail system",
-            optionD: "Hardware",
-            correctAnswer: "E-mail system"
-        },
-
-        {
-            question: "जीमेल है",
-            optionA: "सिस्टम सॉफ्टवेयर",
-            optionB: "एप्लीकेशन सॉफ्टवेयर",
-            optionC: "ई-मेल सिस्टम",
-            optionD: "हार्डवेयर",
-            correctAnswer: "ई-मेल सिस्टम"
-        }
-    ],
-
-
-    [
-        {
-            // 6
-            question: "Example of web browser",
-            optionA: "Mozilla Firefox",
-            optionB: "Internet",
-            optionC: "MS Word",
-            optionD: "MS Windows",
-            correctAnswer: "Mozilla Firefox"
-        },
-
-        {
-            question: "वेब ब्राउजर का उदाहरण",
-            optionA: "मोजिल्ला फॉयरफॉक्स",
-            optionB: "इंटरनेट",
-            optionC: "एमएस वर्ड",
-            optionD: "एमएस विंडोज",
-            correctAnswer: "मोजिल्ला फॉयरफॉक्स"
-        }
-    ],
-
-    [
-        {
-            // 7
-            question: "Money can be kept for e-payment in",
-            optionA: "Web browser",
-            optionB: "Application software",
-            optionC: "System software",
-            optionD: "e-wallet",
-            correctAnswer: "e-wallet"
-        },
-
-        {
-            question: "------- में ई-भुगतान के लिए धन रखा जा सकता है",
-            optionA: "वेब ब्राउजर",
-            optionB: "एप्लीकेशन सॉफ्टवेयर",
-            optionC: "सिस्टम सॉफ्टवेयर",
-            optionD: "ई-वॉलेट",
-            correctAnswer: "ई-वॉलेट"
-        }
-    ],
-
-    [
-        {
-            // 8
-            question: "IOT",
-            optionA: "Intranet of things",
-            optionB: "Internet of things",
-            optionC: "Interconnection of things ",
-            optionD: "None of these",
-            correctAnswer: "Internet of things"
-        },
-
-        {
-            question: "आई.ओ.टी.",
-            optionA: "इंट्रानेट ऑफ थिंग्स",
-            optionB: "इंटरनेट ऑफ थिंग्स",
-            optionC: "इंटरकनेक्शन ऑफ थिंग्स",
-            optionD: "इनमें से कोई नहीं",
-            correctAnswer: "इंटरनेट ऑफ थिंग्स"
-        }
-    ],
-
-    [
-        {
-            // 9
+            // 33
             question: "Developed applications for specific purpose",
             optionA: "Operating System",
             optionB: "Application Software",
@@ -1045,7 +697,7 @@ const questions = [
 
     [
         {
-            // 10
+            // 34
             question: "Any part of the computer which you can physically touch.",
             optionA: "Software",
             optionB: "Motherboard",
@@ -1065,12 +717,12 @@ const questions = [
     ],
 
 
-
+// *********************************************************************
 
 
     [
         {
-            // 6
+            // 35
             question: "The SaveAs dialog box can be used :",
             optionA: "for saving the file for the first time",
             optionB: "to save file by some alternative name",
@@ -1091,7 +743,7 @@ const questions = [
 
     [
         {
-            // 2
+            // 36
             question: "Non-impact based printing device is :",
             optionA: "Dot matrix printer",
             optionB: "Scanner",
@@ -1112,7 +764,7 @@ const questions = [
 
     [
         {
-            // 3
+            // 37
             question: "To cut text from the document, press the keys :",
             optionA: "Ctrl and V",
             optionB: "Ctrl and C",
@@ -1133,7 +785,7 @@ const questions = [
 
     [
         {
-            // 4
+            // 38
             question: "A Nibble consists of __________ Bits :",
             optionA: "2",
             optionB: "4",
@@ -1156,7 +808,7 @@ const questions = [
 
     [
         {
-            // 5
+            // 39
             question: "User interact with the operating system through a set of __________.",
             optionA: "USB Sticks",
             optionB: "Commands",
@@ -1173,13 +825,11 @@ const questions = [
             optionD: "उपरोक्त सभी",
             correctAnswer: "कमान्डस्"
         }
-
-
     ],
 
     [
         {
-            // 6
+            // 40
             question: "Which is the technology used in the evaluation of aptitude test ?",
             optionA: "OCR",
             optionB: "OMR",
@@ -1200,7 +850,7 @@ const questions = [
 
     [
         {
-            // 7
+            // 41
             question: "To create a Paragraph Break in MSWORD, which key is used ?",
             optionA: "Enter",
             optionB: "Esc",
@@ -1222,7 +872,7 @@ const questions = [
 
     [
         {
-            // 8
+            // 42
             question: "Full form of ASCII :",
             optionA: "American Standard Code for Information Interconnection",
             optionB: "American Situation Code for Information Intercommunication",
@@ -1241,15 +891,9 @@ const questions = [
         }
     ],
 
-    
-
-    
-
-    
-
     [
         {
-            // 12
+            // 43
             question: "Numbers in base 16 are called as",
             optionA: "Octal System",
             optionB: "Hexadecimal System",
@@ -1270,49 +914,7 @@ const questions = [
 
     [
         {
-            // 13
-            question: "Which of the following file extensions indicate file created in Paint ?",
-            optionA: "BMP",
-            optionB: "DOC",
-            optionC: "STK",
-            optionD: "PPT",
-            correctAnswer: "BMP"
-        },
-
-        {
-            question: "निम्न में से कौन सा फाइल एक्सटेंशन पेंट में बनाई गई फाइल को दर्शाता है",
-            optionA: "बी एम पी",
-            optionB: "डी ओ सी",
-            optionC: "एस टी के",
-            optionD: "पी पी टी",
-            correctAnswer: "बी एम पी"
-        }
-    ],
-
-    [
-        {
-            // 14
-            question: "Which of the following is an input device ?",
-            optionA: "Screen",
-            optionB: "Speaker",
-            optionC: "Keyboard",
-            optionD: "Printer",
-            correctAnswer: "Keyboard"
-        },
-
-        {
-            question: "निम्नलिखित में से कौन एक इनपुट डिवाइस है",
-            optionA: "स्क्रीन",
-            optionB: "स्पीकर",
-            optionC: "कीबोर्ड",
-            optionD: "प्रिंटर",
-            correctAnswer: "कीबोर्ड"
-        }
-    ],
-
-    [
-        {
-            // 15
+            // 44
             question: "The cost of storing a bit is minimum in :",
             optionA: "Cache",
             optionB: "RAM",
@@ -1333,7 +935,7 @@ const questions = [
 
     [
         {
-            // 16
+            // 45
             question: "________ is known as High level language.",
             optionA: "Windows 7",
             optionB: "Operating System",
@@ -1354,7 +956,7 @@ const questions = [
 
     [
         {
-            // 17
+            // 46
             question: "Which of the following is a tool to send letter to many recipients in MS-Word ?",
             optionA: "What if",
             optionB: "Mail Merge",
@@ -1375,28 +977,7 @@ const questions = [
 
     [
         {
-            // 18
-            question: "To paste the text from the clipboard in the document being edited, press the keys :",
-            optionA: "Ctrl and V",
-            optionB: "Ctrl and X",
-            optionC: "Ctrl and S",
-            optionD: "Ctrl and P",
-            correctAnswer: "Ctrl and V"
-        },
-
-        {
-            question: "संपादित किए जा रहे दस्तावेज में क्लिपबोर्ड से टेक्स्ट पेस्ट करने के लिए कुंजी दबाएं",
-            optionA: "Ctrl और V",
-            optionB: "Ctrl और X",
-            optionC: "Ctrl और S",
-            optionD: "Ctrl और P",
-            correctAnswer: "Ctrl और V"
-        }
-    ],
-
-    [
-        {
-            // 19
+            // 47
             question: "Which of the following is not an output device ?",
             optionA: "Keyboard",
             optionB: "Screen",
@@ -1417,70 +998,7 @@ const questions = [
 
     [
         {
-            // 20
-            question: "To get help when using Office, you would press the :",
-            optionA: "F1 key",
-            optionB: "F3 key",
-            optionC: "F2 key",
-            optionD: "F4 key",
-            correctAnswer: "F1 key"
-        },
-
-        {
-            question: "ऑफिस का उपयोग करते समय सहायता प्राप्त करने के लिए, आप दबाएंगे",
-            optionA: "F1 कुंजी",
-            optionB: "F3 कुंजी",
-            optionC: "F2 कुंजी",
-            optionD: "F4 कुंजी",
-            correctAnswer: "F1 कुंजी"
-        }
-    ],
-
-    [
-        {
-            // 21
-            question: "Which of the following is a tool to send letter to many recipients in LibreOffice ?",
-            optionA: "What-if",
-            optionB: "Mail merge",
-            optionC: "Goal seeking",
-            optionD: "Sorting",
-            correctAnswer: "Mail merge"
-        },
-
-        {
-            question: "निम्नलिखित में से कौन लिब्राऑफिस में कई प्राप्तकर्ताओं को पत्र भेजने का एक उपकरण है",
-            optionA: "व्हाट-इफ",
-            optionB: "मेल मर्ज",
-            optionC: "गोल सीकिंग",
-            optionD: "सॉर्टिंग",
-            correctAnswer: "मेल मर्ज"        
-        }
-    ],
-
-    [
-        {
-            // 22
-            question: "Which of the following refers to the fastest, biggest and most expensive computer ?",
-            optionA: "Personal computer",
-            optionB: "Laptops",
-            optionC: "Super Computer",
-            optionD: "Notebook",
-            correctAnswer: "Super Computer"
-        },
-
-        {
-            question: "निम्नलिखित में से कौन सबसे तेज, सबसे बड़े और सबसे महगें कंम्प्यूटर को संदर्भित करता है",
-            optionA: "पर्सनल कंम्प्यूटर",
-            optionB: "लैपटॉप",
-            optionC: "सुपर कंम्प्यूटर",
-            optionD: "नोटबुक",
-            correctAnswer: "सुपर कंम्प्यूटर"
-        }
-    ],
-
-    [
-        {
-            // 23
+            // 48
             question: "Which Decimal equivalent of the binary number 11100011 is:",
             optionA: "227",
             optionB: "226",
@@ -1501,7 +1019,7 @@ const questions = [
 
     [
         {
-            // 24
+            // 49
             question: "Linux is : ",
             optionA: "A compiler",
             optionB: "An assembler",
@@ -1522,7 +1040,7 @@ const questions = [
 
     [
         {
-            // 25
+            // 50
             question: "Which memory is used to store BIOS on Motherboard.",
             optionA: "ROM",
             optionB: "RAM",
@@ -1543,7 +1061,7 @@ const questions = [
 
     [
         {
-            // 26
+            // 51
             question: "Which of the following is a communication device ?",
             optionA: "Printer",
             optionB: "Monitor",
@@ -1564,7 +1082,7 @@ const questions = [
 
     [
         {
-            // 27
+            // 52
             question: "Using Microsoft Word's Find and Replace feature you can",
             optionA: "replace both text and formatting",
             optionB: "replace text of a document only.",
@@ -1585,7 +1103,7 @@ const questions = [
 
     [
         {
-            // 28
+            // 53
             question: "Numbers in base 8 are called as :",
             optionA: "Octal System",
             optionB: "Hexadecimal System",
@@ -1607,7 +1125,7 @@ const questions = [
 
     [
         {
-            // 29
+            // 54
             question: "Convert 10100011 from binary to decimal :",
             optionA: "121",
             optionB: "163",
@@ -1624,12 +1142,11 @@ const questions = [
             optionD: "212",
             correctAnswer: "163"
         }
-    
     ],
 
     [
         {
-            // 30
+            // 55
             question: "Which characteristic of computer distinguishes it from electronic calculators ?",
             optionA: "Accuracy",
             optionB: "Versatility",
@@ -1651,7 +1168,7 @@ const questions = [
 
     [
         {
-            // 31
+            // 56
             question: "In Microsoft word shortcut key CTRL + W is used for :",
             optionA: "Open the Print Dialog box",
             optionB: "Update the current web page",
@@ -1673,7 +1190,7 @@ const questions = [
 
     [
         {
-            // 32
+            // 57
             question: "What type of computers are client computers (most of the time) in a clientserver system ?",
             optionA: "Mainframe",
             optionB: "Mini-computer",
@@ -1694,7 +1211,7 @@ const questions = [
 
     [
         {
-            // 33
+            // 58
             question: "Which of the following is an impact printer?",
             optionA: "Laser",
             optionB: "Ink-jet",
@@ -1715,7 +1232,7 @@ const questions = [
 
     [
         {
-            // 34
+            // 59
             question: "The number of bits used to store a BCD digit is :",
             optionA: "2",
             optionB: "4",
@@ -1736,7 +1253,7 @@ const questions = [
 
     [
         {
-            // 35
+            // 60
             question: "The binary number 1110 is equal to the decimal number ________",
             optionA: "3",
             optionB: "1",
@@ -1757,7 +1274,7 @@ const questions = [
 
     [
         {
-            // 36
+            // 61
             question: "Which of the following is used to create newspaper style columns ?",
             optionA: "Format tabs",
             optionB: "Table insert table",
@@ -1778,7 +1295,7 @@ const questions = [
 
     [
         {
-            // 37
+            // 62
             question: "Which is incorrect statement for MS-Word ?",
             optionA: "It can be used to prepare annual report.",
             optionB: "It can be used to generate same document to send multiple persons",
@@ -1799,7 +1316,7 @@ const questions = [
 
     [
         {
-            // 38
+            // 63
             question: "Which is the character encoding standard that provides unique number to every character ?",
             optionA: "Unicode",
             optionB: "ASCII",
@@ -1820,7 +1337,7 @@ const questions = [
 
     [
         {
-            // 39
+            // 64
             question: "Which one is the invalid size of Cache memory ?",
             optionA: "2048 Kilobytes",
             optionB: "3072 Kilobytes",
@@ -1841,7 +1358,7 @@ const questions = [
 
     [
         {
-            // 40
+            // 65
             question: "Which short-cut key is used to open a new file in MS-Word?",
             optionA: "Ctrl + W",
             optionB: "Alt + N",
@@ -1862,7 +1379,7 @@ const questions = [
 
     [
         {
-            // 41
+            // 66
             question: "Which is the correct Hexa-decimal representation of binary 1010110110011?",
             optionA: "12663",
             optionB: "15B3",
@@ -1883,28 +1400,7 @@ const questions = [
 
     [
         {
-            // 42
-            question: "Which tasks are performed by operating system in a computer (i) Memory management (ii) Process management (iii) Device management (iv) File management",
-            optionA: "(i),(ii),(iii),(iv)",
-            optionB: "(i),(ii),(iv)",
-            optionC: "(ii),(iii)",
-            optionD: "(i),(iii)",
-            correctAnswer: "(i),(ii),(iii),(iv)"
-        },
-
-        {   
-            question: "एक कम्प्यूटर में आपरेटिंग सिस्टम द्वारा कौन से कार्य किए जाते हैं (i) मेमोरी मैनेजमेंट (ii) प्रोसेस मैनेजमेंट (iii) डिवाइस मैनेजमेंट (iv) फाइल मैनेजमेंट",
-            optionA: "(i),(ii),(iii),(iv)",
-            optionB: "(i),(ii),(iv)",
-            optionC: "(ii),(iii)",
-            optionD: "(i),(iii)",
-            correctAnswer: "(i),(ii),(iii),(iv)"
-        }
-    ],
-
-    [
-        {
-            // 43
+            // 67
             question: "Which one is not a type of memory ?",
             optionA: "ROM",
             optionB: "Cache",
@@ -1925,7 +1421,7 @@ const questions = [
 
     [
         {
-            // 44
+            // 68
             question: "Binary equivalent of decimal 53.625 is",
             optionA: "110101.101",
             optionB: "111101.001",
@@ -1946,7 +1442,7 @@ const questions = [
 
     [
         {
-            // 45
+            // 69
             question: "FAT stands for",
             optionA: "File Allocation Table",
             optionB: "Folder Allocation Table ",
@@ -1967,7 +1463,7 @@ const questions = [
 
     [
         {
-            // 46
+            // 70
             question: "operation of file or folder is required to move location of file or folder.",
             optionA: "Copy followed by Paste",
             optionB: "Cut followed by Paste",
@@ -1988,49 +1484,7 @@ const questions = [
 
     [
         {
-            // 47
-            question: "To get Help when using Office, you would click the :",
-            optionA: "F1 key",
-            optionB: "F2 key",
-            optionC: "F3 key",
-            optionD: "F4 key",
-            correctAnswer: "F1 key"
-        },
-
-        {
-            question: "ऑफिस का उपयोग करते समय सहायता प्राप्त करने के लिए, आप दबाएंगे",
-            optionA: "F1 कुंजी",
-            optionB: "F2 कुंजी",
-            optionC: "F3 कुंजी",
-            optionD: "F4 कुंजी",
-            correctAnswer: "F1 कुंजी"
-        }
-    ],
-
-    [
-        {
-            // 48
-            question: "Operating System can be installed from following resources",
-            optionA: "Disk",
-            optionB: "Network",
-            optionC: "Remote Installation",
-            optionD: "All of the above",
-            correctAnswer: "All of the above"
-        },
-
-        {
-            question: "ऑपरेटिंग सिस्टम निम्नलिखित संसाधनों से स्थापित किया जा सकता है",
-            optionA: "डिस्क",
-            optionB: "नेटवर्क",
-            optionC: "दूर से स्थापना",
-            optionD: "उपरोक्त सभी",
-            correctAnswer: "उपरोक्त सभी"
-        }
-    ],
-
-    [
-        {
-            // 49
+            // 71
             question: "Size of Floppy disks is :",
             optionA: "5.25 inch",
             optionB: "2.25 inch",
@@ -2051,7 +1505,7 @@ const questions = [
 
     [
         {
-            // 50
+            // 72
             question: "____________is a known as high level language.",
             optionA: "Windows 7",
             optionB: "Linux",
@@ -2072,7 +1526,7 @@ const questions = [
 
     [
         {
-            // 51
+            // 73
             question: "Which output device is used for translating information from a computer into pictorial form on paper?",
             optionA: "Mouse",
             optionB: "Plotter",
@@ -2093,7 +1547,7 @@ const questions = [
 
     [
         {
-            // 52
+            // 74
             question: "An optical input device that interprets pencil marks on paper media is",
             optionA: "OMR",
             optionB: "Punch card reader",
@@ -2114,7 +1568,7 @@ const questions = [
 
     [
         {
-            // 53
+            // 75
             question: "Numbers in base 2 are called as :",
             optionA: "Octal System",
             optionB: "Hexadecimal System",
@@ -2135,7 +1589,7 @@ const questions = [
 
     [
         {
-            // 54
+            // 76
             question: "In a single byte how many bits will be there?",
             optionA: "8",
             optionB: "16",
@@ -2156,7 +1610,7 @@ const questions = [
 
     [
         {
-            // 55
+            // 77
             question: "USB is",
             optionA: "Unique Serial Bus",
             optionB: "Universal Serial Bus",
@@ -2177,7 +1631,7 @@ const questions = [
 
     [
         {
-            // 56
+            // 78
             question: "A keyboard is this kind of device :",
             optionA: "Black",
             optionB: "Input",
@@ -2198,7 +1652,7 @@ const questions = [
 
     [
         {
-            // 57
+            // 79
             question: "The three main components of a digital computer system are:",
             optionA: "Memory, Input/Output, DMA",
             optionB: "ALU, CPU, Memory",
@@ -2219,7 +1673,7 @@ const questions = [
 
     [
         {
-            // 58
+            // 80
             question: "Which one of the following is volatile ?",
             optionA: "Bubble memory",
             optionB: "RAM",
@@ -2240,7 +1694,7 @@ const questions = [
 
     [
         {
-            // 59
+            // 81
             question: "The resolution of a dot matrix printer is measured in:",
             optionA: "Megabits",
             optionB: "Dots per inch",
@@ -2261,7 +1715,7 @@ const questions = [
 
     [
         {
-            // 60
+            // 82
             question: "Linux open source is an",
             optionA: "Operating System",
             optionB: "Office tool",
