@@ -40,7 +40,20 @@ const tests = [
         filename:"questions/msexcel.js",
         questionsAddedInFile:"9"
 
+    },
+    
+    {
+        name :"Network and Internet",
+        totalQuestions : "10",
+        timeInMinutes : "5",
+        imgUrl : "images/python.png",
+        id :"network",
+        filename:"questions/networking.js",
+        questionsAddedInFile:"10"
+
     }
+    
+    
 
 
 ]
