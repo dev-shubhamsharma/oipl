@@ -38,5 +38,8 @@ var students = {
     "Shivani":"Shivani",
     "Mohd Irshad":"Irshad",
     "Mukesh Mishra":"Mukesh",
-    "Prema Devi":"Prema"
+    "Prema Devi":"Prema",
+    
+    "Dinesh Mishra":"Dinesh",
+    "Suman Mishra":"Suman"
 };
