@@ -44,16 +44,14 @@ const tests = [
     
     {
         name :"Network and Internet",
-        totalQuestions : "10",
+        totalQuestions : "8",
         timeInMinutes : "5",
         imgUrl : "images/python.png",
         id :"network",
         filename:"questions/networking.js",
         questionsAddedInFile:"10"
 
-    }
-    
-    
+    }    
 
 
 ]
