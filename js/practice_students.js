@@ -35,7 +35,10 @@ var students = {
     "Nirupma Pandey":"Nirupma",
     "Jyotsana":"Jyotsana",
 
-    "Shivani":"Shivani",
+    "Shivani Maurya":"Shivani",
+    "Sandhya Tiwari":"Sandhya",
+    "Pragya":"Pragya",
+    "Neelu":"Neelu",
     "Mohd Irshad":"Irshad",
     "Mukesh Mishra":"Mukesh",
     "Prema Devi":"Prema",
