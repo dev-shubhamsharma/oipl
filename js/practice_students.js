@@ -39,8 +39,8 @@ var students = {
     "Sandhya Tiwari":"Sandhya",
     "Pragya":"Pragya",
     "Neelu":"Neelu",
-    "Mohd Irshad":"Irshad",
-    "Mukesh Mishra":"Mukesh",
+    "Anshika Gupta":"Anshika",
+    "Maansi Mishra":"Maansi",
     "Prema Devi":"Prema",
     
     "Dinesh Mishra":"Dinesh",
