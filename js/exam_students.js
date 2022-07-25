@@ -27,6 +27,13 @@ var students = {
     "Soniya":"Soniya",
     "Subhi Mishra":"Subhi",
     "Raghuvanshmani":"Raghuvanshmani",
-    "Anurag Singh":"Anurag"
+    "Anurag Singh":"Anurag",
+    
+    "Sanjay Verma":"Sanjay",
+    "Ajay Verma":"Ajay",
+    "Manish Prajapati":"Manish",
+    "Aman Mishra":"Aman",
+    "Suraj Sonkar":"Suraj"
+    
 
 }
