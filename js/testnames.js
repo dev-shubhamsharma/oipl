@@ -51,7 +51,27 @@ const tests = [
         filename:"questions/networking.js",
         questionsAddedInFile:"10"
 
-    }    
+    },   
+
+    {
+        name :"Futuristics Technology",
+        totalQuestions : "39",
+        timeInMinutes : "20",
+        imgUrl : "images/python.png",
+        id :"latestTech",
+        filename:"questions/latestTech.js",
+        questionsAddedInFile:"40"
+    },
+
+    {
+        name :"Angular JS",
+        totalQuestions : "22",
+        timeInMinutes : "12",
+        imgUrl : "images/python.png",
+        id :"angular",
+        filename:"questions/angular.js",
+        questionsAddedInFile:"23"          
+    }
 
 
 ]
