@@ -12,12 +12,12 @@ const tests = [
 
     {
         name :"Operating System",
-        totalQuestions : "30",
-        timeInMinutes : "15",
+        totalQuestions : "63",
+        timeInMinutes : "31",
         imgUrl : "images/python.png",
         id :"os",
         filename:"questions/operatingsystem.js",
-        questionsAddedInFile:"31"
+        questionsAddedInFile:"63"
 
     },
 
@@ -33,12 +33,12 @@ const tests = [
 
     {
         name :"Microsoft Office Excel",
-        totalQuestions : "5",
-        timeInMinutes : "2",
+        totalQuestions : "35",
+        timeInMinutes : "20",
         imgUrl : "images/python.png",
         id :"msexcel",
         filename:"questions/msexcel.js",
-        questionsAddedInFile:"9"
+        questionsAddedInFile:"37"
 
     },
     

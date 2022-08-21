@@ -418,7 +418,7 @@ const questions = [
         optionC: "",
         optionD: "",
         correctAnswer: ""
-    },
+    }
 
     
 
