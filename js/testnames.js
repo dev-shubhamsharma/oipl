@@ -71,6 +71,16 @@ const tests = [
         id :"angular",
         filename:"questions/angular.js",
         questionsAddedInFile:"23"          
+    },
+
+    {
+        name :"Web Desing (HTML) ",
+        totalQuestions : "50",
+        timeInMinutes : "25",
+        imgUrl : "images/python.png",
+        id :"htmlmcq",
+        filename:"questions/htmlmcq.js",
+        questionsAddedInFile:"51"
     }
 
 

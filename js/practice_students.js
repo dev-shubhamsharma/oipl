@@ -18,4 +18,17 @@ var students = {
     "Raj Narayan":"Raj",
     "Anshika Gupta":"Anshika",
     "Maansi Mishra":"Maansi",
+
+
+    "Himanshu":"Himanshu",
+    "Gaurav":"Gaurav",
+    "Archana":"Archana",
+    "Ranjana":"Ranjana",
+    "Avdhesh":"Avdhesh",
+    "Ankita":"Ankita",
+    "Anshika":"Anshika",
+    "Laxmi":"Laxmi",
+    "Aanya":"Aanya",
+    "Amrit":"Amrit",
+    "Manoj":"Manoj"
 };
