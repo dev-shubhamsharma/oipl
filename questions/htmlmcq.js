@@ -8,7 +8,7 @@ const questions = [
         optionC: "<h1>",
         optionD: "<head>",
         correctAnswer: "<h1>"
-    }
+    },
 
     {
         // 2
@@ -18,7 +18,7 @@ const questions = [
         optionC: "name",
         optionD: "url",
         correctAnswer: "url"
-    }
+    },
 
     {
         // 3
@@ -28,7 +28,7 @@ const questions = [
         optionC: "SGML",
         optionD: "None of these",
         correctAnswer: "SGML"
-    }
+    },
 
     {
         // 4
@@ -38,7 +38,7 @@ const questions = [
         optionC: "{ And }",
         optionD: "# And #",
         correctAnswer: "< And >"
-    }
+    },
 
     {
         // 5
@@ -48,7 +48,7 @@ const questions = [
         optionC: "HEAD tag",
         optionD: "HTML tag",
         correctAnswer: "HTML tag"
-    }
+    },
 
     {
         // 6
@@ -58,7 +58,7 @@ const questions = [
         optionC: "<i>",
         optionD: "<il>",
         correctAnswer: "<i>"
-    }
+    },
 
     {
         // 7
@@ -68,7 +68,7 @@ const questions = [
         optionC: "HEAD",
         optionD: "None of the Above",
         correctAnswer: "BASE"
-    }
+    },
 
     {
         // 8
@@ -78,7 +78,7 @@ const questions = [
         optionC: "None of the above",
         optionD: "Animated Effects",
         correctAnswer: "Animated Effects"
-    }
+    },
 
     {
         // 9
@@ -88,7 +88,7 @@ const questions = [
         optionC: "<ul =\"round\">",
         optionD: "<ul \"round\">",
         correctAnswer: "<ul type=\"circle\">"
-    }
+    },
 
     {
         // 10
@@ -98,7 +98,7 @@ const questions = [
         optionC: "Alternate",
         optionD: "Slide",
         correctAnswer: "Blur"
-    }
+    },
 
     {
         // 11
@@ -108,7 +108,7 @@ const questions = [
         optionC: "A Manifest file",
         optionD: "HTML File",
         correctAnswer: "A Manifest file"
-    }
+    },
 
     {
         // 12
@@ -118,7 +118,7 @@ const questions = [
         optionC: "Both above",
         optionD: "None of the above",
         correctAnswer: "<script>"
-    }
+    },
 
     {
         // 13
@@ -128,7 +128,7 @@ const questions = [
         optionC: "<cb>",
         optionD: "None of the above",
         correctAnswer: "<input type=\"checkbox\">"
-    }
+    },
 
     {
         // 14
@@ -138,7 +138,7 @@ const questions = [
         optionC: "Ds",
         optionD: "Dir",
         correctAnswer: "Dir"
-    }
+    },
 
     {
         // 15
@@ -148,7 +148,7 @@ const questions = [
         optionC: "Tooltip",
         optionD: "None of the above",
         correctAnswer: "Title"
-    }
+    },
 
     {
         // 16
@@ -158,7 +158,7 @@ const questions = [
         optionC: "<strong>",
         optionD: "<i>",
         correctAnswer: "<i>"
-    }
+    },
 
     {
         // 17
@@ -168,7 +168,7 @@ const questions = [
         optionC: "Programming language",
         optionD: "Network protocol",
         correctAnswer: "Markup language"
-    }
+    },
 
     {
         // 18
@@ -178,7 +178,7 @@ const questions = [
         optionC: "Tag Name",
         optionD: "None of the mention",
         correctAnswer: "Tag Name"
-    }
+    },
 
     {
         // 19
@@ -188,7 +188,7 @@ const questions = [
         optionC: "Bdo",
         optionD: "Base",
         correctAnswer: "Bdi"
-    }
+    },
 
     {
         // 20
@@ -198,7 +198,7 @@ const questions = [
         optionC: "<fat>",
         optionD: "<strong>",
         correctAnswer: "<strong>"
-    }
+    },
 
     {
         // 21
@@ -208,7 +208,7 @@ const questions = [
         optionC: "Tim Thompson",
         optionD: "Charles Darwin",
         correctAnswer: "Tim Berners-Lee"
-    }
+    },
 
     {
         // 22
@@ -218,7 +218,7 @@ const questions = [
         optionC: "<title>",
         optionD: "<document>",
         correctAnswer: "<html>"
-    }
+    },
 
     {
         // 23
@@ -228,7 +228,7 @@ const questions = [
         optionC: "src",
         optionD: "image",
         correctAnswer: "img"
-    }
+    },
 
     {
         // 24
@@ -238,7 +238,7 @@ const questions = [
         optionC: "Web browser",
         optionD: "Interpreter",
         correctAnswer: "Web browser"
-    }
+    },
 
     {
         // 25
@@ -248,7 +248,7 @@ const questions = [
         optionC: "Square",
         optionD: "Angle",
         correctAnswer: "Angle"
-    }
+    },
 
     {
         // 26
@@ -258,7 +258,7 @@ const questions = [
         optionC: "oninput",
         optionD: "onloadeddata",
         correctAnswer: "oninput"
-    }
+    },
 
     {
         // 27
@@ -268,7 +268,7 @@ const questions = [
         optionC: "Lightness",
         optionD: "Grayscale",
         correctAnswer: "Saturation"
-    }
+    },
 
     {
         // 28
@@ -278,7 +278,7 @@ const questions = [
         optionC: "<a href=\"mailto:a@b.com\">",
         optionD: "<mail href=\"a@b\">",
         correctAnswer: "<a href=\"mailto:a@b.com\">"
-    }
+    },
 
     {
         // 29
@@ -288,7 +288,7 @@ const questions = [
         optionC: "<a url=\"http://www.example.com\">example</a>",
         optionD: "<a>B</a>",
         correctAnswer: "<a href=\"http://www.example.com\">example</a>"
-    }
+    },
 
     {
         // 30
@@ -298,7 +298,7 @@ const questions = [
         optionC: "<lb />",
         optionD: "<nbsp>",
         correctAnswer: "<br />"
-    }
+    },
 
     {
         // 31
@@ -308,7 +308,7 @@ const questions = [
         optionC: "Window.localSession",
         optionD: "Both A & B",
         correctAnswer: "Both A & B"
-    }
+    },
 
     {
         // 32
@@ -318,7 +318,7 @@ const questions = [
         optionC: "<li>",
         optionD: "<dl>",
         correctAnswer: "<dd>"
-    }
+    },
 
     {
         // 33
@@ -328,7 +328,7 @@ const questions = [
         optionC: "<body>",
         optionD: "<p>",
         correctAnswer: "<!DOCTYPE html>"
-    }
+    },
 
     {
         // 34
@@ -338,7 +338,7 @@ const questions = [
         optionC: "<body color=\"red\">",
         optionD: "None of the above",
         correctAnswer: "<body text=\"red\">"
-    }
+    },
 
     {
         // 35
@@ -348,7 +348,7 @@ const questions = [
         optionC: "Pre-specified tags",
         optionD: "Tags only for linking",
         correctAnswer: "Fixed tags defined by the language"
-    }
+    },
 
     {
         // 36
@@ -358,7 +358,7 @@ const questions = [
         optionC: "src",
         optionD: "src-link",
         correctAnswer: "href"
-    }
+    },
 
     {
         // 37
@@ -368,7 +368,7 @@ const questions = [
         optionC: "",
         optionD: "",
         correctAnswer: "True"
-    }
+    },
 
     {
         // 38
@@ -378,7 +378,7 @@ const questions = [
         optionC: "/",
         optionD: "*",
         correctAnswer: "/"
-    }
+    },
 
     {
         // 39
@@ -388,7 +388,7 @@ const questions = [
         optionC: "top and bottom",
         optionD: "None of the above",
         correctAnswer: "height and width"
-    }
+    },
 
     {
         // 40
@@ -398,7 +398,7 @@ const questions = [
         optionC: "Word processing software",
         optionD: "All of the above",
         correctAnswer: "FileZilla FTP Client"
-    }
+    },
 
     {
         // 41
@@ -408,7 +408,7 @@ const questions = [
         optionC: "html tag",
         optionD: "body tag",
         correctAnswer: "head tag"
-    }
+    },
 
     {
         // 42
@@ -418,7 +418,7 @@ const questions = [
         optionC: "<highlight>",
         optionD: "<b>",
         correctAnswer: "<mark>"
-    }
+    },
 
     {
         // 43
@@ -428,7 +428,7 @@ const questions = [
         optionC: "<slider>",
         optionD: "<source>",
         correctAnswer: "<slider>"
-    }
+    },
 
     {
         // 44
@@ -438,7 +438,7 @@ const questions = [
         optionC: "</...../>",
         optionD: "<......!>",
         correctAnswer: "<!.....-->"
-    }
+    },
 
     {
         // 45
@@ -448,7 +448,7 @@ const questions = [
         optionC: "target=\"_blank\"",
         optionD: "target=\"_self\"",
         correctAnswer: "target=\"_blank\""
-    }
+    },
 
     {
         // 46
@@ -458,7 +458,7 @@ const questions = [
         optionC: "<q>",
         optionD: "<blockquote>",
         correctAnswer: "<q>"
-    }
+    },
 
     {
         // 47
@@ -468,7 +468,7 @@ const questions = [
         optionC: "<q>",
         optionD: "<em>",
         correctAnswer: "<abbr>"
-    }
+    },
 
     {
         // 48
@@ -478,7 +478,7 @@ const questions = [
         optionC: "contains url",
         optionD: "contains contact details for author",
         correctAnswer: "contains contact details for author"
-    }
+    },
 
     {
         // 49
@@ -488,7 +488,7 @@ const questions = [
         optionC: "<strong>",
         optionD: "<ins>",
         correctAnswer: "<del>"
-    }
+    },
 
     {
         // 50
@@ -498,7 +498,7 @@ const questions = [
         optionC: "<text>",
         optionD: "<textarea>",
         correctAnswer: "<select>"
-    }
+    },
 
     {
         // 51
@@ -508,7 +508,7 @@ const questions = [
         optionC: "to create a line break",
         optionD: "to create horizontal rule between sections",
         correctAnswer: "to create horizontal rule between sections"
-    }
+    },
 
     {
         // 1
