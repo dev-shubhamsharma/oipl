@@ -3,16 +3,16 @@ const questions = [
     {
         // 1
         question: "Correct HTML tag for the largest heading is",
-        optionA: "<h6>",
-        optionB: "<heading>",
-        optionC: "<h1>",
-        optionD: "<head>",
-        correctAnswer: "<h1>"
+        optionA: "&lt;h6&gt;",
+        optionB: "&lt;heading&gt;",
+        optionC: "&lt;h1&gt;",
+        optionD: "&lt;head&gt;",
+        correctAnswer: "&lt;h1&gt;"
     },
 
     {
         // 2
-        question: "Which of the following is not an attribute of <form> tag",
+        question: "Which of the following is not an attribute of &lt;form&gt; tag",
         optionA: "Action",
         optionB: "Method",
         optionC: "name",
@@ -34,10 +34,10 @@ const questions = [
         // 4
         question: "All HTML tags are must be Enclosed in ?",
         optionA: "? And !",
-        optionB: "< And >",
+        optionB: "&lt; And &gt;",
         optionC: "{ And }",
         optionD: "# And #",
-        correctAnswer: "< And >"
+        correctAnswer: "&lt; And &gt;"
     },
 
     {
@@ -53,11 +53,11 @@ const questions = [
     {
         // 6
         question: "Choose the Correct HTML tag to make a text italic",
-        optionA: "<italic>",
-        optionB: "<it>",
-        optionC: "<i>",
-        optionD: "<il>",
-        correctAnswer: "<i>"
+        optionA: "&lt;italic&gt;",
+        optionB: "&lt;it&gt;",
+        optionC: "&lt;i&gt;",
+        optionD: "&lt;il&gt;",
+        correctAnswer: "&lt;i&gt;"
     },
 
     {
@@ -83,16 +83,16 @@ const questions = [
     {
         // 9
         question: "To start a list using circles, use",
-        optionA: "<ul type=\"circle\">",
-        optionB: "<ul type=\"round\">",
-        optionC: "<ul =\"round\">",
-        optionD: "<ul \"round\">",
-        correctAnswer: "<ul type=\"circle\">"
+        optionA: "&lt;ul type=\"circle\"&gt;",
+        optionB: "&lt;ul type=\"round\"&gt;",
+        optionC: "&lt;ul =\"round\"&gt;",
+        optionD: "&lt;ul \"round\"&gt;",
+        correctAnswer: "&lt;ul type=\"circle\"&gt;"
     },
 
     {
         // 10
-        question: "Which is not a a property of attribute behaviour of <marquee> tag ?",
+        question: "Which is not a a property of attribute behaviour of &lt;marquee&gt; tag ?",
         optionA: "Blur",
         optionB: "Scroll",
         optionC: "Alternate",
@@ -113,21 +113,21 @@ const questions = [
     {
         // 12
         question: "Which HTML tag is used to define a client side script such as the Javascript.",
-        optionA: "<unscript>",
-        optionB: "<script>",
+        optionA: "&lt;unscript&gt;",
+        optionB: "&lt;script&gt;",
         optionC: "Both above",
         optionD: "None of the above",
-        correctAnswer: "<script>"
+        correctAnswer: "&lt;script&gt;"
     },
 
     {
         // 13
         question: "Which tag is used to create a checkbox in HTML5",
-        optionA: "<checkbox>",
-        optionB: "<input type=\"checkbox\">",
-        optionC: "<cb>",
+        optionA: "&lt;checkbox&gt;",
+        optionB: "&lt;input type=\"checkbox\"&gt;",
+        optionC: "&lt;cb&gt;",
         optionD: "None of the above",
-        correctAnswer: "<input type=\"checkbox\">"
+        correctAnswer: "&lt;input type=\"checkbox\"&gt;"
     },
 
     {
@@ -153,11 +153,11 @@ const questions = [
     {
         // 16
         question: "Which tag is not used if you want to indicate the importance of the phrase.",
-        optionA: "<h1>",
-        optionB: "<em>",
-        optionC: "<strong>",
-        optionD: "<i>",
-        correctAnswer: "<i>"
+        optionA: "&lt;h1&gt;",
+        optionB: "&lt;em&gt;",
+        optionC: "&lt;strong&gt;",
+        optionD: "&lt;i&gt;",
+        correctAnswer: "&lt;i&gt;"
     },
 
     {
@@ -192,12 +192,12 @@ const questions = [
 
     {
         // 20
-        question: "Apart from <b> tag, what other tag makes text bold?",
-        optionA: "<emp>",
-        optionB: "<black>",
-        optionC: "<fat>",
-        optionD: "<strong>",
-        correctAnswer: "<strong>"
+        question: "Apart from &lt;b&gt; tag, what other tag makes text bold?",
+        optionA: "&lt;emp&gt;",
+        optionB: "&lt;black&gt;",
+        optionC: "&lt;fat&gt;",
+        optionD: "&lt;strong&gt;",
+        correctAnswer: "&lt;strong&gt;"
     },
 
     {
@@ -213,11 +213,11 @@ const questions = [
     {
         // 22
         question: "What should be the first tag in any HTML Document.",
-        optionA: "<html>",
-        optionB: "<head>",
-        optionC: "<title>",
-        optionD: "<document>",
-        correctAnswer: "<html>"
+        optionA: "&lt;html&gt;",
+        optionB: "&lt;head&gt;",
+        optionC: "&lt;title&gt;",
+        optionD: "&lt;document&gt;",
+        correctAnswer: "&lt;html&gt;"
     },
 
     {
@@ -273,31 +273,31 @@ const questions = [
     {
         // 28
         question: "How can you create an E-mail link",
-        optionA: "<a href=\"a@b\">",
-        optionB: "<mail>a@b",
-        optionC: "<a href=\"mailto:a@b.com\">",
-        optionD: "<mail href=\"a@b\">",
-        correctAnswer: "<a href=\"mailto:a@b.com\">"
+        optionA: "&lt;a href=\"a@b\"&gt;",
+        optionB: "&lt;mail&gt;a@b",
+        optionC: "&lt;a href=\"mailto:a@b.com\"&gt;",
+        optionD: "&lt;mail href=\"a@b\"&gt;",
+        correctAnswer: "&lt;a href=\"mailto:a@b.com\"&gt;"
     },
 
     {
         // 29
         question: "What is correct HTML for create a hyperlink?",
-        optionA: "<a href=\"http://www.example.com\">example</a>",
-        optionB: "<a name=\"\">A</a>",
-        optionC: "<a url=\"http://www.example.com\">example</a>",
-        optionD: "<a>B</a>",
-        correctAnswer: "<a href=\"http://www.example.com\">example</a>"
+        optionA: "&lt;a href=\"http://www.example.com\"&gt;example&lt;/a&gt;",
+        optionB: "&lt;a name=\"\"&gt;A&lt;/a&gt;",
+        optionC: "&lt;a url=\"http://www.example.com\"&gt;example&lt;/a&gt;",
+        optionD: "&lt;a&gt;B&lt;/a&gt;",
+        correctAnswer: "&lt;a href=\"http://www.example.com\"&gt;example&lt;/a&gt;"
     },
 
     {
         // 30
         question: "What is the correct HTML tag for inserting a line break",
-        optionA: "<break />",
-        optionB: "<br />",
-        optionC: "<lb />",
-        optionD: "<nbsp>",
-        correctAnswer: "<br />"
+        optionA: "&lt;break /&gt;",
+        optionB: "&lt;br /&gt;",
+        optionC: "&lt;lb /&gt;",
+        optionD: "&lt;nbsp&gt;",
+        correctAnswer: "&lt;br /&gt;"
     },
 
     {
@@ -313,31 +313,31 @@ const questions = [
     {
         // 32
         question: "Which HTML element is used to define the discription data",
-        optionA: "<dt>",
-        optionB: "<dd>",
-        optionC: "<li>",
-        optionD: "<dl>",
-        correctAnswer: "<dd>"
+        optionA: "&lt;dt&gt;",
+        optionB: "&lt;dd&gt;",
+        optionC: "&lt;li&gt;",
+        optionD: "&lt;dl&gt;",
+        correctAnswer: "&lt;dd&gt;"
     },
 
     {
         // 33
         question: "Which of the following is a Declaration for an HTML Document.",
-        optionA: "<html>",
-        optionB: "<!DOCTYPE html>",
-        optionC: "<body>",
-        optionD: "<p>",
-        correctAnswer: "<!DOCTYPE html>"
+        optionA: "&lt;html&gt;",
+        optionB: "&lt;!DOCTYPE html&gt;",
+        optionC: "&lt;body&gt;",
+        optionD: "&lt;p&gt;",
+        correctAnswer: "&lt;!DOCTYPE html&gt;"
     },
 
     {
         // 34
         question: "If you want to change the text color to red which of the following tags will you use.",
-        optionA: "<body text=\"red\">",
-        optionB: "<body bgcolor=\"red\">",
-        optionC: "<body color=\"red\">",
+        optionA: "&lt;body text=\"red\"&gt;",
+        optionB: "&lt;body bgcolor=\"red\"&gt;",
+        optionC: "&lt;body color=\"red\"&gt;",
         optionD: "None of the above",
-        correctAnswer: "<body text=\"red\">"
+        correctAnswer: "&lt;body text=\"red\"&gt;"
     },
 
     {
@@ -352,7 +352,7 @@ const questions = [
 
     {
         // 36
-        question: "HTML links are defined with <a> tag and address is specified by attribute",
+        question: "HTML links are defined with &lt;a&gt; tag and address is specified by attribute",
         optionA: "href",
         optionB: "hlink",
         optionC: "src",
@@ -373,8 +373,8 @@ const questions = [
     {
         // 38
         question: "Which character is used to indicate an end tag in html",
-        optionA: ">",
-        optionB: "<",
+        optionA: "&gt;",
+        optionB: "&lt;",
         optionC: "/",
         optionD: "*",
         correctAnswer: "/"
@@ -413,31 +413,31 @@ const questions = [
     {
         // 42
         question: "Which element is used to get highlighted text in html5",
-        optionA: "<u>",
-        optionB: "<mark>",
-        optionC: "<highlight>",
-        optionD: "<b>",
-        correctAnswer: "<mark>"
+        optionA: "&lt;u&gt;",
+        optionB: "&lt;mark&gt;",
+        optionC: "&lt;highlight&gt;",
+        optionD: "&lt;b&gt;",
+        correctAnswer: "&lt;mark&gt;"
     },
 
     {
         // 43
         question: "Which of the following is not a html5 tag?",
-        optionA: "<track>",
-        optionB: "<video>",
-        optionC: "<slider>",
-        optionD: "<source>",
-        correctAnswer: "<slider>"
+        optionA: "&lt;track&gt;",
+        optionB: "&lt;video&gt;",
+        optionC: "&lt;slider&gt;",
+        optionD: "&lt;source&gt;",
+        correctAnswer: "&lt;slider&gt;"
     },
 
     {
         // 44
         question: "How do we write comments in HTML?",
-        optionA: "</.....-->",
-        optionB: "<!.....-->",
-        optionC: "</...../>",
-        optionD: "<......!>",
-        correctAnswer: "<!.....-->"
+        optionA: "&lt;/.....--&gt;",
+        optionB: "&lt;!.....--&gt;",
+        optionC: "&lt;/...../&gt;",
+        optionD: "&lt;......!&gt;",
+        correctAnswer: "&lt;!.....--&gt;"
     },
 
     {
@@ -453,26 +453,26 @@ const questions = [
     {
         // 46
         question: "Which html element is used for short quote.",
-        optionA: "<em>",
-        optionB: "<abbr>",
-        optionC: "<q>",
-        optionD: "<blockquote>",
-        correctAnswer: "<q>"
+        optionA: "&lt;em&gt;",
+        optionB: "&lt;abbr&gt;",
+        optionC: "&lt;q&gt;",
+        optionD: "&lt;blockquote&gt;",
+        correctAnswer: "&lt;q&gt;"
     },
 
     {
         // 47
         question: "Which html element is used for abbreviation or acronym?",
-        optionA: "<abbr>",
-        optionB: "<blockquote>",
-        optionC: "<q>",
-        optionD: "<em>",
-        correctAnswer: "<abbr>"
+        optionA: "&lt;abbr&gt;",
+        optionB: "&lt;blockquote&gt;",
+        optionC: "&lt;q&gt;",
+        optionD: "&lt;em&gt;",
+        correctAnswer: "&lt;abbr&gt;"
     },
 
     {
         // 48
-        question: "What is the work of <address> element in html5",
+        question: "What is the work of &lt;address&gt; element in html5",
         optionA: "contains IP address",
         optionB: "contains home address",
         optionC: "contains url",
@@ -483,26 +483,26 @@ const questions = [
     {
         // 49
         question: "To show deleted text, which html element is used",
-        optionA: "<del>",
-        optionB: "<em>",
-        optionC: "<strong>",
-        optionD: "<ins>",
-        correctAnswer: "<del>"
+        optionA: "&lt;del&gt;",
+        optionB: "&lt;em&gt;",
+        optionC: "&lt;strong&gt;",
+        optionD: "&lt;ins&gt;",
+        correctAnswer: "&lt;del&gt;"
     },
 
     {
         // 50
         question: "Which tag is used to create a dropdown in HTML form",
-        optionA: "<input>",
-        optionB: "<select>",
-        optionC: "<text>",
-        optionD: "<textarea>",
-        correctAnswer: "<select>"
+        optionA: "&lt;input&gt;",
+        optionB: "&lt;select&gt;",
+        optionC: "&lt;text&gt;",
+        optionD: "&lt;textarea&gt;",
+        correctAnswer: "&lt;select&gt;"
     },
 
     {
         // 51
-        question: "What is the use of <hr/> tag in html",
+        question: "What is the use of &lt;hr/&gt; tag in html",
         optionA: "for making content appearance italics",
         optionB: "to create vertical rule between sections",
         optionC: "to create a line break",
