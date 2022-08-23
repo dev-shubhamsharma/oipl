@@ -1,5 +1,16 @@
 const tests = [
     {
+        name :"Python Programming",
+        totalQuestions : "39",
+        timeInMinutes : "20",
+        imgUrl : "images/python.png",
+        id :"python",
+        filename:"questions/python.js",
+        questionsAddedInFile:"40"
+
+    },
+
+    {
         name :"Introduction to Computer",
         totalQuestions : "50",
         timeInMinutes : "25",
