@@ -9,6 +9,10 @@ var students = {
     "Prema Devi":"Prema",
     "Pragya Srivastava":"Pragya",
     
+    "Abhishek Kumar":"Abhishek",
+    "Arvind Maurya":"Maurya",
+    "Amrish Chauhan":"Amrish",
+    
     "Pallavi Srivastava":"Pallavi",
     "Suman Mishra":"Suman",
     "Dinesh Mishra":"Dinesh",
