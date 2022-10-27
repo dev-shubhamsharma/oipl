@@ -6,6 +6,8 @@ var students = {
     
     "Roshni Shukla":"Roshni",
     "Shabnam Khan":"Shabnam",
+    "Utkarsh Singh":"Utkarsh",
+    "Anvi Singh":"Anvi",
     
     "Shivani Maurya":"Maurya",
     "Mohd Irshad":"Irshad",
