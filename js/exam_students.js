@@ -4,6 +4,9 @@ var students = {
     "Raj Narayan":"Raj",
     "Kajal Shukla":"Kajal",
     
+    "Roshni Shukla":"Roshni",
+    "Shabnam Khan":"Shabnam",
+    
     "Shivani Maurya":"Maurya",
     "Mohd Irshad":"Irshad",
     "Prema Devi":"Prema",
