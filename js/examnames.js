@@ -15,7 +15,7 @@ const exams = [
         totalQuestions : "60",
         timeInMinutes : "30",
         imgUrl : "images/python.png",
-        id :"chapter1_it",
+        id :"chapter2_it",
         filename:"exam_questions/chapter1-it.js",
         questionsAddedInFile:"82"
 
