@@ -1417,6 +1417,699 @@ const questions = [
     [
         {
             // 68
+            question: "A Computer program contains many :",
+            optionA: "Instructions",
+            optionB: "Variables",
+            optionC: "Data Elements",
+            optionD: "Softwares",
+            correctAnswer: "Instructions"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        }
+    ],
+
+    [
+        {
+            // 69
+            question: "_______ is called the brain inside the brain",
+            optionA: "Program memory",
+            optionB: "Control and timing unit",
+            optionC: "Input",
+            optionD: "Registers",
+            correctAnswer: "Control and timing unit"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        }
+    ],
+
+    [
+        {
+            // 70
+            question: "If computer power is switched on and switched on again, following will get disturbed:",
+            optionA: "Non volatile memory",
+            optionB: "Volatile memory",
+            optionC: "Control and Timging unit",
+            optionD: "CPU",
+            correctAnswer: "Volatile memory"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        }
+    ],
+
+    [
+        {
+            // 71
+            question: "Name of World's First Programmer?",
+            optionA: "Galileo",
+            optionB: "Lady Ada Lovelace",
+            optionC: "Stibbitz",
+            optionD: "Charles Babbage",
+            correctAnswer: "Lady Ada Lovelace"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        }
+    ],
+
+    [
+        {
+            // 72
+            question: "Which of the following does not belong to output",
+            optionA: "CRT",
+            optionB: "Speaker",
+            optionC: "Microphone",
+            optionD: "Plotter",
+            correctAnswer: "Microphone"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        }
+    ],
+
+    [
+        {
+            // 73
+            question: "The full form of ENIAC was :",
+            optionA: "Electrically Operated Numerical Calculator",
+            optionB: "Electronic Numerical Integrator and Computer",
+            optionC: "Electronic Natural Investigator and Calculator",
+            optionD: "Elementary National Integration Advisory Council",
+            correctAnswer: "Electronic Numerical Integrator and Computer"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        }
+    ],
+
+    [
+        {
+            // 74
+            question: "Which of the following is honoured by naming a programming langauge after his name?",
+            optionA: "Konrad Zuse",
+            optionB: "Blaise Pascal",
+            optionC: "Charles Babbage",
+            optionD: "Herman Hollerith",
+            correctAnswer: "Blaise Pascal"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        }
+    ],
+
+    [
+        {
+            // 75
+            question: "A computer is a ________ machine",
+            optionA: "Programmable",
+            optionB: "Mechanical",
+            optionC: "Optical",
+            optionD: "Both A and B",
+            correctAnswer: "Programmable"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        }
+    ],
+
+    [
+        {
+            // 76
+            question: "Computer accepts ______ as input",
+            optionA: "Alphabets",
+            optionB: "Information",
+            optionC: "Data",
+            optionD: "Keyboard",
+            correctAnswer: "Data"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        }
+    ],
+
+    [
+        {
+            // 77
+            question: "What is use to study of identifying individuals based on measurable biological characteristics",
+            optionA: "Biometric reader",
+            optionB: "MICR reader",
+            optionC: "OCR reader",
+            optionD: "OMR reader",
+            correctAnswer: "Biometric reader"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        }
+    ],
+
+    [
+        {
+            // 78
+            question: "Which scanner of based for scanning pages of books?",
+            optionA: "Flatbed Scanner",
+            optionB: "Sheetfed Scanner",
+            optionC: "Handheld Scanner",
+            optionD: "None of the above",
+            correctAnswer: "Flatbed Scanner"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        }
+    ],
+
+    [
+        {
+            // 79
+            question: "The ________ deletes the previous characters.",
+            optionA: "Enter key",
+            optionB: "Control key",
+            optionC: "Backspace key",
+            optionD: "Delete key",
+            correctAnswer: "Backspace key"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        }
+    ],
+
+    [
+        {
+            // 80
+            question: "OCR Stands for",
+            optionA: "Optical Character Reporter",
+            optionB: "Optical Computer Recorder",
+            optionC: "Optical Character Reader",
+            optionD: "None of the Above",
+            correctAnswer: "Optical Character Reader"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        }
+    ],
+
+    [
+        {
+            // 81
+            question: "Stylus is a synonym of",
+            optionA: "Mobile stick",
+            optionB: "Light pen",
+            optionC: "Ball pen",
+            optionD: "Mouse",
+            correctAnswer: "Light pen"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        }
+    ],
+
+    [
+        {
+            // 82
+            question: "Printing is defined as refers to the information that has been recorded on a ___________",
+            optionA: "Tangible medium",
+            optionB: "Intangible medium",
+            optionC: "Both A and B",
+            optionD: "None of these",
+            correctAnswer: "Tangible medium"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        }
+    ],
+
+    [
+        {
+            // 83
+            question: "Which of the following does not belong to input?",
+            optionA: "Printer",
+            optionB: "Keyboard",
+            optionC: "Mouse",
+            optionD: "All of the above",
+            correctAnswer: "Printer"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        }
+    ],
+
+    [
+        {
+            // 84
+            question: "The ________ are used for printing receipts, packing slips and various other applications, where low cost printing is needed.",
+            optionA: "Non-impact printers",
+            optionB: "Impact printers",
+            optionC: "Typewriters",
+            optionD: "None of these",
+            correctAnswer: "Impact printers"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        }
+    ],
+
+    [
+        {
+            // 85
+            question: "The difference between memory and storage is that the memory is _______ and storage is ________",
+            optionA: "Temporary, Permanent",
+            optionB: "Permanent, Temporary",
+            optionC: "Slow, Fast",
+            optionD: "Fast, Slow",
+            correctAnswer: "Temporary, Permanent"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        }
+    ],
+
+    [
+        {
+            // 86
+            question: "The organization of information stored in the computer system as a file is called ______",
+            optionA: "Physical Representation",
+            optionB: "Logical Representation",
+            optionC: "Vertical Representation",
+            optionD: "None of these",
+            correctAnswer: "Logical Representation"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        }
+    ],
+
+    [
+        {
+            // 87
+            question: "Compact disk is __________",
+            optionA: "Read Only Memory",
+            optionB: "Write Only Memory",
+            optionC: "Read and Write Memory",
+            optionD: "All of these",
+            correctAnswer: "Read Only Memory"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        }
+    ],
+
+    [
+        {
+            // 88
+            question: "OLED stands for",
+            optionA: "Organical Light Emitting Diode",
+            optionB: "Operational Light Emitting Diode",
+            optionC: "Oriented Light Emitting Diode",
+            optionD: "Organic Light Emitting Diode",
+            correctAnswer: "Organic Light Emitting Diode"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        }
+    ],
+
+    [
+        {
+            // 89
+            question: "Conventionally Floppy drive is assigned the alphabet:",
+            optionA: "A",
+            optionB: "C",
+            optionC: "D",
+            optionD: "G",
+            correctAnswer: "A"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        }
+    ],
+
+    [
+        {
+            // 90
+            question: "A DVD is an example of :",
+            optionA: "Hard disk",
+            optionB: "Optical disc",
+            optionC: "Output device",
+            optionD: "Volatile Memory",
+            correctAnswer: "Optical disc"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        }
+    ],
+
+    [
+        {
+            // 91
+            question: "The disks have a capacity if 650 to 800 Megabytes.",
+            optionA: "CD",
+            optionB: "DVD",
+            optionC: "Blue-ray",
+            optionD: "Hard disk",
+            correctAnswer: "CD"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        }
+    ],
+
+    [
+        {
+            // 92
+            question: "A floppy disk is an example of:",
+            optionA: "Primary storage device",
+            optionB: "Secondary storage device",
+            optionC: "Both a and b",
+            optionD: "None of these",
+            correctAnswer: "Secondary storage device"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        }
+    ],
+
+    [
+        {
+            // 93
+            question: "All modern computer operate on:",
+            optionA: "Information",
+            optionB: "Data",
+            optionC: "Word",
+            optionD: "All of these",
+            correctAnswer: "Data"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        }
+    ],
+
+    [
+        {
+            // 94
+            question: "Instructions and Memory addresses are represented by:",
+            optionA: "Character codes",
+            optionB: "Binary codes",
+            optionC: "Binary word",
+            optionD: "None of these",
+            correctAnswer: "Binary codes"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        }
+    ],
+
+    [
+        {
+            // 95
+            question: "Internal memory in a CPU is nothing but",
+            optionA: "Set of registers",
+            optionB: "A set of ALU",
+            optionC: "Microprocessors",
+            optionD: "ROM",
+            correctAnswer: "Set of registers"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        }
+    ],
+
+    [
+        {
+            // 96
+            question: "Network cards use ________",
+            optionA: "PS/2 Connectors",
+            optionB: "USB Connectors",
+            optionC: "RJ-45 Connectors",
+            optionD: "None of these",
+            correctAnswer: "RJ-45 Connectors"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        }
+    ],
+
+    [
+        {
+            // 97
+            question: "UPS stands for ____",
+            optionA: "Universal Power Supply",
+            optionB: "Ultra Power Supply",
+            optionC: "Uninterrupted Power Supply",
+            optionD: "Either A or B",
+            correctAnswer: "Uninterrupted Power Supply"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        }
+    ],
+
+    [
+        {
+            // 98
+            question: "What does a high speed memory is called _____",
+            optionA: "Dynamic memory",
+            optionB: "Cache memory",
+            optionC: "Register",
+            optionD: "Hard disk",
+            correctAnswer: "Register"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        }
+    ],
+
+    [
+        {
+            // 99
+            question: "Which is not an arithmetic operation",
+            optionA: "Multiplication",
+            optionB: "Addition",
+            optionC: "AND",
+            optionD: "All of these",
+            correctAnswer: "AND"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        }
+    ],
+
+    [
+        {
+            // 100
+            question: "Software which perform specific task is",
+            optionA: "System software",
+            optionB: "Customized software",
+            optionC: "Packaged software",
+            optionD: "None of these",
+            correctAnswer: "Customized software"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        }
+    ],
+
+    [
+        {
+            // 101
             question: "",
             optionA: "",
             optionB: "",
@@ -1437,7 +2130,7 @@ const questions = [
 
     [
         {
-            // 56
+            // 102
             question: "",
             optionA: "",
             optionB: "",
@@ -1458,49 +2151,7 @@ const questions = [
 
     [
         {
-            // 56
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 56
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 56
+            // 103
             question: "",
             optionA: "",
             optionB: "",
@@ -1518,6 +2169,8 @@ const questions = [
             correctAnswer: ""
         }
     ]
+
+
 
 
 
