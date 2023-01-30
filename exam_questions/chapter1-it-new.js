@@ -1417,7 +1417,7 @@ const questions = [
     [
         {
             // 68
-            question: "A Computer program contains many :",
+            question: "A Computer program contains many ______:",
             optionA: "Instructions",
             optionB: "Variables",
             optionC: "Data Elements",
@@ -1426,12 +1426,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "एक कम्प्यूटर प्रोग्राम में कई _______ होते हैं।",
+            optionA: "कथन",
+            optionB: "चर",
+            optionC: "डाटा एलमेन्टस",
+            optionD: "सॉफ्टवेयर्स",
+            correctAnswer: "कथन"
         }
     ],
 
@@ -1447,12 +1447,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "_______ को मस्तिष्क के अंदर का मस्तिष्क कहा जाता है",
+            optionA: "कार्यक्रम स्मृति",
+            optionB: "नियंत्रण और समय इकाई",
+            optionC: "इनपुट",
+            optionD: "रजिस्टरों",
+            correctAnswer: "नियंत्रण और समय इकाई"
         }
     ],
 
@@ -1468,12 +1468,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "यदि कंप्यूटर की शक्ति को चालू करके फिर से चालू किया जाता है, तो निम्न में गड़बड़ी होगी:",
+            optionA: "नॉन - वोलेटाइल मेमोरी",
+            optionB: "वोलेटाइल मेमोरी",
+            optionC: "नियंत्रण और समय इकाई",
+            optionD: "सी पी यू",
+            correctAnswer: "नॉन - वोलेटाइल मेमोरी"
         }
     ],
 
@@ -1489,12 +1489,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "विश्व के पहले प्रोग्रामर का नाम?",
+            optionA: "गैलीलियो",
+            optionB: "लेडी एडा लवलेस",
+            optionC: "स्टिबिट्ज़",
+            optionD: "चार्ल्स बैबेज",
+            correctAnswer: "लेडी एडा लवलेस"
         }
     ],
 
@@ -1510,12 +1510,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "निम्न में से कौन सा आउटपुट से संबंधित नहीं है",
+            optionA: "सीआरटी",
+            optionB: "स्पीकर",
+            optionC: "माइक्रोफ़ोन",
+            optionD: "प्लॉटर",
+            correctAnswer: "माइक्रोफ़ोन"
         }
     ],
 
@@ -1531,12 +1531,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "ENIAC का पूर्ण रूप था:",
+            optionA: "इलेक्ट्रिकली ऑपरेटेड न्यूमेरिकल कैलकुलेटर",
+            optionB: "इलेक्ट्रॉिनिक न्यूमेरिकल इंटेग्रेटर एंड कम्प्यूटर",
+            optionC: "इलेक्ट्रॉिनिक नैचुरल इंवेस्टिगेटर एंड कैलकुलेटर",
+            optionD: "इलेमेन्टरी नेशनल इंटेग्रेशन एडवायजरी कॉउसिल",
+            correctAnswer: "इलेक्ट्रॉिनिक न्यूमेरिकल इंटेग्रेटर एंड कम्प्यूटर"
         }
     ],
 
@@ -1552,12 +1552,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "निम्नलिखित में से किसे उनके नाम पर एक प्रोग्रामिंग लैंग्वेज का नाम देकर सम्मानित किया जाता है?",
+            optionA: "कोनराड ज़्यूस",
+            optionB: "ब्लेस पास्कल",
+            optionC: "चार्ल्स बैबेज",
+            optionD: "हरमन होलेरिथ",
+            correctAnswer: "ब्लेस पास्कल"
         }
     ],
 
@@ -1573,12 +1573,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "एक कंप्यूटर एक ________ मशीन है",
+            optionA: "निर्देशयोग्य",
+            optionB: "यांत्रिक",
+            optionC: "ऑप्टिकल",
+            optionD: "A और B दोनों",
+            correctAnswer: "निर्देशयोग्य"
         }
     ],
 
@@ -1594,19 +1594,19 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "कंप्यूटर ______ को इनपुट के रूप में स्वीकार करता है",
+            optionA: "अक्षर",
+            optionB: "जानकारी",
+            optionC: "डाटा",
+            optionD: "कीबोर्ड",
+            correctAnswer: "डाटा"
         }
     ],
 
     [
         {
             // 77
-            question: "What is use to study of identifying individuals based on measurable biological characteristics",
+            question: "What is used to study of identifying individuals based on measurable biological characteristics",
             optionA: "Biometric reader",
             optionB: "MICR reader",
             optionC: "OCR reader",
@@ -1615,12 +1615,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "मापने योग्य जैविक विशेषताओं के आधार पर व्यक्तियों की पहचान करने के अध्ययन के लिए किसका उपयोग किया जाता है",
+            optionA: "बायोमेट्रिक रीडर",
+            optionB: "एमआईसीआर रीडर",
+            optionC: "ओसीआर रीडर",
+            optionD: "ओएमआर रीडर",
+            correctAnswer: "बायोमेट्रिक रीडर"
         }
     ],
 
@@ -1636,12 +1636,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "किताबों के पन्नों को स्कैन करने के लिए कौन सा स्कैनर आधारित है?",
+            optionA: "सपाट तल स्कैनर",
+            optionB: "शीटफेड स्कैनर",
+            optionC: "हैंडहेल्ड स्कैनर",
+            optionD: "इनमे से कोई भी नहीं",
+            correctAnswer: "सपाट तल स्कैनर"
         }
     ],
 
@@ -1657,12 +1657,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "________ पिछले वर्णों को हटा देता है।",
+            optionA: "इण्टर कुंजी",
+            optionB: "कंट्रोल कुंजी",
+            optionC: "बैकस्पेस कुंजी",
+            optionD: "डिलीट कुंजी",
+            correctAnswer: "बैकस्पेस कुंजी"
         }
     ],
 
@@ -1678,12 +1678,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "ओसीआर का मतलब है",
+            optionA: "ऑप्टिकल कैरेक्टर रिपोर्टर",
+            optionB: "ऑप्टिकल कंप्यूटर रिकॉर्डर",
+            optionC: "ऑप्टिकल कैरेक्टर रीडर",
+            optionD: "उपरोक्त में से कोई नहीं",
+            correctAnswer: "ऑप्टिकल कैरेक्टर रीडर"
         }
     ],
 
@@ -1699,12 +1699,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "लेखनी का पर्यायवाची है",
+            optionA: "मोबाइल स्टिक",
+            optionB: "लाइट पेन",
+            optionC: "बॉल पेन",
+            optionD: "माउस",
+            correctAnswer: "लाइट पेन"
         }
     ],
 
@@ -1720,12 +1720,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "मुद्रण को उस सूचना के रूप में परिभाषित किया जाता है जो एक ___________ पर दर्ज की गई है",
+            optionA: "मूर्त माध्यम",
+            optionB: "अमूर्त माध्यम",
+            optionC: "A और B दोनों",
+            optionD: "इनमे से कोई भी नहीं",
+            correctAnswer: "मूर्त माध्यम"
         }
     ],
 
@@ -1741,12 +1741,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "निम्नलिखित में से कौन सा इनपुट से संबंधित नहीं है?",
+            optionA: "प्रिंटर",
+            optionB: "कीबोर्ड",
+            optionC: "माउस",
+            optionD: "उपरोक्त सभी",
+            correctAnswer: "प्रिंटर"
         }
     ],
 
@@ -1762,12 +1762,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "________ का उपयोग रसीदों की छपाई, पर्ची पैक करने और विभिन्न अन्य अनुप्रयोगों के लिए किया जाता है, जहाँ कम लागत वाली छपाई की आवश्यकता होती है।",
+            optionA: "नॉन इम्पैक्ट वाले प्रिंटर",
+            optionB: "इम्पैक्ट प्रिंटर",
+            optionC: "टाइपराइटर्स",
+            optionD: "इनमे से कोई भी नहीं",
+            correctAnswer: "इम्पैक्ट प्रिंटर"
         }
     ],
 
@@ -1783,12 +1783,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "मेमोरी और स्टोरेज के बीच अंतर यह है कि मेमोरी _______ है और स्टोरेज ________ है",
+            optionA: "अस्थायी स्थायी",
+            optionB: "स्थायी अस्थायी",
+            optionC: "धीरे तेज़",
+            optionD: "तेज़ धीरे",
+            correctAnswer: "अस्थायी स्थायी"
         }
     ],
 
@@ -1804,12 +1804,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "कंप्यूटर सिस्टम में एक फाइल के रूप में संग्रहीत सूचना के संगठन को ______ कहा जाता है",
+            optionA: "भौतिक प्रतिनिधित्व",
+            optionB: "तार्किक प्रतिनिधित्व",
+            optionC: "लंबवत प्रतिनिधित्व",
+            optionD: "इनमें से कोई नहीं",
+            correctAnswer: "तार्किक प्रतिनिधित्व"
         }
     ],
 
@@ -1825,12 +1825,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "कॉम्पैक्ट डिस्क __________ है",
+            optionA: "रीड ओनली मेमोरी",
+            optionB: "राइट ओनली मेमोरी",
+            optionC: "रीड एंड राइट मेमोरी",
+            optionD: "उपरोक्त सभी",
+            correctAnswer: "रीड ओनली मेमोरी"
         }
     ],
 
@@ -1846,7 +1846,7 @@ const questions = [
         },
 
         {
-            question: "",
+            question: "ओएलईडी का अर्थ है",
             optionA: "",
             optionB: "",
             optionC: "",
