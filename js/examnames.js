@@ -1,12 +1,12 @@
 const exams = [
     {
         name :"Chapter 1 - IT Tools",
-        totalQuestions : "60",
-        timeInMinutes : "30",
+        totalQuestions : "80",
+        timeInMinutes : "50",
         imgUrl : "images/python.png",
         id :"chapter1_it",
         filename:"exam_questions/chapter1-it-new.js",
-        questionsAddedInFile:"67"
+        questionsAddedInFile:"85"
 
     },
 
