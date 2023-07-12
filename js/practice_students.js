@@ -6,35 +6,20 @@ var students = {
     "Manish":"Manish",
     "Ravi Mishra":"Ravi",
     "Kalpana Nishad":"Kalpana",
-
-    "Ranjeet Mishra":"Ranjeet",
-    "Shivam Mishra":"Shivam",
-    "Kajal Shukla":"Kajal",
-    "Akash Singh":"Akash",   
-    "Sunil Chaudhary":"Sunil",
-    "Shivani Maurya":"Shivani",
-    "Sandhya Tiwari":"Sandhya",
-    "Pragya":"Pragya",
-    "Neelu":"Neelu",
-    "Pallavi":"Pallavi",
-    "Prasiddhi":"Prasiddhi",
-
+    "Baldeep Kaur":"Baldeep",
+    "Sakshi Singh":"Sakshi",
+    "Rehman":"Rehman",
+    "Armaan":"Armaan",
+    "Kamlakar Mishra":"Kamlakar",
+    "Shivam Pandey":"Shivam",
+    "Anubhav Singh":"Anubhav",
+    "Arpit Singh":"Arpit",
+    "Vibhor Singh":"Vibhor",
+    "Dan Samuel":"Dan",
+    "Satyam Shukla":"Satyam",
+    
+    
 
     "Mudrika Srivastava":"Mudrika",
-    "Raj Narayan":"Raj",
-    "Anshika Gupta":"Anshika",
-    "Maansi Mishra":"Maansi",
-
-
-    "Himanshu":"Himanshu",
-    "Gaurav":"Gaurav",
-    "Archana":"Archana",
-    "Ranjana":"Ranjana",
-    "Avdhesh":"Avdhesh",
-    "Ankita":"Ankita",
-    "Anshika":"Anshika",
-    "Laxmi":"Laxmi",
-    "Aanya":"Aanya",
-    "Amrit":"Amrit",
-    "Manoj":"Manoj"
+    
 };
