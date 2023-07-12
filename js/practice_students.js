@@ -1,9 +1,11 @@
 var students = {
     "Shubham Sharma":"Shubham",
-    "Roshni Shukla":"Roshni",
-    "Shabnam Khan":"Shabnam",
-    "Utkarsh Singh":"Utkarsh",
-    "Anvi Singh":"Anvi",
+    "Sudha Singh":"Sudha",
+    "Kajal Pandey":"Kajal",
+    "Shubham Mishra":"Shubham",
+    "Manish":"Manish",
+    "Ravi Mishra":"Ravi",
+    "Kalpana Nishad":"Kalpana",
 
     "Ranjeet Mishra":"Ranjeet",
     "Shivam Mishra":"Shivam",
