@@ -12,6 +12,11 @@ var students = {
     "Kanchan Verma":"Kanchan@oipl",
     "Ravi Mishra":"Ravi@oipl",
     "Rahman":"Rahman@oipl",
-    "Roshni":"Roshni@oipl"
+    "Roshni":"Roshni@oipl",
+
+
+
+
+    "Anurag Singh":"anurag@123",
 
 }
