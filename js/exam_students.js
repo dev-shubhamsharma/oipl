@@ -1,9 +1,25 @@
 var students = {
     "Shubham Sharma":"Shubham",
     
-    "anurag singh":"Anurag@oipl",
-    "deepak tiwari":"Deepak@oipl",
-    "anuj mishra":"Anuj@oipl",
-    "satanshu mishra":"Satanshu@oipl"
+    "Anurag Singh":"Anurag",
 
+
+
+    "Sudha Singh":"Sudha",
+    "Kajal Pandey":"Kajal",
+    "Shubham Mishra":"Shubham",
+    "Manish":"Manish",
+    "Ravi Mishra":"Ravi",
+    "Kalpana Nishad":"Kalpana",
+    "Baldeep Kaur":"Baldeep",
+    "Sakshi Singh":"Sakshi",
+    "Rehman":"Rehman",
+    "Armaan":"Armaan",
+    "Kamlakar Mishra":"Kamlakar",
+    "Shivam Pandey":"Shivam",
+    "Anubhav Singh":"Anubhav",
+    "Arpit Singh":"Arpit",
+    "Vibhor Singh":"Vibhor",
+    "Dan Samuel":"Dan",
+    "Satyam Shukla":"Satyam"
 }
