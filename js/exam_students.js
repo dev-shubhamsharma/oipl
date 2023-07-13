@@ -3,6 +3,11 @@ var students = {
     
     "Anurag Singh":"Anurag",
 
+    "Himkar Mishra":"Himkar",
+    "Ajay Gautam":"Ajay",
+    "Shani Mishra":"Shani",
+    "Ram Gopal":"Ram",
+    "Jitendra Maurya":"Jitendra",
 
 
     "Sudha Singh":"Sudha",
