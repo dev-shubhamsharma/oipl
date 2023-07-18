@@ -1,4 +1,27 @@
 const tests = [
+
+    {
+        name :"CCC May 2023 exam",
+        totalQuestions : "110",
+        timeInMinutes : "60",
+        imgUrl : "images/python.png",
+        id :"may",
+        filename:"questions/May23.js",
+        questionsAddedInFile:"112"
+
+    },
+
+    {
+        name :"CCC June 2023 exam",
+        totalQuestions : "68",
+        timeInMinutes : "30",
+        imgUrl : "images/python.png",
+        id :"june",
+        filename:"questions/June23.js",
+        questionsAddedInFile:"68"
+
+    },
+
     {
         name :"Python Programming",
         totalQuestions : "39",
