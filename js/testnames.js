@@ -2,7 +2,7 @@ const tests = [
 
     {
         name :"CCC May 2023 exam",
-        totalQuestions : "110",
+        totalQuestions : "100",
         timeInMinutes : "60",
         imgUrl : "images/python.png",
         id :"may",
@@ -13,7 +13,7 @@ const tests = [
 
     {
         name :"CCC June 2023 exam",
-        totalQuestions : "68",
+        totalQuestions : "60",
         timeInMinutes : "30",
         imgUrl : "images/python.png",
         id :"june",
