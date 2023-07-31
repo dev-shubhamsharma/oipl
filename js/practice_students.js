@@ -12,5 +12,16 @@ var students = {
     "Mukesh":"Mukesh@oipl",
     "Rubi":"Rubi@oipl",
     "Amarjeet":"Amarjeet@oipl",
-    "Pankaj":"Pankaj@oipl"
+    "Pankaj":"Pankaj@oipl",
+
+    "Mithun Gautam":"Mithun@oipl",
+    "Anuj Mishra":"Anuj@oipl",
+    "Jitendra Maurya":"Jitendra@oipl",
+    "Deepak Tiwari":"Deepak@oipl",
+    "Shubham Maurya":"Shubham@oipl",
+    "Shubham Shukla":"Shubham@oipl",
+    "Apoorwa Maurya":"Apoorwa@oipl",
+    "Satanshu Mishra":"Satanshu@oipl",
+    "Amarnath Mishra":"Amarnath@oipl",
+    "Shani Mishra":"Shani@oipl"
 };
