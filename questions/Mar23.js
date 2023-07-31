@@ -377,7 +377,7 @@ const questions = [
         optionB: "1970",
         optionC: "1985",
         optionD: "1980",
-        correctAnswer: "172"
+        correctAnswer: "1972"
     },
 
     {
