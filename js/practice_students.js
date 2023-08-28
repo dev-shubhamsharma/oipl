@@ -13,6 +13,8 @@ var students = {
     "Vinod":"Vinod@123",
     "Komal Mishra":"Komal@123",
     "Sakshi Rai":"Sakshi@123",
+"Pushkar Shukla":"Pushkar@123",
+"Kushal Tripathi":"Kushal@123",
     
     "Priyanka":"Priyanka@oipl",
     "Goldi":"Goldi@oipl",
