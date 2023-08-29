@@ -2110,21 +2110,21 @@ const questions = [
     [
         {
             // 101
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "Which device is used in First Generation Computer",
+            optionA: "Vaccum Tubes",
+            optionB: "Transistors",
+            optionC: "Integrated Circuits",
+            optionD: "VLSI",
+            correctAnswer: "Vaccum Tubes"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "प्रथम पीढ़ी के कंप्यूटर में किस डिवाइस का उपयोग किया जाता है?",
+            optionA: "निर्वात पम्प ट्यूब",
+            optionB: "ट्रांजिस्टर",
+            optionC: "एकीकृत सर्किट",
+            optionD: "वीएलएसआई",
+            correctAnswer: "निर्वात पम्प ट्यूब"
         }
     ],
 
