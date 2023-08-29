@@ -1847,11 +1847,11 @@ const questions = [
 
         {
             question: "ओएलईडी का अर्थ है",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            optionA: "ऑर्गेनिकल लाइट एमिटिंग डायोड",
+            optionB: "ऑपरेशनल लाइट एमिटिंग डायोड",
+            optionC: "ओरियन्टेड लाइट एमिटिंग डायोड",
+            optionD: "ऑर्गेनिक लाइट एमिटिंग डायोड",
+            correctAnswer: "ऑर्गेनिक लाइट एमिटिंग डायोड"
         }
     ],
 
@@ -1867,12 +1867,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "परंपरागत रूप से फ्लॉपी ड्राइव को यह अक्षर दिया गया है",
+            optionA: "A",
+            optionB: "C",
+            optionC: "D",
+            optionD: "G",
+            correctAnswer: "A"
         }
     ],
 
@@ -1888,12 +1888,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "डीवीडी इसका एक उदाहरण है",
+            optionA: "हार्ड डिस्क",
+            optionB: "ऑप्टिकल डिस्क",
+            optionC: "ऑउटपुट डिवाइस",
+            optionD: "वोलाटाइल मेमोरी",
+            correctAnswer: "ऑप्टिकल डिस्क"
         }
     ],
 
@@ -1909,12 +1909,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "कौन से डिस्क की क्षमता 650 से 800 मेगाबाइट तक होती है।",
+            optionA: "सीडी",
+            optionB: "डीवीडी",
+            optionC: "ब्लू-रे-डिस्क",
+            optionD: "हार्ड डिस्क",
+            correctAnswer: "सीडी"
         }
     ],
 
@@ -1930,12 +1930,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "फ़्लॉपी डिस्क इसका उदाहरण है:",
+            optionA: "प्राथमिक भंडारण उपकरण",
+            optionB: "द्वितीयक भंडारण उपकरण",
+            optionC: "A और B दोनों",
+            optionD: "इनमें से कोई नहीं",
+            correctAnswer: "द्वितीयक भंडारण उपकरण"
         }
     ],
 
@@ -1951,12 +1951,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "सभी आधुनिक कंप्यूटर किस पर कार्य करते हैं?",
+            optionA: "सूचना",
+            optionB: "डाटा",
+            optionC: "शब्द",
+            optionD: "ये सभी",
+            correctAnswer: "डाटा"
         }
     ],
 
@@ -1972,12 +1972,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "निर्देश और मेमोरी पते निम्न द्वारा दर्शाए जाते हैं:",
+            optionA: "करेक्टर कोड",
+            optionB: "बाइनरी कोड",
+            optionC: "बाइनरी शब्द",
+            optionD: "इनमें से कोई नहीं",
+            correctAnswer: "बाइनरी कोड"
         }
     ],
 
@@ -1993,12 +1993,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "सीपीयू में आंतरिक मेमोरी और कुछ नहीं है",
+            optionA: "रजिस्टरों का सेट",
+            optionB: "ALU का एक सेट",
+            optionC: "माइक्रोप्रोसेसर",
+            optionD: "रोम",
+            correctAnswer: "रजिस्टरों का सेट"
         }
     ],
 
@@ -2014,12 +2014,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "नेटवर्क कार्ड ________ का उपयोग करते हैं",
+            optionA: "पीएस/2 कनेक्टर्स",
+            optionB: "यूएसबी कनेक्टर्स",
+            optionC: "आरजे-45 कनेक्टर्स",
+            optionD: "इनमें से कोई नहीं",
+            correctAnswer: "आरजे-45 कनेक्टर्स"
         }
     ],
 
@@ -2035,12 +2035,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "यूपीएस का मतलब ____ है",
+            optionA: "सार्वभौमिक विद्युत आपूर्ति",
+            optionB: "अल्ट्रा पावर सप्लाई",
+            optionC: "निर्बाध विद्युत आपूर्ति",
+            optionD: "या तो A या B",
+            correctAnswer: "निर्बाध विद्युत आपूर्ति"
         }
     ],
 
@@ -2056,12 +2056,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "हाई स्पीड मेमोरी को क्या कहा जाता है",
+            optionA: "डॉयनमिक मेमोरी",
+            optionB: "कैश मेमोरी",
+            optionC: "रजिस्टर",
+            optionD: "हार्ड डिस्क",
+            correctAnswer: "रजिस्टर"
         }
     ],
 
@@ -2077,12 +2077,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "जो एक अंकगणितीय संक्रिया नहीं है",
+            optionA: "गणनफल",
+            optionB: "योग",
+            optionC: "एण्ड",
+            optionD: "ये सभी",
+            correctAnswer: "एण्ड"
         }
     ],
 
@@ -2098,12 +2098,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "वह सॉफ्टवेयर जो विशिष्ट कार्य करता है",
+            optionA: "सिस्टम सॉफ्टवेयर",
+            optionB: "कस्टमाइज्ड सॉफ्टवेयर",
+            optionC: "पैकेज्ड सॉफ्टवेयर",
+            optionD: "इनमें से कोई नहीं",
+            correctAnswer: "कस्टमाइज्ड सॉफ्टवेयर"
         }
     ],
 
