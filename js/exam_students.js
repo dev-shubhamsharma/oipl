@@ -1,5 +1,20 @@
 var students = {
     "Shubham Sharma":"Shubham",
+
+
+    "Gauri Dixit":"Gauri@123",
+    "Archana Yadav":"Archana@123",
+    "Aditya Mishra":"Aditya@123",
+    "Himanshu Gaur":"Himanshu@123",
+    "Sarvesh Sharma":"Sarvesh@123",
+    "Ashish Gupta":"Ashish@123",
+    "Vishal Kumar":"Vishal@123",
+    "Vinod":"Vinod@123",
+    "Komal Mishra":"Komal@123",
+    "Sakshi Rai":"Sakshi@123",
+    "Pushkar Shukla":"Pushkar@123",
+    "Kushal Tripathi":"Kushal@123",
+    "Komal Kashyap":"Komal@123",
     
     "anurag singh":"Anurag@oipl",
     "deepak tiwari":"Deepak@oipl",
