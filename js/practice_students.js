@@ -2,6 +2,10 @@ var students = {
     "Shubham Sharma":"Shubham",
     "Anurag Singh":"Anurag@oipl",
     "Deepak Tiwari":"Deepak@oipl",
+
+    "Anurag":"Anurag@123",
+    "Manish":"Manish@123",
+    "Govinda":"Govinda@123",
     
     "Gauri Dixit":"Gauri@123",
     "Archana Yadav":"Archana@123",
