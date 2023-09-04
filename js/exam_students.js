@@ -1,5 +1,9 @@
 var students = {
     "Shubham Sharma":"Shubham",
+    
+    "Anurag":"Anurag@123",
+    "Manish":"Manish@123",
+    "Govinda":"Govinda@123",
 
 
     "Gauri Dixit":"Gauri@123",
