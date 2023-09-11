@@ -155,7 +155,7 @@ const questions = [
             optionB: "Stack",
             optionC: "Linked List",
             optionD: "Tree",
-            correctAnswer: ""
+            correctAnswer: "Linked List"
         },
 
         {
@@ -164,7 +164,7 @@ const questions = [
             optionB: "स्टैक",
             optionC: "लिंक्ड लिस्ट",
             optionD: "ट्री",
-            correctAnswer: ""
+            correctAnswer: "लिंक्ड लिस्ट"
         }
     ],
 
@@ -176,7 +176,7 @@ const questions = [
             optionB: "Shift + F5",
             optionC: "Shift + F3",
             optionD: "Shift + F9",
-            correctAnswer: ""
+            correctAnswer: "Shift + F5"
         },
 
         {
@@ -185,7 +185,7 @@ const questions = [
             optionB: "Shift + F5",
             optionC: "Shift + F3",
             optionD: "Shift + F9",
-            correctAnswer: ""
+            correctAnswer: "Shift + F5"
         }
     ],
 
@@ -197,7 +197,7 @@ const questions = [
             optionB: "Application gateways",
             optionC: "Proxy servers",
             optionD: "Fire proxy service",
-            correctAnswer: ""
+            correctAnswer: "Fire proxy service"
         },
 
         {
@@ -206,7 +206,7 @@ const questions = [
             optionB: "एप्लिकेशन गेटवे",
             optionC: "प्रॉक्सी सर्वर",
             optionD: "फ़ॉयर प्रॉक्सी सर्विस",
-            correctAnswer: ""
+            correctAnswer: "फ़ॉयर प्रॉक्सी सर्विस"
         }
     ],
 
@@ -239,7 +239,7 @@ const questions = [
             optionB: "RTGS",
             optionC: "SMPS",
             optionD: "IMPS",
-            correctAnswer: ""
+            correctAnswer: "RTGS"
         },
 
         {
@@ -248,7 +248,7 @@ const questions = [
             optionB: "आर.टी.जी.एस.",
             optionC: "एस.एम.पी.एस.",
             optionD: "आई.एम.पी.एस.",
-            correctAnswer: ""
+            correctAnswer: "आर.टी.जी.एस."
         }
     ],
 
@@ -260,7 +260,7 @@ const questions = [
             optionB: "Chart Series",
             optionC: "Chart Elements",
             optionD: "Chart Type",
-            correctAnswer: ""
+            correctAnswer: "Chart Series"
         },
 
         {
@@ -269,7 +269,7 @@ const questions = [
             optionB: "चार्ट सीरीज",
             optionC: "चार्ट इलमेन्ट्स",
             optionD: "चार्ट प्रकार",
-            correctAnswer: ""
+            correctAnswer: "चार्ट सीरीज"
         }
     ],
 
@@ -281,7 +281,7 @@ const questions = [
             optionB: "Ctrl + Alt + E",
             optionC: "Ctrl + Shift + E",
             optionD: "Ctrl + F9",
-            correctAnswer: ""
+            correctAnswer: "Ctrl + Alt + E"
         },
 
         {
@@ -290,7 +290,7 @@ const questions = [
             optionB: "Ctrl + Alt + E",
             optionC: "Ctrl + Shift + E",
             optionD: "Ctrl + F9",
-            correctAnswer: ""
+            correctAnswer: "Ctrl + Alt + E"
         }
     ],
 
@@ -302,7 +302,7 @@ const questions = [
             optionB: "F4",
             optionC: "Shift + F5",
             optionD: "Shift + F4",
-            correctAnswer: ""
+            correctAnswer: "Shift + F5"
         },
 
         {
@@ -311,7 +311,7 @@ const questions = [
             optionB: "F4",
             optionC: "Shift + F5",
             optionD: "Shift + F4",
-            correctAnswer: ""
+            correctAnswer: "Shift + F5"
         }
     ],
 
@@ -323,7 +323,7 @@ const questions = [
             optionB: "One drive",
             optionC: "IBM Lotus notes",
             optionD: "FTP",
-            correctAnswer: ""
+            correctAnswer: "IBM Lotus notes"
         },
 
         {
@@ -332,7 +332,7 @@ const questions = [
             optionB: "वन ड्रॉइव",
             optionC: "आईबीएम लोटस नोट्स",
             optionD: "एफ़टीपी",
-            correctAnswer: ""
+            correctAnswer: "आईबीएम लोटस नोट्स"
         }
     ],
 
@@ -341,19 +341,19 @@ const questions = [
             // 17
             question: "The number of digits printed on ATM Debit card is ______",
             optionA: "10",
-            optionB: "12",
-            optionC: "11",
+            optionB: "16",
+            optionC: "12",
             optionD: "13",
-            correctAnswer: ""
+            correctAnswer: "16"
         },
 
         {
             question: "एटीएम डेबिट कार्ड पर मुद्रित अंकों की संख्या ______ है",
             optionA: "10",
-            optionB: "12",
-            optionC: "11",
+            optionB: "16",
+            optionC: "12",
             optionD: "13",
-            correctAnswer: ""
+            correctAnswer: "16"
         }
     ],
 
@@ -395,7 +395,7 @@ const questions = [
             optionB: "डी.एन.एस.",
             optionC: "डी.एच.सी.पी.",
             optionD: "पी.पी.पी.",
-            correctAnswer: ""
+            correctAnswer: "डी.एच.सी.पी."
         }
     ],
 
@@ -407,7 +407,7 @@ const questions = [
             optionB: "Norton Mobile Guard",
             optionC: "Norton Anti-Virus Mobile Safety",
             optionD: "None of the above",
-            correctAnswer: ""
+            correctAnswer: "Norton Mobile Security"
         },
 
         {
@@ -416,7 +416,7 @@ const questions = [
             optionB: "नॉर्टन मोबाइल गार्ड",
             optionC: "नॉर्टन एंटी-वायरस मोबाइल सुरक्षा",
             optionD: "इनमे से कोई भी नहीं",
-            correctAnswer: ""
+            correctAnswer: "नॉर्टन मोबाइल सिक्योरिटी"
         }
     ],
 
@@ -437,7 +437,7 @@ const questions = [
             optionB: "दस्तावेज़ की तुलना करें",
             optionC: "रिकॉर्ड",
             optionD: "विभाजित दस्तावेज़",
-            correctAnswer: ""
+            correctAnswer: "विभाजित दस्तावेज़"
         }
     ],
 
@@ -449,7 +449,7 @@ const questions = [
             optionB: "Send to back",
             optionC: "Send to front",
             optionD: "Forward one",
-            correctAnswer: ""
+            correctAnswer: "Send to front"
         },
 
         {
@@ -458,7 +458,7 @@ const questions = [
             optionB: "सेन्ड टू बैक",
             optionC: "सेन्ड टू फ्रंट",
             optionD: "फॉरवर्ड वन",
-            correctAnswer: ""
+            correctAnswer: "सेन्ड टू फ्रंट"
         }
     ],
 
@@ -479,7 +479,7 @@ const questions = [
             optionB: ".ओडीटी",
             optionC: ".ओटीटी",
             optionD: ".ओडीएफ",
-            correctAnswer: ""
+            correctAnswer: ".ओडीएस"
         }
     ],
 
@@ -500,7 +500,7 @@ const questions = [
             optionB: ".ओडीटी",
             optionC: ".ओटीटी",
             optionD: ".ओडीएफ",
-            correctAnswer: ""
+            correctAnswer: ".ओडीटी"
         }
     ],
 
@@ -521,7 +521,7 @@ const questions = [
             optionB: "CTRL + T + P",
             optionC: "CTRL + O",
             optionD: "CTRL + SHIFT + O",
-            correctAnswer: ""
+            correctAnswer: "CTRL + SHIFT + O"
         }
     ],
 
@@ -542,7 +542,7 @@ const questions = [
             optionB: "मार्क सेवरिन और एंड्रयू मैककोलम",
             optionC: "डस्टिन बिडेन और क्रिस ह्यूजेस",
             optionD: "इनमे से कोई भी नहीं",
-            correctAnswer: ""
+            correctAnswer: "मार्क ज़ुकेरबर्ग"
         }
     ],
 
@@ -554,7 +554,7 @@ const questions = [
             optionB: "Place to Place",
             optionC: "CSMA/CD",
             optionD: "Peer to Peer",
-            correctAnswer: ""
+            correctAnswer: "Peer to Peer"
         },
 
         {
@@ -563,7 +563,7 @@ const questions = [
             optionB: "जगह जगह",
             optionC: "सीएसएमए/सीडी",
             optionD: "पीयर टू पीयर",
-            correctAnswer: ""
+            correctAnswer: "पीयर टू पीयर"
         }
     ],
 
@@ -584,7 +584,7 @@ const questions = [
             optionB: "एकीकृत सर्किट",
             optionC: "ट्रांजिस्टर",
             optionD: "वैक्यूम ट्यूब",
-            correctAnswer: ""
+            correctAnswer: "एकीकृत सर्किट"
         }
     ],
 
@@ -596,7 +596,7 @@ const questions = [
             optionB: "Fax",
             optionC: "Agenda",
             optionD: "E-mail",
-            correctAnswer: ""
+            correctAnswer: "E-mail"
         },
 
         {
@@ -605,7 +605,7 @@ const questions = [
             optionB: "फैक्स",
             optionC: "कार्यसूची",
             optionD: "ईमेल",
-            correctAnswer: ""
+            correctAnswer: "ईमेल"
         }
     ],
 
@@ -626,7 +626,7 @@ const questions = [
             optionB: "पहली स्लाइड पर डिफ़ॉल्ट रूप से सब कुछ दिखाई देता है",
             optionC: "सब कुछ अंतिम स्लाइड पर डिफ़ॉल्ट रूप से दिखाई देता है",
             optionD: "इनमे से कोई भी नहीं",
-            correctAnswer: ""
+            correctAnswer: "सब कुछ सभी स्लाइड्स पर डिफ़ॉल्ट रूप से दिखाई देता है"
         }
     ],
 
@@ -647,7 +647,7 @@ const questions = [
             optionB: "सहकर्मियों के संपर्क में रहना",
             optionC: "नौकरी खोजना",
             optionD: "ऊपर के सभी",
-            correctAnswer: ""
+            correctAnswer: "ऊपर के सभी"
         }
     ],
 
@@ -668,7 +668,7 @@ const questions = [
             optionB: "गूगल",
             optionC: "थिजायरस",
             optionD: "स्पेलिंग",
-            correctAnswer: ""
+            correctAnswer: "थिजायरस"
         }
     ],
 
@@ -689,7 +689,7 @@ const questions = [
             optionB: "पैराग्राफ",
             optionC: "फ्रेम",
             optionD: "ऊपर के सभी",
-            correctAnswer: ""
+            correctAnswer: "ऊपर के सभी"
         }
     ],
 
@@ -701,7 +701,7 @@ const questions = [
             optionB: "EPUB",
             optionC: "Both PDF and EPUB",
             optionD: "Only JPG",
-            correctAnswer: ""
+            correctAnswer: "Both PDF and EPUB"
         },
 
         {
@@ -710,7 +710,7 @@ const questions = [
             optionB: "ई.पी.यू.बी.",
             optionC: "पी.डी.एफ. और ई.पी.यू.बी. दोनों",
             optionD: "केवल जे.पी.जी.",
-            correctAnswer: ""
+            correctAnswer: "पी.डी.एफ. और ई.पी.यू.बी. दोनों"
         }
     ],
 
@@ -731,7 +731,7 @@ const questions = [
             optionB: "सागा",
             optionC: "परम-युवा",
             optionD: "परम 8000",
-            correctAnswer: ""
+            correctAnswer: "परम 8000"
         }
     ],
 
@@ -752,7 +752,7 @@ const questions = [
             optionB: "ओरेकल क्लाउड",
             optionC: "गूगल क्लाउड",
             optionD: "डिजिलॉकर",
-            correctAnswer: ""
+            correctAnswer: "डिजिलॉकर"
         }
     ],
 
@@ -773,7 +773,7 @@ const questions = [
             optionB: "CTRL + F9",
             optionC: "CTRL + F7",
             optionD: "CTRL + F8",
-            correctAnswer: ""
+            correctAnswer: "CTRL + F10"
         }
     ],
 
@@ -794,7 +794,7 @@ const questions = [
             optionB: "बैक्टीरिया",
             optionC: "ट्रैम",
             optionD: "स्पैम",
-            correctAnswer: ""
+            correctAnswer: "वायरस"
         }
     ],
 
@@ -806,7 +806,7 @@ const questions = [
             optionB: "Sound",
             optionC: "Duration",
             optionD: "Color",
-            correctAnswer: ""
+            correctAnswer: "Color"
         },
 
         {
@@ -815,7 +815,7 @@ const questions = [
             optionB: "साउण्ड",
             optionC: "ड्यूरेशन",
             optionD: "कलर",
-            correctAnswer: ""
+            correctAnswer: "कलर"
         }
     ],
 
@@ -827,7 +827,7 @@ const questions = [
             optionB: "Good",
             optionC: "Bad",
             optionD: "Poor",
-            correctAnswer: ""
+            correctAnswer: "Poor"
         },
 
         {
@@ -836,7 +836,7 @@ const questions = [
             optionB: "गुड",
             optionC: "बैड",
             optionD: "पुअर",
-            correctAnswer: ""
+            correctAnswer: "पुअर"
         }
     ],
 
@@ -852,12 +852,12 @@ const questions = [
         },
 
         {
-            question: "Conditional Formatting can be done in libreoffice calc based on",
-            optionA: "Date",
-            optionB: "Formula",
-            optionC: "Cell Value",
-            optionD: "All of the above",
-            correctAnswer: ""
+            question: "कन्डिशनल फॉरमैटिंग लिब्रे ऑफिस कैल्क में किस आधार पर किया जा सकता है",
+            optionA: "डेट",
+            optionB: "फॉरमूला",
+            optionC: "सेल वैल्यू",
+            optionD: "ऊपर के सभी",
+            correctAnswer: "ऊपर के सभी"
         }
     ],
 
@@ -869,16 +869,16 @@ const questions = [
             optionB: "CTRL + F7",
             optionC: "SHIFT + F9",
             optionD: "CTRL + F9",
-            correctAnswer: ""
+            correctAnswer: "SHIFT + F7"
         },
 
         {
-            question: "Libreoffice calc shortcut key for automatic spell check",
+            question: "स्वचालित वर्तनी जांच के लिए लिब्रे ऑफिस कैल्क की शॉर्टकट कुंजी",
             optionA: "SHIFT + F7",
             optionB: "CTRL + F7",
             optionC: "SHIFT + F9",
             optionD: "CTRL + F9",
-            correctAnswer: ""
+            correctAnswer: "SHIFT + F7"
         }
     ],
 
@@ -894,12 +894,12 @@ const questions = [
         },
 
         {
-            question: "OSI reference layer is responsible for routing is _____",
-            optionA: "Physical",
-            optionB: "Network",
-            optionC: "Data Link",
-            optionD: "Transport",
-            correctAnswer: ""
+            question: "ओ.एस.आई. संदर्भ परत रूटिंग के लिए जिम्मेदार है _____",
+            optionA: "फिजिकल",
+            optionB: "नेटवर्क",
+            optionC: "डाटा लिंक",
+            optionD: "ट्रांसपोर्ट",
+            correctAnswer: "नेटवर्क"
         }
     ],
 
@@ -911,16 +911,16 @@ const questions = [
             optionB: "Add table",
             optionC: "Add relation",
             optionD: "Exchange database",
-            correctAnswer: ""
+            correctAnswer: "Exchange database"
         },
 
         {
-            question: "One can access database fields in the document using option",
-            optionA: "Add database",
-            optionB: "Add table",
-            optionC: "Add relation",
-            optionD: "Exchange database",
-            correctAnswer: ""
+            question: "कोई विकल्प का उपयोग करके दस्तावेज़ में डेटाबेस फ़ील्ड तक पहुंच सकता है",
+            optionA: "डेटाबेस जोड़ें",
+            optionB: "टेबल जोड़ें",
+            optionC: "रिलेशन जोड़ें",
+            optionD: "एक्सचेंज डेटाबेस",
+            correctAnswer: "एक्सचेंज डेटाबेस"
         }
     ],
 
@@ -932,16 +932,16 @@ const questions = [
             optionB: "ISDN",
             optionC: "Frame Relay",
             optionD: "X.25",
-            correctAnswer: ""
+            correctAnswer: "ISDN"
         },
 
         {
-            question: "Which is not a packet switched WAN",
-            optionA: "ATM",
-            optionB: "ISDN",
-            optionC: "Frame Relay",
-            optionD: "X.25",
-            correctAnswer: ""
+            question: "कौन सा एक पैकेट स्विच्ड वैन नहीं है",
+            optionA: "ए.टी.एम.",
+            optionB: "आई.एस.डी.एन.",
+            optionC: "फ्रेम रिले",
+            optionD: "एक्स.25",
+            correctAnswer: "आई.एस.डी.एन."
         }
     ],
 
@@ -957,12 +957,12 @@ const questions = [
         },
 
         {
-            question: "Banks use this machine to process large number of cheques",
-            optionA: "OMR",
-            optionB: "OCR",
-            optionC: "Barcode Reader",
-            optionD: "MICR",
-            correctAnswer: ""
+            question: "बैंक बड़ी संख्या में चेक को संसाधित करने के लिए इस मशीन का उपयोग करते हैं",
+            optionA: "ओएमआर",
+            optionB: "ओसीआर",
+            optionC: "बारकोड रीडर",
+            optionD: "एम.आई.सी.आर.",
+            correctAnswer: "एम.आई.सी.आर."
         }
     ],
 
@@ -974,16 +974,16 @@ const questions = [
             optionB: "X.503",
             optionC: "X.510",
             optionD: "X.509",
-            correctAnswer: ""
+            correctAnswer: "X.509"
         },
 
         {
-            question: "Spreadsheet files can be digitally signed using a ceritificate of standard _____",
+            question: "स्प्रेडशीट फ़ाइलों को डिजिटल रूप से मानक _____ के एक प्रमाणपत्र का उपयोग करके हस्ताक्षरित किया जा सकता है",
             optionA: "X.502",
             optionB: "X.503",
             optionC: "X.510",
             optionD: "X.509",
-            correctAnswer: ""
+            correctAnswer: "X.509"
         }
     ],
 
@@ -995,16 +995,16 @@ const questions = [
             optionB: "Non-Breaking hyphen",
             optionC: "Word Joiner",
             optionD: "Sentence Joiner",
-            correctAnswer: ""
+            correctAnswer: "Sentence Joiner"
         },
 
         {
-            question: "Which is not a valid formatting mark in Libreoffice calc",
-            optionA: "Non-breaking space",
-            optionB: "Non-Breaking hyphen",
-            optionC: "Word Joiner",
-            optionD: "Sentence Joiner",
-            correctAnswer: ""
+            question: "जो कि लिब्रे ऑफिस कैल्क में एक मान्य स्वरूपण चिह्न नहीं है",
+            optionA: "नॉन ब्रेकिंग स्पेस",
+            optionB: "नॉन ब्रेकिंग हॉयफन",
+            optionC: "शब्द ज्वॉइनर",
+            optionD: "वाक्य ज्वॉइनर",
+            correctAnswer: "वाक्य ज्वॉइनर"
         }
     ],
 
@@ -1016,16 +1016,16 @@ const questions = [
             optionB: "Multitasking",
             optionC: "Only time sharing",
             optionD: "Both time sharing and multitasking",
-            correctAnswer: ""
+            correctAnswer: "Both time sharing and multitasking"
         },
 
         {
-            question: "An extension of multiprogramming os is ________",
-            optionA: "Time sharing",
-            optionB: "Multitasking",
-            optionC: "Only time sharing",
-            optionD: "Both time sharing and multitasking",
-            correctAnswer: ""
+            question: "मल्टीरोग्रामिंग ओएस का एक विस्तार ________ है",
+            optionA: "टाइम शेयरिंग",
+            optionB: "मल्टीटास्किंग",
+            optionC: "केवल टाइम शेयरिंग",
+            optionD: "टाइम शेयरिंग और मल्टीटास्किंग दोनों",
+            correctAnswer: "टाइम शेयरिंग और मल्टीटास्किंग दोनों"
         }
     ],
 
@@ -1037,16 +1037,16 @@ const questions = [
             optionB: "CTRL + W",
             optionC: "CTRL + T",
             optionD: "CTRL + Q",
-            correctAnswer: ""
+            correctAnswer: "CTRL + Q"
         },
 
         {
-            question: "To exit Libreoffice what is shortcut key",
+            question: "लिब्रे ऑफिस से बाहर निकलने के लिए क्या शॉर्टकट कुंजी है",
             optionA: "CTRL + E",
             optionB: "CTRL + W",
             optionC: "CTRL + T",
             optionD: "CTRL + Q",
-            correctAnswer: ""
+            correctAnswer: "CTRL + Q"
         }
     ],
 
@@ -1058,16 +1058,16 @@ const questions = [
             optionB: "Shown",
             optionC: "Deleted",
             optionD: "All of the above",
-            correctAnswer: ""
+            correctAnswer: "All of the above"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "लिब्रे ऑफिस कैल्क में टिप्पणियाें को ______ किया जा सकता हैं",
+            optionA: "संपादित",
+            optionB: "दिखाया",
+            optionC: "हटाया",
+            optionD: "ऊपर के सभी",
+            correctAnswer: "ऊपर के सभी"
         }
     ],
 
@@ -1079,16 +1079,16 @@ const questions = [
             optionB: "Exceptions",
             optionC: "Word Completions",
             optionD: "All of the above",
-            correctAnswer: ""
+            correctAnswer: "All of the above"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "ऑटो सही प्रविष्टि ______ बनाने में मदद कर सकती है",
+            optionA: "प्रतिस्थापन",
+            optionB: "अपवाद",
+            optionC: "शब्द पूर्णता",
+            optionD: "ऊपर के सभी",
+            correctAnswer: "ऊपर के सभी"
         }
     ],
 
@@ -1100,16 +1100,16 @@ const questions = [
             optionB: "Pics",
             optionC: "Hotspots",
             optionD: "Maps",
-            correctAnswer: ""
+            correctAnswer: "Hotspots"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "एक छवि मानचित्र एक या अधिक का एक समूह है",
+            optionA: "इमेजिस",
+            optionB: "चित्र",
+            optionC: "हॉटस्पॉट",
+            optionD: "मैप्स",
+            correctAnswer: "हॉटस्पॉट"
         }
     ],
 
@@ -1125,12 +1125,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "आई.ओ.टी. में इस्तेमाल की जाने वाली जावा फाइल की एक्सटेंशन क्या होगी",
+            optionA: ".c",
+            optionB: ".py",
+            optionC: ".exe",
+            optionD: ".jar",
+            correctAnswer: ".jar"
         }
     ],
 
@@ -1142,16 +1142,16 @@ const questions = [
             optionB: "ALT + SHIFT + F4",
             optionC: "ALT + SHIFT + F5",
             optionD: "CTRL + SHIFT + F5",
-            correctAnswer: ""
+            correctAnswer: "ALT + SHIFT + F5"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "इम्प्रेस में अंतिम संपादित स्लाइड पर जाने के लिए शॉर्टकट कुंजियों का उपयोग किया जाता है",
+            optionA: "CTRL + SHIFT + F4",
+            optionB: "ALT + SHIFT + F4",
+            optionC: "ALT + SHIFT + F5",
+            optionD: "CTRL + SHIFT + F5",
+            correctAnswer: "ALT + SHIFT + F5"
         }
     ],
 
@@ -1167,12 +1167,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "ईमेल और इसका संबंधित डेटा ______ पर संग्रहीत है",
+            optionA: "अटैचमेंट",
+            optionB: "कंप्यूटर हार्ड डिस्क",
+            optionC: "मेलबॉक्स",
+            optionD: "गूगल ड्राइव",
+            correctAnswer: "मेलबॉक्स"
         }
     ],
 
@@ -1188,12 +1188,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "हमारे द्वारा उपयोग किए जाने वाले किसी अन्य दस्तावेज़ में वर्तमान दस्तावेज़ के फॉर्मेट को कॉपी करने के लिए",
+            optionA: "फॉर्मेट पेन्टर",
+            optionB: "कॉपी फॉर्मेटिंग",
+            optionC: "पेन्ट फॉर्मेटिंग",
+            optionD: "क्लोन फॉर्मेटिंग",
+            correctAnswer: "क्लोन फॉर्मेटिंग"
         }
     ],
 
@@ -1205,16 +1205,16 @@ const questions = [
             optionB: "Complete software package",
             optionC: "Program in execution",
             optionD: "Interrupt handler",
-            correctAnswer: ""
+            correctAnswer: "Program in execution"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "एक प्रक्रिया से संबंधित सबसे अच्छा विकल्प एक ______ है",
+            optionA: "एक ऑपरेटिंग सिस्टम ही",
+            optionB: "पूरा सॉफ्टवेयर पैकेज",
+            optionC: "प्रोग्राम कार्यान्वयन",
+            optionD: "रुकावट हैंडलर",
+            correctAnswer: "प्रोग्राम कार्यान्वयन"
         }
     ],
 
@@ -1226,16 +1226,16 @@ const questions = [
             optionB: "Time",
             optionC: "Numerical",
             optionD: "String",
-            correctAnswer: ""
+            correctAnswer: "String"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "एक फॉर्म में किस फील्ड को जोड़ा नहीं जा सकता है?",
+            optionA: "तारीख",
+            optionB: "समय",
+            optionC: "न्यूमेरिकल",
+            optionD: "स्ट्रिंग",
+            correctAnswer: "स्ट्रिंग"
         }
     ],
 
@@ -1247,37 +1247,37 @@ const questions = [
             optionB: "Preview Slide",
             optionC: "Preview Presentation",
             optionD: "Summary Slide",
-            correctAnswer: ""
+            correctAnswer: "Outline Slide"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "एक नई स्लाइड जिसमें चयनित स्लाइड का पालन करने वाली स्लाइड्स के शीर्षक से एक अनियंत्रित सूची होती है, जिसे ______ कहा जाता है ",
+            optionA: "आउटलाइन स्लाइड",
+            optionB: "प्रीव्यू स्लाइड",
+            optionC: "प्रीव्यू प्रस्तुति",
+            optionD: "सारांश स्लाइड",
+            correctAnswer: "आउटलाइन स्लाइड"
         }
     ],
 
     [
         {
             // 61
-            question: "Tho protect sensitive information portion/content in a file in Libreoffice Impress it is recommended to use",
+            question: "To protect sensitive information portion/content in a file in Libreoffice Impress it is recommended to use",
             optionA: "Redact",
             optionB: "Protect",
             optionC: "React",
             optionD: "Hide",
-            correctAnswer: ""
+            correctAnswer: "Redact"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "संवेदनशील सूचना भाग/सामग्री को लिब्रे ऑफिस में एक फ़ाइल में संरक्षित करने के लिए इसका उपयोग करने की सिफारिश की जाती है",
+            optionA: "रिडैक्ट",
+            optionB: "प्रोटेक्ट",
+            optionC: "रियेक्ट",
+            optionD: "हाइड",
+            correctAnswer: "रिडैक्ट"
         }
     ],
 
@@ -1289,16 +1289,16 @@ const questions = [
             optionB: "By clicking on background",
             optionC: "By using mouse as pen",
             optionD: "All of the above",
-            correctAnswer: ""
+            correctAnswer: "All of the above"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "प्रस्तुति के दौरान स्लाइड्स को बदला जा सकता है ______",
+            optionA: "मैन्युअल",
+            optionB: "पृष्ठभूमि पर क्लिक करके",
+            optionC: "पेन के रूप में माउस का उपयोग करके",
+            optionD: "ऊपर के सभी",
+            correctAnswer: "ऊपर के सभी"
         }
     ],
 
@@ -1310,16 +1310,16 @@ const questions = [
             optionB: "Y-Position",
             optionC: "Vertical Type",
             optionD: "All of the above",
-            correctAnswer: ""
+            correctAnswer: "Vertical Type"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "स्नैप ऑब्जेक्ट की किस प्रॉपर्टी को लिब्रे ऑफिस इम्प्रेस में समायोजित किया जा सकता है",
+            optionA: "X-पोजिशन",
+            optionB: "Y-पोजिशन",
+            optionC: "वर्टिकल टाइप",
+            optionD: "ऊपर के सभी",
+            correctAnswer: "ऊपर के सभी"
         }
     ],
 
@@ -1331,16 +1331,16 @@ const questions = [
             optionB: "IIS",
             optionC: "Exchange",
             optionD: "Groupwise",
-            correctAnswer: ""
+            correctAnswer: "Domino"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "जो एल.ए.एन. आधारित मैसेजिंग का एक उदाहरण नहीं है",
+            optionA: "डोमिनो",
+            optionB: "आई.आई.एस.",
+            optionC: "एक्सचेंज",
+            optionD: "ग्रुपवाइस",
+            correctAnswer: "डोमिनो"
         }
     ],
 
@@ -1352,16 +1352,16 @@ const questions = [
             optionB: "Pics image map",
             optionC: "Client side image map",
             optionD: "None of the above",
-            correctAnswer: ""
+            correctAnswer: "Server side image map"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "इमेज मैप को चित्र के नीचे एक परत में संग्रहीत किया जाता है",
+            optionA: "सर्वर साइड इमेज मैप",
+            optionB: "चित्र इमेज मैप",
+            optionC: "क्लाइंट साइड इमेज मैप",
+            optionD: "इनमे से कोई भी नहीं",
+            correctAnswer: "सर्वर साइड इमेज मैप"
         }
     ],
 
@@ -1377,12 +1377,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "कंप्यूटर नेटवर्क के लिए लोकप्रिय पहुंच विधि",
+            optionA: "बस टोकन",
+            optionB: "ईथरनेट",
+            optionC: "टोकन रिंग",
+            optionD: "पी 2 पी",
+            correctAnswer: "ईथरनेट"
         }
     ],
 
@@ -1394,16 +1394,16 @@ const questions = [
             optionB: "Middle ware",
             optionC: "Firmware",
             optionD: "Hardware",
-            correctAnswer: ""
+            correctAnswer: "Middle ware"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "एक पीओएस रिटेल स्टोर पर कार्ड भुगतान को संसाधित करने के लिए एक ______ प्रणाली है",
+            optionA: "सॉफ़्टवेयर",
+            optionB: "मिडिल वेयर",
+            optionC: "फर्मवेयर",
+            optionD: "हार्डवेयर",
+            correctAnswer: "मिडिल वेयर"
         }
     ],
 
@@ -1415,16 +1415,16 @@ const questions = [
             optionB: "Nintinol",
             optionC: "Rubber",
             optionD: "All of the above",
-            correctAnswer: ""
+            correctAnswer: "All of the above"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "आप थ्रीडी प्रिंटिंग सामग्री में क्या उपयोग करेंगे",
+            optionA: "रेजिन",
+            optionB: "निन्टिनोल",
+            optionC: "रबड़",
+            optionD: "ऊपर के सभी",
+            correctAnswer: "ऊपर के सभी"
         }
     ],
 
@@ -1436,16 +1436,16 @@ const questions = [
             optionB: "Edit",
             optionC: "Insert",
             optionD: "Tools",
-            correctAnswer: ""
+            correctAnswer: "File"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "लिब्रे ऑफिस राइटर में एक दस्तावेज़ पर डिजिटल रूप से हस्ताक्षर करने के लिए हम ______  मेनू से डिजिटल हस्ताक्षर विकल्प का उपयोग करते हैं",
+            optionA: "फ़ाइल",
+            optionB: "एडिट",
+            optionC: "इन्सर्ट",
+            optionD: "टूल्स",
+            correctAnswer: "फ़ाइल"
         }
     ],
 
@@ -1457,16 +1457,16 @@ const questions = [
             optionB: "Clear format",
             optionC: "Clear direct formatting",
             optionD: "Format eraser",
-            correctAnswer: ""
+            correctAnswer: "Clear direct formatting"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "मास्टर स्लाइड में परिभाषित स्टाइल में एक स्लाइड पर मैन्युअल रूप से स्वरूपित ऑब्जेक्ट के फॉर्मेटिंग को वापस करने के लिए ______ का उपयोग करें",
+            optionA: "क्लियर",
+            optionB: "क्लियर फॉर्मेट",
+            optionC: "क्लियर डॉयरेक्ट फॉर्मेटिंग",
+            optionD: "फॉर्मेट इरेजर",
+            correctAnswer: "क्लियर डॉयरेक्ट फॉर्मेटिंग"
         }
     ],
 
@@ -1478,16 +1478,16 @@ const questions = [
             optionB: "240",
             optionC: "260",
             optionD: "280",
-            correctAnswer: ""
+            correctAnswer: "280"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "ट्वीट के रूप में पोस्ट किया गया ट्विटर पोस्ट ______ लंबाई का हो सकता है",
+            optionA: "140",
+            optionB: "240",
+            optionC: "260",
+            optionD: "280",
+            correctAnswer: "280"
         }
     ],
 
@@ -1499,18 +1499,1126 @@ const questions = [
             optionB: "Fix",
             optionC: "Attacher",
             optionD: "Connector",
+            correctAnswer: "Connector"
+        },
+
+        {
+            question: "लिब्रे ऑफिस इम्प्रैस में बनाई गई प्रस्तुति फ़ाइल में दो आकार ______ का उपयोग करके कनेक्ट किए जा सकते हैं",
+            optionA: "ज्वांइट",
+            optionB: "फिक्स",
+            optionC: "अटैचर",
+            optionD: "कनेक्टर",
+            correctAnswer: "कनेक्टर"
+        }
+    ],
+
+
+
+
+
+
+    [
+        {
+            // 250
+            question: "The correct full form of WWW is",
+            optionA: "Web World Wide",
+            optionB: "World Wide Web",
+            optionC: "Wide Web world",
+            optionD: "Wide Wired Web",
             correctAnswer: ""
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "डब्ल्यू.डब्ल्यू.डब्ल्यू. का सही पूर्ण रूप है",
+            optionA: "वेब वर्ल्ड वाइड",
+            optionB: "वर्ल्ड वाइड वेब",
+            optionC: "वाइड वेब वर्ल्ड",
+            optionD: "वाइड वायर्ड वेब",
+            correctAnswer: "वर्ल्ड वाइड वेब"
         }
     ],
+
+    [
+        {
+            // 251
+            question: "Hardware Address is known as __________.",
+            optionA: "MAC Address",
+            optionB: "IP Address",
+            optionC: "Network Interface address",
+            optionD: "Address Resolution Protocol",
+            correctAnswer: "MAC Address"
+        },
+
+        {
+            question: "हार्डवेयर पते को __________ के रूप में जाना जाता है।",
+            optionA: "मैक पता",
+            optionB: "आईपी ​​पता",
+            optionC: "नेटवर्क इंटरफ़ेस पता",
+            optionD: "एड्रेस रिजॉल्यूशन प्रोटोकॉल",
+            correctAnswer: "मैक पता"
+        }
+    ],
+
+    [
+        {
+            // 252
+            question: "Which of the following is the example of web browser?",
+            optionA: "Airtel",
+            optionB: "BSNL",
+            optionC: "JIO",
+            optionD: "Firefox",
+            correctAnswer: "Firefox"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन वेब ब्राउज़र का उदाहरण है?",
+            optionA: "एयरटेल",
+            optionB: "बीएसएनएल",
+            optionC: "जियो",
+            optionD: "फ़ायरफ़ॉक्स",
+            correctAnswer: "फ़ायरफ़ॉक्स"
+        }
+    ],
+
+    [
+        {
+            // 253
+            question: "If you want your logo in the same position on every slide, automatically then insert it in __________.",
+            optionA: "Handout master",
+            optionB: "Note master",
+            optionC: "Slide master",
+            optionD: "Title master",
+            correctAnswer: "Slide master"
+        },
+
+        {
+            question: "यदि आप अपने लोगो को हर स्लाइड पर एक ही स्थिति में चाहते हैं, तो स्वचालित रूप से इसे __________ में डालें।",
+            optionA: "हैंडआउट मास्टर",
+            optionB: "नोट मास्टर",
+            optionC: "स्लाइड मास्टर",
+            optionD: "टाइटल मास्टर",
+            correctAnswer: "स्लाइड मास्टर"
+        }
+    ],
+
+    [
+        {
+            // 254
+            question: "Which menu is used to apply various effects to the text in a slide",
+            optionA: "Animation",
+            optionB: "Design",
+            optionC: "Transition",
+            optionD: "Slide show",
+            correctAnswer: "Animation"
+        },
+
+        {
+            question: "एक स्लाइड में टेक्स्ट पर विभिन्न प्रभावों को लागू करने के लिए किस मेनू का उपयोग किया जाता है",
+            optionA: "एनिमेशन",
+            optionB: "डिज़ाइन",
+            optionC: "ट्रांजिशन",
+            optionD: "स्लाइड शो",
+            correctAnswer: "एनिमेशन"
+        }
+    ],
+
+    [
+        {
+            // 255
+            question: "A preprogrammed formula is basically a __________.",
+            optionA: "Cell",
+            optionB: "Graph",
+            optionC: "Range",
+            optionD: "Function",
+            correctAnswer: "Function"
+        },
+
+        {
+            question: "एक प्रीप्रोग्राम्ड फॉर्मूला मूल रूप से एक __________ है।",
+            optionA: "सेल",
+            optionB: "ग्राफ",
+            optionC: "समूह",
+            optionD: "फंक्शन",
+            correctAnswer: "फंक्शन"
+        }
+    ],
+
+    [
+        {
+            // 256
+            question: "Which is the default location to save in LibreOffice Writer",
+            optionA: "Desktop",
+            optionB: "Documents",
+            optionC: "Downloads",
+            optionD: "OneDrive",
+            correctAnswer: "Documents"
+        },
+
+        {
+            question: "लिब्रे ऑफिस राइटर में सेव करने के लिए डिफ़ॉल्ट स्थान है",
+            optionA: "डेस्कटॉप",
+            optionB: "डॉक्यूमेंट्स",
+            optionC: "डाउनलोड्स",
+            optionD: "वन ड्राइव",
+            correctAnswer: "डॉक्यूमेंट्स"
+        }
+    ],
+
+    [
+        {
+            // 257
+            question: "Which of the following chart shows values as circular sectors of the total circle",
+            optionA: "Bar chart",
+            optionB: "Circular chart",
+            optionC: "Oval chart",
+            optionD: "Pie chart",
+            correctAnswer: "Pie chart"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन सा चार्ट मान को कुल सर्कल के परिपत्र क्षेत्रों के रूप में दिखाता है",
+            optionA: "बार चार्ट",
+            optionB: "परिपत्र चार्ट",
+            optionC: "अंडाकार चार्ट",
+            optionD: "पाई चार्ट",
+            correctAnswer: "पाई चार्ट"
+        }
+    ],
+
+    [
+        {
+            // 258
+            question: "In spreadsheet, letters are used to represent __________",
+            optionA: "Columns",
+            optionB: "Block",
+            optionC: "Rows",
+            optionD: "Cells",
+            correctAnswer: "Columns"
+        },
+
+        {
+            question: "स्प्रेडशीट में, अक्षरों का उपयोग __________ का प्रतिनिधित्व करने के लिए किया जाता है",
+            optionA: "कॉलम",
+            optionB: "समूह",
+            optionC: "पंक्तियों",
+            optionD: "सेल",
+            correctAnswer: "कॉलम"
+        }
+    ],
+
+    [
+        {
+            // 259
+            question: "Which of the following is the file extension of the PowerPoint application",
+            optionA: ".PPT",
+            optionB: ".JPG",
+            optionC: ".DOCX",
+            optionD: ".HTML",
+            correctAnswer: ".PPT"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन सा पावर प्वाइंट एप्लिकेशन का फ़ाइल एक्सटेंशन है",
+            optionA: ".पीपीटी",
+            optionB: ".जेपीजी",
+            optionC: ".डीओसीएक्स",
+            optionD: ".एचटीएमएल",
+            correctAnswer: ".पीपीटी"
+        }
+    ],
+
+    [
+        {
+            // 260
+            question: "Which of the following function calculate average in LibreOffice Calc? ",
+            optionA: "AVG()",
+            optionB: "AVERAGE()",
+            optionC: "AVR()",
+            optionD: "MEAN()",
+            correctAnswer: "AVERAGE()"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन सा फ़ंक्शन लिब्रे ऑफिस कैल्क में औसत की गणना करता है?",
+            optionA: "AVG()",
+            optionB: "AVERAGE()",
+            optionC: "AVR()",
+            optionD: "MEAN()",
+            correctAnswer: "AVERAGE()"
+        }
+    ],
+
+    [
+        {
+            // 261
+            question: "Which of the following documents appears blurred behind the text?",
+            optionA: "Backgound",
+            optionB: "Watermark",
+            optionC: "Front land",
+            optionD: "Image",
+            correctAnswer: "Watermark"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन सा दस्तावेज़ टेक्स्ट के पीछे धुंधला दिखाई देता है?",
+            optionA: "बैकग्राउण्ड",
+            optionB: "वाटर-मार्क",
+            optionC: "फ्रंट लैण्ड",
+            optionD: "इमेज",
+            correctAnswer: "वाटर-मार्क"
+        }
+    ],
+
+    [
+        {
+            // 262
+            question: "Which of the following methods can be used to send money over UPI",
+            optionA: "Mobile Number",
+            optionB: "VPA",
+            optionC: "Bank Account Number",
+            optionD: "All of these",
+            correctAnswer: "All of these"
+        },
+
+        {
+            question: "यूपीआई पर पैसे भेजने के लिए निम्नलिखित में से कौन से तरीकों का उपयोग किया जा सकता है",
+            optionA: "मोबाइल नंबर",
+            optionB: "वी.पी.ए.",
+            optionC: "बैंक खाता संख्या",
+            optionD: "ये सभी",
+            correctAnswer: "ये सभी"
+        }
+    ],
+
+    [
+        {
+            // 263
+            question: "Which of the following is not used as blogging platform",
+            optionA: "Pinterest",
+            optionB: "Blogger",
+            optionC: "TypePad",
+            optionD: "WordPress",
+            correctAnswer: "Pinterest"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन सा ब्लॉगिंग प्लेटफॉर्म के रूप में उपयोग नहीं किया जाता है",
+            optionA: "पिन्ट्रेस्ट",
+            optionB: "ब्लॉगर",
+            optionC: "टाइपपैड",
+            optionD: "वर्डप्रेस",
+            correctAnswer: "पिन्ट्रेस्ट"
+        }
+    ],
+
+    [
+        {
+            // 264
+            question: "What is default margin in LibreOffice writer document",
+            optionA: "0.5",
+            optionB: "0.2",
+            optionC: "10",
+            optionD: "1",
+            correctAnswer: "1"
+        },
+
+        {
+            question: "लिब्रे ऑफिस राइटर दस्तावेज़ में डिफ़ॉल्ट मार्जिन क्या है",
+            optionA: "0.5",
+            optionB: "0.2",
+            optionC: "10",
+            optionD: "1",
+            correctAnswer: "1"
+        }
+    ],
+
+    [
+        {
+            // 265
+            question: "Which of the following is not an application of artificial intelligence?",
+            optionA: "Face Recognition System",
+            optionB: "Chatbots",
+            optionC: "LIDAR",
+            optionD: "DBMS",
+            correctAnswer: "DBMS"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन कृत्रिम बुद्धिमत्ता का अनुप्रयोग नहीं है?",
+            optionA: "चेहरा पहचान प्रणाली",
+            optionB: "चैटबॉट्स",
+            optionC: "एल.आई.डी.ए.आर.",
+            optionD: "डी.बी.एम.एस.",
+            correctAnswer: "डी.बी.एम.एस."
+        }
+    ],
+
+    [
+        {
+            // 266
+            question: "__________ is being used by internet of things",
+            optionA: "Satellite",
+            optionB: "Cables",
+            optionC: "Radio Identification Technology",
+            optionD: "Broadband",
+            correctAnswer: "Radio Identification Technology"
+        },
+
+        {
+            question: "__________ का उपयोग इंटरनेट ऑफ थिंग्स द्वारा किया जा रहा है",
+            optionA: "उपग्रह",
+            optionB: "केबल",
+            optionC: "रेडियो आइडेन्टिफिकेशन टेक्नोलॉजी",
+            optionD: "ब्रॉडबैंड",
+            correctAnswer: "रेडियो आइडेन्टिफिकेशन टेक्नोलॉजी"
+        }
+    ],
+
+    [
+        {
+            // 267
+            question: "For which of the following Android is mainly developed",
+            optionA: "Mobile devices",
+            optionB: "Servers",
+            optionC: "Desktops",
+            optionD: "Laptops",
+            correctAnswer: "Mobile devices"
+        },
+
+        {
+            question: "निम्नलिखित में से किसके लिए एंड्रॉइड मुख्य रूप से विकसित किया गया है",
+            optionA: "मोबाइल उपकरण",
+            optionB: "सर्वर",
+            optionC: "डेस्कटॉप",
+            optionD: "लैपटॉप",
+            correctAnswer: "मोबाइल उपकरण"
+        }
+    ],
+
+    [
+        {
+            // 268
+            question: "Who is the father of internet?",
+            optionA: "Charles Babbage",
+            optionB: "Vint Cerf",
+            optionC: "Dennis Ritchie",
+            optionD: "Martin Cooper",
+            correctAnswer: "Vint Cerf"
+        },
+
+        {
+            question: "इंटरनेट का जनक कौन है?",
+            optionA: "चार्ल्स बैबेज",
+            optionB: "विन्ट सर्फ",
+            optionC: "डेनिस रिची",
+            optionD: "मार्टिन कूपर",
+            correctAnswer: "विन्ट सर्फ"
+        }
+    ],
+
+    [
+        {
+            // 269
+            question: "In the beginning ______ was the most widely used word processing software",
+            optionA: "Word Start",
+            optionB: "WordStar",
+            optionC: "Writer",
+            optionD: "Microsoft Word",
+            correctAnswer: "WordStar"
+        },
+
+        {
+            question: "शुरुआत में ______ सबसे व्यापक रूप से इस्तेमाल किया जाने वाला वर्ड प्रोसेसिंग सॉफ्टवेयर था",
+            optionA: "वर्ड स्टार्ट",
+            optionB: "वर्डस्टार",
+            optionC: "राइटर",
+            optionD: "माइक्रोसॉफ्ट वर्ड",
+            correctAnswer: "वर्डस्टार"
+        }
+    ],
+
+    [
+        {
+            // 270
+            question: "Which of the following is an example of ISP",
+            optionA: "Chrome",
+            optionB: "Firefox",
+            optionC: "Internet Explorer",
+            optionD: "Airtel",
+            correctAnswer: "Airtel"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन सा आई.एस.पी. का एक उदाहरण है",
+            optionA: "क्रोम",
+            optionB: "फ़ायरफ़ॉक्स",
+            optionC: "इंटरनेट एक्सप्लोरर",
+            optionD: "एयरटेल",
+            correctAnswer: "एयरटेल"
+        }
+    ],
+
+    [
+        {
+            // 271
+            question: "If you want to share a document and you want people to just see it and not edit it then who should you use",
+            optionA: "ODT",
+            optionB: "DOCX",
+            optionC: "PDF",
+            optionD: "DOC",
+            correctAnswer: "PDF"
+        },
+
+        {
+            question: "यदि आप एक दस्तावेज़ साझा करना चाहते हैं और आप चाहते हैं कि लोग इसे देखें और इसे संपादित न करें तो आपको किसका उपयोग करना चाहिए",
+            optionA: "ओ.डी.टी.",
+            optionB: "डी.ओ.सी.एक्स.",
+            optionC: "पी.डी.एफ.",
+            optionD: "डी.ओ.सी.",
+            correctAnswer: "पी.डी.एफ."
+        }
+    ],
+
+    [
+        {
+            // 272
+            question: "Which of the following is a search engine",
+            optionA: "Google chrome",
+            optionB: "Internet Explorer",
+            optionC: "Google",
+            optionD: "Mozilla Firefox",
+            correctAnswer: "Google"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन सा सर्च इंजन है",
+            optionA: "गूगल क्रोम",
+            optionB: "इंटरनेट एक्सप्लोरर",
+            optionC: "गूगल",
+            optionD: "मोज़िला फ़ायरफ़ॉक्स",
+            correctAnswer: "गूगल"
+        }
+    ],
+
+    [
+        {
+            // 273
+            question: "Which of the following is not an example of Social Site",
+            optionA: "Twitter",
+            optionB: "Amazon",
+            optionC: "Instagram",
+            optionD: "Linkedin",
+            correctAnswer: "Amazon"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन सोशल साइट का उदाहरण नहीं है",
+            optionA: "ट्विटर",
+            optionB: "अमेजन",
+            optionC: "इंस्टाग्राम",
+            optionD: "लिंक्डइन",
+            correctAnswer: "अमेजन"
+        }
+    ],
+
+    [
+        {
+            // 274
+            question: "Presentations are widely used as",
+            optionA: "Note outlines for teachers",
+            optionB: "Communication of planning",
+            optionC: "Project presentation by students",
+            optionD: "All of the above",
+            correctAnswer: "All of the above"
+        },
+
+        {
+            question: "प्रस्तुतियों का व्यापक रूप से उपयोग किया जाता है",
+            optionA: "शिक्षकों के लिए रूपरेखा नोट करना",
+            optionB: "योजना का संचार",
+            optionC: "छात्रों द्वारा परियोजना प्रस्तुति",
+            optionD: "ऊपर के सभी",
+            correctAnswer: "ऊपर के सभी"
+        }
+    ],
+
+    [
+        {
+            // 275
+            question: "Which of the following is invalid cell address",
+            optionA: "A1",
+            optionB: "Z249",
+            optionC: "71A",
+            optionD: "M54",
+            correctAnswer: "71A"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन सा अमान्य सेल पता है",
+            optionA: "A1",
+            optionB: "Z249",
+            optionC: "71A",
+            optionD: "M54",
+            correctAnswer: "71A"
+        }
+    ],
+
+    [
+        {
+            // 276
+            question: "Address of first cell in the spreadsheet is",
+            optionA: "A",
+            optionB: "A0",
+            optionC: "A1",
+            optionD: "1A",
+            correctAnswer: "1A"
+        },
+
+        {
+            question: "स्प्रेडशीट में पहले सेल का पता है",
+            optionA: "A",
+            optionB: "A0",
+            optionC: "A1",
+            optionD: "1A",
+            correctAnswer: "1A"
+        }
+    ],
+
+    [
+        {
+            // 277
+            question: "A block of text automatically added to the end of outgoing email is called _____",
+            optionA: "Encryption",
+            optionB: "Decryption",
+            optionC: "Signature",
+            optionD: "Draft",
+            correctAnswer: "Signature"
+        },
+
+        {
+            question: "आउटगोइंग ईमेल के अंत में स्वचालित रूप से जोड़े गए एक ब्लॉक को _____ कहा जाता है",
+            optionA: "इनक्रिप्शन",
+            optionB: "डिक्रिप्शन",
+            optionC: "हस्ताक्षर",
+            optionD: "ड्रॉफ्ट",
+            correctAnswer: "हस्ताक्षर"
+        }
+    ],
+
+    [
+        {
+            // 278
+            question: "In a computer spreadsheet, block of cells is called",
+            optionA: "Columns",
+            optionB: "Workbook",
+            optionC: "Function",
+            optionD: "Range",
+            correctAnswer: "Range"
+        },
+
+        {
+            question: "एक कंप्यूटर स्प्रेडशीट में, सेल के समूह को कहा जाता है",
+            optionA: "कॉलम",
+            optionB: "वर्कबुक",
+            optionC: "फंक्शन",
+            optionD: "रेंज",
+            correctAnswer: "रेंज"
+        }
+    ],
+
+    [
+        {
+            // 279
+            question: "Placing the mouse cursor over any icon displays a small box called _______ which gives a brief explanation of the icon",
+            optionA: "Toolbar",
+            optionB: "Toolbox",
+            optionC: "Tooltip",
+            optionD: "Toolkit",
+            correctAnswer: "Tooltip"
+        },
+
+        {
+            question: "किसी भी आइकन पर माउस कर्सर रखने से _______ नामक एक छोटा सा बॉक्स प्रदर्शित होता है जो आइकन का संक्षिप्त विवरण देता है",
+            optionA: "टूलबार",
+            optionB: "टूलबॉक्स",
+            optionC: "टूलटिप",
+            optionD: "टूलकिट",
+            correctAnswer: "टूलटिप"
+        }
+    ],
+
+    [
+        {
+            // 280
+            question: "Which of the following action you can not assign to an action button on slide object",
+            optionA: "Run a macro",
+            optionB: "Hyperlink",
+            optionC: "Play a sound",
+            optionD: "Delete a presentation",
+            correctAnswer: "Delete a presentation"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन सी क्रिया आप स्लाइड ऑब्जेक्ट पर एक एक्शन बटन को असाइन नहीं कर सकते",
+            optionA: "एक मैक्रो चलाएं",
+            optionB: "हाइपरलिंक",
+            optionC: "एक ध्वनि चालू करना",
+            optionD: "एक प्रस्तुति हटाना",
+            correctAnswer: "एक प्रस्तुति हटाना"
+        }
+    ],
+
+    [
+        {
+            // 281
+            question: "Version 6 of IP address has how many bits",
+            optionA: "64",
+            optionB: "128",
+            optionC: "32",
+            optionD: "256",
+            correctAnswer: "128"
+        },
+
+        {
+            question: "आई.पी. पते के संस्करण 6 में कितने बिट्स हैं",
+            optionA: "64",
+            optionB: "128",
+            optionC: "32",
+            optionD: "256",
+            correctAnswer: "128"
+        }
+    ],
+
+    [
+        {
+            // 282
+            question: "Who has been entrusted with the task of railway reservations by Indian Railways",
+            optionA: "NIC",
+            optionB: "NAC",
+            optionC: "BHEL",
+            optionD: "IRCTC",
+            correctAnswer: "IRCTC"
+        },
+
+        {
+            question: "जिसे भारतीय रेलवे द्वारा रेलवे आरक्षण के कार्य के साथ सौंपा गया है",
+            optionA: "एन.आई.सी.",
+            optionB: "एन.ए.सी.",
+            optionC: "बी.एच.ई.एल.",
+            optionD: "आई.आर.सी.टी.सी.",
+            correctAnswer: "आई.आर.सी.टी.सी."
+        }
+    ],
+
+    [
+        {
+            // 283
+            question: "Undo and Redo can be done with which of the following shortcut keys",
+            optionA: "CTRL + Z, CTRL + Y",
+            optionB: "CTRL + Y, CTRL + Z",
+            optionC: "CTRL + ALT + Z, CTRL + ALT + Y",
+            optionD: "CTRL + ALT + Y, CTRL + ALT + Z",
+            correctAnswer: "CTRL + Z, CTRL + Y"
+        },
+
+        {
+            question: "निम्नलिखित शॉर्टकट कुंजियों में से किसके साथ अनडू और रीडू किया जा सकता है",
+            optionA: "CTRL + Z, CTRL + Y",
+            optionB: "CTRL + Y, CTRL + Z",
+            optionC: "CTRL + ALT + Z, CTRL + ALT + Y",
+            optionD: "CTRL + ALT + Y, CTRL + ALT + Z",
+            correctAnswer: "CTRL + Z, CTRL + Y"
+        }
+    ],
+
+    [
+        {
+            // 284
+            question: "Which of the following data can not be typed into a spreadsheet cell",
+            optionA: "Formulae",
+            optionB: "Text",
+            optionC: "Numbers",
+            optionD: "MP3",
+            correctAnswer: "MP3"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन सा डेटा स्प्रेडशीट सेल में टाइप नहीं किया जा सकता है",
+            optionA: "फॉर्मूला",
+            optionB: "टेक्स्ट",
+            optionC: "नंबर्स",
+            optionD: "एम.पी.थ्री",
+            correctAnswer: "एम.पी.थ्री"
+        }
+    ],
+
+    [
+        {
+            // 285
+            question: "Dotted areas in empty slide are called",
+            optionA: "Template",
+            optionB: "Placard",
+            optionC: "Placeholders",
+            optionD: "Themes",
+            correctAnswer: "Placeholders"
+        },
+
+        {
+            question: "खाली स्लाइड में बिंदीदार क्षेत्रों को कहा जाता है",
+            optionA: "खाका",
+            optionB: "घोषणापत्र",
+            optionC: "प्लेसहोल्डर",
+            optionD: "विषय-वस्तु",
+            correctAnswer: "प्लेसहोल्डर"
+        }
+    ],
+
+    [
+        {
+            // 286
+            question: "Spreadsheet is not used for",
+            optionA: "Managing financial & accounting docs",
+            optionB: "Creating data report",
+            optionC: "Data Analysis",
+            optionD: "Creating Presentations",
+            correctAnswer: "Creating Presentations"
+        },
+
+        {
+            question: "स्प्रेडशीट का उपयोग नहीं किया जाता है",
+            optionA: "वित्तीय और लेखांकन डॉक्स का प्रबंधन",
+            optionB: "डेटा रिपोर्ट बनाना",
+            optionC: "डेटा विश्लेषण",
+            optionD: "प्रस्तुतियाँ बनाना",
+            correctAnswer: "प्रस्तुतियाँ बनाना"
+        }
+    ],
+
+    [
+        {
+            // 287
+            question: "Group of bits in a memory which is used to represent information or data of some type is known as",
+            optionA: "Byte",
+            optionB: "Memory word",
+            optionC: "SRAM",
+            optionD: "PROM",
+            correctAnswer: "Byte"
+        },
+
+        {
+            question: "एक मेमोरी में बिट्स का समूह जो किसी प्रकार की जानकारी या डेटा का प्रतिनिधित्व करने के लिए उपयोग किया जाता है, के रूप में जाना जाता है",
+            optionA: "बाइट",
+            optionB: "मेमोरी वर्ड",
+            optionC: "एस.आर.ए.एम.",
+            optionD: "पी.आर.ओ.एम.",
+            correctAnswer: "बाइट"
+        }
+    ],
+
+    [
+        {
+            // 288
+            question: "Information in computer read only memory is stored by",
+            optionA: "User",
+            optionB: "Programmer",
+            optionC: "Manufacturer",
+            optionD: "Engineer",
+            correctAnswer: "Manufacturer"
+        },
+
+        {
+            question: "कंप्यूटर रीड ओनली मेमोरी में जानकारी _______ द्वारा संग्रहीत की जाती है",
+            optionA: "उपयोगकर्ता",
+            optionB: "प्रोग्रामर",
+            optionC: "उत्पादक",
+            optionD: "अभियंता",
+            correctAnswer: "उत्पादक"
+        }
+    ],
+
+    [
+        {
+            // 289
+            question: "Data entered into computer through keyboard and mouse is an example of",
+            optionA: "Instruction",
+            optionB: "Command",
+            optionC: "Indirect input",
+            optionD: "Direct input",
+            correctAnswer: "Direct input"
+        },
+
+        {
+            question: "कीबोर्ड और माउस के माध्यम से कंप्यूटर में दर्ज डेटा एक उदाहरण है",
+            optionA: "अनुदेश",
+            optionB: "आज्ञा",
+            optionC: "अप्रत्यक्ष इनपुट",
+            optionD: "प्रत्यक्ष इनपुट",
+            correctAnswer: "प्रत्यक्ष इनपुट"
+        }
+    ],
+
+    [
+        {
+            // 290
+            question: "1 Kilobyte is equals to",
+            optionA: "1024 bytes",
+            optionB: "1048576 bytes",
+            optionC: "102400 bytes",
+            optionD: "1048 bytes",
+            correctAnswer: "1024 bytes"
+        },
+
+        {
+            question: "1 किलोबाइट के बराबर है",
+            optionA: "1024 बाइट्स",
+            optionB: "1048576 बाइट्स",
+            optionC: "102400 बाइट्स",
+            optionD: "1048 बाइट्स",
+            correctAnswer: "1024 बाइट्स"
+        }
+    ],
+
+    [
+        {
+            // 291
+            question: "In a spreadsheet, letters are used to represent ________",
+            optionA: "Cells",
+            optionB: "Rows",
+            optionC: "Columns",
+            optionD: "Blocks",
+            correctAnswer: "Columns"
+        },
+
+        {
+            question: "एक स्प्रेडशीट में, अक्षरों का उपयोग ________ का प्रतिनिधित्व करने के लिए किया जाता है",
+            optionA: "सेल",
+            optionB: "रो",
+            optionC: "कॉलम",
+            optionD: "ब्लॉक्स",
+            correctAnswer: "कॉलम"
+        }
+    ],
+
+    [
+        {
+            // 292
+            question: "Spreadsheet can not",
+            optionA: "Do calculations",
+            optionB: "Create graphics",
+            optionC: "Plot graphs",
+            optionD: "Plot charts",
+            correctAnswer: "Create graphics"
+        },
+
+        {
+            question: "स्प्रेडशीट नहीं कर सकता",
+            optionA: "गणना करना",
+            optionB: "ग्राफिक्स बनाना",
+            optionC: "प्लॉट ग्राफ",
+            optionD: "प्लॉट चार्ट",
+            correctAnswer: "ग्राफिक्स बनाना"
+        }
+    ],
+
+    [
+        {
+            // 293
+            question: "Which among the following is an application that allows the user to compose and edit simple documents.",
+            optionA: "Word processor",
+            optionB: "Spreadsheet",
+            optionC: "E-mail utility",
+            optionD: "Browsers",
+            correctAnswer: "Word processor"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन सा एक एप्लिकेशन है जो उपयोगकर्ता को सरल दस्तावेज़ बनाने और संपादित करने की अनुमति देता है।",
+            optionA: "वर्ड प्रोसेसर",
+            optionB: "स्प्रेडशीट",
+            optionC: "ई-मेल यूटिलिटी",
+            optionD: "ब्रॉउजर्स",
+            correctAnswer: "वर्ड प्रोसेसर"
+        }
+    ],
+
+    [
+        {
+            // 294
+            question: "______ is an example of e-mail utility",
+            optionA: "Word",
+            optionB: "Outlook",
+            optionC: "Explorer",
+            optionD: "Excel",
+            correctAnswer: "Outlook"
+        },
+
+        {
+            question: "______ ई-मेल उपयोगिता का एक उदाहरण है",
+            optionA: "वर्ड",
+            optionB: "आउटलुक",
+            optionC: "एक्सप्लोरर",
+            optionD: "एक्सेल",
+            correctAnswer: "आउटलुक"
+        }
+    ],
+
+    [
+        {
+            // 295
+            question: "ODT stands for",
+            optionA: "Open Office writer Document File",
+            optionB: "Open Writer Document File",
+            optionC: "Open Document File",
+            optionD: "Office Document File",
+            correctAnswer: "Open Document File"
+        },
+
+        {
+            question: "ओ.डी.टी. का मतलब है",
+            optionA: "ओपन ऑफिस राइटर डॉक्यूमेंट फाइल",
+            optionB: "ओपन राइटर डॉक्यूमेंट फाइल",
+            optionC: "ओपन डॉक्यूमेंट फाइल",
+            optionD: "ऑफिस डॉक्यूमेंट फाइल",
+            correctAnswer: "ओपन डॉक्यूमेंट फाइल"
+        }
+    ],
+
+    [
+        {
+            // 296
+            question: "IME stands for Input Method Editor",
+            optionA: "True",
+            optionB: "False",
+            optionC: "None of these",
+            optionD: "Either True or False",
+            correctAnswer: "True"
+        },
+
+        {
+            question: "आई.एम.ई. का मतलब इनपुट मेथड एडिटर है",
+            optionA: "सही",
+            optionB: "गलत",
+            optionC: "इनमें से कोई नहीं",
+            optionD: "या तो सही या गलत",
+            correctAnswer: "सही"
+        }
+    ],
+
+    [
+        {
+            // 297
+            question: "Keyboard shortcut to insert new slide in a presentation",
+            optionA: "CTRL + N",
+            optionB: "CTRL + M",
+            optionC: "CTRL + SHIFT + N",
+            optionD: "CTRL + SHIFT + M",
+            correctAnswer: "CTRL + M"
+        },
+
+        {
+            question: "प्रेजेंटेशन में नई स्लाइड डालने के लिए कीबोर्ड शॉर्टकट",
+            optionA: "CTRL + N",
+            optionB: "CTRL + M",
+            optionC: "CTRL + SHIFT + N",
+            optionD: "CTRL + SHIFT + M",
+            correctAnswer: "CTRL + M"
+        }
+    ],
+
+    [
+        {
+            // 298
+            question: "UNIX is an _______",
+            optionA: "Graphics software",
+            optionB: "Computer network",
+            optionC: "Operating system",
+            optionD: "MS Word file",
+            correctAnswer: "Operating system"
+        },
+
+        {
+            question: "यूनिक्स एक ________ है",
+            optionA: "ग्राफिक्स सॉफ्टवेयर",
+            optionB: "कंप्यूटर नेटवर्क",
+            optionC: "ऑपरेटिंग सिस्टम",
+            optionD: "एम.एस.वर्ड फाइल",
+            correctAnswer: "ऑपरेटिंग सिस्टम"
+        }
+    ],
+
+    [
+        {
+            // 299
+            question: ".DOC file extension is used for",
+            optionA: "Writer document",
+            optionB: "Word document",
+            optionC: "Excel workbook",
+            optionD: "Calc document",
+            correctAnswer: "Word document"
+        },
+
+        {
+            question: ".DOC फ़ाइल एक्सटेंशन का उपयोग किया जाता है",
+            optionA: "राइटर डॉक्यूमेंट",
+            optionB: "वर्ड डॉक्यूमेंट",
+            optionC: "एक्सल वर्कबुक",
+            optionD: "कैल्क दस्तावेज़",
+            correctAnswer: "वर्ड डॉक्यूमेंट"
+        }
+    ],
+
+    [
+        {
+            // 300
+            question: "Full name of CRT",
+            optionA: "Computer Recording Technique",
+            optionB: "Cathod Ray Tube",
+            optionC: "Collection Ray Tube",
+            optionD: "Computer Related Terminal",
+            correctAnswer: "Cathod Ray Tube"
+        },
+
+        {
+            question: "सी.आर.टी. का पूरा नाम",
+            optionA: "कंप्यूटर रिकॉर्डिंग तकनीक",
+            optionB: "कैथोड रे ट्यूब",
+            optionC: "कलेक्शन रे ट्यूब",
+            optionD: "कंप्यूटर रिलेटेड टर्मिनल",
+            correctAnswer: "कैथोड रे ट्यूब"
+        }
+    ],
+
+    [
+        {
+            // 301
+            question: "The cell that is in use is called as ________",
+            optionA: "Active cell",
+            optionB: "Passive cell",
+            optionC: "Direct cell",
+            optionD: "Indirect cell",
+            correctAnswer: "Active cell"
+        },
+
+        {
+            question: "जो सेल उपयोग में है उसे ________ कहा जाता है",
+            optionA: "सक्रिय सेल",
+            optionB: "निष्क्रिय सेल",
+            optionC: "प्रत्यक्ष सेल",
+            optionD: "अप्रत्यक्ष सेल",
+            correctAnswer: "सक्रिय सेल"
+        }
+    ],
+
+
+
+
+
+
+
+
+
+
+
 
     [
         {
@@ -1524,11 +2632,11 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
+            question: "Libreoffice calc does not provide following toolbar",
+            optionA: "Media playback",
+            optionB: "3D settings",
+            optionC: "Painting",
+            optionD: "Drawing",
             correctAnswer: ""
         }
     ],
@@ -1545,11 +2653,11 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
+            question: "In libreoffice writer which style option is not available",
+            optionA: "Emphasis",
+            optionB: "Strong Emphasis",
+            optionC: "Quotation",
+            optionD: "Double Quotation",
             correctAnswer: ""
         }
     ],
@@ -1566,11 +2674,11 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
+            question: "Which is not a valid presentation mode in Libreoffice Impress",
+            optionA: "Full screen",
+            optionB: "Half screen",
+            optionC: "In a window",
+            optionD: "Loop and repeat",
             correctAnswer: ""
         }
     ],
@@ -1587,11 +2695,11 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
+            question: "Which address is permitted not to use two forward slashes",
+            optionA: "Http URL",
+            optionB: "SMTP URL",
+            optionC: "News Address",
+            optionD: "Telnet URL",
             correctAnswer: ""
         }
     ],
@@ -1608,11 +2716,11 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
+            question: "In the multi threaded model scheduling of thread execution is a task of _______",
+            optionA: "Input",
+            optionB: "Output",
+            optionC: "Memory",
+            optionD: "Operating System",
             correctAnswer: ""
         }
     ],
@@ -1629,11 +2737,11 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
+            question: "Total types of IoT platforms and voice communication is _____",
+            optionA: "4, 3",
+            optionB: "3, 4",
+            optionC: "2, 4",
+            optionD: "3, 2",
             correctAnswer: ""
         }
     ],
@@ -1650,11 +2758,11 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
+            question: "E-payments can be done through ____",
+            optionA: "Wallets",
+            optionB: "Digital wallets",
+            optionC: "Cash",
+            optionD: "None of the above",
             correctAnswer: ""
         }
     ],
@@ -1671,11 +2779,11 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
+            question: "Which is not an Operating System service given to users",
+            optionA: "I/O",
+            optionB: "Process management",
+            optionC: "Compilation",
+            optionD: "File management",
             correctAnswer: ""
         }
     ],
@@ -1692,11 +2800,11 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
+            question: "Which is not required hardware for LAN",
+            optionA: "NIC",
+            optionB: "File server",
+            optionC: "Co-axial cable",
+            optionD: "Monitor server",
             correctAnswer: ""
         }
     ],
@@ -1713,12 +2821,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "Which of the following is an Open Source software",
+            optionA: "Photoshop",
+            optionB: "MS word",
+            optionC: "Skype",
+            optionD: "Libreoffice",
+            correctAnswer: "Libreoffice"
         }
     ],
 
@@ -1734,12 +2842,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "AADHAR is a unique identity number issued by ______",
+            optionA: "UBI",
+            optionB: "UIAI",
+            optionC: "UIDAI",
+            optionD: "UBDAI",
+            correctAnswer: "UIDAI"
         }
     ],
 
@@ -1755,12 +2863,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "Which is not true about bookmarks",
+            optionA: "@ character cannot be used as a bookmark name",
+            optionB: "Naviagtor is opened by F5 and to jump to specific bookmark",
+            optionC: "Lower list contain all the bookmarks in the current document",
+            optionD: "To delete a bookmark, select and press delete button",
+            correctAnswer: "@ character cannot be used as a bookmark name"
         }
     ],
 
@@ -1776,12 +2884,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "UMANG do not provide services for _______",
+            optionA: "Farmers",
+            optionB: "Hunters",
+            optionC: "Students",
+            optionD: "Pensioners",
+            correctAnswer: "Hunters"
         }
     ],
 
@@ -1797,11 +2905,11 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
+            question: "Which is not a valid paper format in Impress slide property",
+            optionA: "Length",
+            optionB: "Width",
+            optionC: "Height",
+            optionD: "Orientation",
             correctAnswer: ""
         }
     ],
@@ -1818,11 +2926,11 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
+            question: "Connectors are anchored to particular places in Libreoffice impress using ______",
+            optionA: "Fixer",
+            optionB: "Glue",
+            optionC: "Point",
+            optionD: "Glue point",
             correctAnswer: ""
         }
     ],
@@ -1839,11 +2947,11 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
+            question: "It is not possible to insert _______ in a document",
+            optionA: "Image",
+            optionB: "Shape",
+            optionC: "Video",
+            optionD: "3D Model",
             correctAnswer: ""
         }
     ],
@@ -1860,12 +2968,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "Spreadsheet file can be emailed as in Libreoffice calc as ________",
+            optionA: "Open document",
+            optionB: "Microsoft Excel",
+            optionC: "PDF",
+            optionD: "All of the above",
+            correctAnswer: "All of the above"
         }
     ],
 
@@ -1881,12 +2989,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "Netiquette is a rule related to _______",
+            optionA: "Food habits",
+            optionB: "Cyber habits",
+            optionC: "Ratailing habits",
+            optionD: "Banking habits",
+            correctAnswer: "Cyber habits"
         }
     ],
 
@@ -1902,12 +3010,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "Open remote option opens file from _______",
+            optionA: "Desktop",
+            optionB: "Hard disk",
+            optionC: "Pendrive",
+            optionD: "Services",
+            correctAnswer: "Services"
         }
     ],
 
@@ -1923,12 +3031,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "Create a batch of documents that are personalized for each recipient",
+            optionA: "Customised files",
+            optionB: "Personalised emails",
+            optionC: "Mail merge utility to merge",
+            optionD: "None of the above",
+            correctAnswer: "Mail merge utility to merge"
         }
     ],
 
@@ -1944,11 +3052,11 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
+            question: "Shortcut to insert a function in Libreoffice calc",
+            optionA: "CTRL + F2",
+            optionB: "CTRL + F1",
+            optionC: "CTRL + F3",
+            optionD: "CTRL + F9",
             correctAnswer: ""
         }
     ],
@@ -1961,16 +3069,16 @@ const questions = [
             optionB: "CTRL + SHIFT + A",
             optionC: "CTRL + SHIFT + F",
             optionD: "CTRL + SHIFT + K",
-            correctAnswer: ""
+            correctAnswer: "CTRL + SHIFT + L"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "Libreoffice Calc में ऑटो फ़िल्टर के लिए शॉर्टकट कुंजी ______ है",
+            optionA: "CTRL + SHIFT + L",
+            optionB: "CTRL + SHIFT + A",
+            optionC: "CTRL + SHIFT + F",
+            optionD: "CTRL + SHIFT + K",
+            correctAnswer: "CTRL + SHIFT + L"
         }
     ],
 
@@ -1982,16 +3090,16 @@ const questions = [
             optionB: "Metafile",
             optionC: "2D",
             optionD: "3D",
-            correctAnswer: ""
+            correctAnswer: "Metafile"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "प्रस्तुति को _______ में परिवर्तित नहीं किया जा सकता है",
+            optionA: "बिटमैप",
+            optionB: "मेटाफ़ाइल",
+            optionC: "टूडी",
+            optionD: "थ्रीडी",
+            correctAnswer: "मेटाफ़ाइल"
         }
     ],
 
@@ -2003,16 +3111,16 @@ const questions = [
             optionB: "Connect two maximum length segments",
             optionC: "Active powered device",
             optionD: "All of the above",
-            correctAnswer: ""
+            correctAnswer: "All of the above"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "निम्नलिखित में से कौन सा कथन है रिपीटर्स के लिए सही है",
+            optionA: "लेयर एक का उपकरण",
+            optionB: "दो अधिकतम लंबाई सेगमेंट कनेक्ट करें",
+            optionC: "ऐक्टिव पॉवर डिवाइस",
+            optionD: "ऊपर के सभी",
+            correctAnswer: "ऊपर के सभी"
         }
     ],
 
@@ -2024,16 +3132,16 @@ const questions = [
             optionB: "Insert references as fields in the single document",
             optionC: "Use objects with caption and bookmarks as targets",
             optionD: "All of the above are possible",
-            correctAnswer: ""
+            correctAnswer: "All of the above are possible"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "लिब्रे ऑफिस राइटर में क्रॉस संदर्भ डालकर क्या किया जा सकता है",
+            optionA: "विशिष्ट टेक्स्ट पैसेज पर कूदें",
+            optionB: "एकल दस्तावेज़ में फ़ील्ड के रूप में संदर्भ डालें",
+            optionC: "लक्ष्य के रूप में कैप्शन और बुकमार्क के साथ वस्तुओं का उपयोग करें",
+            optionD: "उपरोक्त सभी संभव हैं",
+            correctAnswer: "उपरोक्त सभी संभव हैं"
         }
     ],
 
@@ -2045,16 +3153,16 @@ const questions = [
             optionB: "HTTP",
             optionC: "X-GSN",
             optionD: "GSN",
-            correctAnswer: ""
+            correctAnswer: "X-GSN"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "किस नेटवर्क के माध्यम से ओपन आई.ओ.टी. पंजीकरण, सेंसर की तैनाती का प्रबंधन करता है",
+            optionA: "एल.एस.एम.",
+            optionB: "एच.टी.टी.पी.",
+            optionC: "एक्स-जी.एस.एन.",
+            optionD: "जी.एस.एन.",
+            correctAnswer: "एक्स-जी.एस.एन."
         }
     ],
 
@@ -2066,16 +3174,16 @@ const questions = [
             optionB: "Edit",
             optionC: "Organize",
             optionD: "All of the above",
-            correctAnswer: ""
+            correctAnswer: "All of the above"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "इम्प्रेस एक उपयोगकर्ता को ______ मैक्रोज़ की अनुमति देता है",
+            optionA: "रन",
+            optionB: "एडिट",
+            optionC: "ऑर्गेनाइज",
+            optionD: "ऊपर के सभी",
+            correctAnswer: "ऊपर के सभी"
         }
     ],
 
@@ -2092,12 +3200,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "लिब्रे ऑफिस राइटर में ट्रैक परिवर्तन ______ की अनुमति नहीं देता है",
+            optionA: "एक्सेप्ट",
+            optionB: "रिजेक्ट",
+            optionC: "डिलीट",
+            optionD: "एक्सेप्ट ऑल",
+            correctAnswer: "डिलीट"
         }
     ],
 
@@ -5259,7 +6367,7 @@ const questions = [
             optionB: "IP Address",
             optionC: "Network Interface address",
             optionD: "Address Resolution Protocol",
-            correctAnswer: ""
+            correctAnswer: "MAC Address"
         },
 
         {
@@ -5268,7 +6376,7 @@ const questions = [
             optionB: "आईपी ​​पता",
             optionC: "नेटवर्क इंटरफ़ेस पता",
             optionD: "एड्रेस रिजॉल्यूशन प्रोटोकॉल",
-            correctAnswer: "आईपी ​​पता"
+            correctAnswer: "मैक पता"
         }
     ],
 
@@ -5364,7 +6472,7 @@ const questions = [
             optionB: "Documents",
             optionC: "Downloads",
             optionD: "OneDrive",
-            correctAnswer: ""
+            correctAnswer: "Documents"
         },
 
         {
@@ -5373,7 +6481,7 @@ const questions = [
             optionB: "डॉक्यूमेंट्स",
             optionC: "डाउनलोड्स",
             optionD: "वन ड्राइव",
-            correctAnswer: ""
+            correctAnswer: "डॉक्यूमेंट्स"
         }
     ],
 
@@ -5489,8 +6597,8 @@ const questions = [
             optionA: "Mobile Number",
             optionB: "VPA",
             optionC: "Bank Account Number",
-            optionD: "Aadhar number",
-            correctAnswer: ""
+            optionD: "All of these",
+            correctAnswer: "All of these"
         },
 
         {
@@ -5498,8 +6606,8 @@ const questions = [
             optionA: "मोबाइल नंबर",
             optionB: "वी.पी.ए.",
             optionC: "बैंक खाता संख्या",
-            optionD: "आधार संख्या",
-            correctAnswer: ""
+            optionD: "ये सभी",
+            correctAnswer: "ये सभी"
         }
     ],
 
@@ -5511,7 +6619,7 @@ const questions = [
             optionB: "Blogger",
             optionC: "TypePad",
             optionD: "WordPress",
-            correctAnswer: ""
+            correctAnswer: "Pinterest"
         },
 
         {
@@ -5520,7 +6628,7 @@ const questions = [
             optionB: "ब्लॉगर",
             optionC: "टाइपपैड",
             optionD: "वर्डप्रेस",
-            correctAnswer: ""
+            correctAnswer: "पिन्ट्रेस्ट"
         }
     ],
 
@@ -5532,7 +6640,7 @@ const questions = [
             optionB: "0.2",
             optionC: "10",
             optionD: "1",
-            correctAnswer: ""
+            correctAnswer: "1"
         },
 
         {
@@ -5541,7 +6649,7 @@ const questions = [
             optionB: "0.2",
             optionC: "10",
             optionD: "1",
-            correctAnswer: ""
+            correctAnswer: "1"
         }
     ],
 
@@ -5553,7 +6661,7 @@ const questions = [
             optionB: "Chatbots",
             optionC: "LIDAR",
             optionD: "DBMS",
-            correctAnswer: ""
+            correctAnswer: "DBMS"
         },
 
         {
@@ -5562,7 +6670,7 @@ const questions = [
             optionB: "चैटबॉट्स",
             optionC: "एल.आई.डी.ए.आर.",
             optionD: "डी.बी.एम.एस.",
-            correctAnswer: ""
+            correctAnswer: "डी.बी.एम.एस."
         }
     ],
 
@@ -5574,7 +6682,7 @@ const questions = [
             optionB: "Cables",
             optionC: "Radio Identification Technology",
             optionD: "Broadband",
-            correctAnswer: ""
+            correctAnswer: "Radio Identification Technology"
         },
 
         {
@@ -5583,7 +6691,7 @@ const questions = [
             optionB: "केबल",
             optionC: "रेडियो आइडेन्टिफिकेशन टेक्नोलॉजी",
             optionD: "ब्रॉडबैंड",
-            correctAnswer: ""
+            correctAnswer: "रेडियो आइडेन्टिफिकेशन टेक्नोलॉजी"
         }
     ],
 
@@ -5637,7 +6745,7 @@ const questions = [
             optionB: "WordStar",
             optionC: "Writer",
             optionD: "Microsoft Word",
-            correctAnswer: ""
+            correctAnswer: "WordStar"
         },
 
         {
@@ -5646,7 +6754,7 @@ const questions = [
             optionB: "वर्डस्टार",
             optionC: "राइटर",
             optionD: "माइक्रोसॉफ्ट वर्ड",
-            correctAnswer: ""
+            correctAnswer: "वर्डस्टार"
         }
     ],
 
@@ -5868,7 +6976,7 @@ const questions = [
             optionB: "Hyperlink",
             optionC: "Play a sound",
             optionD: "Delete a presentation",
-            correctAnswer: ""
+            correctAnswer: "Delete a presentation"
         },
 
         {
@@ -5877,7 +6985,7 @@ const questions = [
             optionB: "हाइपरलिंक",
             optionC: "एक ध्वनि चालू करना",
             optionD: "एक प्रस्तुति हटाना",
-            correctAnswer: ""
+            correctAnswer: "एक प्रस्तुति हटाना"
         }
     ],
 
@@ -6057,7 +7165,7 @@ const questions = [
             optionB: "Command",
             optionC: "Indirect input",
             optionD: "Direct input",
-            correctAnswer: ""
+            correctAnswer: "Direct input"
         },
 
         {
@@ -6066,7 +7174,7 @@ const questions = [
             optionB: "आज्ञा",
             optionC: "अप्रत्यक्ष इनपुट",
             optionD: "प्रत्यक्ष इनपुट",
-            correctAnswer: ""
+            correctAnswer: "प्रत्यक्ष इनपुट"
         }
     ],
 
