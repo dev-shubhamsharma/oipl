@@ -1319,7 +1319,7 @@ const questions = [
             optionB: "Y-पोजिशन",
             optionC: "वर्टिकल टाइप",
             optionD: "ऊपर के सभी",
-            correctAnswer: "ऊपर के सभी"
+            correctAnswer: "वर्टिकल टाइप"
         }
     ],
 
@@ -1373,7 +1373,7 @@ const questions = [
             optionB: "Ethernet",
             optionC: "Token Ring",
             optionD: "P2P",
-            correctAnswer: ""
+            correctAnswer: "Ethernet"
         },
 
         {
@@ -1525,7 +1525,7 @@ const questions = [
             optionB: "World Wide Web",
             optionC: "Wide Web world",
             optionD: "Wide Wired Web",
-            correctAnswer: ""
+            correctAnswer: "World Wide Web"
         },
 
         {
@@ -2071,7 +2071,7 @@ const questions = [
             optionB: "A0",
             optionC: "A1",
             optionD: "1A",
-            correctAnswer: "1A"
+            correctAnswer: "A1"
         },
 
         {
@@ -2080,7 +2080,7 @@ const questions = [
             optionB: "A0",
             optionC: "A1",
             optionD: "1A",
-            correctAnswer: "1A"
+            correctAnswer: "A1"
         }
     ],
 
