@@ -1512,10 +1512,602 @@ const questions = [
         }
     ],
 
+    [
+        {
+            // 73
+            question: "Libreoffice calc does not provide following toolbar",
+            optionA: "Media playback",
+            optionB: "3D settings",
+            optionC: "Painting",
+            optionD: "Drawing",
+            correctAnswer: "Painting"
+        },
+
+        {
+            question: "लिब्रे ऑफिस कैल्क निम्नलिखित टूलबार प्रदान नहीं करता है है",
+            optionA: "मीडिया प्लेबैक",
+            optionB: "थ्रीडी सेटिंग्स",
+            optionC: "पेंटिंग",
+            optionD: "ड्रॉइंग",
+            correctAnswer: "पेंटिंग"
+        }
+    ],
+
+    [
+        {
+            // 74
+            question: "In libreoffice writer which style option is not available",
+            optionA: "Emphasis",
+            optionB: "Strong Emphasis",
+            optionC: "Quotation",
+            optionD: "Double Quotation",
+            correctAnswer: "Double Quotation"
+        },
+
+        {
+            question: "लिब्रे ऑफिस राइटर में कौन सा स्टाइल विकल्प उपलब्ध नहीं है",
+            optionA: "इम्फेसिस",
+            optionB: "स्ट्रॉंग इम्फेसिस",
+            optionC: "कोटेशन",
+            optionD: "डॅबल कोटेशन",
+            correctAnswer: "डॅबल कोटेशन"
+        }
+    ],
+
+    [
+        {
+            // 75
+            question: "Which is not a valid presentation mode in Libreoffice Impress",
+            optionA: "Full screen",
+            optionB: "Half screen",
+            optionC: "In a window",
+            optionD: "Loop and repeat",
+            correctAnswer: "Half screen"
+        },
+
+        {
+            question: "कौन सा लिब्रे ऑफिस इम्प्रैस में एक वैध प्रस्तुति मोड नहीं है",
+            optionA: "फुल स्क्रीन",
+            optionB: "हॉफ स्क्रीन",
+            optionC: "इन अ विन्डो",
+            optionD: "लूप एण्ड रिपीट",
+            correctAnswer: "हॉफ स्क्रीन"
+        }
+    ],
+
+    [
+        {
+            // 76
+            question: "Which address is permitted not to use two forward slashes",
+            optionA: "Http URL",
+            optionB: "SMTP URL",
+            optionC: "News Address",
+            optionD: "Telnet URL",
+            correctAnswer: "Telnet URL"
+        },
+
+        {
+            question: "किस पते को दो फॉरवर्ड स्लैश का उपयोग करने की अनुमति नहीं है",
+            optionA: "एचटीटीपी यूआरएल",
+            optionB: "एसएमटीपी यूआरएल",
+            optionC: "न्यूज पता",
+            optionD: "टेलनेट यूआरएल",
+            correctAnswer: "टेलनेट यूआरएल"
+        }
+    ],
+
+    [
+        {
+            // 77
+            question: "In the multi threaded model scheduling of thread execution is a task of _______",
+            optionA: "Input",
+            optionB: "Output",
+            optionC: "Memory",
+            optionD: "Operating System",
+            correctAnswer: "Operating System"
+        },
+
+        {
+            question: "मल्टी थ्रेडेड मॉडल शेड्यूलिंग में थ्रेड निष्पादन _______ का एक कार्य है",
+            optionA: "इनपुट",
+            optionB: "आउटपुट",
+            optionC: "मेमोरी",
+            optionD: "ऑपरेटिंग सिस्टम",
+            correctAnswer: "ऑपरेटिंग सिस्टम"
+        }
+    ],
+
+    [
+        {
+            // 78
+            question: "Total types of IoT platforms and voice communication is _____",
+            optionA: "4, 3",
+            optionB: "3, 4",
+            optionC: "2, 4",
+            optionD: "3, 2",
+            correctAnswer: "4, 3"
+        },
+
+        {
+            question: "आई.ओ.टी. प्लेटफार्मों और आवाज संचार के कुल प्रकार _____ है",
+            optionA: "4, 3",
+            optionB: "3, 4",
+            optionC: "2, 4",
+            optionD: "3, 2",
+            correctAnswer: "4, 3"
+        }
+    ],
+
+    [
+        {
+            // 79
+            question: "E-payments can be done through ____",
+            optionA: "Wallets",
+            optionB: "Digital wallets",
+            optionC: "Cash",
+            optionD: "None of the above",
+            correctAnswer: "Digital wallets"
+        },
+
+        {
+            question: "ई-भुगतान ____ के माध्यम से किया जा सकता है",
+            optionA: "वॉलेट",
+            optionB: "डिजिटल वॉलेट",
+            optionC: "कैश",
+            optionD: "इनमे से कोई भी नहीं",
+            correctAnswer: "डिजिटल वॉलेट"
+        }
+    ],
+
+    [
+        {
+            // 80
+            question: "Which is not an Operating System service given to users",
+            optionA: "I/O",
+            optionB: "Process management",
+            optionC: "Compilation",
+            optionD: "File management",
+            correctAnswer: "Compilation"
+        },
+
+        {
+            question: "जो उपयोगकर्ताओं को दी गई एक ऑपरेटिंग सिस्टम सेवा नहीं है",
+            optionA: "इनपुट/आउटपुट",
+            optionB: "प्रोसेस प्रबंध",
+            optionC: "कम्पाइलेशन",
+            optionD: "फ़ाइल प्रबंध",
+            correctAnswer: "कम्पाइलेशन"
+        }
+    ],
+
+    [
+        {
+            // 81
+            question: "Which is not required hardware for LAN",
+            optionA: "NIC",
+            optionB: "File server",
+            optionC: "Co-axial cable",
+            optionD: "Monitor server",
+            correctAnswer: "Monitor server"
+        },
+
+        {
+            question: "कौन से हार्डवेयर की आवश्यकता लैन के लिए नहीं है",
+            optionA: "एनआईसी",
+            optionB: "फ़ाइल सर्वर",
+            optionC: "को-ऐक्सियल केबल",
+            optionD: "मॉनिटर सर्वर",
+            correctAnswer: "मॉनिटर सर्वर"
+        }
+    ],
+
+    [
+        {
+            // 82
+            question: "Which of the following is an Open Source software",
+            optionA: "Photoshop",
+            optionB: "MS word",
+            optionC: "Skype",
+            optionD: "Libreoffice",
+            correctAnswer: "Libreoffice"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन एक ओपन सोर्स सॉफ्टवेयर है",
+            optionA: "फोटोशॉप",
+            optionB: "एमएस वर्ड",
+            optionC: "स्काइप",
+            optionD: "लिब्रे ऑफिस",
+            correctAnswer: "लिब्रे ऑफिस"
+        }
+    ],
+
+    [
+        {
+            // 83
+            question: "AADHAR is a unique identity number issued by ______",
+            optionA: "UBI",
+            optionB: "UIAI",
+            optionC: "UIDAI",
+            optionD: "UBDAI",
+            correctAnswer: "UIDAI"
+        },
+
+        {
+            question: "आधार ______ द्वारा जारी एक अद्वितीय पहचान संख्या है",
+            optionA: "यू.बी.आई.",
+            optionB: "यू.आई.ए.आई.",
+            optionC: "यू.आई.डी.ए.आई.",
+            optionD: "यू.बी.डी.ए.आई.",
+            correctAnswer: "यू.आई.डी.ए.आई."
+        }
+    ],
+
+    [
+        {
+            // 84
+            question: "Which is not true about bookmarks",
+            optionA: "@ character cannot be used as a bookmark name",
+            optionB: "Naviagtor is opened by F5 and to jump to specific bookmark",
+            optionC: "Lower list contain all the bookmarks in the current document",
+            optionD: "To delete a bookmark, select and press delete button",
+            correctAnswer: "@ character cannot be used as a bookmark name"
+        },
+
+        {
+            question: "जो बुकमार्क के बारे में सच नहीं है",
+            optionA: "@ करेक्टर का उपयोग बुकमार्क नाम के रूप में नहीं किया जा सकता है",
+            optionB: "नेविगेटर को F5 द्वारा खोला जाता है और विशिष्ट बुकमार्क पर जाने के लिए",
+            optionC: "निचली सूची वर्तमान दस्तावेज़ के सभी बुकमार्क रखता हैं",
+            optionD: "एक बुकमार्क को हटाने के लिए, चयन करें और डिलीट बटन दबाएं",
+            correctAnswer: "@ करेक्टर का उपयोग बुकमार्क नाम के रूप में नहीं किया जा सकता है"
+        }
+    ],
+
+    [
+        {
+            // 85
+            question: "UMANG do not provide services for _______",
+            optionA: "Farmers",
+            optionB: "Hunters",
+            optionC: "Students",
+            optionD: "Pensioners",
+            correctAnswer: "Hunters"
+        },
+
+        {
+            question: "उमंग _______ के लिए सेवाएं प्रदान नहीं करता है",
+            optionA: "किसानों",
+            optionB: "शिकारी",
+            optionC: "छात्र",
+            optionD: "पेंशनरों",
+            correctAnswer: "शिकारी"
+        }
+    ],
+
+    [
+        {
+            // 86
+            question: "Which is not a valid paper format in Impress slide property",
+            optionA: "Length",
+            optionB: "Width",
+            optionC: "Height",
+            optionD: "Orientation",
+            correctAnswer: "Length"
+        },
+
+        {
+            question: "कौन सा स्लाइड प्रॉपर्टी में एक वैध पेपर प्रारूप नहीं है",
+            optionA: "लंबाई",
+            optionB: "चौड़ाई",
+            optionC: "ऊंचाई",
+            optionD: "घुमाव",
+            correctAnswer: "लंबाई"
+        }
+    ],
+
+    [
+        {
+            // 87
+            question: "Connectors are anchored to particular places in Libreoffice impress using ______",
+            optionA: "Fixer",
+            optionB: "Glue",
+            optionC: "Point",
+            optionD: "Glue point",
+            correctAnswer: "Glue point"
+        },
+
+        {
+            question: "कनेक्टर्स को ______ का उपयोग करके लिब्रे ऑफिस इम्प्रैस में विशेष स्थानों पर एंकर डाला जाता है",
+            optionA: "फिक्सर",
+            optionB: "ग्लू",
+            optionC: "प्वॉइंट",
+            optionD: "ग्लू प्वॉइंट",
+            correctAnswer: "ग्लू प्वॉइंट"
+        }
+    ],
+
+    [
+        {
+            // 88
+            question: "It is not possible to insert _______ in a document",
+            optionA: "Image",
+            optionB: "Shape",
+            optionC: "Video",
+            optionD: "3D Model",
+            correctAnswer: "Video"
+        },
+
+        {
+            question: "दस्तावेज़ में _______ सम्मिलित करना संभव नहीं है",
+            optionA: "इमेज",
+            optionB: "सेप",
+            optionC: "वीडियो",
+            optionD: "थ्रीडी वीडियो",
+            correctAnswer: "वीडियो"
+        }
+    ],
+
+    [
+        {
+            // 89
+            question: "Spreadsheet file can be emailed as in Libreoffice calc as ________",
+            optionA: "Open document",
+            optionB: "Microsoft Excel",
+            optionC: "PDF",
+            optionD: "All of the above",
+            correctAnswer: "All of the above"
+        },
+
+        {
+            question: "स्प्रेडशीट फ़ाइल को लिब्रे ऑफिस कैल्क में ________ के रूप में ईमेल किया जा सकता है",
+            optionA: "ओपन डॉक्यूमेंट",
+            optionB: "माइक्रोसॉफ्ट एक्सेल",
+            optionC: "पीडीएफ",
+            optionD: "ऊपर के सभी",
+            correctAnswer: "ऊपर के सभी"
+        }
+    ],
+
+    [
+        {
+            // 90
+            question: "Netiquette is a rule related to _______",
+            optionA: "Food habits",
+            optionB: "Cyber habits",
+            optionC: "Retailing habits",
+            optionD: "Banking habits",
+            correctAnswer: "Cyber habits"
+        },
+
+        {
+            question: "नेटिकेट _______ से संबंधित एक नियम है",
+            optionA: "भोजन की आदतें",
+            optionB: "साइबर आदतें",
+            optionC: "रिटेलिंग आदतें",
+            optionD: "बैंकिंग की आदतें",
+            correctAnswer: "साइबर आदतें"
+        }
+    ],
+
+    [
+        {
+            // 91
+            question: "Open remote option opens file from _______",
+            optionA: "Desktop",
+            optionB: "Hard disk",
+            optionC: "Pendrive",
+            optionD: "Services",
+            correctAnswer: "Services"
+        },
+
+        {
+            question: "ओपन रिमोट विकल्प _______ से फ़ाइल खोलता है",
+            optionA: "डेस्कटॉप",
+            optionB: "हार्ड डिस्क",
+            optionC: "पेन ड्राइव",
+            optionD: "सर्विसेज",
+            correctAnswer: "सर्विसेज"
+        }
+    ],
+
+    [
+        {
+            // 92
+            question: "Create a batch of documents that are personalized for each recipient",
+            optionA: "Customised files",
+            optionB: "Personalised emails",
+            optionC: "Mail merge utility to merge",
+            optionD: "None of the above",
+            correctAnswer: "Mail merge utility to merge"
+        },
+
+        {
+            question: "दस्तावेज़ों का एक बैच बनाएं जो प्रत्येक प्राप्तकर्ता के लिए व्यक्तिगत हैं",
+            optionA: "कस्टमाइ्ज्ड फ़ाइलें",
+            optionB: "पर्सनलाइज्ड ईमेल",
+            optionC: "मर्ज करने के लिए मेल मर्ज",
+            optionD: "इनमे से कोई भी नहीं",
+            correctAnswer: "मर्ज करने के लिए मेल मर्ज"
+        }
+    ],
+
+    [
+        {
+            // 93
+            question: "Shortcut to insert a function in Libreoffice calc",
+            optionA: "CTRL + F2",
+            optionB: "CTRL + F1",
+            optionC: "CTRL + F3",
+            optionD: "CTRL + F9",
+            correctAnswer: "CTRL + F2"
+        },
+
+        {
+            question: "लिब्रे ऑफिस कैल्क में एक फ़ंक्शन इन्सर्ट करने के लिए शॉर्टकट",
+            optionA: "CTRL + F2",
+            optionB: "CTRL + F1",
+            optionC: "CTRL + F3",
+            optionD: "CTRL + F9",
+            correctAnswer: "CTRL + F2"
+        }
+    ],
+
+    [
+        {
+            // 94
+            question: "Shortcut key to Auto Filter in Libreoffice calc is ______",
+            optionA: "CTRL + SHIFT + L",
+            optionB: "CTRL + SHIFT + A",
+            optionC: "CTRL + SHIFT + F",
+            optionD: "CTRL + SHIFT + K",
+            correctAnswer: "CTRL + SHIFT + L"
+        },
+
+        {
+            question: "लिब्रे ऑफिस कैल्क में ऑटो फ़िल्टर के लिए शॉर्टकट कुंजी ______ है",
+            optionA: "CTRL + SHIFT + L",
+            optionB: "CTRL + SHIFT + A",
+            optionC: "CTRL + SHIFT + F",
+            optionD: "CTRL + SHIFT + K",
+            correctAnswer: "CTRL + SHIFT + L"
+        }
+    ],
+
+    [
+        {
+            // 95
+            question: "Presentation cannot be converted to _______",
+            optionA: "Bitmap",
+            optionB: "Metafile",
+            optionC: "2D",
+            optionD: "3D",
+            correctAnswer: "Metafile"
+        },
+
+        {
+            question: "प्रस्तुति को _______ में परिवर्तित नहीं किया जा सकता है",
+            optionA: "बिटमैप",
+            optionB: "मेटाफ़ाइल",
+            optionC: "टूडी",
+            optionD: "थ्रीडी",
+            correctAnswer: "मेटाफ़ाइल"
+        }
+    ],
+
+    [
+        {
+            // 96
+            question: "Which of the following statement is/are true for Repeaters",
+            optionA: "Layer one device",
+            optionB: "Connect two maximum length segments",
+            optionC: "Active powered device",
+            optionD: "All of the above",
+            correctAnswer: "All of the above"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन सा कथन है रिपीटर्स के लिए सही है",
+            optionA: "लेयर एक का उपकरण",
+            optionB: "दो अधिकतम लंबाई सेगमेंट कनेक्ट करें",
+            optionC: "ऐक्टिव पॉवर डिवाइस",
+            optionD: "ऊपर के सभी",
+            correctAnswer: "ऊपर के सभी"
+        }
+    ],
+
+    [
+        {
+            // 97
+            question: "What can be done by inserting cross reference in Libreoffice writer",
+            optionA: "Jump to specific text passages",
+            optionB: "Insert references as fields in the single document",
+            optionC: "Use objects with caption and bookmarks as targets",
+            optionD: "All of the above are possible",
+            correctAnswer: "All of the above are possible"
+        },
+
+        {
+            question: "लिब्रे ऑफिस राइटर में क्रॉस संदर्भ डालकर क्या किया जा सकता है",
+            optionA: "विशिष्ट टेक्स्ट पैसेज पर कूदें",
+            optionB: "एकल दस्तावेज़ में फ़ील्ड के रूप में संदर्भ डालें",
+            optionC: "लक्ष्य के रूप में कैप्शन और बुकमार्क के साथ वस्तुओं का उपयोग करें",
+            optionD: "उपरोक्त सभी संभव हैं",
+            correctAnswer: "उपरोक्त सभी संभव हैं"
+        }
+    ],
+
+    [
+        {
+            // 98
+            question: "Through which network Open IoT manage registration, deployment of sensors",
+            optionA: "LSM",
+            optionB: "HTTP",
+            optionC: "X-GSN",
+            optionD: "GSN",
+            correctAnswer: "X-GSN"
+        },
+
+        {
+            question: "किस नेटवर्क के माध्यम से ओपन आई.ओ.टी. पंजीकरण, सेंसर की तैनाती का प्रबंधन करता है",
+            optionA: "एल.एस.एम.",
+            optionB: "एच.टी.टी.पी.",
+            optionC: "एक्स-जी.एस.एन.",
+            optionD: "जी.एस.एन.",
+            correctAnswer: "एक्स-जी.एस.एन."
+        }
+    ],
+
+    [
+        {
+            // 99
+            question: "Impress allows a user to ______ macros",
+            optionA: "Run",
+            optionB: "Edit",
+            optionC: "Organize",
+            optionD: "All of the above",
+            correctAnswer: "All of the above"
+        },
+
+        {
+            question: "इम्प्रेस एक उपयोगकर्ता को ______ मैक्रोज़ की अनुमति देता है",
+            optionA: "रन",
+            optionB: "एडिट",
+            optionC: "ऑर्गेनाइज",
+            optionD: "ऊपर के सभी",
+            correctAnswer: "ऊपर के सभी"
+        }
+    ],
+
+    [
+
+        {
+            // 100
+            question: "Track changes in Libreoffice writer does not allow one to ______",
+            optionA: "Accept",
+            optionB: "Reject",
+            optionC: "Delete",
+            optionD: "Accept All",
+            correctAnswer: "Delete"
+        },
+
+        {
+            question: "लिब्रे ऑफिस राइटर में ट्रैक परिवर्तन ______ की अनुमति नहीं देता है",
+            optionA: "एक्सेप्ट",
+            optionB: "रिजेक्ट",
+            optionC: "डिलीट",
+            optionD: "एक्सेप्ट ऑल",
+            correctAnswer: "डिलीट"
+        }
+    ],
 
 
 
 
+
+
+
+    
 
     [
         {
@@ -2620,594 +3212,8 @@ const questions = [
 
 
 
-    [
-        {
-            // 73
-            question: "Libreoffice calc does not provide following toolbar",
-            optionA: "Media playback",
-            optionB: "3D settings",
-            optionC: "Painting",
-            optionD: "Drawing",
-            correctAnswer: ""
-        },
 
-        {
-            question: "Libreoffice calc does not provide following toolbar",
-            optionA: "Media playback",
-            optionB: "3D settings",
-            optionC: "Painting",
-            optionD: "Drawing",
-            correctAnswer: ""
-        }
-    ],
 
-    [
-        {
-            // 74
-            question: "In libreoffice writer which style option is not available",
-            optionA: "Emphasis",
-            optionB: "Strong Emphasis",
-            optionC: "Quotation",
-            optionD: "Double Quotation",
-            correctAnswer: ""
-        },
-
-        {
-            question: "In libreoffice writer which style option is not available",
-            optionA: "Emphasis",
-            optionB: "Strong Emphasis",
-            optionC: "Quotation",
-            optionD: "Double Quotation",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 75
-            question: "Which is not a valid presentation mode in Libreoffice Impress",
-            optionA: "Full screen",
-            optionB: "Half screen",
-            optionC: "In a window",
-            optionD: "Loop and repeat",
-            correctAnswer: ""
-        },
-
-        {
-            question: "Which is not a valid presentation mode in Libreoffice Impress",
-            optionA: "Full screen",
-            optionB: "Half screen",
-            optionC: "In a window",
-            optionD: "Loop and repeat",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 76
-            question: "Which address is permitted not to use two forward slashes",
-            optionA: "Http URL",
-            optionB: "SMTP URL",
-            optionC: "News Address",
-            optionD: "Telnet URL",
-            correctAnswer: ""
-        },
-
-        {
-            question: "Which address is permitted not to use two forward slashes",
-            optionA: "Http URL",
-            optionB: "SMTP URL",
-            optionC: "News Address",
-            optionD: "Telnet URL",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 77
-            question: "In the multi threaded model scheduling of thread execution is a task of _______",
-            optionA: "Input",
-            optionB: "Output",
-            optionC: "Memory",
-            optionD: "Operating System",
-            correctAnswer: ""
-        },
-
-        {
-            question: "In the multi threaded model scheduling of thread execution is a task of _______",
-            optionA: "Input",
-            optionB: "Output",
-            optionC: "Memory",
-            optionD: "Operating System",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 78
-            question: "Total types of IoT platforms and voice communication is _____",
-            optionA: "4, 3",
-            optionB: "3, 4",
-            optionC: "2, 4",
-            optionD: "3, 2",
-            correctAnswer: ""
-        },
-
-        {
-            question: "Total types of IoT platforms and voice communication is _____",
-            optionA: "4, 3",
-            optionB: "3, 4",
-            optionC: "2, 4",
-            optionD: "3, 2",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 79
-            question: "E-payments can be done through ____",
-            optionA: "Wallets",
-            optionB: "Digital wallets",
-            optionC: "Cash",
-            optionD: "None of the above",
-            correctAnswer: ""
-        },
-
-        {
-            question: "E-payments can be done through ____",
-            optionA: "Wallets",
-            optionB: "Digital wallets",
-            optionC: "Cash",
-            optionD: "None of the above",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 80
-            question: "Which is not an Operating System service given to users",
-            optionA: "I/O",
-            optionB: "Process management",
-            optionC: "Compilation",
-            optionD: "File management",
-            correctAnswer: ""
-        },
-
-        {
-            question: "Which is not an Operating System service given to users",
-            optionA: "I/O",
-            optionB: "Process management",
-            optionC: "Compilation",
-            optionD: "File management",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 81
-            question: "Which is not required hardware for LAN",
-            optionA: "NIC",
-            optionB: "File server",
-            optionC: "Co-axial cable",
-            optionD: "Monitor server",
-            correctAnswer: ""
-        },
-
-        {
-            question: "Which is not required hardware for LAN",
-            optionA: "NIC",
-            optionB: "File server",
-            optionC: "Co-axial cable",
-            optionD: "Monitor server",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 82
-            question: "Which of the following is an Open Source software",
-            optionA: "Photoshop",
-            optionB: "MS word",
-            optionC: "Skype",
-            optionD: "Libreoffice",
-            correctAnswer: "Libreoffice"
-        },
-
-        {
-            question: "Which of the following is an Open Source software",
-            optionA: "Photoshop",
-            optionB: "MS word",
-            optionC: "Skype",
-            optionD: "Libreoffice",
-            correctAnswer: "Libreoffice"
-        }
-    ],
-
-    [
-        {
-            // 83
-            question: "AADHAR is a unique identity number issued by ______",
-            optionA: "UBI",
-            optionB: "UIAI",
-            optionC: "UIDAI",
-            optionD: "UBDAI",
-            correctAnswer: "UIDAI"
-        },
-
-        {
-            question: "AADHAR is a unique identity number issued by ______",
-            optionA: "UBI",
-            optionB: "UIAI",
-            optionC: "UIDAI",
-            optionD: "UBDAI",
-            correctAnswer: "UIDAI"
-        }
-    ],
-
-    [
-        {
-            // 84
-            question: "Which is not true about bookmarks",
-            optionA: "@ character cannot be used as a bookmark name",
-            optionB: "Naviagtor is opened by F5 and to jump to specific bookmark",
-            optionC: "Lower list contain all the bookmarks in the current document",
-            optionD: "To delete a bookmark, select and press delete button",
-            correctAnswer: "@ character cannot be used as a bookmark name"
-        },
-
-        {
-            question: "Which is not true about bookmarks",
-            optionA: "@ character cannot be used as a bookmark name",
-            optionB: "Naviagtor is opened by F5 and to jump to specific bookmark",
-            optionC: "Lower list contain all the bookmarks in the current document",
-            optionD: "To delete a bookmark, select and press delete button",
-            correctAnswer: "@ character cannot be used as a bookmark name"
-        }
-    ],
-
-    [
-        {
-            // 85
-            question: "UMANG do not provide services for _______",
-            optionA: "Farmers",
-            optionB: "Hunters",
-            optionC: "Students",
-            optionD: "Pensioners",
-            correctAnswer: "Hunters"
-        },
-
-        {
-            question: "UMANG do not provide services for _______",
-            optionA: "Farmers",
-            optionB: "Hunters",
-            optionC: "Students",
-            optionD: "Pensioners",
-            correctAnswer: "Hunters"
-        }
-    ],
-
-    [
-        {
-            // 86
-            question: "Which is not a valid paper format in Impress slide property",
-            optionA: "Length",
-            optionB: "Width",
-            optionC: "Height",
-            optionD: "Orientation",
-            correctAnswer: ""
-        },
-
-        {
-            question: "Which is not a valid paper format in Impress slide property",
-            optionA: "Length",
-            optionB: "Width",
-            optionC: "Height",
-            optionD: "Orientation",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 87
-            question: "Connectors are anchored to particular places in Libreoffice impress using ______",
-            optionA: "Fixer",
-            optionB: "Glue",
-            optionC: "Point",
-            optionD: "Glue point",
-            correctAnswer: ""
-        },
-
-        {
-            question: "Connectors are anchored to particular places in Libreoffice impress using ______",
-            optionA: "Fixer",
-            optionB: "Glue",
-            optionC: "Point",
-            optionD: "Glue point",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 88
-            question: "It is not possible to insert _______ in a document",
-            optionA: "Image",
-            optionB: "Shape",
-            optionC: "Video",
-            optionD: "3D Model",
-            correctAnswer: ""
-        },
-
-        {
-            question: "It is not possible to insert _______ in a document",
-            optionA: "Image",
-            optionB: "Shape",
-            optionC: "Video",
-            optionD: "3D Model",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 89
-            question: "Spreadsheet file can be emailed as in Libreoffice calc as ________",
-            optionA: "Open document",
-            optionB: "Microsoft Excel",
-            optionC: "PDF",
-            optionD: "All of the above",
-            correctAnswer: "All of the above"
-        },
-
-        {
-            question: "Spreadsheet file can be emailed as in Libreoffice calc as ________",
-            optionA: "Open document",
-            optionB: "Microsoft Excel",
-            optionC: "PDF",
-            optionD: "All of the above",
-            correctAnswer: "All of the above"
-        }
-    ],
-
-    [
-        {
-            // 90
-            question: "Netiquette is a rule related to _______",
-            optionA: "Food habits",
-            optionB: "Cyber habits",
-            optionC: "Ratailing habits",
-            optionD: "Banking habits",
-            correctAnswer: "Cyber habits"
-        },
-
-        {
-            question: "Netiquette is a rule related to _______",
-            optionA: "Food habits",
-            optionB: "Cyber habits",
-            optionC: "Ratailing habits",
-            optionD: "Banking habits",
-            correctAnswer: "Cyber habits"
-        }
-    ],
-
-    [
-        {
-            // 91
-            question: "Open remote option opens file from _______",
-            optionA: "Desktop",
-            optionB: "Hard disk",
-            optionC: "Pendrive",
-            optionD: "Services",
-            correctAnswer: "Services"
-        },
-
-        {
-            question: "Open remote option opens file from _______",
-            optionA: "Desktop",
-            optionB: "Hard disk",
-            optionC: "Pendrive",
-            optionD: "Services",
-            correctAnswer: "Services"
-        }
-    ],
-
-    [
-        {
-            // 92
-            question: "Create a batch of documents that are personalized for each recipient",
-            optionA: "Customised files",
-            optionB: "Personalised emails",
-            optionC: "Mail merge utility to merge",
-            optionD: "None of the above",
-            correctAnswer: "Mail merge utility to merge"
-        },
-
-        {
-            question: "Create a batch of documents that are personalized for each recipient",
-            optionA: "Customised files",
-            optionB: "Personalised emails",
-            optionC: "Mail merge utility to merge",
-            optionD: "None of the above",
-            correctAnswer: "Mail merge utility to merge"
-        }
-    ],
-
-    [
-        {
-            // 93
-            question: "Shortcut to insert a function in Libreoffice calc",
-            optionA: "CTRL + F2",
-            optionB: "CTRL + F1",
-            optionC: "CTRL + F3",
-            optionD: "CTRL + F9",
-            correctAnswer: ""
-        },
-
-        {
-            question: "Shortcut to insert a function in Libreoffice calc",
-            optionA: "CTRL + F2",
-            optionB: "CTRL + F1",
-            optionC: "CTRL + F3",
-            optionD: "CTRL + F9",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 94
-            question: "Shortcut key to Auto Filter in Libreoffice calc is ______",
-            optionA: "CTRL + SHIFT + L",
-            optionB: "CTRL + SHIFT + A",
-            optionC: "CTRL + SHIFT + F",
-            optionD: "CTRL + SHIFT + K",
-            correctAnswer: "CTRL + SHIFT + L"
-        },
-
-        {
-            question: "Libreoffice Calc में ऑटो फ़िल्टर के लिए शॉर्टकट कुंजी ______ है",
-            optionA: "CTRL + SHIFT + L",
-            optionB: "CTRL + SHIFT + A",
-            optionC: "CTRL + SHIFT + F",
-            optionD: "CTRL + SHIFT + K",
-            correctAnswer: "CTRL + SHIFT + L"
-        }
-    ],
-
-    [
-        {
-            // 95
-            question: "Presentation cannot be converted to _______",
-            optionA: "Bitmap",
-            optionB: "Metafile",
-            optionC: "2D",
-            optionD: "3D",
-            correctAnswer: "Metafile"
-        },
-
-        {
-            question: "प्रस्तुति को _______ में परिवर्तित नहीं किया जा सकता है",
-            optionA: "बिटमैप",
-            optionB: "मेटाफ़ाइल",
-            optionC: "टूडी",
-            optionD: "थ्रीडी",
-            correctAnswer: "मेटाफ़ाइल"
-        }
-    ],
-
-    [
-        {
-            // 96
-            question: "Which of the following statement is/are true for Repeaters",
-            optionA: "Layer one device",
-            optionB: "Connect two maximum length segments",
-            optionC: "Active powered device",
-            optionD: "All of the above",
-            correctAnswer: "All of the above"
-        },
-
-        {
-            question: "निम्नलिखित में से कौन सा कथन है रिपीटर्स के लिए सही है",
-            optionA: "लेयर एक का उपकरण",
-            optionB: "दो अधिकतम लंबाई सेगमेंट कनेक्ट करें",
-            optionC: "ऐक्टिव पॉवर डिवाइस",
-            optionD: "ऊपर के सभी",
-            correctAnswer: "ऊपर के सभी"
-        }
-    ],
-
-    [
-        {
-            // 97
-            question: "What can be done by inserting cross reference in Libreoffice writer",
-            optionA: "Jump to specific text passages",
-            optionB: "Insert references as fields in the single document",
-            optionC: "Use objects with caption and bookmarks as targets",
-            optionD: "All of the above are possible",
-            correctAnswer: "All of the above are possible"
-        },
-
-        {
-            question: "लिब्रे ऑफिस राइटर में क्रॉस संदर्भ डालकर क्या किया जा सकता है",
-            optionA: "विशिष्ट टेक्स्ट पैसेज पर कूदें",
-            optionB: "एकल दस्तावेज़ में फ़ील्ड के रूप में संदर्भ डालें",
-            optionC: "लक्ष्य के रूप में कैप्शन और बुकमार्क के साथ वस्तुओं का उपयोग करें",
-            optionD: "उपरोक्त सभी संभव हैं",
-            correctAnswer: "उपरोक्त सभी संभव हैं"
-        }
-    ],
-
-    [
-        {
-            // 98
-            question: "Through which network Open IoT manage registration, deployment of sensors",
-            optionA: "LSM",
-            optionB: "HTTP",
-            optionC: "X-GSN",
-            optionD: "GSN",
-            correctAnswer: "X-GSN"
-        },
-
-        {
-            question: "किस नेटवर्क के माध्यम से ओपन आई.ओ.टी. पंजीकरण, सेंसर की तैनाती का प्रबंधन करता है",
-            optionA: "एल.एस.एम.",
-            optionB: "एच.टी.टी.पी.",
-            optionC: "एक्स-जी.एस.एन.",
-            optionD: "जी.एस.एन.",
-            correctAnswer: "एक्स-जी.एस.एन."
-        }
-    ],
-
-    [
-        {
-            // 99
-            question: "Impress allows a user to ______ macros",
-            optionA: "Run",
-            optionB: "Edit",
-            optionC: "Organize",
-            optionD: "All of the above",
-            correctAnswer: "All of the above"
-        },
-
-        {
-            question: "इम्प्रेस एक उपयोगकर्ता को ______ मैक्रोज़ की अनुमति देता है",
-            optionA: "रन",
-            optionB: "एडिट",
-            optionC: "ऑर्गेनाइज",
-            optionD: "ऊपर के सभी",
-            correctAnswer: "ऊपर के सभी"
-        }
-    ],
-
-    [
-
-        {
-            // 100
-            question: "Track changes in Libreoffice writer does not allow one to ______",
-            optionA: "Accept",
-            optionB: "Reject",
-            optionC: "Delete",
-            optionD: "Accept All",
-            correctAnswer: "Delete"
-        },
-
-        {
-            question: "लिब्रे ऑफिस राइटर में ट्रैक परिवर्तन ______ की अनुमति नहीं देता है",
-            optionA: "एक्सेप्ट",
-            optionB: "रिजेक्ट",
-            optionC: "डिलीट",
-            optionD: "एक्सेप्ट ऑल",
-            correctAnswer: "डिलीट"
-        }
-    ],
 
     [
         {
@@ -3221,12 +3227,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "विंडोज ओ.एस. में वेब पेज को प्रिंट करने के लिए किस शॉर्टकट कुंजी का उपयोग किया जाता है",
+            optionA: "कमांड + P",
+            optionB: "Ctrl + P",
+            optionC: "Caps + P",
+            optionD: "इनमे से कोई भी नहीं",
+            correctAnswer: "Ctrl + P"
         }
     ],
 
