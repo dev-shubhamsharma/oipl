@@ -1,10 +1,19 @@
 var students = {
     "Shubham Sharma":"Shubham",
+
+    "Anshika Tiwari":"Anshika@123",
+    "Archana Singh":"Archana@123",
+    "Alankrita Srivastava":"Alankrita@123",
+    "Aadarsh Pandey":"Aadarsh@123",
+    "Ashish":"Ashish@123",
+    "Kajal Singh":"Kajal@123",
+    "Mansi Singh":"Mansi@123",
+    "Chandan Pathak":"Chandan@123",
+
     
     "Anurag":"Anurag@123",
     "Manish":"Manish@123",
     "Govinda":"Govinda@123",
-
 
     "Gauri Dixit":"Gauri@123",
     "Archana Yadav":"Archana@123",

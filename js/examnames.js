@@ -1,5 +1,17 @@
 const exams = [
     {
+        name :"IT Tools & Network - Chapter 1",
+        totalQuestions : "100",
+        timeInMinutes : "70",
+        imgUrl : "images/python.png",
+        id :"it_chapter_1",
+        filename:"exam_questions/chapter-1-it.js",
+        questionsAddedInFile:"144"
+
+    },
+    
+    
+    {
         name :"IT Tools & Network",
         totalQuestions : "100",
         timeInMinutes : "70",
@@ -9,6 +21,8 @@ const exams = [
         questionsAddedInFile:"150"
 
     },
+
+    
     
     // {
     //     name :"Chapter 1 - IT Tools",
