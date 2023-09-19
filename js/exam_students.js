@@ -9,6 +9,7 @@ var students = {
     "Kajal Singh":"Kajal@123",
     "Mansi Singh":"Mansi@123",
     "Chandan Pathak":"Chandan@123",
+    "Jyoti Singh":"Jyoti@123",
 
     
     "Anurag":"Anurag@123",
