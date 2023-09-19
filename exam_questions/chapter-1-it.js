@@ -2445,7 +2445,7 @@ const questions = [
     [
         {
             // 117
-            question: "To protect sensitive information portion/content in a file in Libreoffice Impress it is recommended to use",
+            question: "To protect sensitive information portion/content in a file in Libreoffice Writer it is recommended to use",
             optionA: "Redact",
             optionB: "Protect",
             optionC: "React",
@@ -2454,7 +2454,7 @@ const questions = [
         },
 
         {
-            question: "संवेदनशील सूचना भाग/सामग्री को लिब्रे ऑफिस में एक फ़ाइल में संरक्षित करने के लिए इसका उपयोग करने की सिफारिश की जाती है",
+            question: "संवेदनशील सूचना भाग/सामग्री को लिब्रे ऑफिस राइटर में एक फ़ाइल में संरक्षित करने के लिए इसका उपयोग करने की सिफारिश की जाती है",
             optionA: "रिडैक्ट",
             optionB: "प्रोटेक्ट",
             optionC: "रियेक्ट",
@@ -3070,6 +3070,602 @@ const questions = [
             optionD: "F4",
             correctAnswer: "F2"
         }
+    ],
+
+    [
+        {
+            // 147
+            question: "File extension used for Libreoffice writer template documents",
+            optionA: "ODT",
+            optionB: "DOC",
+            optionC: "OTT",
+            optionD: "PDF",
+            correctAnswer: "OTT"
+        },
+
+        {
+            question: "लिब्रे ऑफिस राइटर टेम्पलेट दस्तावेजों के लिए उपयोग की गई फ़ाइल एक्सटेंशन",
+            optionA: "ओडीटी",
+            optionB: "डीओसी",
+            optionC: "ओटीटी",
+            optionD: "पीडीएफ",
+            correctAnswer: "ओटीटी"
+        },
+
+        
+    ],
+
+    [
+        {
+            // 148
+            question: "Shortcut key to manage template in Libreoffice writer",
+            optionA: "CTRL + N",
+            optionB: "CTRL + SHIFT + N",
+            optionC: "CTRL + ALT + N",
+            optionD: "CTRL + SHIFT + M",
+            correctAnswer: "CTRL + SHIFT + N"
+        },
+
+        {
+            question: "लिब्रे ऑफिस राइटर में टेम्पलेट का प्रबंधन करने के लिए शॉर्टकट कुंजी",
+            optionA: "CTRL + N",
+            optionB: "CTRL + SHIFT + N",
+            optionC: "CTRL + ALT + N",
+            optionD: "CTRL + SHIFT + M",
+            correctAnswer: "CTRL + SHIFT + N"
+        },
+
+        
+    ],
+
+    [
+        {
+            // 149
+            question: "_______ key is used to go on to beginning of a line in Libreoffice writer",
+            optionA: "Home",
+            optionB: "Ctrl + End",
+            optionC: "End",
+            optionD: "Ctrl + Home",
+            correctAnswer: "Home"
+        },
+
+        {
+            question: "लिब्रे ऑफिस राइटर में एक पंक्ति की शुरुआत पर जाने के लिए _______ कुंजी का उपयोग किया जाता है",
+            optionA: "Home",
+            optionB: "Ctrl + End",
+            optionC: "End",
+            optionD: "Ctrl + Home",
+            correctAnswer: "Home"
+        },
+
+        
+    ],
+
+    [
+        {
+            // 150
+            question: "Which shortcut key is used for line break in Libreoffice writer",
+            optionA: "Enter",
+            optionB: "Ctrl + Enter",
+            optionC: "Ctrl + Shift + Enter",
+            optionD: "None of these",
+            correctAnswer: "None of these"
+        },
+
+        {
+            question: "लिब्रे ऑफिस राइटर में लाइन ब्रेक के लिए किस शॉर्टकट कुंजी का उपयोग किया जाता है",
+            optionA: "Enter",
+            optionB: "Ctrl + Enter",
+            optionC: "Ctrl + Shift + Enter",
+            optionD: "इनमें से कोई नहीं",
+            correctAnswer: "इनमें से कोई नहीं"
+        },
+
+        
+    ],
+
+    [
+        {
+            // 151
+            question: "Shift + Enter key is used for _______ in Libreoffice writer",
+            optionA: "Column Break",
+            optionB: "Page Break",
+            optionC: "Row break",
+            optionD: "None of these",
+            correctAnswer: "Row break"
+        },
+
+        {
+            question: "Shift + Enter कुंजी का उपयोग लिब्रे ऑफिस राइटर में _______ के लिए किया जाता है",
+            optionA: "कॉलम ब्रेक",
+            optionB: "पेज ब्रेक",
+            optionC: "रो ब्रेक",
+            optionD: "इनमें से कोई नहीं",
+            correctAnswer: "रो ब्रेक"
+        },
+        
+    ],
+
+    [
+        {
+            // 152
+            question: "Which of the following is not a component of Libreoffice Suite",
+            optionA: "Draw",
+            optionB: "Base",
+            optionC: "Writer",
+            optionD: "Internet Explorer",
+            correctAnswer: "Internet Explorer"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन सा लिब्रे ऑफिस सूट का एक घटक नहीं है",
+            optionA: "ड्रॉ",
+            optionB: "बेस",
+            optionC: "राइटर",
+            optionD: "इण्टरनेट एक्सप्लोरर",
+            correctAnswer: "इण्टरनेट एक्सप्लोरर"
+        },
+        
+    ],
+
+    [
+        {
+            // 153
+            question: "Shortcut key to increase font in Libroffice writer",
+            optionA: "Ctrl + [",
+            optionB: "Ctrl + ]",
+            optionC: "Ctrl + {",
+            optionD: "Ctrl + }",
+            correctAnswer: "Ctrl + ]"
+        },
+
+        {
+            question: "लिब्रे ऑफिस राइटर में फ़ॉन्ट बढ़ाने के लिए शॉर्टकट कुंजी ",
+            optionA: "Ctrl + [",
+            optionB: "Ctrl + ]",
+            optionC: "Ctrl + {",
+            optionD: "Ctrl + }",
+            correctAnswer: "Ctrl + ]"
+        },
+
+        
+    ],
+
+    [
+        {
+            // 154
+            question: "Shortcut key used to subscript the selected text",
+            optionA: "Ctrl + Shift + S",
+            optionB: "Ctrl + Shift + P",
+            optionC: "Ctrl + Shift + B",
+            optionD: "Ctrl + Alt + B",
+            correctAnswer: "Ctrl + Shift + B"
+        },
+
+        {
+            question: "सिलेक्टेड टेक्स्ट को सबस्क्रिप्ट करने के लिए शॉर्टकट कुंजी है",
+            optionA: "Ctrl + Shift + S",
+            optionB: "Ctrl + Shift + P",
+            optionC: "Ctrl + Shift + B",
+            optionD: "Ctrl + Alt + B",
+            correctAnswer: "Ctrl + Shift + B"
+        },
+
+        
+    ],
+
+    [
+        {
+            // 155
+            question: "What is the maximum font size in Libreoffice writer",
+            optionA: "999.9",
+            optionB: "80",
+            optionC: "100",
+            optionD: "99.9",
+            correctAnswer: "999.9"
+        },
+
+        {
+            question: "लिब्रे ऑफिस राइटर में अधिकतम फ़ॉन्ट आकार क्या है",
+            optionA: "999.9",
+            optionB: "80",
+            optionC: "100",
+            optionD: "99.9",
+            correctAnswer: "999.9"
+        },
+
+        
+    ],
+
+    [
+        {
+            // 156
+            question: "Bullets and Numbering appear in ______ toolbar in Libreoffice writer",
+            optionA: "Standard",
+            optionB: "Formatting",
+            optionC: "Status bar",
+            optionD: "Drawing",
+            correctAnswer: "Formatting"
+        },
+
+        {
+            question: "बुलेट्स और नंबरिंग ______ टूलबार में लिबरॉफिस राइटर में दिखाई देते है",
+            optionA: "स्टैण्डर्ड",
+            optionB: "फॉर्मेटिंग",
+            optionC: "स्टेट्स बार",
+            optionD: "ड्रॉइंग",
+            correctAnswer: "फॉर्मेटिंग"
+        },
+
+        
+    ],
+
+    [
+        {
+            // 157
+            question: "What is the minimum font size in Libreoffice writer",
+            optionA: "10",
+            optionB: "6",
+            optionC: "12",
+            optionD: "2",
+            correctAnswer: "2"
+        },
+
+        {
+            question: "लिब्रे ऑफिस राइटर में न्यूनतम फ़ॉन्ट आकार क्या है",
+            optionA: "दस",
+            optionB: "छः",
+            optionC: "बारह",
+            optionD: "दो",
+            correctAnswer: "दो"
+        },
+
+        
+    ],
+
+    [
+        {
+            // 158
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        
+    ],
+
+    [
+        {
+            // 147
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        
+    ],
+
+    [
+        {
+            // 147
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        
+    ],
+
+    [
+        {
+            // 147
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        
+    ],
+
+    [
+        {
+            // 147
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        
+    ],
+
+    [
+        {
+            // 147
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        
+    ],
+
+    [
+        {
+            // 147
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        
+    ],
+
+    [
+        {
+            // 147
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        
+    ],
+
+    [
+        {
+            // 147
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        
+    ],
+
+    [
+        {
+            // 147
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        
+    ],
+
+    [
+        {
+            // 147
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        
+    ],
+
+    [
+        {
+            // 147
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        
+    ],
+
+    [
+        {
+            // 147
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        
+    ],
+
+    [
+        {
+            // 147
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        
+    ],
+
+    [
+        {
+            // 147
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        
     ],
 
 
