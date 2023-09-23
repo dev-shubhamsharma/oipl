@@ -3695,12 +3695,12 @@ const questions = [
         },
 
         {
-            question: "PDA stands for",
-            optionA: "Personal Dynamic Assistant",
-            optionB: "Personal Digital Assistant",
-            optionC: "Programmable Digital Assistant",
-            optionD: "Programmed Digital Assistant",
-            correctAnswer: "Personal Digital Assistant"
+            question: "पीडीए का अर्थ है",
+            optionA: "पर्सनल डायनमिक असिसटेन्ट",
+            optionB: "पर्सनल डिजिटल असिसटेन्ट",
+            optionC: "प्रोग्रामेबल डिजिटल असिसटेन्ट",
+            optionD: "प्रोग्राम्ड डिजिटल असिसटेन्ट",
+            correctAnswer: "पर्सनल डिजिटल असिसटेन्ट"
         },
 
         
