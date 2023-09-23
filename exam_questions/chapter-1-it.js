@@ -3249,9 +3249,7 @@ const questions = [
             optionC: "Ctrl + Shift + B",
             optionD: "Ctrl + Alt + B",
             correctAnswer: "Ctrl + Shift + B"
-        },
-
-        
+        },       
     ],
 
     [
@@ -3273,7 +3271,6 @@ const questions = [
             optionD: "99.9",
             correctAnswer: "999.9"
         },
-
         
     ],
 
@@ -3296,7 +3293,6 @@ const questions = [
             optionD: "ड्रॉइंग",
             correctAnswer: "फॉर्मेटिंग"
         },
-
         
     ],
 
@@ -3326,6 +3322,393 @@ const questions = [
     [
         {
             // 158
+            question: "What is the minimum zoom percentage in Libreoffice writer",
+            optionA: "10%",
+            optionB: "20%",
+            optionC: "5%",
+            optionD: "2%",
+            correctAnswer: "20%"
+        },
+
+        {
+            question: "लिब्रे ऑफिस राइटर में न्यूनतम ज़ूम प्रतिशत क्या है",
+            optionA: "दस प्रतिशत",
+            optionB: "बीस प्रतिशत",
+            optionC: "पॉंच प्रतिशत",
+            optionD: "दो प्रतिशत",
+            correctAnswer: "बीस प्रतिशत"
+        },
+
+        
+    ],
+
+    [
+        {
+            // 159
+            question: "Maximum zoom percentage that can be achieved in Libreoffice writer",
+            optionA: "900%",
+            optionB: "600%",
+            optionC: "500%",
+            optionD: "400%",
+            correctAnswer: "600%"
+        },
+
+        {
+            question: "अधिकतम ज़ूम प्रतिशत जो लिब्रे ऑफिस राइटर में प्राप्त किया जा सकता है",
+            optionA: "नौ सौ प्रतिशत",
+            optionB: "छः सौ प्रतिशत",
+            optionC: "पॉंच सौ प्रतिशत",
+            optionD: "चार सौ प्रतिशत",
+            correctAnswer: "छः सौ प्रतिशत"
+        },
+
+        
+    ],
+
+    [
+        {
+            // 160
+            question: "Full name of OLE into Libreoffice writer",
+            optionA: "Object Linking and Enterring",
+            optionB: "Object Link External",
+            optionC: "Object Linking and Embedding",
+            optionD: "Object Linking Externally",
+            correctAnswer: "Object Linking and Embedding"
+        },
+
+        {
+            question: "ओएलई का पूरा नाम लिब्रे ऑफिस राइटर में",
+            optionA: "ऑब्जेक्ट लिंकिंग एण्ड इण्टरिंग",
+            optionB: "ऑब्जेक्ट लिंक इक्सटर्नल",
+            optionC: "ऑब्जेक्ट लिंकिंग एण्ड इम्बेडिंग",
+            optionD: "ऑब्जेक्ट लिंकिंग इक्सटर्नली",
+            correctAnswer: "ऑब्जेक्ट लिंकिंग एण्ड इम्बेडिंग"
+        },
+
+        
+    ],
+
+    [
+        {
+            // 161
+            question: "To view a writer document in full screen mode, we press _____ keys together",
+            optionA: "Ctrl + Shift + F",
+            optionB: "Ctrl + Shift + J",
+            optionC: "Ctrl + Shift + U",
+            optionD: "Ctrl + Shift + L",
+            correctAnswer: "Ctrl + Shift + J"
+        },
+
+        {
+            question: "पूर्ण स्क्रीन मोड में एक राइटर दस्तावेज़ को देखने के लिए, हम एक साथ _____ कुंजी दबाते हैं",
+            optionA: "Ctrl + Shift + F",
+            optionB: "Ctrl + Shift + J",
+            optionC: "Ctrl + Shift + U",
+            optionD: "Ctrl + Shift + L",
+            correctAnswer: "Ctrl + Shift + J"
+        },
+
+        
+    ],
+
+    [
+        {
+            // 162
+            question: "Shortcut key to insert a formula object into Libreoffice writer",
+            optionA: "Ctrl + Shift + F",
+            optionB: "Alt + Shift + F",
+            optionC: "Alt + Shift + E",
+            optionD: "Ctrl + Shift + E",
+            correctAnswer: "Alt + Shift + E"
+        },
+
+        {
+            question: "लिब्रे ऑफिस राइटर में एक सूत्र ऑब्जेक्ट डालने के लिए शॉर्टकट कुंजी",
+            optionA: "Ctrl + Shift + F",
+            optionB: "Alt + Shift + F",
+            optionC: "Alt + Shift + E",
+            optionD: "Ctrl + Shift + E",
+            correctAnswer: "Alt + Shift + E"
+        },
+
+        
+    ],
+
+    [
+        {
+            // 163
+            question: "In Libreoffice writer, macros are _______",
+            optionA: "Small programs created in writer to automate repetitive tasks",
+            optionB: "Small add-on programs that are installed afterwards if you need them",
+            optionC: "programming langauge that you can use to customize libreoffice writer",
+            optionD: "Large tools in writer such as mail merge",
+            correctAnswer: "Small programs created in writer to automate repetitive tasks"
+        },
+
+        {
+            question: "लिब्रे ऑफिस राइटर में, मैक्रोज़ _______ हैं",
+            optionA: "दोहरावदार कार्यों को स्वचालित करने के लिए राइटर में बनाए गए छोटे कार्यक्रम",
+            optionB: "छोटे ऐड-ऑन प्रोग्राम जो बाद में स्थापित किए जाते हैं यदि आपको उनकी आवश्यकता है",
+            optionC: "प्रोग्रामिंग भाषा जिसका उपयोग आप लिब्रे ऑफिस राइटर को अनुकूलित करने के लिए कर सकते हैं",
+            optionD: "राइटर में बड़े टूल जैसे मेल मर्ज",
+            correctAnswer: "दोहरावदार कार्यों को स्वचालित करने के लिए राइटर में बनाए गए छोटे कार्यक्रम"
+        },
+
+        
+    ],
+
+    [
+        {
+            // 164
+            question: "Which can be used for quick access to commonly used commands and tools",
+            optionA: "Status bar",
+            optionB: "Tool bar",
+            optionC: "Menu bar",
+            optionD: "Title bar",
+            correctAnswer: "Tool bar"
+        },
+
+        {
+            question: "जिसका उपयोग आमतौर पर उपयोग किए जाने वाले कमांड और टूल के लिए त्वरित पहुंच के लिए किया जा सकता है",
+            optionA: "स्टेटस बार",
+            optionB: "टूल बार",
+            optionC: "मेनू पट्टी",
+            optionD: "टाइटल बार",
+            correctAnswer: "टूल बार"
+        },
+
+        
+    ],
+
+    [
+        {
+            // 165
+            question: "Which of the following helps to reduce spelling error in the document",
+            optionA: "Auto correct",
+            optionB: "Auto text",
+            optionC: "Smart tags",
+            optionD: "Auto format",
+            correctAnswer: "Auto correct"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन सा दस्तावेज़ में वर्तनी त्रुटि को कम करने में मदद करता है",
+            optionA: "ऑटो करेक्ट",
+            optionB: "ऑटो टेक्स्ट",
+            optionC: "स्मार्ट टैग",
+            optionD: "ऑटो फॉरमेट",
+            correctAnswer: "ऑटो करेक्ट"
+        },
+
+        
+    ],
+
+    [
+        {
+            // 166
+            question: "Why drop caps are used in Libreoffice writer",
+            optionA: "To drop all the capital letters",
+            optionB: "To automatically begin each paragraph with capital letter",
+            optionC: "To begin a paragraph with a large dropped initial capital letter",
+            optionD: "None of the above",
+            correctAnswer: "To begin a paragraph with a large dropped initial capital letter"
+        },
+
+        {
+            question: "ड्रॉप कैप का उपयोग लिब्रेऑफिस राइटर में क्यों किया जाता है",
+            optionA: "सभी कैपिटल लेटर्स को छोड़ने के लिए",
+            optionB: "स्वचालित रूप से प्रत्येक पैराग्राफ को कैपिटल लेटर के साथ शुरू करने के लिए",
+            optionC: "एक बड़े प्रारंभिक कैपिटल लेटर के साथ एक पैराग्राफ शुरू करने के लिए",
+            optionD: "इनमे से कोई भी नहीं",
+            correctAnswer: "एक बड़े प्रारंभिक कैपिटल लेटर के साथ एक पैराग्राफ शुरू करने के लिए"
+        },
+
+        
+    ],
+
+    [
+        {
+            // 167
+            question: "In libreoffice writer, the mailing list is known as the _______",
+            optionA: "Data sheet",
+            optionB: "Source",
+            optionC: "Data Source",
+            optionD: "Sheet",
+            correctAnswer: "Data Source"
+        },
+
+        {
+            question: "लिब्रे ऑफिस राइटर में, मेलिंग सूची को _______ के रूप में जाना जाता है",
+            optionA: "डाटा शीट",
+            optionB: "सोर्स",
+            optionC: "डाटा सोर्स",
+            optionD: "शीट",
+            correctAnswer: "डाटा सोर्स"
+        },
+
+        
+    ],
+
+    [
+        {
+            // 168
+            question: "How can you remove tab stop markers from the ruler",
+            optionA: "Double click the tab marker and choose clear all",
+            optionB: "Darg the tab stop marker out of the ruler",
+            optionC: "Right click the tab stop marker and choose remove",
+            optionD: "All of the above",
+            correctAnswer: "Darg the tab stop marker out of the ruler"
+        },
+
+        {
+            question: "आप रुलर से टैब स्टॉप मार्करों को कैसे हटा सकते हैं",
+            optionA: "टैब मार्कर पर डबल क्लिक करें और सभी को क्लियर करें",
+            optionB: "रुलर से बाहर टैब स्टॉप मार्करों को खींचें",
+            optionC: "टैब स्टॉप मार्कर पर राइट क्लिक करें और रिमूव चुनें",
+            optionD: "ऊपर के सभी",
+            correctAnswer: "रुलर से बाहर टैब स्टॉप मार्करों को खींचें"
+        },
+
+        
+    ],
+
+    [
+        {
+            // 169
+            question: "What is the default font in Libreoffice writer",
+            optionA: "Liberation sans",
+            optionB: "Liberation serif",
+            optionC: "Calibri",
+            optionD: "Arial",
+            correctAnswer: "Liberation serif"
+        },
+
+        {
+            question: "लिब्रे ऑफिस राइटर में डिफ़ॉल्ट फ़ॉन्ट क्या है",
+            optionA: "Liberation sans",
+            optionB: "Liberation serif",
+            optionC: "Calibri",
+            optionD: "Arial",
+            correctAnswer: "Liberation serif"
+        },
+
+        
+    ],
+
+    [
+        {
+            // 170
+            question: "Which is used in form design to accept an input in Libreoffice writer",
+            optionA: "Label",
+            optionB: "Push Button",
+            optionC: "Text Box",
+            optionD: "Group Box",
+            correctAnswer: "Text Box"
+        },
+
+        {
+            question: "जिसका उपयोग फॉर्म डिज़ाइन में लिब्रे ऑफिस राइटर में एक इनपुट को स्वीकार करने के लिए किया जाता है",
+            optionA: "लेबल",
+            optionB: "पुस बटन",
+            optionC: "टेक्स्ट बॉक्स",
+            optionD: "ग्रुप बॉक्स",
+            correctAnswer: "टेक्स्ट बॉक्स"
+        },
+
+        
+    ],
+
+    [
+        {
+            // 171
+            question: "Which is first Supercomputer of the world",
+            optionA: "PARAM 8000",
+            optionB: "PARAM 10000",
+            optionC: "CRAY I",
+            optionD: "ENIAC",
+            correctAnswer: "CRAY I"
+        },
+
+        {
+            question: "जो दुनिया का पहला सुपर कंप्यूटर है",
+            optionA: "परम 8000",
+            optionB: "परम 10000",
+            optionC: "क्रे 1",
+            optionD: "एनियाक",
+            correctAnswer: "क्रे 1"
+        },
+
+        
+    ],
+
+    [
+        {
+            // 172
+            question: "Which RAM type is faster and expensive",
+            optionA: "Static RAM",
+            optionB: "Dynamic RAM",
+            optionC: "Synchronous Dynamic RAM",
+            optionD: "None of these",
+            correctAnswer: "Static RAM"
+        },
+
+        {
+            question: "कौन सा रैम का प्रकार तेज और महंगा है",
+            optionA: "स्टेटिक रैम",
+            optionB: "डायनमिक रैम",
+            optionC: "तुल्यकालिक डायनमिक रैम",
+            optionD: "इनमें से कोई नहीं",
+            correctAnswer: "स्टेटिक रैम"
+        },
+    ],
+
+    [
+        {
+            // 173
+            question: "Full name of BASIC",
+            optionA: "Beginner's All Purpose Synchronous Instruction Code",
+            optionB: "Beginner's All Purpose Symbolic Instruction Computer",
+            optionC: "Beginner's All Purpose Symbolic Instruction Code",
+            optionD: "Beginner's All Purpose Symbolic Information Code",
+            correctAnswer: "Beginner's All Purpose Symbolic Instruction Code"
+        },
+
+        {
+            question: "बी.ए.एस.आई.सी. का पूरा नाम",
+            optionA: "Beginner's All Purpose Synchronous Instruction Code",
+            optionB: "Beginner's All Purpose Symbolic Instruction Computer",
+            optionC: "Beginner's All Purpose Symbolic Instruction Code",
+            optionD: "Beginner's All Purpose Symbolic Information Code",
+            correctAnswer: "Beginner's All Purpose Symbolic Instruction Code"
+        },        
+    ],
+
+    [
+        {
+            // 174
+            question: "PDA stands for",
+            optionA: "Personal Dynamic Assistant",
+            optionB: "Personal Digital Assistant",
+            optionC: "Programmable Digital Assistant",
+            optionD: "Programmed Digital Assistant",
+            correctAnswer: "Personal Digital Assistant"
+        },
+
+        {
+            question: "PDA stands for",
+            optionA: "Personal Dynamic Assistant",
+            optionB: "Personal Digital Assistant",
+            optionC: "Programmable Digital Assistant",
+            optionD: "Programmed Digital Assistant",
+            correctAnswer: "Personal Digital Assistant"
+        },
+
+        
+    ],
+
+    [
+        {
+            // 175
             question: "",
             optionA: "",
             optionB: "",
@@ -3348,7 +3731,7 @@ const questions = [
 
     [
         {
-            // 147
+            // 176
             question: "",
             optionA: "",
             optionB: "",
@@ -3371,7 +3754,7 @@ const questions = [
 
     [
         {
-            // 147
+            // 177
             question: "",
             optionA: "",
             optionB: "",
@@ -3394,7 +3777,7 @@ const questions = [
 
     [
         {
-            // 147
+            // 178
             question: "",
             optionA: "",
             optionB: "",
@@ -3417,7 +3800,7 @@ const questions = [
 
     [
         {
-            // 147
+            // 179
             question: "",
             optionA: "",
             optionB: "",
@@ -3440,7 +3823,7 @@ const questions = [
 
     [
         {
-            // 147
+            // 180
             question: "",
             optionA: "",
             optionB: "",
@@ -3463,7 +3846,7 @@ const questions = [
 
     [
         {
-            // 147
+            // 181
             question: "",
             optionA: "",
             optionB: "",
@@ -3486,7 +3869,7 @@ const questions = [
 
     [
         {
-            // 147
+            // 182
             question: "",
             optionA: "",
             optionB: "",
@@ -3509,7 +3892,7 @@ const questions = [
 
     [
         {
-            // 147
+            // 183
             question: "",
             optionA: "",
             optionB: "",
@@ -3532,7 +3915,7 @@ const questions = [
 
     [
         {
-            // 147
+            // 184
             question: "",
             optionA: "",
             optionB: "",
@@ -3555,7 +3938,7 @@ const questions = [
 
     [
         {
-            // 147
+            // 185
             question: "",
             optionA: "",
             optionB: "",
@@ -3578,7 +3961,7 @@ const questions = [
 
     [
         {
-            // 147
+            // 186
             question: "",
             optionA: "",
             optionB: "",
@@ -3601,7 +3984,7 @@ const questions = [
 
     [
         {
-            // 147
+            // 187
             question: "",
             optionA: "",
             optionB: "",
@@ -3624,7 +4007,7 @@ const questions = [
 
     [
         {
-            // 147
+            // 188
             question: "",
             optionA: "",
             optionB: "",
@@ -3647,7 +4030,260 @@ const questions = [
 
     [
         {
-            // 147
+            // 189
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        
+    ],
+
+    [
+        {
+            // 190
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        
+    ],
+
+    [
+        {
+            // 191
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        
+    ],
+
+    [
+        {
+            // 192
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        
+    ],
+
+    [
+        {
+            // 193
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        
+    ],
+
+    [
+        {
+            // 194
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        
+    ],
+
+    [
+        {
+            // 195
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        
+    ],
+
+    [
+        {
+            // 196
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        
+    ],
+
+    [
+        {
+            // 197
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        
+    ],
+
+    [
+        {
+            // 198
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        
+    ],
+
+    [
+        {
+            // 199
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        
+    ],
+
+    [
+        {
+            // 200
             question: "",
             optionA: "",
             optionB: "",
