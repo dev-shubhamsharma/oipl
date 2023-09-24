@@ -2103,6 +2103,873 @@ const questions = [
 
 
 
+    [
+        {
+            // 101
+            question: "Which shortcut key is used to print the web page for Windows OS",
+            optionA: "Command + P",
+            optionB: "Ctrl + P",
+            optionC: "Caps + P",
+            optionD: "None of the above",
+            correctAnswer: "Ctrl + P"
+        },
+
+        {
+            question: "विंडोज ओ.एस. में वेब पेज को प्रिंट करने के लिए किस शॉर्टकट कुंजी का उपयोग किया जाता है",
+            optionA: "कमांड + P",
+            optionB: "Ctrl + P",
+            optionC: "Caps + P",
+            optionD: "इनमे से कोई भी नहीं",
+            correctAnswer: "Ctrl + P"
+        }
+    ],
+
+    [
+        {
+            // 102
+            question: "_____ key is used to redo in Libreoffice writer",
+            optionA: "CTRL + Y",
+            optionB: "CTRL + Z",
+            optionC: "CTRL + X",
+            optionD: "CTRL + V",
+            correctAnswer: "CTRL + Y"
+        },
+
+        {
+            question: "_____ कुंजी का उपयोग लिब्रे ऑफिस राइटर में रीडू के लिए किया जाता है",
+            optionA: "CTRL + Y",
+            optionB: "CTRL + Z",
+            optionC: "CTRL + X",
+            optionD: "CTRL + V",
+            correctAnswer: "CTRL + Y"
+        }
+    ],
+
+    [
+        {
+            // 103
+            question: "Regarding DigiLocker which of the following statements is/are correct",
+            optionA: "It is a digital locker system offered by the Government under Digital India Programme",
+            optionB: "It allows you to access your e-documents irrespective of your physical location",
+            optionC: "Both A and B",
+            optionD: "Only B",
+            correctAnswer: "Both A and B"
+        },
+
+        {
+            question: "डिजिटल लॉकर के बारे में निम्नलिखित में से कौन सा कथन सही है/",
+            optionA: "यह डिजिटल इंडिया प्रोग्राम के तहत सरकार द्वारा पेश की जाने वाली एक डिजिटल लॉकर सिस्टम है",
+            optionB: "यह आपको अपने भौतिक स्थान के बावजूद अपने ई-दस्तावेज तक पहुंचने की अनुमति देता है",
+            optionC: "A और B दोनों",
+            optionD: "केवल B",
+            correctAnswer: "A और B दोनों"
+        }
+    ],
+
+    [
+        {
+            // 104
+            question: "In Libreoffice calc a function should start with _______",
+            optionA: "Alphabet",
+            optionB: "=",
+            optionC: "Number",
+            optionD: "%",
+            correctAnswer: "="
+        },
+
+        {
+            question: "लिब्रे ऑफिस कैल्क एक फ़ंक्शन _______ के साथ शुरू होना चाहिए",
+            optionA: "वर्णमाला",
+            optionB: "=",
+            optionC: "संख्या",
+            optionD: "%",
+            correctAnswer: "="
+        }
+    ],
+
+    [
+        {
+            // 105
+            question: "A web address is also called as",
+            optionA: "ULR",
+            optionB: "UPR",
+            optionC: "URI",
+            optionD: "URL",
+            correctAnswer: "URL"
+        },
+
+        {
+            question: "एक वेब एड्रेस को _____ भी कहा जाता है",
+            optionA: "यू.एल.आर.",
+            optionB: "यू.पी.आर.",
+            optionC: "यू.आर.आई.",
+            optionD: "यू.आर.एल.",
+            correctAnswer: "यू.आर.एल."
+        }
+    ],
+
+    [
+        {
+            // 106
+            question: "Which is the type of page orientation in LibreOffice Writer",
+            optionA: "Portrait",
+            optionB: "Slide",
+            optionC: "Landscape",
+            optionD: "Both Portrait and Landscape",
+            correctAnswer: "Both Portrait and Landscape"
+        },
+
+        {
+            question: "कौन सा लिब्रे ऑफिस राइटर में पृष्ठ अभिविन्यास का प्रकार है",
+            optionA: "पोर्टेट",
+            optionB: "स्लाइड",
+            optionC: "लैण्डस्केप",
+            optionD: "पोर्टेट और लैण्डस्केप दोनों",
+            correctAnswer: "पोर्टेट और लैण्डस्केप दोनों"
+        }
+    ],
+
+    [
+        {
+            // 107
+            question: "Which of the following directories contains the configuration files",
+            optionA: "/bin/",
+            optionB: "/root/",
+            optionC: "/dev/",
+            optionD: "/etc/",
+            correctAnswer: "/etc/"
+        },
+
+        {
+            question: "निम्नलिखित में से किस डॉयरेक्टरी में कॉन्फ़िगरेशन फ़ाइलें होती हैं",
+            optionA: "/bin/",
+            optionB: "/root/",
+            optionC: "/dev/",
+            optionD: "/etc/",
+            correctAnswer: "/etc/"
+        }
+    ],
+
+    [
+        {
+            // 108
+            question: "What is the shortcut key for Styles and Formatting in LibreOffice",
+            optionA: "F11",
+            optionB: "F6",
+            optionC: "F12",
+            optionD: "F9",
+            correctAnswer: "F11"
+        },
+
+        {
+            question: "लिब्रे ऑफिस में स्टाइल्स और फॉर्मेटिंग के लिए शॉर्टकट कुंजी क्या है",
+            optionA: "F11",
+            optionB: "F6",
+            optionC: "F12",
+            optionD: "F9",
+            correctAnswer: "F11"
+        }
+    ],
+
+    [
+        {
+            // 109
+            question: "Which is the correct option to insert header in LibreOffice",
+            optionA: "Format -> header",
+            optionB: "Edit -> header",
+            optionC: "View -> header",
+            optionD: "Insert -> header",
+            correctAnswer: "Insert -> header"
+        },
+
+        {
+            question: "कौन सा लिब्रे ऑफिस में हेडर इन्सर्ट करने का सही विकल्प है",
+            optionA: "फॉर्मेट -> हेडर",
+            optionB: "एडिट -> हेडर",
+            optionC: "व्यू -> हेडर",
+            optionD: "इन्सर्ट -> हेडर",
+            correctAnswer: "इन्सर्ट -> हेडर"
+        }
+    ],
+
+    [
+        {
+            // 110
+            question: "How many spreadsheets create new Calc by default",
+            optionA: "3",
+            optionB: "4",
+            optionC: "1",
+            optionD: "2",
+            correctAnswer: "1"
+        },
+
+        {
+            question: "कितने स्प्रेडशीट डिफ़ॉल्ट रूप से नई कैल्क बनाते हैं",
+            optionA: "तीन",
+            optionB: "चार",
+            optionC: "एक",
+            optionD: "दो",
+            correctAnswer: "एक"
+        }
+    ],
+
+    [
+        {
+            // 111
+            question: "AEPS stands for",
+            optionA: "Aadhaar Enabled Payment Source",
+            optionB: "Aadhaar Enrolled Payment System",
+            optionC: "Aadhaar Enabled Payment System",
+            optionD: "None of the above",
+            correctAnswer: "Aadhaar Enabled Payment System"
+        },
+
+        {
+            question: "ए.ई.पी.एस. का पूर्ण रूप है",
+            optionA: "आधार इनेबल्ड पेमेंट सोर्स",
+            optionB: "आधार इनरोल्ड पेमेंट सिस्टम",
+            optionC: "आधार इनेबल्ड पेमेंट सिस्टम",
+            optionD: "इनमे से कोई भी नहीं",
+            correctAnswer: "आधार इनेबल्ड पेमेंट सिस्टम"
+        }
+    ],
+
+    [
+        {
+            // 112
+            question: "What is the max size of attachment in gmail",
+            optionA: "25 MB",
+            optionB: "25 TB",
+            optionC: "25 GB",
+            optionD: "25 KB",
+            correctAnswer: "25 MB"
+        },
+
+        {
+            question: "जीमेल में अटैचमेंट का अधिकतम साइज क्या है",
+            optionA: "25 MB",
+            optionB: "25 TB",
+            optionC: "25 GB",
+            optionD: "25 KB",
+            correctAnswer: "25 MB"
+        }
+    ],
+
+    [
+        {
+            // 113
+            question: "Which function key is used to change the name of any file through the keyboard",
+            optionA: "F1",
+            optionB: "F2",
+            optionC: "F3",
+            optionD: "F4",
+            correctAnswer: "F2"
+        },
+
+        {
+            question: "कीबोर्ड के माध्यम से किसी भी फ़ाइल के नाम को बदलने के लिए किस फ़ंक्शन कुंजी का उपयोग किया जाता है",
+            optionA: "F1",
+            optionB: "F2",
+            optionC: "F3",
+            optionD: "F4",
+            correctAnswer: "F2"
+        }
+    ],
+
+    [
+        {
+            // 114
+            question: "In which menu is the option of Thesaurus in Libreoffice",
+            optionA: "Format",
+            optionB: "Tools",
+            optionC: "View",
+            optionD: "None",
+            correctAnswer: "Tools"
+        },
+
+        {
+            question: "किस मेनू में लिबरॉफिस में थिसॉरस का विकल्प है",
+            optionA: "फॉर्मेट",
+            optionB: "टूल्स",
+            optionC: "व्यू",
+            optionD: "कोई नहीं",
+            correctAnswer: "टूल्स"
+        }
+    ],
+
+    [
+        {
+            // 115
+            question: "Which one is not a type of kernel",
+            optionA: "Monolithic kernel",
+            optionB: "Hybrid kernel",
+            optionC: "Scott kernel",
+            optionD: "Micro kernel",
+            correctAnswer: "Scott kernel"
+        },
+
+        {
+            question: "कौन सा कर्नेल का एक प्रकार नहीं है",
+            optionA: "मोनोलिथिक कर्नेल",
+            optionB: "हाइब्रिड कर्नेल",
+            optionC: "स्कॉट कर्नेल",
+            optionD: "माइक्रो कर्नेल",
+            correctAnswer: "स्कॉट कर्नेल"
+        }
+    ],
+
+    [
+        {
+            // 116
+            question: "______ maximum zoom percentage possible in Libreoffice writer",
+            optionA: "100%",
+            optionB: "600%",
+            optionC: "400%",
+            optionD: "800%",
+            correctAnswer: "600%"
+        },
+
+        {
+            question: "______ अधिकतम ज़ूम प्रतिशत लिब्रे ऑफिस राइटर में संभव है",
+            optionA: "सौ प्रतिशत",
+            optionB: "छः सौ प्रतिशत",
+            optionC: "चार सौ प्रतिशत",
+            optionD: "आठ सौ प्रतिशत",
+            correctAnswer: "छः सौ प्रतिशत"
+        }
+    ],
+
+    [
+        {
+            // 117
+            question: "______ file extension is used for template in Libreoffice writer",
+            optionA: ".XLX",
+            optionB: ".TXT",
+            optionC: ".DOC",
+            optionD: ".OTT",
+            correctAnswer: ".OTT"
+        },
+
+        {
+            question: "______ फ़ाइल एक्सटेंशन का उपयोग लिब्रे ऑफिस राइटर में टेम्पलेट के लिए किया जाता है",
+            optionA: ".XLX",
+            optionB: ".TXT",
+            optionC: ".DOC",
+            optionD: ".OTT",
+            correctAnswer: ".OTT"
+        }
+    ],
+
+    [
+        {
+            // 118
+            question: "What is the shortcut key to full screen LibreOffice",
+            optionA: "CTRL + SHIFT + J",
+            optionB: "CTRL + SHIFT + K",
+            optionC: "SHIFT + J",
+            optionD: "None",
+            correctAnswer: "CTRL + SHIFT + J"
+        },
+
+        {
+            question: "लिब्रे ऑफिस को पूर्ण स्क्रीन में करने के लिए शॉर्टकट कुंजी क्या है",
+            optionA: "CTRL + SHIFT + J",
+            optionB: "CTRL + SHIFT + K",
+            optionC: "SHIFT + J",
+            optionD: "None",
+            correctAnswer: "CTRL + SHIFT + J"
+        }
+    ],
+
+    [
+        {
+            // 119
+            question: "In LibreOffice Writer _____ key is used for subscript the text",
+            optionA: "CTRL + SHIFT + F5",
+            optionB: "CTRL + SHIFT + V",
+            optionC: "CTRL + SHIFT + B",
+            optionD: "CTRL + SHIFT + F1",
+            correctAnswer: "CTRL + SHIFT + B"
+        },
+
+        {
+            question: "लिब्रे ऑफिस राइटर में _____ कुंजी का उपयोग टेक्स्ट को सबस्क्रिप्ट करने के लिए किया जाता है",
+            optionA: "CTRL + SHIFT + F5",
+            optionB: "CTRL + SHIFT + V",
+            optionC: "CTRL + SHIFT + B",
+            optionD: "CTRL + SHIFT + F1",
+            correctAnswer: "CTRL + SHIFT + B"
+        }
+    ],
+
+    [
+        {
+            // 120
+            question: "Communication software and operating system are examples of",
+            optionA: "Device drivers",
+            optionB: "System softwares",
+            optionC: "Application softwares",
+            optionD: "Customized software",
+            correctAnswer: "System softwares"
+        },
+
+        {
+            question: "संचार सॉफ्टवेयर और ऑपरेटिंग सिस्टम किसके उदाहरण हैं",
+            optionA: "डिवाइस ड्राइवर",
+            optionB: "सिस्टम सॉफ्ट्वेयर",
+            optionC: "एप्लीकेशन सॉफ्ट्वेयर",
+            optionD: "कॅस्टमाइज्ड सॉफ़्टवेयर",
+            correctAnswer: "सिस्टम सॉफ्ट्वेयर"
+        }
+    ],
+
+    [
+        {
+            // 121
+            question: "In LibreOffice Writer, the mail merge is found in which menu",
+            optionA: "File",
+            optionB: "Insert",
+            optionC: "Tools",
+            optionD: "View",
+            correctAnswer: "Tools"
+        },
+
+        {
+            question: "लिब्रे ऑफिस राइटर में, मेल मर्ज किस मेनू में पाया जाता है",
+            optionA: "फ़ाइल",
+            optionB: "इन्सर्ट",
+            optionC: "टूल्स",
+            optionD: "व्यू",
+            correctAnswer: "टूल्स"
+        }
+    ],
+
+    [
+        {
+            // 122
+            question: "Which of the following items is not used in Local Area Networks (LANS)",
+            optionA: "Computer",
+            optionB: "Modem",
+            optionC: "Printer",
+            optionD: "Cable",
+            correctAnswer: "Printer"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन सा आइटम स्थानीय क्षेत्र नेटवर्क (LAN) में उपयोग नहीं किया जाता है",
+            optionA: "कंप्यूटर",
+            optionB: "मोडम",
+            optionC: "प्रिन्टर",
+            optionD: "केबल",
+            correctAnswer: "प्रिन्टर"
+        }
+    ],
+
+    [
+        {
+            // 123
+            question: "Which size of data is called as Big Data",
+            optionA: "Giga byte",
+            optionB: "Mega byte",
+            optionC: "Meta byte",
+            optionD: "Peta byte",
+            correctAnswer: "Peta byte"
+        },
+
+        {
+            question: "डेटा के किस आकार को बड़ा डेटा कहा जाता हैै",
+            optionA: "गिगा बाइट",
+            optionB: "मेगा बाइट",
+            optionC: "मेटा बाइट",
+            optionD: "पेटा बाइट",
+            correctAnswer: "पेटा बाइट"
+        }
+    ],
+
+    [
+        {
+            // 124
+            question: "What is the maximum number of views can be added to a slide in LibreOffice impress",
+            optionA: "4",
+            optionB: "2",
+            optionC: "10",
+            optionD: "6",
+            correctAnswer: "4"
+        },
+
+        {
+            question: "लिब्रे ऑफिस इम्प्रेस में एक स्लाइड में अधिकतम व्यू की संख्या को जोड़ा जा सकता है",
+            optionA: "चार",
+            optionB: "दो",
+            optionC: "दस",
+            optionD: "छः",
+            correctAnswer: "चार"
+        }
+    ],
+
+    [
+        {
+            // 125
+            question: "A formula start with which symbol in LibreOffice Calc",
+            optionA: "$",
+            optionB: "=",
+            optionC: "@",
+            optionD: "None of the above",
+            correctAnswer: "="
+        },
+
+        {
+            question: "लिब्रे ऑफिस कैल्क में एक सूत्र किस प्रतीक के साथ शुरू होता है",
+            optionA: "$",
+            optionB: "=",
+            optionC: "@",
+            optionD: "इनमे से कोई भी नहीं",
+            correctAnswer: "="
+        }
+    ],
+
+    [
+        {
+            // 126
+            question: "Broadband is used for",
+            optionA: "Wireless data transfer",
+            optionB: "The actual internet connection that your modem/router uses to send and receive data",
+            optionC: "Is used for intranet communication",
+            optionD: "Is used only for voice communication",
+            correctAnswer: "The actual internet connection that your modem/router uses to send and receive data"
+        },
+
+        {
+            question: "ब्रॉडबैंड किसके लिए उपयोग किया जाता है",
+            optionA: "वायरलेस डेटा ट्रांसफर",
+            optionB: "वास्तविक इंटरनेट कनेक्शन जो आपका मॉडेम/राउटर डेटा भेजने और प्राप्त करने के लिए उपयोग करता है",
+            optionC: "इंट्रानेट संचार के लिए उपयोग किया जाता है",
+            optionD: "केवल आवाज संचार के लिए उपयोग किया जाता है",
+            correctAnswer: "वास्तविक इंटरनेट कनेक्शन जो आपका मॉडेम/राउटर डेटा भेजने और प्राप्त करने के लिए उपयोग करता है"
+        }
+    ],
+
+    [
+        {
+            // 127
+            question: "Choose the correct format for Gmail-email address",
+            optionA: "abc@gmail.com",
+            optionB: "abc@gmail-com",
+            optionC: "abcgmail@com",
+            optionD: "None of the above",
+            correctAnswer: "abc@gmail.com"
+        },
+
+        {
+            question: "जीमेल-ईमेल पते के लिए सही प्रारूप चुनें",
+            optionA: "abc@gmail.com",
+            optionB: "abc@gmail-com",
+            optionC: "abcgmail@com",
+            optionD: "इनमे से कोई भी नहीं",
+            correctAnswer: "abc@gmail.com"
+        }
+    ],
+
+    [
+        {
+            // 128
+            question: "Which one of the following is zero division error",
+            optionA: "#DIV/0!",
+            optionB: "#DIV/0",
+            optionC: "#D/0!",
+            optionD: "#DI/0!",
+            correctAnswer: "#DIV/0!"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन सा शून्य डिवीजन त्रुटि है",
+            optionA: "#DIV/0!",
+            optionB: "#DIV/0",
+            optionC: "#D/0!",
+            optionD: "#DI/0!",
+            correctAnswer: "#DIV/0!"
+        }
+    ],
+
+    [
+        {
+            // 129
+            question: "An italic and bold commands are found in __________ menu in the LibreOffice writer",
+            optionA: "Format",
+            optionB: "View",
+            optionC: "Tools",
+            optionD: "Insert",
+            correctAnswer: "Format"
+        },
+
+        {
+            question: "एक इटैलिक और बोल्ड कमांड लिब्रे ऑफिस राइटर में __________ मेनू में पाए जाते हैं",
+            optionA: "फॉर्मेट",
+            optionB: "व्यू",
+            optionC: "टूल्स",
+            optionD: "इन्सर्ट",
+            correctAnswer: "फॉर्मेट"
+        }
+    ],
+
+    [
+        {
+            // 130
+            question: "What is the shortcut key in LibreOffice Impress for Paste Unformatted Text",
+            optionA: "CTRL + SHIFT + ALT + V",
+            optionB: "CTRL + SHIFT + V",
+            optionC: "CTRL + V",
+            optionD: "None of these",
+            correctAnswer: "CTRL + SHIFT + V"
+        },
+
+        {
+            question: "अफॉर्मेटेड टेक्स्ट को पेस्ट करने के लिए लिब्रे ऑफिस इम्प्रेस में शॉर्टकट कुंजी क्या है",
+            optionA: "CTRL + SHIFT + ALT + V",
+            optionB: "CTRL + SHIFT + V",
+            optionC: "CTRL + V",
+            optionD: "इनमें से कोई नहीं",
+            correctAnswer: "CTRL + SHIFT + V"
+        }
+    ],
+
+    [
+        {
+            // 131
+            question: "Which is used to determine the timing on a slide in a presentation",
+            optionA: "Rehearsal",
+            optionB: "Slide Timer",
+            optionC: "Slide Timing Tool",
+            optionD: "Slide Tool",
+            correctAnswer: "Rehearsal"
+        },
+
+        {
+            question: "जिसका उपयोग एक प्रस्तुति में एक स्लाइड पर समय निर्धारित करने के लिए किया जाता है",
+            optionA: "रिहर्सल",
+            optionB: "स्लाइड टाइमर",
+            optionC: "स्लाइड टाइमिंग टूल",
+            optionD: "स्लाइड टूल",
+            correctAnswer: "रिहर्सल"
+        }
+    ],
+
+    [
+        {
+            // 132
+            question: "What is blog ? Choose the correct option",
+            optionA: "Is a Web page only",
+            optionB: "It can be Website or Web Page",
+            optionC: "Is a complete Website",
+            optionD: "None of the mentioned",
+            correctAnswer: "Is a complete Website"
+        },
+
+        {
+            question: "ब्लॉग क्या है? सही विकल्प चुनें",
+            optionA: "केवल एक वेब पेज है",
+            optionB: "यह वेबसाइट या वेब पेज हो सकता है",
+            optionC: "एक पूरी वेबसाइट है",
+            optionD: "उल्लेख में से कोई भी नहीं",
+            correctAnswer: "एक पूरी वेबसाइट है"
+        }
+    ],
+
+    [
+        {
+            // 133
+            question: "Which shortcut key is used for inserting table in LibreOffice Writer",
+            optionA: "CTRL + F11",
+            optionB: "CTRL + F12",
+            optionC: "CTRL + F10",
+            optionD: "CTRL + F9",
+            correctAnswer: "CTRL + F12"
+        },
+
+        {
+            question: "लिब्रे ऑफिस राइटर में टेबल सम्मिलित करने के लिए किस शॉर्टकट कुंजी का उपयोग किया जाता है",
+            optionA: "CTRL + F11",
+            optionB: "CTRL + F12",
+            optionC: "CTRL + F10",
+            optionD: "CTRL + F9",
+            correctAnswer: "CTRL + F12"
+        }
+    ],
+
+    [
+        {
+            // 134
+            question: "_______ function key is used for spell check in LibreOffice Writer",
+            optionA: "CTRL + F7",
+            optionB: "SHIFT + F2",
+            optionC: "F7",
+            optionD: "F2",
+            correctAnswer: "F7"
+        },
+
+        {
+            question: "_______ फ़ंक्शन कुंजी का उपयोग लिब्रे ऑफिस राइटर में स्पेल चेक के लिए किया जाता है",
+            optionA: "CTRL + F7",
+            optionB: "SHIFT + F2",
+            optionC: "F7",
+            optionD: "F2",
+            correctAnswer: "F7"
+        }
+    ],
+
+    [
+        {
+            // 135
+            question: "Features of the Linux operating system",
+            optionA: "It is a multi-user operating system",
+            optionB: "It is a highly secure operating system",
+            optionC: "It is multitasking operating system",
+            optionD: "All of the above",
+            correctAnswer: "All of the above"
+        },
+
+        {
+            question: "लिनक्स ऑपरेटिंग सिस्टम की विशेषताएं",
+            optionA: "यह एक बहु-उपयोगकर्ता ऑपरेटिंग सिस्टम है",
+            optionB: "यह एक अत्यधिक सुरक्षित ऑपरेटिंग सिस्टम है",
+            optionC: "यह मल्टीटास्किंग ऑपरेटिंग सिस्टम है",
+            optionD: "ऊपर के सभी",
+            correctAnswer: "ऊपर के सभी"
+        }
+    ],
+
+    [
+        {
+            // 136
+            question: "The core of linux operating system is ________",
+            optionA: "Kernel",
+            optionB: "Terminal",
+            optionC: "Shell",
+            optionD: "Command",
+            correctAnswer: "Kernel"
+        },
+
+        {
+            question: "लिनक्स ऑपरेटिंग सिस्टम का कोर ________ है",
+            optionA: "कर्नेल",
+            optionB: "टर्मिनल",
+            optionC: "सैल",
+            optionD: "कमांड",
+            correctAnswer: "कर्नेल"
+        }
+    ],
+
+    [
+        {
+            // 137
+            question: "Which command is used for removing files in the Linux operating system",
+            optionA: "delete",
+            optionB: "rm",
+            optionC: "dm",
+            optionD: "erase",
+            correctAnswer: "rm"
+        },
+
+        {
+            question: "लिनक्स ऑपरेटिंग सिस्टम में फ़ाइलों को हटाने के लिए किस कमांड का उपयोग किया जाता है",
+            optionA: "delete",
+            optionB: "rm",
+            optionC: "dm",
+            optionD: "erase",
+            correctAnswer: "rm"
+        }
+    ],
+
+    [
+        {
+            // 138
+            question: "What is the shortcut key to cut in LibreOffice",
+            optionA: "CTRL + C",
+            optionB: "CTRL + X",
+            optionC: "CTRL + K",
+            optionD: "SHIFT + X",
+            correctAnswer: "CTRL + X"
+        },
+
+        {
+            question: "लिब्रे ऑफिस में कट करने के लिए शॉर्टकट कुंजी क्या है",
+            optionA: "CTRL + C",
+            optionB: "CTRL + X",
+            optionC: "CTRL + K",
+            optionD: "SHIFT + X",
+            correctAnswer: "CTRL + X"
+        }
+    ],
+
+    [
+        {
+            // 139
+            question: "In LibreOffice Writer, Ruler option is found in which menu",
+            optionA: "Tools",
+            optionB: "View",
+            optionC: "File",
+            optionD: "Insert",
+            correctAnswer: "View"
+        },
+
+        {
+            question: "लिब्रे ऑफिस राइटर में, रूलर विकल्प किस मेनू में पाया जाता है",
+            optionA: "टूल्स",
+            optionB: "व्यू",
+            optionC: "फाइल",
+            optionD: "इन्सर्ट",
+            correctAnswer: "व्यू"
+        }
+    ],
+
+    [
+        {
+            // 140
+            question: "Which of the following is not present in the status bar of LibreOffice Writer",
+            optionA: "Name of computer",
+            optionB: "Page number",
+            optionC: "Character",
+            optionD: "None of the above",
+            correctAnswer: "Name of computer"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन सा लिब्रे ऑफिस राइटर की स्टेट्स बार में मौजूद नहीं होता है",
+            optionA: "कंप्यूटर का नाम",
+            optionB: "पृष्ठ संख्या",
+            optionC: "करेक्टर्स",
+            optionD: "इनमे से कोई भी नहीं",
+            correctAnswer: "कंप्यूटर का नाम"
+        }
+    ],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3215,845 +4082,6 @@ const questions = [
 
 
 
-    [
-        {
-            // 101
-            question: "Which shortcut key is used to print the web page for Windows OS",
-            optionA: "Command + P",
-            optionB: "Ctrl + P",
-            optionC: "Caps + P",
-            optionD: "None of the above",
-            correctAnswer: "Ctrl + P"
-        },
-
-        {
-            question: "विंडोज ओ.एस. में वेब पेज को प्रिंट करने के लिए किस शॉर्टकट कुंजी का उपयोग किया जाता है",
-            optionA: "कमांड + P",
-            optionB: "Ctrl + P",
-            optionC: "Caps + P",
-            optionD: "इनमे से कोई भी नहीं",
-            correctAnswer: "Ctrl + P"
-        }
-    ],
-
-    [
-        {
-            // 102
-            question: "_____ key is used to redo in Libreoffice writer",
-            optionA: "CTRL + Y",
-            optionB: "CTRL + Z",
-            optionC: "CTRL + X",
-            optionD: "CTRL + V",
-            correctAnswer: "CTRL + Y"
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 103
-            question: "Regarding DigiLocker which of the following statements is/are correct",
-            optionA: "It is a digital locker system offered by the Government under Digital India Programme",
-            optionB: "It allows you to access your e-documents irrespective of your physical location",
-            optionC: "Both A and B",
-            optionD: "Only B",
-            correctAnswer: "Both A and B"
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 104
-            question: "In Libreoffice calc a function should start with _______",
-            optionA: "Alphabet",
-            optionB: "=",
-            optionC: "Number",
-            optionD: "%",
-            correctAnswer: "="
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 105
-            question: "A web address is also called as",
-            optionA: "ULR",
-            optionB: "UPR",
-            optionC: "URI",
-            optionD: "URL",
-            correctAnswer: "URL"
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 106
-            question: "Which is the type of page orientation in LibreOffice Writer",
-            optionA: "Portrait",
-            optionB: "Slide",
-            optionC: "Landscape",
-            optionD: "Both Portrait and Landscape",
-            correctAnswer: "Both Portrait and Landscape"
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 107
-            question: "Which of the following directories contains the configuration files",
-            optionA: "/bin/",
-            optionB: "/root/",
-            optionC: "/dev/",
-            optionD: "/etc/",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 108
-            question: "What is the shortcut key for Styles and Formatting in LibreOffice",
-            optionA: "F11",
-            optionB: "F6",
-            optionC: "F12",
-            optionD: "F9",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 109
-            question: "Which is the correct option to insert header in LibreOffice",
-            optionA: "Format -> header",
-            optionB: "Edit -> header",
-            optionC: "View -> header",
-            optionD: "Insert -> header",
-            correctAnswer: "Insert -> header"
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 110
-            question: "How many spreadsheets create new Calc by default",
-            optionA: "3",
-            optionB: "4",
-            optionC: "1",
-            optionD: "2",
-            correctAnswer: "1"
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 111
-            question: "AEPS stands for",
-            optionA: "Aadhaar Enabled Payment Source",
-            optionB: "Aadhaar Enrolled Payment System",
-            optionC: "Aadhaar Enabled Payment System",
-            optionD: "None of the above",
-            correctAnswer: "Aadhaar Enabled Payment System"
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 112
-            question: "What is the max size of attachment in gmail",
-            optionA: "25 MB",
-            optionB: "25 TB",
-            optionC: "25 GB",
-            optionD: "25 KB",
-            correctAnswer: "25 MB"
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 113
-            question: "Which function key is used to change the name of any file through the keyboard",
-            optionA: "F1",
-            optionB: "F2",
-            optionC: "F3",
-            optionD: "F4",
-            correctAnswer: "F2"
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 114
-            question: "In which menu is the option of Thesaurus in Libreoffice",
-            optionA: "Format",
-            optionB: "Tools",
-            optionC: "View",
-            optionD: "None",
-            correctAnswer: "Tools"
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 115
-            question: "Which one is not a type of kernel",
-            optionA: "Monolithic kernel",
-            optionB: "Hybrid kernel",
-            optionC: "Scott kernel",
-            optionD: "Micro kernel",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 116
-            question: "______ maximum zoom percentage possible in Libreoffice writer",
-            optionA: "100%",
-            optionB: "600%",
-            optionC: "400%",
-            optionD: "800%",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 117
-            question: "______ file extension is used for template in Libreoffice writer",
-            optionA: ".XLX",
-            optionB: ".TXT",
-            optionC: ".DOC",
-            optionD: ".OTT",
-            correctAnswer: ".OTT"
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 118
-            question: "What is the shortcut key to full screen LibreOffice",
-            optionA: "CTRL + SHIFT + J",
-            optionB: "CTRL + SHIFT + K",
-            optionC: "SHIFT + J",
-            optionD: "None",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 119
-            question: "In LibreOffice Writer _____ key is used for subscript the text",
-            optionA: "CTRL + SHIFT + F5",
-            optionB: "CTRL + SHIFT + V",
-            optionC: "CTRL + SHIFT + B",
-            optionD: "CTRL + SHIFT + F1",
-            correctAnswer: "CTRL + SHIFT + B"
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 120
-            question: "Communication software and operating system are examples of",
-            optionA: "Device drivers",
-            optionB: "System softwares",
-            optionC: "Application softwares",
-            optionD: "Customized software",
-            correctAnswer: "System softwares"
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 121
-            question: "In LibreOffice Writer, the mail merge is found in which menu",
-            optionA: "File",
-            optionB: "Insert",
-            optionC: "Tools",
-            optionD: "View",
-            correctAnswer: "Tools"
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 122
-            question: "Which of the following items is not used in Local Area Networks (LANS)",
-            optionA: "Computer",
-            optionB: "Modem",
-            optionC: "Printer",
-            optionD: "Cable",
-            correctAnswer: "Printer"
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 123
-            question: "Which size of data is called as Big Data",
-            optionA: "Giga byte",
-            optionB: "Mega byte",
-            optionC: "Meta byte",
-            optionD: "Peta byte",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 124
-            question: "What is the maximum number of views can be added to a slide in LibreOffice impress",
-            optionA: "4",
-            optionB: "2",
-            optionC: "10",
-            optionD: "6",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 125
-            question: "A formula start with which symbol in LibreOffice Calc",
-            optionA: "$",
-            optionB: "=",
-            optionC: "@",
-            optionD: "None of the above",
-            correctAnswer: "="
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 126
-            question: "Broadband is used for",
-            optionA: "Wireless data transfer",
-            optionB: "The actual internet connection that your modem/router uses to send and receive data",
-            optionC: "Is used for intranet communication",
-            optionD: "Is used only for voice communication",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 127
-            question: "Choose the correct format for Gmail-email address",
-            optionA: "abc@gmail.com",
-            optionB: "abc@gmail-com",
-            optionC: "abcgmail@com",
-            optionD: "None of the above",
-            correctAnswer: "abc@gmail.com"
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 128
-            question: "Which one of the following is zero division error",
-            optionA: "#DIV/0!",
-            optionB: "#DIV/0",
-            optionC: "#D/0!",
-            optionD: "#DI/0!",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 129
-            question: "An italic and bold commands are found in __________ menu in the LibreOffice writer",
-            optionA: "Format",
-            optionB: "View",
-            optionC: "Tools",
-            optionD: "Insert",
-            correctAnswer: "Format"
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 130
-            question: "What is the shortcut key in LibreOffice Impress for Paste Unformatted Text",
-            optionA: "CTRL + SHIFT + ALT + V",
-            optionB: "CTRL + SHIFT + V",
-            optionC: "CTRL + V",
-            optionD: "None of these",
-            correctAnswer: "CTRL + SHIFT + V"
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 131
-            question: "Which is used to determine the timing on a slide in a presentation",
-            optionA: "Rehearsal",
-            optionB: "Slide Timer",
-            optionC: "Slide Timing Tool",
-            optionD: "Slide Tool",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 132
-            question: "What is blog ? Choose the correct option",
-            optionA: "Is a Web page only",
-            optionB: "It can be Website or Web Page",
-            optionC: "Is a complete Website",
-            optionD: "None of the mentioned",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 133
-            question: "Which shortcut key is used for inserting table in LibreOffice Writer",
-            optionA: "CTRL + F11",
-            optionB: "CTRL + F12",
-            optionC: "CTRL + F10",
-            optionD: "CTRL + F9",
-            correctAnswer: "CTRL + F12"
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 134
-            question: "_______ function key is used for spell check in LibreOffice Writer",
-            optionA: "CTRL + F7",
-            optionB: "SHIFT + F2",
-            optionC: "F7",
-            optionD: "F2",
-            correctAnswer: "F7"
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 135
-            question: "Features of the Linux operating system",
-            optionA: "It is a multi-user operating system",
-            optionB: "It is a highly secure operating system",
-            optionC: "It is multitasking operating system",
-            optionD: "All of the above",
-            correctAnswer: "All of the above"
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 136
-            question: "The core of linux operating system is ________",
-            optionA: "Kernel",
-            optionB: "Terminal",
-            optionC: "Shell",
-            optionD: "Command",
-            correctAnswer: "Kernel"
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 137
-            question: "Which command is used for removing files in the Linux operating system",
-            optionA: "delete",
-            optionB: "rm",
-            optionC: "dm",
-            optionD: "erase",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 138
-            question: "What is the shortcut key to cut in LibreOffice",
-            optionA: "CTRL + C",
-            optionB: "CTRL + X",
-            optionC: "CTRL + K",
-            optionD: "SHIFT + X",
-            correctAnswer: "CTRL + X"
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 139
-            question: "In LibreOffice Writer, Ruler option is found in which menu",
-            optionA: "Tools",
-            optionB: "View",
-            optionC: "File",
-            optionD: "Insert",
-            correctAnswer: "View"
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        }
-    ],
-
-    [
-        {
-            // 140
-            question: "Which of the following is not present in the status bar of LibreOffice Writer",
-            optionA: "Name of computer",
-            optionB: "Page number",
-            optionC: "Character",
-            optionD: "None of the above",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        }
-    ],
 
     [
         {
@@ -4067,12 +4095,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "Which sign is visible when there is a Formula Error in LibreOffice Calc",
+            optionA: "@",
+            optionB: "#",
+            optionC: "$",
+            optionD: "&",
+            correctAnswer: "#"
         }
     ],
 
@@ -4084,16 +4112,16 @@ const questions = [
             optionB: "Over line",
             optionC: "Up line",
             optionD: "Upper line",
-            correctAnswer: ""
+            correctAnswer: "Over line"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "What is the line given above a text",
+            optionA: "Below line",
+            optionB: "Over line",
+            optionC: "Up line",
+            optionD: "Upper line",
+            correctAnswer: "Over line"
         }
     ],
 
@@ -4105,16 +4133,16 @@ const questions = [
             optionB: "Go to next slide without playing effects",
             optionC: "Show previous slide",
             optionD: "Jump to first slide in slide show",
-            correctAnswer: ""
+            correctAnswer: "Go to next slide without playing effects"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "Alt + Page Down key is used for which of the following effect in Slide Show",
+            optionA: "Play next effect",
+            optionB: "Go to next slide without playing effects",
+            optionC: "Show previous slide",
+            optionD: "Jump to first slide in slide show",
+            correctAnswer: "Go to next slide without playing effects"
         }
     ],
 
@@ -4130,12 +4158,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "Usually signature appears at which place in email",
+            optionA: "At the end",
+            optionB: "In beginning",
+            optionC: "In middle",
+            optionD: "None of the above",
+            correctAnswer: "At the end"
         }
     ],
 
@@ -4147,16 +4175,16 @@ const questions = [
             optionB: "Linux",
             optionC: "Mac",
             optionD: "All of the above",
-            correctAnswer: ""
+            correctAnswer: "All of the above"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "Which of these platforms can LibreOffice work on",
+            optionA: "Windows",
+            optionB: "Linux",
+            optionC: "Mac",
+            optionD: "All of the above",
+            correctAnswer: "All of the above"
         }
     ],
 
@@ -4168,16 +4196,16 @@ const questions = [
             optionB: "Semi immersive",
             optionC: "Non immersive",
             optionD: "Augmented",
-            correctAnswer: ""
+            correctAnswer: "Immersive"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "A type of VR environment in which subjects are visually isolated from the real environment",
+            optionA: "Immersive",
+            optionB: "Semi immersive",
+            optionC: "Non immersive",
+            optionD: "Augmented",
+            correctAnswer: "Immersive"
         }
     ],
 
@@ -4189,16 +4217,16 @@ const questions = [
             optionB: "NEFT",
             optionC: "RTGS",
             optionD: "IMPS",
-            correctAnswer: ""
+            correctAnswer: "NEFT"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "Which one is not the method of Digital Payment Transfer",
+            optionA: "UPI",
+            optionB: "NEFT",
+            optionC: "RTGS",
+            optionD: "IMPS",
+            correctAnswer: "NEFT"
         }
     ],
 
@@ -4214,12 +4242,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "Choose the correct name of Web browser",
+            optionA: "Google",
+            optionB: "Yahoo",
+            optionC: "Gmail",
+            optionD: "Opera",
+            correctAnswer: "Opera"
         }
     ],
 
@@ -4231,16 +4259,16 @@ const questions = [
             optionB: "SHIFT + CTRL + X",
             optionC: "SHIFT + CTRL + S",
             optionD: "SHIFT + R",
-            correctAnswer: ""
+            correctAnswer: "SHIFT + CTRL + R"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "Which shortcut key is used for restoring or refreshing the view of the current document after changing the anti-aliasing settings in LibreOffice",
+            optionA: "SHIFT + CTRL + R",
+            optionB: "SHIFT + CTRL + X",
+            optionC: "SHIFT + CTRL + S",
+            optionD: "SHIFT + R",
+            correctAnswer: "SHIFT + CTRL + R"
         }
     ],
 
@@ -4252,16 +4280,16 @@ const questions = [
             optionB: "20%",
             optionC: "15%",
             optionD: "25%",
-            correctAnswer: ""
+            correctAnswer: "20%"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "What is the minimum zoom in LibreOffice Calc",
+            optionA: "5%",
+            optionB: "20%",
+            optionC: "15%",
+            optionD: "25%",
+            correctAnswer: "20%"
         }
     ],
 
@@ -4273,16 +4301,16 @@ const questions = [
             optionB: "CTRL + SHIFT + F12",
             optionC: "F12",
             optionD: "SHIFT + F12",
-            correctAnswer: ""
+            correctAnswer: "SHIFT + F12"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "Which of the following key is used to add bullet list in LibreOffice writer",
+            optionA: "CTRL + F12",
+            optionB: "CTRL + SHIFT + F12",
+            optionC: "F12",
+            optionD: "SHIFT + F12",
+            correctAnswer: "SHIFT + F12"
         }
     ],
 
@@ -4294,16 +4322,16 @@ const questions = [
             optionB: "Executable code",
             optionC: "Load Basic code",
             optionD: "None of this",
-            correctAnswer: ""
+            correctAnswer: "Load Basic code"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "Which option is available for editing the macros in LibreOffice",
+            optionA: "Save original Basic code",
+            optionB: "Executable code",
+            optionC: "Load Basic code",
+            optionD: "None of this",
+            correctAnswer: "Load Basic code"
         }
     ],
 
@@ -4319,12 +4347,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "What will be the shortcut key to use Heading-1",
+            optionA: "CTRL + 4",
+            optionB: "CTRL + 2",
+            optionC: "CTRL + 3",
+            optionD: "CTRL + 1",
+            correctAnswer: "CTRL + 1"
         }
     ],
 
@@ -4340,12 +4368,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "What is the minimum and maximum default font size in the LibreOffice",
+            optionA: "9, 96",
+            optionB: "6, 96",
+            optionC: "7, 72",
+            optionD: "11, 96",
+            correctAnswer: "6, 96"
         }
     ],
 
@@ -4361,12 +4389,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "In LibreOffice, Which of the following is used as Spreadsheet Software",
+            optionA: "Math",
+            optionB: "Calc",
+            optionC: "Writer",
+            optionD: "Customized software",
+            correctAnswer: "Calc"
         }
     ],
 
@@ -4378,16 +4406,16 @@ const questions = [
             optionB: "The trap of fixed values",
             optionC: "Lack of documentation",
             optionD: "Operators in formulas",
-            correctAnswer: ""
+            correctAnswer: "The trap of fixed values"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "____ is the most common limitation in LibreOffice Calc",
+            optionA: "Error checking",
+            optionB: "The trap of fixed values",
+            optionC: "Lack of documentation",
+            optionD: "Operators in formulas",
+            correctAnswer: "The trap of fixed values"
         }
     ],
 
@@ -4403,12 +4431,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "Which of the following is not an input device",
+            optionA: "Touch pad",
+            optionB: "Mouse",
+            optionC: "Monitor",
+            optionD: "Scanner",
+            correctAnswer: "Monitor"
         }
     ],
 
@@ -4424,12 +4452,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "Which key is used to manage the template in LibreOffice Writer",
+            optionA: "CTRL + N",
+            optionB: "CTRL + SHIFT + N",
+            optionC: "SHIFT + O",
+            optionD: "CTRL + SHIFT + O",
+            correctAnswer: "CTRL + SHIFT + N"
         }
     ],
 
@@ -4445,12 +4473,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "What is Blockchain",
+            optionA: "A type of cryptocurrency",
+            optionB: "A distributed ledger on a peer to peer network",
+            optionC: "A centralized ledger",
+            optionD: "A Currency",
+            correctAnswer: "A distributed ledger on a peer to peer network"
         }
     ],
 
@@ -4466,12 +4494,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "What is the full form of RAM",
+            optionA: "Read Access Memory",
+            optionB: "Random Access Memory",
+            optionC: "Red Access Memory",
+            optionD: "None of the above",
+            correctAnswer: "Random Access Memory"
         }
     ],
 
@@ -4487,12 +4515,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "QR code means",
+            optionA: "Quick Response Code",
+            optionB: "Quick Rolling Code",
+            optionC: "Quite Response Code",
+            optionD: "None of the above",
+            correctAnswer: "Quick Response Code"
         }
     ],
 
@@ -4504,16 +4532,16 @@ const questions = [
             optionB: "508",
             optionC: "510",
             optionD: "509",
-            correctAnswer: ""
+            correctAnswer: "509"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "Which error code indicates the missing equals sign from the formula",
+            optionA: "511",
+            optionB: "508",
+            optionC: "510",
+            optionD: "509",
+            correctAnswer: "509"
         }
     ],
 
@@ -4525,16 +4553,16 @@ const questions = [
             optionB: "Assembler",
             optionC: "Loader",
             optionD: "Operating System",
-            correctAnswer: ""
+            correctAnswer: "Operating System"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "If a computer does not have the __________, it cannot boot",
+            optionA: "Compiler",
+            optionB: "Assembler",
+            optionC: "Loader",
+            optionD: "Operating System",
+            correctAnswer: "Operating System"
         }
     ],
 
@@ -4550,12 +4578,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "SMTP stands for :",
+            optionA: "Simple Mail Terminal Protocol",
+            optionB: "Simple Mail Transfer Protocol",
+            optionC: "Simple Mail Transport Protocol",
+            optionD: "None of the above",
+            correctAnswer: "Simple Mail Transfer Protocol"
         }
     ],
 
@@ -4571,33 +4599,33 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "Choose the correct Instant Messaging app",
+            optionA: "Twitter",
+            optionB: "Linkedin",
+            optionC: "Telegram",
+            optionD: "Instagram",
+            correctAnswer: "Telegram"
         }
     ],
 
     [
         {
             // 166
-            question: "Which of the following default font size in LibreOffice Writer",
+            question: "Which of the following is default font size in LibreOffice Writer",
             optionA: "8",
             optionB: "10",
             optionC: "12",
             optionD: "14",
-            correctAnswer: ""
+            correctAnswer: "12"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "Which of the following is default font size in LibreOffice Writer",
+            optionA: "8",
+            optionB: "10",
+            optionC: "12",
+            optionD: "14",
+            correctAnswer: "12"
         }
     ],
 
@@ -4613,12 +4641,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "MAN known as",
+            optionA: "Metropolitan All Network",
+            optionB: "Metropolitan Area Networking",
+            optionC: "Metro Area Network",
+            optionD: "Metropolitan Area Network",
+            correctAnswer: "Metropolitan Area Network"
         }
     ],
 
@@ -4634,12 +4662,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "The CPU of a computer is made up of the following components",
+            optionA: "Control Unit and ALU",
+            optionB: "Operating System and Application",
+            optionC: "ROM and Main memory",
+            optionD: "Hard disk and Floppy drive",
+            correctAnswer: "Control Unit and ALU"
         }
     ],
 
@@ -4655,12 +4683,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "_____ is the default file name in LibreOffice Writer",
+            optionA: "ODT file",
+            optionB: "Untitled 1",
+            optionC: "New file",
+            optionD: "Document 1",
+            correctAnswer: "Untitled 1"
         }
     ],
 
@@ -4676,12 +4704,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "By what name do you know the first slide in the presentation",
+            optionA: "Home slide",
+            optionB: "Main slide",
+            optionC: "Title slide",
+            optionD: "None of these",
+            correctAnswer: "Title slide"
         }
     ],
 
@@ -4697,12 +4725,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "Which one is not the search engine",
+            optionA: "Microsoft Bing",
+            optionB: "Yahoo",
+            optionC: "Wikipedia",
+            optionD: "Google",
+            correctAnswer: "Wikipedia"
         }
     ],
 
@@ -4718,12 +4746,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "IP address stands for",
+            optionA: "Internet Protocol address",
+            optionB: "Internet Provider address",
+            optionC: "Intranet Protocol address",
+            optionD: "None of the mentioned",
+            correctAnswer: "Internet Protocol address"
         }
     ],
 
@@ -4733,18 +4761,18 @@ const questions = [
             question: "OTP is safe because",
             optionA: "It is different for every access",
             optionB: "It cannot be shared",
-            optionC: "It cannot be shared",
+            optionC: "It cannot be tracked",
             optionD: "None of the above",
             correctAnswer: "It is different for every access"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "OTP is safe because",
+            optionA: "It is different for every access",
+            optionB: "It cannot be shared",
+            optionC: "It cannot be tracked",
+            optionD: "None of the above",
+            correctAnswer: "It is different for every access"
         }
     ],
 
@@ -4760,12 +4788,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "What is the shortcut key for Paste Special dialog in LibreOffice",
+            optionA: "CTRL + SHIFT + A",
+            optionB: "CTRL + SHIFT + X",
+            optionC: "CTRL + SHIFT + V",
+            optionD: "CTRL + SHIFT + P",
+            correctAnswer: "CTRL + SHIFT + V"
         }
     ],
 
@@ -4781,12 +4809,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "If send email is not in sender sent-box nor in the inbox of receiver then where it will be ? Choose the correct option",
+            optionA: "In Draft",
+            optionB: "In Sent-box",
+            optionC: "In Outbox",
+            optionD: "None of the above",
+            correctAnswer: "In Outbox"
         }
     ],
 
@@ -4802,12 +4830,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "Which key is used to open the Format Cells dialog in LibreOffice",
+            optionA: "CTRL + L",
+            optionB: "CTRL + SHIFT + 1",
+            optionC: "CTRL + T",
+            optionD: "CTRL + 1",
+            correctAnswer: "CTRL + 1"
         }
     ],
 
@@ -4823,36 +4851,38 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "What is the shortcut key to Open the Print dialog in LibreOffice",
+            optionA: "CTRL + G",
+            optionB: "CTRL + A",
+            optionC: "CTRL + P",
+            optionD: "CTRL + D",
+            correctAnswer: "CTRL + P"
         }
     ],
+
 
     [
         {
             // 178
-            question: "What is the maximum number of views you can add to a slide",
-            optionA: "3",
-            optionB: "2",
-            optionC: "5",
-            optionD: "10",
-            correctAnswer: ""
+            question: "The cell that is in use is called as ________",
+            optionA: "Active cell",
+            optionB: "Passive cell",
+            optionC: "Direct cell",
+            optionD: "Indirect cell",
+            correctAnswer: "Active cell"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "जो सेल उपयोग में है उसे ________ कहा जाता है",
+            optionA: "सक्रिय सेल",
+            optionB: "निष्क्रिय सेल",
+            optionC: "प्रत्यक्ष सेल",
+            optionD: "अप्रत्यक्ष सेल",
+            correctAnswer: "सक्रिय सेल"
         }
     ],
 
+    
     [
         {
             // 179
@@ -4865,12 +4895,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "ISP is a",
+            optionA: "Internet Service Provider",
+            optionB: "Internet Service Predictor",
+            optionC: "Internet Source Provider",
+            optionD: "Internet Source Predictor",
+            correctAnswer: "Internet Service Provider"
         }
     ],
 
@@ -4886,12 +4916,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "Which of the following is not a Network Topology",
+            optionA: "Bus Topology",
+            optionB: "Ring Topology",
+            optionC: "PC to PC Topology",
+            optionD: "Star Topology",
+            correctAnswer: "PC to PC Topology"
         }
     ],
 
@@ -4907,12 +4937,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "Which of the following is/are the cloud deployment models",
+            optionA: "Public cloud",
+            optionB: "Private cloud",
+            optionC: "Hybrid cloud",
+            optionD: "All of these",
+            correctAnswer: "All of these"
         }
     ],
 
@@ -4928,12 +4958,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "______ key is used for Line Break in LibreOffice Writer without paragraph change.",
+            optionA: "SHIFT + ENTER",
+            optionB: "CTRL + L",
+            optionC: "CTRL + ENTER",
+            optionD: "ENTER",
+            correctAnswer: "SHIFT + ENTER"
         }
     ],
 
@@ -4945,16 +4975,16 @@ const questions = [
             optionB: "12",
             optionC: "14",
             optionD: "10",
-            correctAnswer: ""
+            correctAnswer: "10"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "____ total charts are in LibreOffice Calc",
+            optionA: "8",
+            optionB: "12",
+            optionC: "14",
+            optionD: "10",
+            correctAnswer: "10"
         }
     ],
 
@@ -4970,12 +5000,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "Which of the following functions key is used to perform a spelling check",
+            optionA: "F1",
+            optionB: "F3",
+            optionC: "F5",
+            optionD: "F7",
+            correctAnswer: "F7"
         }
     ],
 
@@ -4987,16 +5017,16 @@ const questions = [
             optionB: "13",
             optionC: "8",
             optionD: "10",
-            correctAnswer: ""
+            correctAnswer: "11"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "How many menus are found in LibreOffice Writer",
+            optionA: "11",
+            optionB: "13",
+            optionC: "8",
+            optionD: "10",
+            correctAnswer: "11"
         }
     ],
 
@@ -5008,16 +5038,16 @@ const questions = [
             optionB: "UPI",
             optionC: "NEFT",
             optionD: "IMPS",
-            correctAnswer: ""
+            correctAnswer: "IMPS"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "In Online Internet Banking, which payment method is used to immediately transfer the money",
+            optionA: "RTGS",
+            optionB: "UPI",
+            optionC: "NEFT",
+            optionD: "IMPS",
+            correctAnswer: "IMPS"
         }
     ],
 
@@ -5033,12 +5063,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "Which of the following extensions is not related to the LibreOffice",
+            optionA: ".ODP",
+            optionB: ".ODS",
+            optionC: ".RTF",
+            optionD: ".ODT",
+            correctAnswer: ".RTF"
         }
     ],
 
@@ -5054,12 +5084,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "Select the correct type of Computer Network :",
+            optionA: "LAN",
+            optionB: "MAN",
+            optionC: "WAN",
+            optionD: "All of the above",
+            correctAnswer: "All of the above"
         }
     ],
 
@@ -5075,12 +5105,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "URL Stands for",
+            optionA: "Uniform Roll Locator",
+            optionB: "Uniform Resource Locator",
+            optionC: "Uniform Resource Location",
+            optionD: "Uniform Resource Loader",
+            correctAnswer: "Uniform Resource Locator"
         }
     ],
 
@@ -5092,16 +5122,16 @@ const questions = [
             optionB: "100",
             optionC: "0",
             optionD: "None of these",
-            correctAnswer: ""
+            correctAnswer: "200"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "____ is the value of =ROUND(175,-2)",
+            optionA: "200",
+            optionB: "100",
+            optionC: "0",
+            optionD: "None of these",
+            correctAnswer: "200"
         }
     ],
 
@@ -5117,12 +5147,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "Which two options in LibreOffice are used to specify color",
+            optionA: "RGB, CMYL",
+            optionB: "RGB, CMYK",
+            optionC: "RGB, RMYK",
+            optionD: "None of these",
+            correctAnswer: "RGB, CMYK"
         }
     ],
 
@@ -5134,16 +5164,16 @@ const questions = [
             optionB: "CTRL + +",
             optionC: "Delete",
             optionD: "CTRL + -",
-            correctAnswer: ""
+            correctAnswer: "CTRL + -"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "_______ shortcut key of deleting of the cell in LibreOffice Calc",
+            optionA: "CTRL + C",
+            optionB: "CTRL + +",
+            optionC: "Delete",
+            optionD: "CTRL + -",
+            correctAnswer: "CTRL + -"
         }
     ],
 
@@ -5159,12 +5189,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "Which of the following is not a component of the LibreOffice suite",
+            optionA: "Base",
+            optionB: "Writer",
+            optionC: "Impress",
+            optionD: "Explorer",
+            correctAnswer: "Explorer"
         }
     ],
 
@@ -5176,16 +5206,16 @@ const questions = [
             optionB: "Apache Spark",
             optionC: "Apache Kafka",
             optionD: "Apache Pytorch",
-            correctAnswer: ""
+            correctAnswer: "Apache Pytorch"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "Which of the following is not Big Data Technologies",
+            optionA: "Apache Hadoop",
+            optionB: "Apache Spark",
+            optionC: "Apache Kafka",
+            optionD: "Apache Pytorch",
+            correctAnswer: "Apache Pytorch"
         }
     ],
 
@@ -5197,16 +5227,16 @@ const questions = [
             optionB: "Today()",
             optionC: "Now()",
             optionD: "Time()",
-            correctAnswer: ""
+            correctAnswer: "Now()"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "Which of the following function is used to display current date and time?",
+            optionA: "Date()",
+            optionB: "Today()",
+            optionC: "Now()",
+            optionD: "Time()",
+            correctAnswer: "Now()"
         }
     ],
 
@@ -5222,12 +5252,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "In presentations, which of the following can be inserted",
+            optionA: "Sound clips",
+            optionB: "Movie clips",
+            optionC: "Both A and B",
+            optionD: "None of the above",
+            correctAnswer: "Both A and B"
         }
     ],
 
@@ -5243,12 +5273,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "The correct full form for UPI is _______",
+            optionA: "Unified Payment Interface",
+            optionB: "Intermediate Payment Interface",
+            optionC: "Unified Pay Interface",
+            optionD: "Unified Peoples Interface",
+            correctAnswer: "Unified Payment Interface"
         }
     ],
 
@@ -5264,12 +5294,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "What is slide transition",
+            optionA: "Letters",
+            optionB: "Overheads",
+            optionC: "Animations",
+            optionD: "Visual effect in slide show",
+            correctAnswer: "Visual effect in slide show"
         }
     ],
 
@@ -5285,12 +5315,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "What is default page orientation of LibreOffice?",
+            optionA: "Landscape",
+            optionB: "Portrait",
+            optionC: "A4",
+            optionD: "A3",
+            correctAnswer: "Portrait"
         }
     ],
 
@@ -5306,12 +5336,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "Which among the following is not a pointing device",
+            optionA: "Digitizer",
+            optionB: "Mouse",
+            optionC: "Joystick",
+            optionD: "Light Pen",
+            correctAnswer: "Digitizer"
         }
     ],
 
@@ -7415,26 +7445,7 @@ const questions = [
         }
     ],
 
-    [
-        {
-            // 301
-            question: "The cell that is in use is called as ________",
-            optionA: "Active cell",
-            optionB: "Passive cell",
-            optionC: "Direct cell",
-            optionD: "Indirect cell",
-            correctAnswer: "Active cell"
-        },
-
-        {
-            question: "जो सेल उपयोग में है उसे ________ कहा जाता है",
-            optionA: "सक्रिय सेल",
-            optionB: "निष्क्रिय सेल",
-            optionC: "प्रत्यक्ष सेल",
-            optionD: "अप्रत्यक्ष सेल",
-            correctAnswer: "सक्रिय सेल"
-        }
-    ],
+    
 
     [
         {
