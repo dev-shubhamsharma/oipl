@@ -2943,6 +2943,217 @@ const questions = [
         }
     ],
 
+    
+    [
+        {
+            // 141
+            question: "Which sign is visible when there is a Formula Error in LibreOffice Calc",
+            optionA: "@",
+            optionB: "#",
+            optionC: "$",
+            optionD: "&",
+            correctAnswer: "#"
+        },
+
+        {
+            question: "लिब्रेऑफिस कैल्क में एक सूत्र त्रुटि होने पर कौन सा चिन्ह दिखाई देता है",
+            optionA: "@",
+            optionB: "#",
+            optionC: "$",
+            optionD: "&",
+            correctAnswer: "#"
+        }
+    ],
+
+    [
+        {
+            // 142
+            question: "What is the line given above a text",
+            optionA: "Below line",
+            optionB: "Over line",
+            optionC: "Up line",
+            optionD: "Upper line",
+            correctAnswer: "Over line"
+        },
+
+        {
+            question: "किसी टेक्स्ट के ऊपर दी गई रेखा क्या है",
+            optionA: "बीलो लाइन",
+            optionB: "ओवर-लाइन",
+            optionC: "अप लाइन",
+            optionD: "अपर लाइन",
+            correctAnswer: "ओवर-लाइन"
+        }
+    ],
+
+    [
+        {
+            // 143
+            question: "Alt + Page Down key is used for which of the following effect in Slide Show",
+            optionA: "Play next effect",
+            optionB: "Go to next slide without playing effects",
+            optionC: "Show previous slide",
+            optionD: "Jump to first slide in slide show",
+            correctAnswer: "Go to next slide without playing effects"
+        },
+
+        {
+            question: "Alt + Page Down कुंजी का उपयोग स्लाइड शो में निम्नलिखित प्रभाव में से किसके लिए किया जाता है",
+            optionA: "अगला इफेक्ट प्ले करने के लिए",
+            optionB: "इफेक्ट प्ले किए बिना अगली स्लाइड पर जाने के लिए",
+            optionC: "पिछली स्लाइड दिखाने के लिए",
+            optionD: "स्लाइड शो में पहले स्लाइड पर जाने के लिए",
+            correctAnswer: "इफेक्ट प्ले किए बिना अगली स्लाइड पर जाने के लिए"
+        }
+    ],
+
+    [
+        {
+            // 144
+            question: "Usually signature appears at which place in email",
+            optionA: "At the end",
+            optionB: "In beginning",
+            optionC: "In middle",
+            optionD: "None of the above",
+            correctAnswer: "At the end"
+        },
+
+        {
+            question: "आमतौर पर हस्ताक्षर ईमेल में किस स्थान पर दिखाई देते हैं",
+            optionA: "अंत में",
+            optionB: "प्रारंभ में",
+            optionC: "बीच में",
+            optionD: "इनमे से कोई भी नहीं",
+            correctAnswer: "अंत में"
+        }
+    ],
+
+    [
+        {
+            // 145
+            question: "Which of these platforms can LibreOffice work on",
+            optionA: "Windows",
+            optionB: "Linux",
+            optionC: "Mac",
+            optionD: "All of the above",
+            correctAnswer: "All of the above"
+        },
+
+        {
+            question: "इनमें से कौन से प्लेटफ़ॉर्म पर लिब्रे ऑफिस काम कर सकता है",
+            optionA: "विंडोज",
+            optionB: "लिनक्स",
+            optionC: "मैक",
+            optionD: "ऊपर के सभी",
+            correctAnswer: "ऊपर के सभी"
+        }
+    ],
+
+    [
+        {
+            // 146
+            question: "A type of VR environment in which subjects are visually isolated from the real environment",
+            optionA: "Immersive",
+            optionB: "Semi immersive",
+            optionC: "Non immersive",
+            optionD: "Augmented",
+            correctAnswer: "Immersive"
+        },
+
+        {
+            question: "एक प्रकार का वीआर वातावरण जिसमें विषयों को वास्तविक वातावरण से नेत्रहीन रूप से अलग किया जाता है",
+            optionA: "इमर्सिव",
+            optionB: "सेमी इमर्सिव",
+            optionC: "नॉन इमर्सिव",
+            optionD: "ऑग्यूमेन्टेड",
+            correctAnswer: "इमर्सिव"
+        }
+    ],
+
+    [
+        {
+            // 147
+            question: "Which one is not the method of Digital Payment Transfer",
+            optionA: "UPI",
+            optionB: "NEFT",
+            optionC: "RTGS",
+            optionD: "IMPS",
+            correctAnswer: "NEFT"
+        },
+
+        {
+            question: "कौन सा डिजिटल भुगतान हस्तांतरण की विधि नहीं है",
+            optionA: "यू.पी.आई.",
+            optionB: "एन.ई.एफ.टी.",
+            optionC: "आर.टी.जी.एस.",
+            optionD: "आई.एम.पी.एस.",
+            correctAnswer: "एन.ई.एफ.टी."
+        }
+    ],
+
+    [
+        {
+            // 148
+            question: "Choose the correct name of Web browser",
+            optionA: "Google",
+            optionB: "Yahoo",
+            optionC: "Gmail",
+            optionD: "Opera",
+            correctAnswer: "Opera"
+        },
+
+        {
+            question: "वेब ब्राउज़र का सही नाम चुनें",
+            optionA: "गूगल",
+            optionB: "याहू",
+            optionC: "जीमेल",
+            optionD: "ओपेरा",
+            correctAnswer: "ओपेरा"
+        }
+    ],
+
+    [
+        {
+            // 149
+            question: "Which shortcut key is used for restoring or refreshing the view of the current document after changing the anti-aliasing settings in LibreOffice",
+            optionA: "SHIFT + CTRL + R",
+            optionB: "SHIFT + CTRL + X",
+            optionC: "SHIFT + CTRL + S",
+            optionD: "SHIFT + R",
+            correctAnswer: "SHIFT + CTRL + R"
+        },
+
+        {
+            question: "किस शॉर्टकट कुंजी का उपयोग वर्तमान दस्तावेज़ के दृश्य को पुनर्स्थापित करने या ताज़ा करने के लिए किया जाता है।",
+            optionA: "SHIFT + CTRL + R",
+            optionB: "SHIFT + CTRL + X",
+            optionC: "SHIFT + CTRL + S",
+            optionD: "SHIFT + R",
+            correctAnswer: "SHIFT + CTRL + R"
+        }
+    ],
+
+    [
+        {
+            // 150
+            question: "What is the minimum zoom in LibreOffice Calc",
+            optionA: "5%",
+            optionB: "20%",
+            optionC: "15%",
+            optionD: "25%",
+            correctAnswer: "20%"
+        },
+
+        {
+            question: "लिब्रेऑफिस कैल्क में न्यूनतम ज़ूम क्या है",
+            optionA: "पॉंच प्रतिशत",
+            optionB: "बीस प्रतिशत",
+            optionC: "पंद्रह प्रतिशत",
+            optionD: "पचीस प्रतिशत",
+            correctAnswer: "बीस प्रतिशत"
+        }
+    ],
+
 
 
 
@@ -4083,215 +4294,6 @@ const questions = [
 
 
 
-    [
-        {
-            // 141
-            question: "Which sign is visible when there is a Formula Error in LibreOffice Calc",
-            optionA: "@",
-            optionB: "#",
-            optionC: "$",
-            optionD: "&",
-            correctAnswer: "#"
-        },
-
-        {
-            question: "Which sign is visible when there is a Formula Error in LibreOffice Calc",
-            optionA: "@",
-            optionB: "#",
-            optionC: "$",
-            optionD: "&",
-            correctAnswer: "#"
-        }
-    ],
-
-    [
-        {
-            // 142
-            question: "What is the line given above a text",
-            optionA: "Below line",
-            optionB: "Over line",
-            optionC: "Up line",
-            optionD: "Upper line",
-            correctAnswer: "Over line"
-        },
-
-        {
-            question: "What is the line given above a text",
-            optionA: "Below line",
-            optionB: "Over line",
-            optionC: "Up line",
-            optionD: "Upper line",
-            correctAnswer: "Over line"
-        }
-    ],
-
-    [
-        {
-            // 143
-            question: "Alt + Page Down key is used for which of the following effect in Slide Show",
-            optionA: "Play next effect",
-            optionB: "Go to next slide without playing effects",
-            optionC: "Show previous slide",
-            optionD: "Jump to first slide in slide show",
-            correctAnswer: "Go to next slide without playing effects"
-        },
-
-        {
-            question: "Alt + Page Down key is used for which of the following effect in Slide Show",
-            optionA: "Play next effect",
-            optionB: "Go to next slide without playing effects",
-            optionC: "Show previous slide",
-            optionD: "Jump to first slide in slide show",
-            correctAnswer: "Go to next slide without playing effects"
-        }
-    ],
-
-    [
-        {
-            // 144
-            question: "Usually signature appears at which place in email",
-            optionA: "At the end",
-            optionB: "In beginning",
-            optionC: "In middle",
-            optionD: "None of the above",
-            correctAnswer: "At the end"
-        },
-
-        {
-            question: "Usually signature appears at which place in email",
-            optionA: "At the end",
-            optionB: "In beginning",
-            optionC: "In middle",
-            optionD: "None of the above",
-            correctAnswer: "At the end"
-        }
-    ],
-
-    [
-        {
-            // 145
-            question: "Which of these platforms can LibreOffice work on",
-            optionA: "Windows",
-            optionB: "Linux",
-            optionC: "Mac",
-            optionD: "All of the above",
-            correctAnswer: "All of the above"
-        },
-
-        {
-            question: "Which of these platforms can LibreOffice work on",
-            optionA: "Windows",
-            optionB: "Linux",
-            optionC: "Mac",
-            optionD: "All of the above",
-            correctAnswer: "All of the above"
-        }
-    ],
-
-    [
-        {
-            // 146
-            question: "A type of VR environment in which subjects are visually isolated from the real environment",
-            optionA: "Immersive",
-            optionB: "Semi immersive",
-            optionC: "Non immersive",
-            optionD: "Augmented",
-            correctAnswer: "Immersive"
-        },
-
-        {
-            question: "A type of VR environment in which subjects are visually isolated from the real environment",
-            optionA: "Immersive",
-            optionB: "Semi immersive",
-            optionC: "Non immersive",
-            optionD: "Augmented",
-            correctAnswer: "Immersive"
-        }
-    ],
-
-    [
-        {
-            // 147
-            question: "Which one is not the method of Digital Payment Transfer",
-            optionA: "UPI",
-            optionB: "NEFT",
-            optionC: "RTGS",
-            optionD: "IMPS",
-            correctAnswer: "NEFT"
-        },
-
-        {
-            question: "Which one is not the method of Digital Payment Transfer",
-            optionA: "UPI",
-            optionB: "NEFT",
-            optionC: "RTGS",
-            optionD: "IMPS",
-            correctAnswer: "NEFT"
-        }
-    ],
-
-    [
-        {
-            // 148
-            question: "Choose the correct name of Web browser",
-            optionA: "Google",
-            optionB: "Yahoo",
-            optionC: "Gmail",
-            optionD: "Opera",
-            correctAnswer: "Opera"
-        },
-
-        {
-            question: "Choose the correct name of Web browser",
-            optionA: "Google",
-            optionB: "Yahoo",
-            optionC: "Gmail",
-            optionD: "Opera",
-            correctAnswer: "Opera"
-        }
-    ],
-
-    [
-        {
-            // 149
-            question: "Which shortcut key is used for restoring or refreshing the view of the current document after changing the anti-aliasing settings in LibreOffice",
-            optionA: "SHIFT + CTRL + R",
-            optionB: "SHIFT + CTRL + X",
-            optionC: "SHIFT + CTRL + S",
-            optionD: "SHIFT + R",
-            correctAnswer: "SHIFT + CTRL + R"
-        },
-
-        {
-            question: "Which shortcut key is used for restoring or refreshing the view of the current document after changing the anti-aliasing settings in LibreOffice",
-            optionA: "SHIFT + CTRL + R",
-            optionB: "SHIFT + CTRL + X",
-            optionC: "SHIFT + CTRL + S",
-            optionD: "SHIFT + R",
-            correctAnswer: "SHIFT + CTRL + R"
-        }
-    ],
-
-    [
-        {
-            // 150
-            question: "What is the minimum zoom in LibreOffice Calc",
-            optionA: "5%",
-            optionB: "20%",
-            optionC: "15%",
-            optionD: "25%",
-            correctAnswer: "20%"
-        },
-
-        {
-            question: "What is the minimum zoom in LibreOffice Calc",
-            optionA: "5%",
-            optionB: "20%",
-            optionC: "15%",
-            optionD: "25%",
-            correctAnswer: "20%"
-        }
-    ],
 
     [
         {
