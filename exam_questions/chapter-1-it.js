@@ -3709,21 +3709,21 @@ const questions = [
     [
         {
             // 175
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "Which of the following generates object code after translation",
+            optionA: "Assembler",
+            optionB: "Compiler",
+            optionC: "Interpreter",
+            optionD: "None of these",
+            correctAnswer: "Compiler"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "Which of the following generates object code after translation",
+            optionA: "Assembler",
+            optionB: "Compiler",
+            optionC: "Interpreter",
+            optionD: "None of these",
+            correctAnswer: "Compiler"
         },
 
         
@@ -3732,21 +3732,21 @@ const questions = [
     [
         {
             // 176
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "Which is an illusion of primary memory",
+            optionA: "Random Access Memory",
+            optionB: "Read Only Memory",
+            optionC: "Virtual Memory",
+            optionD: "Hard disk",
+            correctAnswer: "Virtual Memory"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "Which is an illusion of primary memory",
+            optionA: "Random Access Memory",
+            optionB: "Read Only Memory",
+            optionC: "Virtual Memory",
+            optionD: "Hard disk",
+            correctAnswer: "Virtual Memory"
         },
 
         
@@ -3755,21 +3755,21 @@ const questions = [
     [
         {
             // 177
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "Which program translates one statement at a time",
+            optionA: "Compiler",
+            optionB: "Assembler",
+            optionC: "Interpreter",
+            optionD: "Device Driver",
+            correctAnswer: "Interpreter"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "कौन सा कार्यक्रम एक समय में एक बयान का अनुवाद करता है",
+            optionA: "Compiler",
+            optionB: "Assembler",
+            optionC: "Interpreter",
+            optionD: "Device Driver",
+            correctAnswer: "Interpreter"
         },
 
         
@@ -3778,21 +3778,21 @@ const questions = [
     [
         {
             // 178
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "Full name of BIOS",
+            optionA: "Beginner's Input Output System",
+            optionB: "Basic Input Output System",
+            optionC: "Basic Independent Ouput System",
+            optionD: "Basic Input Output Size",
+            correctAnswer: "Basic Input Output System"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "BIOS का पूरा नाम",
+            optionA: "बिगिनर्स इनपुट आउटपुट सिस्टम",
+            optionB: "बेसिक इनपुट आउटपुट सिस्टम",
+            optionC: "बेसिक इन्डिपेन्डेंट आउटपुट सिस्टम",
+            optionD: "बेसिक इनपुट आउटपुट साइज",
+            correctAnswer: "बेसिक इनपुट आउटपुट सिस्टम"
         },
 
         
@@ -3801,21 +3801,21 @@ const questions = [
     [
         {
             // 179
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "Which is a full name of SMPS",
+            optionA: "Switched Mobile Power Supply",
+            optionB: "Switched Motor Power Supply",
+            optionC: "System Motor Power Supply",
+            optionD: "Switched Mode Power Supply",
+            correctAnswer: "Switched Mode Power Supply"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "जो एसएमपीएस का एक पूरा नाम है",
+            optionA: "स्विच्ड मोबाइल पॉवर सप्लाई",
+            optionB: "स्विच्ड मोटर पॉवर सप्लाई",
+            optionC: "सिस्टम मोटर पॉवर सप्लाई",
+            optionD: "स्विच्ड मोड पॉवर सप्लाई",
+            correctAnswer: "स्विच्ड मोड पॉवर सप्लाई"
         },
 
         
@@ -3824,486 +3824,27 @@ const questions = [
     [
         {
             // 180
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "Which is the first electronic computer",
+            optionA: "EDSAC",
+            optionB: "EDVAC",
+            optionC: "ENIAC",
+            optionD: "UNIVAC",
+            correctAnswer: "ENIAC"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "जो पहला इलेक्ट्रॉनिक कंप्यूटर है",
+            optionA: "एडसैक",
+            optionB: "एडवैक",
+            optionC: "ईएनआईएसी",
+            optionD: "यूनीवैक",
+            correctAnswer: "ईएनआईएसी"
         },
 
         
     ],
 
-    [
-        {
-            // 181
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        
-    ],
-
-    [
-        {
-            // 182
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        
-    ],
-
-    [
-        {
-            // 183
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        
-    ],
-
-    [
-        {
-            // 184
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        
-    ],
-
-    [
-        {
-            // 185
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        
-    ],
-
-    [
-        {
-            // 186
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        
-    ],
-
-    [
-        {
-            // 187
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        
-    ],
-
-    [
-        {
-            // 188
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        
-    ],
-
-    [
-        {
-            // 189
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        
-    ],
-
-    [
-        {
-            // 190
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        
-    ],
-
-    [
-        {
-            // 191
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        
-    ],
-
-    [
-        {
-            // 192
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        
-    ],
-
-    [
-        {
-            // 193
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        
-    ],
-
-    [
-        {
-            // 194
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        
-    ],
-
-    [
-        {
-            // 195
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        
-    ],
-
-    [
-        {
-            // 196
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        
-    ],
-
-    [
-        {
-            // 197
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        
-    ],
-
-    [
-        {
-            // 198
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        
-    ],
-
-    [
-        {
-            // 199
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        
-    ],
-
-    [
-        {
-            // 200
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        
-    ],
-
+    
 
 
 
