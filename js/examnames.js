@@ -6,7 +6,7 @@ const exams = [
         imgUrl : "images/python.png",
         id :"it_chapter_1",
         filename:"exam_questions/chapter-1-it.js",
-        questionsAddedInFile:"174"
+        questionsAddedInFile:"180"
 
     },
     
@@ -18,7 +18,7 @@ const exams = [
         imgUrl : "images/python.png",
         id :"it_test_1",
         filename:"exam_questions/IT_Set1.js",
-        questionsAddedInFile:"190"
+        questionsAddedInFile:"200"
 
     },
 
