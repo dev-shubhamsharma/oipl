@@ -27,7 +27,8 @@ var students = {
     "Ajay Kumar Choudhary":"Ajay@123",
     "Ajay Gautam":"Ajay@123",
     "Ajay Maurya":"Ajay@123",
-"Dinesh Yadav":"Dinesh@123"
+"Dinesh Yadav":"Dinesh@123",
+"Archana Maurya":"Archana@123",
     
 
     
