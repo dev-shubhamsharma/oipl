@@ -31,7 +31,7 @@ var students = {
     "Archana Maurya":"Archana@123",
     "Ashish Kaushal":"Ashish@123",
     "Alankrita":"Alankrita@123",
-    "Adarsh Pandey":"Adarsh@123:,
+    "Adarsh Pandey":"Adarsh@123",
     "Aashish Pandey":"Aashish@123",
     "Anshika Tiwari":"Anshika@123",
     "Archana Singh":"Archana@123",
