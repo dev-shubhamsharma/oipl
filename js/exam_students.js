@@ -60,7 +60,7 @@ var students = {
 
     // "Gauri Dixit":"Gauri@123",
     // "Archana Yadav":"Archana@123",
-     "Aditya Mishra":"Aditya@123",
+     // "Aditya Mishra":"Aditya@123",
     // "Himanshu Gaur":"Himanshu@123",
     // "Sarvesh Sharma":"Sarvesh@123",
     // "Ashish Gupta":"Ashish@123",
