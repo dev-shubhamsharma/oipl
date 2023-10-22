@@ -36,7 +36,9 @@ var students = {
     "Anshika Tiwari":"Anshika@123",
     "Archana Singh":"Archana@123",
     "Saurabh Mishra":"Saurabh@123",
-    "Chandan Pathak":"Chandan@123"
+    "Chandan Pathak":"Chandan@123",
+    "Aditya Mishra":"Aditya@123",
+    "Nisha Mishra":"Nisha@123"
         
     
 
