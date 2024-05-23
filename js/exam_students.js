@@ -1,5 +1,26 @@
 var students = {
 
+    "Sudha":"Sudha@123",
+    "Jaya":"Jaya@123",
+    "Ayush":"Ayush@123",
+    "Vaibhav":"Vaibhav@123",
+    "Akarsh":"Akarsh@123",
+    "Saurabh":"Saurabh@123",
+    "Virendra":"Virendra@500",
+    "Suraj":"Suraj@123",
+    "Shivam":"Shivam@123",
+    "Vipul":"Vipul@123",
+    "Aadya":"Aadya@123",
+    "Vinod":"Vinod@123",
+    "Nandini":"Nandini@123",
+    "Nirupam":"Nirupam@123",
+    "Muskan":"Muskan@123",
+    
+
+
+
+    
+
     "Samreen Alvi":"Samreen@123",
     "Vanshika Yadav":"Vanshika@123",
     "Saurabh Singh":"Saurabh@123",
