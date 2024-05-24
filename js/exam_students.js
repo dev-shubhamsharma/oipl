@@ -1,5 +1,16 @@
 var students = {
 
+    "Pawan":"Pawan@123",
+    "Sameeksha":"Sameeksha@123",
+    "Rubi":"Rubi@123",
+    "Kuldeep":"Kuldeep@123",
+    "Pradeep":"Pradeep@123",
+    "Abhishek":"Abhishek@123",
+    "Subhas":"Subhas@123",
+    "Aniket":"Aniket@123",
+    
+    
+
     "Sudha":"Sudha@123",
     "Jaya":"Jaya@123",
     "Ayush":"Ayush@123",
