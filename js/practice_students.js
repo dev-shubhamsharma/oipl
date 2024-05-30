@@ -1,47 +1,28 @@
 var students = {
     "Shubham Sharma":"Shubham",
-    "Anurag Singh":"Anurag@oipl",
-    "Deepak Tiwari":"Deepak@oipl",
-
-    "Anurag":"Anurag@123",
-    "Manish":"Manish@123",
-    "Govinda":"Govinda@123",
+    "Abhinav Dubey":"Abhinav@oipl",
+    "Satyam":"Satyam@oipl",
+    "Ankit Prajapati":"Ankit@oipl",
+    "Vivek Shukla":"Vivek@oipl",
+    "Bhupendra":"Bhupendra@oipl",
+    "Neeraj":"Neeraj@oipl",
+    "Prateek Singh":"Prateek@oipl",
+    "Piyush Gupta":"Piyush@oipl",
+    "Guddu Idrishi":"Guddu@oipl",
+    "Vineet Pandey":"Vineet@oipl",
+    "Himanshu Dubey":"Himanshu@oipl",
+    "Gayatri Gupta":"Gayatri@oipl",
+    "Shalu Mishra":"Shalu@oipl",
+    "Khusi Pandey":"Khusi@oipl",
+    "Jashmeen":"Jashmeen@oipl",
+    "Beauty Shukla":"Beauty@oipl",
     
-    "Gauri Dixit":"Gauri@123",
-    "Archana Yadav":"Archana@123",
-    "Aditya Mishra":"Aditya@123",
-    "Himanshu Gaur":"Himanshu@123",
-    "Sarvesh Sharma":"Sarvesh@123",
-    "Ashish Gupta":"Ashish@123",
-    "Vishal Kumar":"Vishal@123",
-    "Vinod":"Vinod@123",
-    "Komal Mishra":"Komal@123",
-    "Sakshi Rai":"Sakshi@123",
-    "Pushkar Shukla":"Pushkar@123",
-    "Kushal Tripathi":"Kushal@123",
-    "Komal Kashyap":"Komal@123",
     
-    "Priyanka":"Priyanka@oipl",
-    "Goldi":"Goldi@oipl",
-    "Saloni":"Saloni@oipl",
-    "Ramesh":"Ramesh@oipl",
-    "Vipin":"Vipin@oipl",
-    "Mahfooz":"Mahfooz@oipl",
-    "Mukesh":"Mukesh@oipl",
-    "Rubi":"Rubi@oipl",
-    "Amarjeet":"Amarjeet@oipl",
-    "Pankaj":"Pankaj@oipl",
+    
+    
+    
+   
 
-    "Akanksha Maurya":"Akanksha@oipl",
-
-    "Mithun Gautam":"Mithun@oipl",
-    "Anuj Mishra":"Anuj@oipl",
-    "Jitendra Maurya":"Jitendra@oipl",
-    "Deepak Tiwari":"Deepak@oipl",
-    "Shubham Maurya":"Shubham@oipl",
-    "Shubham Shukla":"Shubham@oipl",
-    "Apoorwa Maurya":"Apoorwa@oipl",
-    "Satanshu Mishra":"Satanshu@oipl",
-    "Amarnath Mishra":"Amarnath@oipl",
-    "Shani Mishra":"Shani@oipl"
+   
+    
 };
