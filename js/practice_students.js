@@ -19,6 +19,7 @@ var students = {
 "Raj Kumar":"Raj@oipl",
 "Saurabh Kasaudhan":"Saurabh@123",
 "Anoop Shukla":"Anoop@oipl",
+"Vivek Sahu":"Vivek@oipl",
 
     "Pawan":"Pawan@123",
     "Sameeksha":"Sameeksha@123",
