@@ -16,6 +16,9 @@ var students = {
     "Khusi Pandey":"Khusi@oipl",
     "Jashmeen":"Jashmeen@oipl",
     "Beauty Shukla":"Beauty@oipl",
+"Raj Kumar":"Raj@oipl",
+"Saurabh Kasaudhan":"Saurabh@123",
+"Anoop Shukla":"Anoop@oipl",
 
     "Pawan":"Pawan@123",
     "Sameeksha":"Sameeksha@123",
