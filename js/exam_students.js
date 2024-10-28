@@ -1,7 +1,7 @@
 var students = {
 
     "Pawan":"Pawan@123",
-    "Sameeksha":"Sameeksha@123",
+    "Deepak":"Deepak@123",
     "Rubi":"Rubi@123",
     "Kuldeep":"Kuldeep@123",
     "Pradeep":"Pradeep@123",
