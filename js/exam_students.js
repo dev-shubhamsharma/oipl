@@ -49,14 +49,14 @@ var students = {
 
     
 
-    "suneel verma":"Samreen@123",
-    "pinki verma":"Vanshika@123",
-    "ashok kumar":"Saurabh@123",
-    "shivam chaurasiya":"Anshika@123",
-    "sachin kumar":"Divyansh@123",
-    "karan prajapati":"Vaishnavi@123",
-    "amit sharma":"Anmol@123",
-    "kalp nath yadav":"Parmesh@123",
+    "Suneel Verma":"Suneel@123",
+    "Pinki Verma":"Pinki@123",
+    "Ashok Kumar":"Ashok@123",
+    "Shivam Chaurasiya":"Shivam@123",
+    "Sachin Kumar":"Sachin@123",
+    "Karan Prajapati":"Karan@123",
+    "Amit Sharma":"Amit@123",
+    "Kalp Nath Yadav":"Kalp@123",
     "suraj gupta":"Soniya@123",
     "shailendra kumar":"Vishnu@123",
     "raman kumar":"Ram@123",
