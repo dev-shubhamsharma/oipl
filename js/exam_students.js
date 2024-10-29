@@ -71,6 +71,19 @@ var students = {
     "shivani kashyap":"Khusi@123",
     "khusi kashyap":"Shivang@123",
     "jooli":"Devendra@123",
+    "dileep yadav":"dileep@123",
+    "anand prakash":"anand@123",
+    "savitri maurya":"savitri@123",
+    "ranjeet kumar":"ranjeet@123",
+    "laxmi":"laxmi@123",
+    "vikas chaurasiya":"vikas@123",
+    "urmila":"urmila@123",
+    "sadhna yadav":"sadhna@123",
+    "aradhana yadav":"aradhana@123",
+    "mohd juned":"juned@123",
+
+
+
 
 
 
