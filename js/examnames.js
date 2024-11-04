@@ -1,12 +1,12 @@
 const exams = [
     {
         name :"Libreoffice Writer",
-        totalQuestions : "80",
+        totalQuestions : "100",
         timeInMinutes : "40",
-        imgUrl : "images/python.png",
+        imgUrl : "images/writer.png",
         id :"writer",
         filename:"exam_questions/writer.js",
-        questionsAddedInFile:"95"
+        questionsAddedInFile:"100"
 
     }
 
