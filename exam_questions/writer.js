@@ -609,7 +609,7 @@ const questions = [
         }
 
 
-    ]
+    ],
 
     [
 
@@ -655,7 +655,7 @@ const questions = [
     ],
 
 
-     [
+    [
         {
             // 32
             question: "Key combination CTRL + 3 is used for ______ in writer",
@@ -676,7 +676,7 @@ const questions = [
         }
     ],
 
-      [
+    [
         {
             // 32
             question: "In Libreoffice writer, what is the size of the footnote?",
@@ -697,7 +697,7 @@ const questions = [
         }
     ],
 
-     [
+    [
         {
             // 33
             question: "What is shortcut key for double underline in libreoffice writer?",
@@ -718,7 +718,7 @@ const questions = [
         }
     ],  
 
-      [
+    [
         {
             // 34
             question: "What is minimum font size in libreoffice writer?",
@@ -740,7 +740,7 @@ const questions = [
     ],
 
 
-       [
+    [
         {
             // 35
             question: "What key is used to justify a paragraph?",
@@ -762,7 +762,7 @@ const questions = [
     ],
 
 
-        [
+    [
         {
             // 36
             question: "The space left between the margin and the start of a paragraph is called____?",
