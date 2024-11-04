@@ -1865,7 +1865,7 @@ const questions = [
             optionB: "Navigator is opened by F5 and jump to specific bookmarks",
             optionC: "Lower list Impress using contain all the bookmarks in the current document",
             optionD: "To delete a bookmark, select and press delete button",
-            correctAnswer: "To delete a bookmark,select and press delete button"
+            correctAnswer: "To delete a bookmark, select and press delete button"
         },
 
         {
