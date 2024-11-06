@@ -8,6 +8,17 @@ const exams = [
         filename:"exam_questions/writer.js",
         questionsAddedInFile:"100"
 
+    },
+
+    {
+        name :"Computer Basics and Network",
+        totalQuestions : "30",
+        timeInMinutes : "15",
+        imgUrl : "images/python.png",
+        id :"it",
+        filename:"exam_questions/it.js",
+        questionsAddedInFile:"30"
+
     }
 
 ]
