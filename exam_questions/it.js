@@ -630,6 +630,680 @@ const questions = [
         },
     ],
 
+    [
+        {
+            // 31
+            question: "What is the primary function of the Central Processing Unit (CPU) in a computer",
+            optionA: "Store data",
+            optionB: "Execute instructions",
+            optionC: "Display images",
+            optionD: "Control input devices",
+            correctAnswer: "Execute instructions"
+        },
+
+        {
+            question: "कंप्यूटर में सी.पी.यू. का प्राथमिक कार्य क्या है",
+            optionA: "डेटा संग्रहण",
+            optionB: "निर्देशों को निष्पादित करना",
+            optionC: "चित्र प्रदर्शित करना",
+            optionD: "इनपुट उपकरण का नियंत्रण",
+            correctAnswer: "निर्देशों को निष्पादित करना"
+        },
+    ],
+
+    [
+        {
+            // 32
+            question: "Which of the following is an example of an input device?",
+            optionA: "Printer",
+            optionB: "Keyboard",
+            optionC: "Monitor",
+            optionD: "Speaker",
+            correctAnswer: "Keyboard"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन एक इनपुट डिवाइस का एक उदाहरण है?",
+            optionA: "प्रिंटर",
+            optionB: "कीबोर्ड",
+            optionC: "मॉनीटर",
+            optionD: "स्पीकर",
+            correctAnswer: "कीबोर्ड"
+        },
+    ],
+
+    [
+        {
+            // 33
+            question: "Which of the following is considered software?",
+            optionA: "Mouse",
+            optionB: "RAM",
+            optionC: "Windows OS",
+            optionD: "Printer",
+            correctAnswer: "Windows OS"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन सा सॉफ्टवेयर है?",
+            optionA: "माउस",
+            optionB: "रैम",
+            optionC: "विंडोज ओ.एस.",
+            optionD: "प्रिंटर",
+            correctAnswer: "विंडोज ओ.एस."
+        },
+    ],
+
+    [
+        {
+            // 34
+            question: "Which of these is an example of application software?",
+            optionA: "Windows 10",
+            optionB: "Linux",
+            optionC: "Microsoft Word",
+            optionD: "BIOS",
+            correctAnswer: "Microsoft Word"
+        },
+
+        {
+            question: "इनमें से कौन सा एप्लिकेशन सॉफ्टवेयर का एक उदाहरण है?",
+            optionA: "विंडोज 10",
+            optionB: "लिनक्स",
+            optionC: "माइक्रोसॉफ्ट वर्ड",
+            optionD: "बायोस",
+            correctAnswer: "माइक्रोसॉफ्ट वर्ड"
+        },
+    ],
+
+    [
+        {
+            // 35
+            question: "What does RAM stand for?",
+            optionA: "Read Only Memory",
+            optionB: "Random Access Memory",
+            optionC: "Read And Memory",
+            optionD: "Real-time Access Memory",
+            correctAnswer: "Random Access Memory"
+        },
+
+        {
+            question: "रैम का पूरा नाम",
+            optionA: "रीड ओनली मेमोरी",
+            optionB: "रैंडम एक्सेस मेमोरी",
+            optionC: "रीड एण्ड मेमोरी",
+            optionD: "रियल-टाइम एक्सेस मेमोरी",
+            correctAnswer: "रैंडम एक्सेस मेमोरी"
+        },
+    ],
+
+    [
+        {
+            // 36
+            question: "Which of the following is an example of an output device?",
+            optionA: "Microphone",
+            optionB: "Mouse",
+            optionC: "Printer",
+            optionD: "Keyboard",
+            correctAnswer: "Printer"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन एक आउटपुट डिवाइस का एक उदाहरण है?",
+            optionA: "माइक्रोफ़ोन",
+            optionB: "माउस",
+            optionC: "प्रिंटर",
+            optionD: "कीबोर्ड",
+            correctAnswer: "प्रिंटर"
+        },
+    ],
+
+    [
+        {
+            // 37
+            question: "Which of the following operating systems is open-source?",
+            optionA: "macOS",
+            optionB: "Windows",
+            optionC: "Linux",
+            optionD: "iOS",
+            correctAnswer: "Linux"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन सा ऑपरेटिंग सिस्टम ओपन-सोर्स है?",
+            optionA: "मैक ओ.एस.",
+            optionB: "विंडोज",
+            optionC: "लिनक्स",
+            optionD: "आई.ओ.एस.",
+            correctAnswer: "लिनक्स"
+        },
+    ],
+
+    [
+        {
+            // 38
+            question: "What is the primary function of the operating system?",
+            optionA: "To run applications",
+            optionB: "To manage hardware and software resources",
+            optionC: "To perform calculations",
+            optionD: "To input data",
+            correctAnswer: "To manage hardware and software resources"
+        },
+
+        {
+            question: "ऑपरेटिंग सिस्टम का प्राथमिक कार्य क्या है?",
+            optionA: "अनुप्रयोग चलाने के लिए",
+            optionB: "हार्डवेयर और सॉफ्टवेयर संसाधनों का प्रबंधन करने के लिए",
+            optionC: "गणना करने के लिए",
+            optionD: "इनपुट डेटा के लिए",
+            correctAnswer: "हार्डवेयर और सॉफ्टवेयर संसाधनों का प्रबंधन करने के लिए"
+        },
+    ],
+
+    [
+        {
+            // 39
+            question: "Which of these file extensions is associated with a video file?",
+            optionA: ".mp3",
+            optionB: ".jpg",
+            optionC: ".mp4",
+            optionD: ".txt",
+            correctAnswer: ".mp4"
+        },
+
+        {
+            question: "इनमें से कौन सा फ़ाइल एक्सटेंशन एक वीडियो फ़ाइल से जुड़ी है?",
+            optionA: ".एम.पी.3",
+            optionB: ".जे.पी.जी.",
+            optionC: ".एम.पी.4",
+            optionD: ".टी.एक्स.टी.",
+            correctAnswer: ".एम.पी.4"
+        },
+    ],
+
+    [
+        {
+            // 40
+            question: "Which of the following is NOT an example of a utility software?",
+            optionA: "Disk Cleanup",
+            optionB: "Antivirus software",
+            optionC: "Microsoft Excel",
+            optionD: "File Compression tools",
+            correctAnswer: "Microsoft Excel"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन एक यूटिलिटी सॉफ्टवेयर का उदाहरण नहीं है?",
+            optionA: "डिस्क क्लीनअप",
+            optionB: "एंटीवायरस सॉफ़्टवेयर",
+            optionC: "मॉइक्रोसॉफ्ट एक्सेल",
+            optionD: "फ़ाइल कम्प्रेशन टूल",
+            correctAnswer: "मॉइक्रोसॉफ्ट एक्सेल"
+        },
+    ],
+
+    [
+        {
+            // 41
+            question: "Which of the following is NOT part of the CPU?",
+            optionA: "Arithmetic Logic Unit (ALU)",
+            optionB: "Control Unit (CU)",
+            optionC: "Random Access Memory (RAM)",
+            optionD: "Registers",
+            correctAnswer: "Random Access Memory (RAM)"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन सीपीयू का हिस्सा नहीं है?",
+            optionA: "अंकगणितीय तर्क इकाई (ALU)",
+            optionB: "नियंत्रण यूनिट (CU)",
+            optionC: "रैंडम एक्सेस मेमोरी (RAM)",
+            optionD: "रजिस्टर",
+            correctAnswer: "रैंडम एक्सेस मेमोरी (RAM)"
+        },
+    ],
+
+    [
+        {
+            // 42
+            question: "Which of the following is the default file extension for Microsoft Word documents?",
+            optionA: ".docx",
+            optionB: ".xlsx",
+            optionC: ".pptx",
+            optionD: ".txt",
+            correctAnswer: ".docx"
+        },
+
+        {
+            question: "मॉइक्रोसॉफ्ट वर्ड दस्तावेज़ों के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन निम्नलिखित में से कौन सा है?",
+            optionA: ".docx",
+            optionB: ".xlsx",
+            optionC: ".pptx",
+            optionD: ".txt",
+            correctAnswer: ".docx"
+        },
+    ],
+
+    [
+        {
+            // 43
+            question: "Which of these is a type of non-volatile storage device?",
+            optionA: "RAM",
+            optionB: "Hard Drive",
+            optionC: "Cache",
+            optionD: "Register",
+            correctAnswer: "Hard Drive"
+        },
+
+        {
+            question: "इनमें से कौन एक प्रकार का नॉन-वोलाटाइल डिवाइस है?",
+            optionA: "रैम",
+            optionB: "हार्ड ड्राइव",
+            optionC: "कैश",
+            optionD: "रजिस्टर",
+            correctAnswer: "हार्ड ड्राइव"
+        },
+    ],
+
+    [
+        {
+            // 44
+            question: "What is the main advantage of SSD (Solid-State Drive) over HDD (Hard Disk Drive)?",
+            optionA: "Higher capacity",
+            optionB: "Lower cost",
+            optionC: "Faster speed",
+            optionD: "Longer lifespan",
+            correctAnswer: "Faster speed"
+        },
+
+        {
+            question: "HDD (हार्ड डिस्क ड्राइव) पर SSD (सॉलिड-स्टेट ड्राइव) का मुख्य लाभ क्या है?",
+            optionA: "उच्च क्षमता",
+            optionB: "कम लागत",
+            optionC: "तेज गति",
+            optionD: "कम जीवनकाल",
+            correctAnswer: "तेज गति"
+        },
+    ],
+
+    [
+        {
+            // 45
+            question: "Which of the following operating systems is specifically designed for mobile devices?",
+            optionA: "Windows 10",
+            optionB: "iOS",
+            optionC: "Linux",
+            optionD: "macOS",
+            correctAnswer: "iOS"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन सा ऑपरेटिंग सिस्टम विशेष रूप से मोबाइल उपकरणों के लिए डिज़ाइन किया गया है?",
+            optionA: "विंडोज 10",
+            optionB: "आईओएस",
+            optionC: "लिनक्स",
+            optionD: "मैक ओएस",
+            correctAnswer: "आईओएस"
+        },
+    ],
+
+    [
+        {
+            // 46
+            question: "Which of the following is an example of a wide-area network (WAN)?",
+            optionA: "A local Wi-Fi network in a home",
+            optionB: "A corporate LAN",
+            optionC: "The internet",
+            optionD: "A Bluetooth connection",
+            correctAnswer: "The internet"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन एक वाइड एरिया नेटवर्क (WAN) का एक उदाहरण है?",
+            optionA: "एक घर में एक स्थानीय वाई-फाई नेटवर्क",
+            optionB: "एक कॉर्पोरेट लैन",
+            optionC: "इंटरनेट",
+            optionD: "एक ब्लूटूथ कनेक्शन",
+            correctAnswer: "इंटरनेट"
+        },
+    ],
+
+    [
+        {
+            // 47
+            question: "Which operating system uses a taskbar for managing open applications?",
+            optionA: "macOS",
+            optionB: "Linux",
+            optionC: "Windows",
+            optionD: "iOS",
+            correctAnswer: "Windows"
+        },
+
+        {
+            question: "खुले अनुप्रयोगों के प्रबंधन के लिए कौन सा ऑपरेटिंग सिस्टम टास्कबार का उपयोग करता है?",
+            optionA: "मैक ओएस",
+            optionB: "लिनक्स",
+            optionC: "विंडोज",
+            optionD: "आईओएस",
+            correctAnswer: "विंडोज"
+        },
+    ],
+
+    [
+        {
+            // 48
+            question: "What is the purpose of an operating systems file management system?",
+            optionA: "To process instructions from applications",
+            optionB: "To provide security for the system",
+            optionC: "To manage the organization, storage, and retrieval of files",
+            optionD: "To install software",
+            correctAnswer: "To manage the organization, storage, and retrieval of files"
+        },
+
+        {
+            question: "एक ऑपरेटिंग सिस्टम फ़ाइल प्रबंधन प्रणाली का उद्देश्य क्या है?",
+            optionA: "अनुप्रयोगों से निर्देशों को संसाधित करने के लिए",
+            optionB: "सिस्टम के लिए सुरक्षा प्रदान करने के लिए",
+            optionC: "फाइलों के संगठन, भंडारण और पुनर्प्राप्ति का प्रबंधन करने के लिए",
+            optionD: "सॉफ़्टवेयर स्थापित करने के लिए",
+            correctAnswer: "फाइलों के संगठन, भंडारण और पुनर्प्राप्ति का प्रबंधन करने के लिए"
+        },
+    ],
+
+    [
+        {
+            // 49
+            question: "Which type of software is designed to interact directly with the hardware and manage the system?",
+            optionA: "Utility software",
+            optionB: "Application software",
+            optionC: "System software",
+            optionD: "Open source software",
+            correctAnswer: "System software"
+        },
+
+        {
+            question: "किस प्रकार के सॉफ़्टवेयर को सीधे हार्डवेयर के साथ बातचीत करने और सिस्टम का प्रबंधन करने के लिए डिज़ाइन किया गया है?",
+            optionA: "यूटिलिटी सॉफ़्टवेयर",
+            optionB: "एप्लिकेशन सॉफ़्टवेयर",
+            optionC: "सिस्टम सॉफ़्टवेयर",
+            optionD: "ओपन सोर्स सॉफ्टवेयर",
+            correctAnswer: "सिस्टम सॉफ़्टवेयर"
+        },
+    ],
+
+    [
+        {
+            // 50
+            question: "Which of the following is a method of sharing files over a Local Area Network (LAN)?",
+            optionA: "Bluetooth",
+            optionB: "Email",
+            optionC: "File sharing via networked folders",
+            optionD: "USB transfer",
+            correctAnswer: "File sharing via networked folders"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन लोकल एरिया नेटवर्क (LAN) पर फ़ाइलों को साझा करने की एक विधि है?",
+            optionA: "ब्लूटूथ",
+            optionB: "ईमेल",
+            optionC: "नेटवर्क फ़ोल्डर्स के माध्यम से फ़ाइल साझा करना",
+            optionD: "यूएसबी ट्रांसफर",
+            correctAnswer: "नेटवर्क फ़ोल्डर्स के माध्यम से फ़ाइल साझा करना"
+        },
+    ],
+
+    [
+        {
+            // 51
+            question: "Which of the following is the most common extension for executable files in Windows?",
+            optionA: ".exe",
+            optionB: ".bat",
+            optionC: ".dll",
+            optionD: ".zip",
+            correctAnswer: ".exe"
+        },
+
+        {
+            question: "विंडोज में निष्पादन योग्य फ़ाइलों के लिए निम्नलिखित में से कौन सा एक्सटेंशन है?",
+            optionA: ".exe",
+            optionB: ".bat",
+            optionC: ".dll",
+            optionD: ".zip",
+            correctAnswer: ".exe"
+        },
+    ],
+
+    [
+        {
+            // 52
+            question: "What is the primary function of the control unit (CU) within the CPU?",
+            optionA: "To store data",
+            optionB: "To perform arithmetic calculations",
+            optionC: "To direct the operation of the processor",
+            optionD: "To increase processor speed",
+            correctAnswer: "To direct the operation of the processor"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 53
+            question: "Which of the following is an open-source mobile operating system?",
+            optionA: "Android",
+            optionB: "iOS",
+            optionC: "Windows Phone",
+            optionD: "BlackBerry OS",
+            correctAnswer: "Android"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 54
+            question: "Which of the following is a characteristic of open-source software?",
+            optionA: "Closed source code",
+            optionB: "Free to use and modify",
+            optionC: "Paid software",
+            optionD: "Limited access to source code",
+            correctAnswer: "Free to use and modify"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 55
+            question: "What is the default file extension for image files captured by most digital cammp3eras?",
+            optionA: "jpg",
+            optionB: "mp3",
+            optionC: "png",
+            optionD: "gif",
+            correctAnswer: "jpg"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 56
+            question: "Which type of storage device is typically faster: SSD or HDD?",
+            optionA: "SSD",
+            optionB: "HDD",
+            optionC: "They are equally fast",
+            optionD: "It depends on the size of the storage",
+            correctAnswer: "SSD"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 57
+            question: "Which file extension is typically associated with a PowerPoint presentation?",
+            optionA: "xlsx",
+            optionB: "pptx",
+            optionC: "docx",
+            optionD: "txt",
+            correctAnswer: "pptx"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 58
+            question: "Which of the following is an example of a proprietary software",
+            optionA: "Apache Web Server",
+            optionB: "Google Chrome",
+            optionC: "Microsoft Word",
+            optionD: "Linux",
+            correctAnswer: "Microsoft Word"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 59
+            question: "Which of the following is the primary function of the BIOS (Basic Input/Output System)",
+            optionA: "Store the operating system",
+            optionB: "Perform basic hardware initialization during boot-up",
+            optionC: "Manage user preferences and settings",
+            optionD: "Protect the computer from viruses",
+            correctAnswer: "Perform basic hardware initialization during boot-up"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 60
+            question: "Which of the following is the fastest type of memory in a computer system?",
+            optionA: "RAM",
+            optionB: "Cache memory",
+            optionC: "Hard disk",
+            optionD: "SSD",
+            correctAnswer: "Cache memory"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 61
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 62
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+
+
     
    
 
