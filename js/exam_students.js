@@ -120,7 +120,9 @@ var students = {
     "Vikas Maurya":"Vikas@123",
     "Kavya Pandey":"Kavya@123",
     "Alok Pandey":"Alok@123",
-    "Dipesh Yadav":"Dipesh@123"
+    "Dipesh Yadav":"Dipesh@123",
+    "Srishti Pandey":"Srishti@123",
+    
     
     
     
