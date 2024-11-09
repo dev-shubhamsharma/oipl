@@ -85,6 +85,10 @@ var students = {
     "Dileep Yadav":"Dileep@123",
     "Anand Prakash":"Anand@123",
     "Savitri Maurya":"Savitri@123",
+    "Khusi Singh":"Khusi@123",
+    "Manisha Verma":"Manisha@123",
+    "Shyam Sharan Patel":"Shyam@123",
+    "Harshit Shukla":"Harshit@123",
     "Phoolchand":"Phoolchand@123",
     "Vikas Chaurasiya":"Vikas@123"
     
