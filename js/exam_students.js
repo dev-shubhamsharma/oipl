@@ -104,7 +104,7 @@ var students = {
     "Ranjeet Maurya":"Ranjeet@123",
     "Hariom Goswami":"Hariom@123",
     "Shriom Maurya":"Shriom@123",
-    "Ravi Kumar":"@123",
+    "Ravi Kumar":"Ravi@123",
     "Sadanand Yadav":"Sadanand@123",
     "Akhilesh Yadav":"Akhilesh@123",
     "Alok Kumar":"Alok@123",
@@ -122,6 +122,18 @@ var students = {
     "Alok Pandey":"Alok@123",
     "Dipesh Yadav":"Dipesh@123",
     "Srishti Pandey":"Srishti@123",
+    "Devanjali Singh":"Devanjali@123",
+    "Nidhi Awasthi":"Nidhi@123",
+    "Roli Vajpayi":"Roli@123",
+    "Priyanka Verma":"Priyanka@123",
+    "Suman Bharti":"Suman@123",
+    "Suraj Shukla":"Suraj@123",
+    "Amit Shukla":"Amit@123",
+    "Ram Shukla":"Ram@123",
+    "Surabh Dubey":"Saurabh@123",
+    "Nitin Kumar":"Nitin@123",
+    "Akash Tiwari":"Akash@123",
+    "Sushant Sharma":"Sushant@123"
     
     
     
