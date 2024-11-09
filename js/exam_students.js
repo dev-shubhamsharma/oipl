@@ -90,7 +90,40 @@ var students = {
     "Shyam Sharan Patel":"Shyam@123",
     "Harshit Shukla":"Harshit@123",
     "Phoolchand":"Phoolchand@123",
-    "Vikas Chaurasiya":"Vikas@123"
+    "Vikas Chaurasiya":"Vikas@123",
+    "Nidhi Mishra":"Nidhi@123",
+    "Shivani Tiwari":"Shivani@123",
+    "Akhilesh Prajapati":"Akhilesh@123",
+    "Vishal":"Vishal@123",
+    "Anand Sidharth":"Anand@123",
+    "Madhu Patel":"Madhu@123",
+    "Deepak Singh":"Deepak@123",
+    "Sandhya Shukla":"Sandhya@123",
+    "Priyanshi Yadav":"Priyanshi@123",
+    "Manoj Kumar":"Manoj@123",
+    "Ranjeet Maurya":"Ranjeet@123",
+    "Hariom Goswami":"Hariom@123",
+    "Shriom Maurya":"Shriom@123",
+    "Ravi Kumar":"@123",
+    "Sadanand Yadav":"Sadanand@123",
+    "Akhilesh Yadav":"Akhilesh@123",
+    "Alok Kumar":"Alok@123",
+    "Amit Verma":"Amit@123",
+    "Samar Verma":"Samar@123",
+    "Mayank Jaiswal":"Mayank@123",
+    "Ashish Verma":"Ashish@123",
+    "Ankit Tiwari":"Ankit@123",
+    "Vikram Kashyap":"Vikram@123",
+    "Vandana Mishra":"Vandana@123",
+    "Swati Pandey":"Swati Pandey@123",
+    "Laxmi Kashyap":"Laxmi@123",
+    "Vikas Maurya":"Vikas@123",
+    "Kavya Pandey":"Kavya@123",
+    "Alok Pandey":"Alok@123",
+    "Dipesh Yadav":"Dipesh@123"
+    
+    
+    
     
     
 
