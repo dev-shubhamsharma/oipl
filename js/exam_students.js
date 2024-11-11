@@ -34,41 +34,41 @@ var students = {
     
     
     
-
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-
-
-
-
-    "Anshika Maurya":"Anshika@123",
-    "Anshika Kushwaha":"Anshika@123",
-    "Usha Maurya":"Usha@123",
-    "Shalini Maurya":"Shalini@123",
-    "Nidhi Pal":"Nidhi@123",
     "Mahek Srivastava":"Mahek@123",
     "Vijay Laxmi Shukla":"Laxmi@123",
-    "Seema Maurya":"Seema@123",
+    
+    
+    
+    
+    "Beauty Shukla":"Beauty@123",
+    "Anshika Maurya":"Anshika@123",
+    "Anshika Kushwaha":"Anshika@123",
+    "Vandana":"Vandana@123",
     "Vanshika Mathur":"Vanshika@123",
     "Swati Sharma":"Swati@123",
+    "Kajal Goswami":"Kajal@123",
+    "Vibha":"Vibha@123",
+    "Pooja Yadav":"Pooja@123",
+    "Usha Maurya":"Usha@123",
+    "Kumkum":"Kumkum@123",
+    "Shalini Maurya":"Shalini@123",
+    "Jyoti Giri":"Jyoti@123",
+    "Pooja Maurya":"Pooja@123",
+    "Shivani Singh":"Shivani@123",
     "Ankita Kanojiya":"Ankita@123",
-    "Beauty Shukla":"Beauty@123",
+    "Shiv Nandini":"Shiv@123",
+    "Seema Maurya":"Seema@123",
+    "Nidhi Pal":"Nidhi@123",
+    "Kumkum Kashyap":"Kumkum@123",
+    
+    
+
+
+
+
+    
 
     "Urmila Devi":"Urmila@123",
     "Suneel Verma":"Suneel@123",
