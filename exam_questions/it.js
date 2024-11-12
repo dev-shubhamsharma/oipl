@@ -14,7 +14,7 @@ const questions = [
         {
             question: "निम्नलिखित में से कौन सा कंप्यूटर का मस्तिष्क है?",
             optionA: "हार्ड डिस्क",
-            optionB: "मॉनिटर",
+            optionB: "मॉनीटर",
             optionC: "सी.पी.यू.",
             optionD: "कीबोर्ड",
             correctAnswer: "सी.पी.यू."
@@ -67,7 +67,7 @@ const questions = [
         {
             // 4
             question: "What is the full form of URL?",
-            optionA: " Uniform Resource Locator",
+            optionA: "Uniform Resource Locator",
             optionB: "Unified Resource Locator",
             optionC: "Uniform Remote Locator",
             optionD: "Unified Remote Locator",
@@ -1083,12 +1083,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "CPU के भीतर कंट्रोल यूनिट (CU) का प्राथमिक कार्य क्या है?",
+            optionA: "डेटा संग्रहीत करना",
+            optionB: "अंकगणितीय गणना करना",
+            optionC: "प्रोसेसर के संचालन को निर्देशित करना",
+            optionD: "प्रोसेसर की गति बढ़ाना",
+            correctAnswer: "प्रोसेसर के संचालन को निर्देशित करना"
         },
     ],
 
@@ -1104,12 +1104,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "निम्नलिखित में से कौन एक ओपन-सोर्स मोबाइल ऑपरेटिंग सिस्टम है?",
+            optionA: "एंड्रॉइड",
+            optionB: "आईओएस",
+            optionC: "विंडोज फोन",
+            optionD: "ब्लैकबेरी ओएस",
+            correctAnswer: "एंड्रॉइड"
         },
     ],
 
@@ -1125,19 +1125,19 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "निम्नलिखित में से कौन सा ओपन-सोर्स सॉफ्टवेयर की विशेषता है?",
+            optionA: "बंद सोर्स कोड",
+            optionB: "उपयोग करने और संशोधित करने की स्वतंत्रता",
+            optionC: "भुगतान आधारित सॉफ्टवेयर",
+            optionD: "सोर्स कोड तक सीमित पहुंच",
+            correctAnswer: "उपयोग करने और संशोधित करने की स्वतंत्रता"
         },
     ],
 
     [
         {
             // 55
-            question: "What is the default file extension for image files captured by most digital cammp3eras?",
+            question: "What is the default file extension for image files captured by most digital cameras?",
             optionA: "jpg",
             optionB: "mp3",
             optionC: "png",
@@ -1146,12 +1146,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "अधिकांश डिजिटल कैमरा द्वारा कैप्चर की गई छवि फ़ाइलों के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+            optionA: "jpg",
+            optionB: "mp3",
+            optionC: "png",
+            optionD: "gif",
+            correctAnswer: "jpg"
         },
     ],
 
@@ -1167,12 +1167,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "किस प्रकार का स्टोरेज डिवाइस आमतौर पर तेज होता है: एसएसडी या एचडीडी?",
+            optionA: "एसएसडी",
+            optionB: "एचडीडी",
+            optionC: "वे समान रूप से तेज हैं",
+            optionD: "यह भंडारण के आकार पर निर्भर करता है",
+            correctAnswer: "एसएसडी"
         },
     ],
 
@@ -1188,12 +1188,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "कौन सा फ़ाइल एक्सटेंशन आमतौर पर एक पावर प्वाइंट प्रेजेन्टेशन के साथ जुड़ा हुआ है?",
+            optionA: "xlsx",
+            optionB: "pptx",
+            optionC: "docx",
+            optionD: "txt",
+            correctAnswer: "pptx"
         },
     ],
 
@@ -1209,12 +1209,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "निम्नलिखित में से कौन एक प्रोप्राइटरी सॉफ्टवेयर का एक उदाहरण है",
+            optionA: "अपाचे वेब सर्वर",
+            optionB: "गूगल क्रोम",
+            optionC: "माइक्रोसॉफ्ट वर्ड",
+            optionD: "लिनक्स",
+            correctAnswer: "माइक्रोसॉफ्ट वर्ड"
         },
     ],
 
@@ -1230,12 +1230,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "निम्नलिखित में से कौन BIOS (बेसिक इनपुट/आउटपुट सिस्टम) का प्राथमिक कार्य है",
+            optionA: "ऑपरेटिंग सिस्टम को स्टोर करना",
+            optionB: "बूट-अप के दौरान बेसिक हार्डवेयर इनिशियलाइज़ेशन करना",
+            optionC: "उपयोगकर्ता वरीयताओं और सेटिंग्स को प्रबंधित करना",
+            optionD: "कंप्यूटर को वायरस से सुरक्षित रखना",
+            correctAnswer: "बूट-अप के दौरान बेसिक हार्डवेयर इनिशियलाइज़ेशन करना"
         },
     ],
 
@@ -1251,6 +1251,90 @@ const questions = [
         },
 
         {
+            question: "कंप्यूटर सिस्टम में सबसे तेज प्रकार की मेमोरी निम्नलिखित में से कौन सा है?",
+            optionA: "रैम",
+            optionB: "कैश मेमोरी",
+            optionC: "हार्ड डिस्क",
+            optionD: "एसएसडी",
+            correctAnswer: "कैश मेमोरी"
+        },
+    ],
+
+    [
+        {
+            // 61
+            question: "What is meaning of C in MICR",
+            optionA: "Code",
+            optionB: "Character",
+            optionC: "Copy",
+            optionD: "Convert",
+            correctAnswer: "Character"
+        },
+
+        {
+            question: "MICR में C का अर्थ क्या है",
+            optionA: "कोड",
+            optionB: "करेक्टर",
+            optionC: "कॉपी",
+            optionD: "कन्वर्ट",
+            correctAnswer: "करेक्टर"
+        },
+    ],
+
+    [
+        {
+            // 62
+            question: "Linux Operating system was developed by",
+            optionA: "Linus Torvalds",
+            optionB: "Ken Thompson",
+            optionC: "Dennis Ritchie",
+            optionD: "Bell Labs",
+            correctAnswer: "Linus Torvalds"
+        },
+
+        {
+            question: "लिनक्स ऑपरेटिंग सिस्टम किसके द्वारा विकसित किया गया था",
+            optionA: "लिनस टोरवाल्ड्स",
+            optionB: "केन थॉम्पसन",
+            optionC: "डेनिस रिची",
+            optionD: "बेल लैब्स",
+            correctAnswer: "लिनस टोरवाल्ड्स"
+        },
+    ],
+
+    [
+        {
+            // 63
+            question: "Which was the first network developed",
+            optionA: "NSFNET",
+            optionB: "ARPANET",
+            optionC: "MILNET",
+            optionD: "Ethernet",
+            correctAnswer: "ARPANET"
+        },
+
+        {
+            question: "Which was the first network developed",
+            optionA: "NSFNET",
+            optionB: "ARPANET",
+            optionC: "MILNET",
+            optionD: "Ethernet",
+            correctAnswer: "ARPANET"
+        },
+    ],
+
+    [
+        {
+            // 64
+            question: "Full Name of IMEI",
+            optionA: "Internet Mobile Equipment Identity",
+            optionB: "International Mobile Equipment Information",
+            optionC: "International Mobile Equipment Identity",
+            optionD: "Internet Mobile Equipment Information",
+            correctAnswer: "International Mobile Equipment Identity"
+        },
+
+        {
             question: "",
             optionA: "",
             optionB: "",
@@ -1262,7 +1346,322 @@ const questions = [
 
     [
         {
-            // 61
+            // 65
+            question: "Full name of IDS",
+            optionA: "Intrusion Detection System",
+            optionB: "Internet Detection System",
+            optionC: "Intrusion Detection Software",
+            optionD: "Internet Detection Software",
+            correctAnswer: "Intrusion Detection System"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 66
+            question: "Full form of UTR",
+            optionA: "Unique Transport Reference",
+            optionB: "Unique Transaction Reference",
+            optionC: "Under Transaction Reference",
+            optionD: "Unique Transaction Report",
+            correctAnswer: "Unique Transaction Reference"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 67
+            question: "ABRS stands for :",
+            optionA: "Aadhaar Based Reserve Service",
+            optionB: "Aadhaar Based Remittance Software",
+            optionC: "Aadhaar Based Reserve Software",
+            optionD: "Aadhaar Based Remittance Service",
+            correctAnswer: "Aadhaar Based Remittance Service"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 68
+            question: "Full form of EBCDIC",
+            optionA: "Extended Binary Coded Decimal Interchange Code",
+            optionB: "Extended Bit Coded Decimal Information Code",
+            optionC: "Extended Binary Coded Decimal Information Code",
+            optionD: "Extended Bit Coded Decimal Interchange Code",
+            correctAnswer: "Extended Binary Coded Decimal Interchange Code"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 69
+            question: "Which is a Propritary Software",
+            optionA: "Linux",
+            optionB: "Windows",
+            optionC: "Ubuntu",
+            optionD: "Android",
+            correctAnswer: "Windows"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 70
+            question: "A private network within a company can be used to provide shared content for staff is known as",
+            optionA: "Extranet",
+            optionB: "Internet",
+            optionC: "Open-Source",
+            optionD: "Intranet",
+            correctAnswer: "Intranet"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 71
+            question: "Shell is a ______",
+            optionA: "Hardware",
+            optionB: "Software",
+            optionC: "Storage",
+            optionD: "Account",
+            correctAnswer: "Software"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 72
+            question: "What is cipher text",
+            optionA: "Readable form of encrypted data",
+            optionB: "Non Readable form of encrypted data",
+            optionC: "Undecorated Text",
+            optionD: "Decorated Text",
+            correctAnswer: "Non Readable form of encrypted data"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 73
+            question: "The central processing unit",
+            optionA: "Is controlled by the input data entering the system",
+            optionB: "Is operated from the control panel",
+            optionC: "Controls all input, output and processing",
+            optionD: "Controls the auxiliary storage unit",
+            correctAnswer: "Controls all input, output and processing"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 74
+            question: "L1 is known as",
+            optionA: "DRAM",
+            optionB: "Primary Cache",
+            optionC: "Secondary Cache",
+            optionD: "SRAM",
+            correctAnswer: "Primary Cache"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 75
+            question: "Who invented Analytic engine",
+            optionA: "Charles Babbage",
+            optionB: "Blaise Pascal",
+            optionC: "Percy Edwin Ludgate",
+            optionD: "None of these",
+            correctAnswer: "Charles Babbage"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 76
+            question: "Which of the following devices can be used to input directly printed text",
+            optionA: "OCR",
+            optionB: "OMR",
+            optionC: "MICR",
+            optionD: "All of the above",
+            correctAnswer: "OCR"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 77
+            question: "Who is the father of internet",
+            optionA: "Vint Cerf",
+            optionB: "Tim-Berners-Lee",
+            optionC: "Ray Tomlinson",
+            optionD: "Mark Anderson",
+            correctAnswer: "Vint Cerf"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 78
+            question: "WWWW stands for",
+            optionA: "World Wide Web World",
+            optionB: "World Wide Web Worm",
+            optionC: "World Wide Worm Web",
+            optionD: "None of these",
+            correctAnswer: "World Wide Web Worm"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 79
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 80
             question: "",
             optionA: "",
             optionB: "",
