@@ -111,6 +111,8 @@ var students = {
     "Vivek Rao":"Vivek@oipl",
     "Arti Devi Gupta":"Arti@oipl",
     "Vaishnavi":"Vaishnavi@oipl",
+    "Nidhi Singh":"Nidhi@oipl",
+    "Akanksha Singh":"Akanksha@oipl",
     
     
 
