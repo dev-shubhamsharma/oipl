@@ -1274,10 +1274,10 @@ const questions = [
         {
             question: "MICR में C का अर्थ क्या है",
             optionA: "कोड",
-            optionB: "करेक्टर",
+            optionB: "कैरेक्टर",
             optionC: "कॉपी",
             optionD: "कन्वर्ट",
-            correctAnswer: "करेक्टर"
+            correctAnswer: "कैरेक्टर"
         },
     ],
 
@@ -1314,11 +1314,11 @@ const questions = [
         },
 
         {
-            question: "Which was the first network developed",
+            question: "पहला नेटवर्क विकसित किया गया था",
             optionA: "NSFNET",
             optionB: "ARPANET",
             optionC: "MILNET",
-            optionD: "Ethernet",
+            optionD: "ईथरनेट",
             correctAnswer: "ARPANET"
         },
     ],
@@ -1335,12 +1335,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "IMEI का पूरा नाम",
+            optionA: "इंटरनेट मोबाइल इक्यूपमेंट आइडेंटिटी",
+            optionB: "इंटरनेशनल मोबाइल इक्यूपमेंट इनफॉर्मेशन",
+            optionC: "इंटरनेशनल मोबाइल इक्यूपमेंट आइडेंटिटी",
+            optionD: "इंटरनेट मोबाइल इक्यूपमेंट इनफॉर्मेशन",
+            correctAnswer: "इंटरनेशनल मोबाइल इक्यूपमेंट आइडेंटिटी"
         },
     ],
 
@@ -1356,12 +1356,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "आई.डी.एस. का पूरा नाम",
+            optionA: "इन्ट्रूजन डिटेक्शन सिस्टम",
+            optionB: "इंटरनेट डिटेक्शन सिस्टम",
+            optionC: "इन्ट्रूजन डिटेक्शन सॉफ्टवेयर",
+            optionD: "इंटरनेट डिटेक्शन सॉफ्टवेयर",
+            correctAnswer: "इन्ट्रूजन डिटेक्शन सिस्टम"
         },
     ],
 
@@ -1377,12 +1377,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "यू.टी.आर. का पूरा रूप",
+            optionA: "यूनीक ट्रांसपोर्ट रिफरेंन्स",
+            optionB: "यूनीक ट्रांजेक्शन रिफरेंन्स",
+            optionC: "अन्डर रांजेक्शन रिफरेंन्स",
+            optionD: "यूनीक रांजेक्शन रिपोर्ट",
+            correctAnswer: "यूनीक ट्रांजेक्शन रिफरेंन्स"
         },
     ],
 
@@ -1398,12 +1398,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "ए.बी.आर.एस. का पूर्ण रूप है:",
+            optionA: "आधार बेस्ड रिजर्व सर्विस",
+            optionB: "आधार बेस्ड रेमिटेन्श सॉफ्टवेयर",
+            optionC: "आधार बेस्ड रिजर्व सॉफ्टवेयर",
+            optionD: "आधार बेस्ड रेमिटेन्श सर्विस",
+            correctAnswer: "आधार बेस्ड रेमिटेन्श सर्विस"
         },
     ],
 
@@ -1419,12 +1419,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "EBCDIC का पूर्ण रूप",
+            optionA: "इक्सटेंडेड बाइनरी कोडेड डेसिमल इंटरचेंज कोड",
+            optionB: "इक्सटेंडेड बिट कोडेड डेसिमल इन्फॉर्मेशन कोड",
+            optionC: "इक्सटेंडेड बाइनरी कोडेड डेसिमल इन्फॉर्मेशन कोड",
+            optionD: "इक्सटेंडेड बिट कोडेड डेसिमल इंटरचेंज कोड",
+            correctAnswer: "इक्सटेंडेड बाइनरी कोडेड डेसिमल इंटरचेंज कोड"
         },
     ],
 
@@ -1440,12 +1440,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "कौन सा एक प्रोप्राइटरी सॉफ्टवेयर है",
+            optionA: "लिनक्सस",
+            optionB: "विंडोज",
+            optionC: "उबंटू",
+            optionD: "एंड्रॉइड",
+            correctAnswer: "विंडोज"
         },
     ],
 
@@ -1461,12 +1461,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "एक कंपनी के भीतर एक निजी नेटवर्क, जिसका उपयोग कर्मचारियों के लिए साझा सामग्री प्रदान करने के लिए किया जा सकता है",
+            optionA: "एक्स्ट्रानेट",
+            optionB: "इंटरनेट",
+            optionC: "ओपन-सोर्स",
+            optionD: "इंट्रानेट",
+            correctAnswer: "इंट्रानेट"
         },
     ],
 
@@ -1482,12 +1482,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "शेल एक ______ है",
+            optionA: "हार्डवेयर",
+            optionB: "सॉफ़्टवेयर",
+            optionC: "भंडारण",
+            optionD: "खाता",
+            correctAnswer: "सॉफ़्टवेयर"
         },
     ],
 
@@ -1503,12 +1503,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "सिफर टेक्स्ट क्या है",
+            optionA: "एन्क्रिप्टेड डेटा का पठनीय रूप",
+            optionB: "एन्क्रिप्टेड डेटा का गैर पठनीय रूप",
+            optionC: "अविभाजित पाठ",
+            optionD: "सजाया हुआ पाठ",
+            correctAnswer: "एन्क्रिप्टेड डेटा का गैर पठनीय रूप"
         },
     ],
 
@@ -1524,12 +1524,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "सेन्ट्रल प्रोसेसिंग यूनिट",
+            optionA: "सिस्टम में प्रवेश करने वाले इनपुट डेटा द्वारा नियंत्रित किया जाता है",
+            optionB: "नियंत्रण कक्ष से संचालित होता है",
+            optionC: "सभी इनपुट, आउटपुट और प्रोसेसिंग को नियंत्रित करता है",
+            optionD: "सहायक भंडारण इकाई को नियंत्रित करता है",
+            correctAnswer: "सभी इनपुट, आउटपुट और प्रोसेसिंग को नियंत्रित करता है"
         },
     ],
 
@@ -1545,19 +1545,19 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "L1 के रूप में जाना जाता है",
+            optionA: "डी-रैम",
+            optionB: "प्राथमिक कैश",
+            optionC: "द्वितीयक कैश",
+            optionD: "एस-रैम",
+            correctAnswer: "प्राथमिक कैश"
         },
     ],
 
     [
         {
             // 75
-            question: "Who invented Analytic engine",
+            question: "Who invented Analytical engine",
             optionA: "Charles Babbage",
             optionB: "Blaise Pascal",
             optionC: "Percy Edwin Ludgate",
@@ -1566,12 +1566,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "जिसने विश्लेषणात्मक इंजन का आविष्कार किया",
+            optionA: "चार्ल्स बैबेज",
+            optionB: "ब्लाइस पास्कल",
+            optionC: "पर्सी एडविन लुडगेट",
+            optionD: "इनमें से कोई नहीं",
+            correctAnswer: "चार्ल्स बैबेज"
         },
     ],
 
@@ -1587,12 +1587,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "निम्नलिखित में से कौन से डिवाइस का उपयोग सीधे मुद्रित पाठ को इनपुट करने के लिए किया जा सकता है",
+            optionA: "ओसीआर",
+            optionB: "ओएमआर",
+            optionC: "माइकर",
+            optionD: "ऊपर के सभी",
+            correctAnswer: "ओसीआर"
         },
     ],
 
@@ -1608,12 +1608,12 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "इंटरनेट का पिता कौन है",
+            optionA: "विंट सर्फ",
+            optionB: "टिम-बैरनर्स-ली",
+            optionC: "रे-टॉमलिंसन",
+            optionD: "मार्क एंडरसन",
+            correctAnswer: "विंट सर्फ"
         },
     ],
 
@@ -1629,78 +1629,497 @@ const questions = [
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "WWWW stands for",
+            optionA: "वर्ल्ड वाइड वेब वर्ल्ड",
+            optionB: "वर्ल्ड वाइड वेब वर्म",
+            optionC: "वर्ल्ड वाइड वर्म वेब",
+            optionD: "इनमें से कोई नहीं",
+            correctAnswer: "वर्ल्ड वाइड वेब वर्म"
         },
     ],
 
     [
         {
             // 79
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "What is warm boot",
+            optionA: "Shut down",
+            optionB: "Restart",
+            optionC: "Sleep",
+            optionD: "Hibernate",
+            correctAnswer: "Restart"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "गर्म बूट क्या है",
+            optionA: "शट डाउन",
+            optionB: "री-स्टार्ट",
+            optionC: "स्लीप",
+            optionD: "हाइबरनेट",
+            correctAnswer: "री-स्टार्ट"
         },
     ],
 
     [
         {
             // 80
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "Running multiple programs at the same time is called",
+            optionA: "Multi-Tasking",
+            optionB: "Single Tasking",
+            optionC: "Forground Tasking",
+            optionD: "Symmetric",
+            correctAnswer: "Multi-Tasking"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "एक ही समय में कई कार्यक्रम चलाना कहा जाता है",
+            optionA: "मल्टी टॉस्किंग",
+            optionB: "सिंगल टॉस्किंग",
+            optionC: "फोरग्राउण्ड टॉस्किंग",
+            optionD: "सममित",
+            correctAnswer: "मल्टी टॉस्किंग"
         },
     ],
 
     [
         {
-            // 62
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            // 81
+            question: "Name the protocol which uses port no 80",
+            optionA: "HTTP",
+            optionB: "FTP",
+            optionC: "SMTP",
+            optionD: "DNS",
+            correctAnswer: "HTTP"
         },
 
         {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            question: "पोर्ट नं 80 का उपयोग करने वाले प्रोटोकॉल का नाम बताइए",
+            optionA: "एच.टी.टी.पी.",
+            optionB: "एफ.टी.पी.",
+            optionC: "एस.एम.टी.पी.",
+            optionD: "डी.एन.एस.",
+            correctAnswer: "एच.टी.टी.पी."
         },
     ],
 
+    [
+        {
+            // 82
+            question: "A device only used in LAN",
+            optionA: "NIC",
+            optionB: "Modem",
+            optionC: "Router",
+            optionD: "Gateway",
+            correctAnswer: "NIC"
+        },
+
+        {
+            question: "एक उपकरण केवल जो लैन में उपयोग किया जाता है",
+            optionA: "एन.आई.सी.",
+            optionB: "मोडम",
+            optionC: "रूटर",
+            optionD: "गेटवे",
+            correctAnswer: "एन.आई.सी."
+        },
+    ],
+
+    [
+        {
+            // 83
+            question: "Personal Computer is :",
+            optionA: "Mini Computer",
+            optionB: "Micro Computer",
+            optionC: "Mainframe Computer",
+            optionD: "None of the above",
+            correctAnswer: "Micro Computer"
+        },
+
+        {
+            question: "पर्सनल कंप्यूटर है:",
+            optionA: "मिनी कंप्यूटर",
+            optionB: "माइक्रो कंप्यूटर",
+            optionC: "मेनफ्रेम कंप्यूटर",
+            optionD: "इनमे से कोई भी नहीं",
+            correctAnswer: "माइक्रो कंप्यूटर"
+        },
+    ],
+
+    [
+        {
+            // 84
+            question: "The technology used in optical disks is ______",
+            optionA: "Reflective",
+            optionB: "Refractive",
+            optionC: "Laser Beam",
+            optionD: "Diffraction",
+            correctAnswer: "Laser Beam"
+        },
+
+        {
+            question: "ऑप्टिकल डिस्क में उपयोग की जाने वाली तकनीक ______ है",
+            optionA: "चिंतनशील",
+            optionB: "अपवर्तक",
+            optionC: "लेजर किरण",
+            optionD: "विवर्तन",
+            correctAnswer: "लेजर किरण"
+        },
+    ],
+
+    [
+        {
+            // 85
+            question: "Which is an Unit to measure printing quality",
+            optionA: "CPM",
+            optionB: "PPM",
+            optionC: "DPI",
+            optionD: "LPM",
+            correctAnswer: "DPI"
+        },
+
+        {
+            question: "प्रिटिंग की गुणवत्ता को मापने के लिए एक इकाई कौन सी है",
+            optionA: "CPM",
+            optionB: "PPM",
+            optionC: "DPI",
+            optionD: "LPM",
+            correctAnswer: "DPI"
+        },
+    ],
+
+    [
+        {
+            // 86
+            question: "Which is correct for Encryption",
+            optionA: "Security",
+            optionB: "Reliability",
+            optionC: "Privacy",
+            optionD: "None of these",
+            correctAnswer: "Privacy"
+        },
+
+        {
+            question: "एन्क्रिप्शन के लिए क्या सत्य है",
+            optionA: "सुरक्षा",
+            optionB: "विश्वसनीयता",
+            optionC: "गोपनीयता",
+            optionD: "इनमें से कोई नहीं",
+            correctAnswer: "गोपनीयता"
+        },
+    ],
+
+    [
+        {
+            // 87
+            question: "What is the full form of PDA",
+            optionA: "Private Digital Assistant",
+            optionB: "Personal Digital Assistant",
+            optionC: "Personal Data Assistant",
+            optionD: "Personal Data Access",
+            correctAnswer: "Personal Data Assistant"
+        },
+
+        {
+            question: "पीडीए का पूरा रूप क्या है",
+            optionA: "प्राइवेट डिजिटल असिस्टेंट",
+            optionB: "पर्सनल डिज़िटल असिस्टेंट",
+            optionC: "पर्सनल डाटा असिस्टेंट",
+            optionD: "पर्सनल डाटा एक्सेस",
+            correctAnswer: "पर्सनल डाटा असिस्टेंट"
+        },
+    ],
+
+    [
+        {
+            // 88
+            question: "2 Nibble is equal to",
+            optionA: "2 Bit",
+            optionB: "4 Bit",
+            optionC: "1 Byte",
+            optionD: "2 Byte",
+            correctAnswer: "1 Byte"
+        },
+
+        {
+            question: "2 निबल के बराबर है",
+            optionA: "2 बिट",
+            optionB: "4 बिट",
+            optionC: "1 बाइट",
+            optionD: "2 बाइट",
+            correctAnswer: "1 बाइट"
+        },
+    ],
+
+    [
+        {
+            // 89
+            question: "Computer viruses is developed by",
+            optionA: "By Nature",
+            optionB: "By Machine",
+            optionC: "By Humans",
+            optionD: "All of the above",
+            correctAnswer: "By Humans"
+        },
+
+        {
+            question: "कंप्यूटर वायरस कि्सके द्वारा विकसित किया जाता है",
+            optionA: "प्रकृति द्वारा",
+            optionB: "मशीन द्वारा",
+            optionC: "मनुष्यों द्वारा",
+            optionD: "ऊपर के सभी",
+            correctAnswer: "मनुष्यों द्वारा"
+        },
+    ],
+
+    [
+        {
+            // 90
+            question: "In Which generation AI was used",
+            optionA: "Second Generation",
+            optionB: "Third Generation",
+            optionC: "Fourth Generation",
+            optionD: "Fifth Generation",
+            correctAnswer: "Fifth Generation"
+        },
+
+        {
+            question: "किस पीढ़ी में एआई का इस्तेमाल किया गया था",
+            optionA: "द्वितीय पीढ़ी",
+            optionB: "तीसरी पीढ़ी",
+            optionC: "चौथी पीढ़ी",
+            optionD: "पांचवीं पीढ़ी",
+            correctAnswer: "पांचवीं पीढ़ी"
+        },
+    ],
+
+    [
+        {
+            // 91
+            question: "Standard protocol for sending mail is",
+            optionA: "MIME",
+            optionB: "POP",
+            optionC: "SMTP",
+            optionD: "IMAP",
+            correctAnswer: "SMTP"
+        },
+
+        {
+            question: "मेल भेजने के लिए मानक प्रोटोकॉल है",
+            optionA: "MIME",
+            optionB: "POP",
+            optionC: "SMTP",
+            optionD: "IMAP",
+            correctAnswer: "SMTP"
+        },
+    ],
+
+    [
+        {
+            // 92
+            question: "An IBM System/38 represents the computer class of _______",
+            optionA: "Small-scale computer",
+            optionB: "Large-scale computer",
+            optionC: "Super computer",
+            optionD: "None of these",
+            correctAnswer: "Small-scale computer"
+        },
+
+        {
+            question: "एक आईबीएम सिस्टम/38 _______ के कंप्यूटर वर्ग का प्रतिनिधित्व करता है",
+            optionA: "छोटे पैमाने का कंप्यूटर",
+            optionB: "बड़े पैमाने का कंप्यूटर",
+            optionC: "सुपर कंप्यूटर",
+            optionD: "इनमें से कोई नहीं",
+            correctAnswer: "छोटे पैमाने का कंप्यूटर"
+        },
+    ],
+
+    [
+        {
+            // 93
+            question: "Which of the following is not a Linux based operating system",
+            optionA: "Ubuntu",
+            optionB: "Red Hat",
+            optionC: "Cent OS",
+            optionD: "BSD",
+            correctAnswer: "BSD"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन सा लिनक्स आधारित ऑपरेटिंग सिस्टम नहीं है",
+            optionA: "उबंटू",
+            optionB: "रेड हैट",
+            optionC: "सेंट ओएस",
+            optionD: "बीएसडी",
+            correctAnswer: "बीएसडी"
+        },
+    ],
+
+    [
+        {
+            // 94
+            question: "Which device can be used instead of Hub",
+            optionA: "Router",
+            optionB: "Bridge",
+            optionC: "Switch",
+            optionD: "Gateway",
+            correctAnswer: "Switch"
+        },
+
+        {
+            question: "हब के स्थान पर किस डिवाइस का उपयोग किया जा सकता है",
+            optionA: "रूटर",
+            optionB: "ब्रिज",
+            optionC: "स्विच",
+            optionD: "गेटवे",
+            correctAnswer: "स्विच"
+        },
+    ],
+
+    [
+        {
+            // 95
+            question: "Which memory refreshes again and again",
+            optionA: "ROM",
+            optionB: "RAM",
+            optionC: "PROM",
+            optionD: "EPROM",
+            correctAnswer: "RAM"
+        },
+
+        {
+            question: "कौन सी मेमोरी बार-बार रिफ्रेश होती है",
+            optionA: "रोम",
+            optionB: "रैम",
+            optionC: "प्रॉम",
+            optionD: "इ-प्रॉम",
+            correctAnswer: "रैम"
+        },
+    ],
+
+    [
+        {
+            // 96
+            question: "Which was the worlds first mini computer",
+            optionA: "IBM System/36",
+            optionB: "PDP-11",
+            optionC: "PDP-1",
+            optionD: "VAX 11",
+            correctAnswer: "PDP-11"
+        },
+
+        {
+            question: "दुनिया का पहला मिनी कंप्यूटर था",
+            optionA: "आईबीएम सिस्टम/36",
+            optionB: "पीडीपी-11",
+            optionC: "पीडीपी-1",
+            optionD: "वैक्स 11",
+            correctAnswer: "पीडीपी -11"
+        },
+    ],
+
+    [
+        {
+            // 97
+            question: "Which is not an Antivirus",
+            optionA: "AVG",
+            optionB: "Bit defender",
+            optionC: "VLC",
+            optionD: "Norton",
+            correctAnswer: "VLC"
+        },
+
+        {
+            question: "कौन एक एंटीवायरस नहीं है",
+            optionA: "ए.वी.जी.",
+            optionB: "बिट डिफेंडर",
+            optionC: "वी.एल.सी.",
+            optionD: "नॉर्टन",
+            correctAnswer: "वी.एल.सी."
+        },
+    ],
+
+    [
+        {
+            // 98
+            question: "What memory does the CPU have",
+            optionA: "RAM",
+            optionB: "ROM",
+            optionC: "Registers",
+            optionD: "Cache Memory",
+            correctAnswer: "Registers"
+        },
+
+        {
+            question: "सीपीयू के पास कौन सी मेमोरी है",
+            optionA: "रैम",
+            optionB: "रोम",
+            optionC: "रजिस्टर्स",
+            optionD: "कैश मैमोरी",
+            correctAnswer: "रजिस्टर्स"
+        },
+    ],
+
+    [
+        {
+            // 99
+            question: "Domain name for educational institutions",
+            optionA: ".org",
+            optionB: ".int",
+            optionC: ".edu",
+            optionD: "All of the above",
+            correctAnswer: ".edu"
+        },
+
+        {
+            question: "शैक्षणिक संस्थानों के लिए डोमेन नाम",
+            optionA: ".org",
+            optionB: ".int",
+            optionC: ".edu",
+            optionD: "ऊपर के सभी",
+            correctAnswer: ".edu"
+        },
+    ],
+
+    [
+        {
+            // 100
+            question: "What is an IMEI number used for",
+            optionA: "For mobile identification",
+            optionB: "To avail phone facility",
+            optionC: "To call international",
+            optionD: "None of these",
+            correctAnswer: "For mobile identification"
+        },
+
+        {
+            question: "IMEI नंबर किस लिए उपयोग किया जाता है",
+            optionA: "मोबाइल पहचान के लिए",
+            optionB: "फोन की सुविधा का लाभ उठाने के लिए",
+            optionC: "अंतर्राष्ट्रीय को कॉल के लिए",
+            optionD: "इनमें से कोई नहीं",
+            correctAnswer: "मोबाइल पहचान के लिए"
+        },
+    ],
+
+    [
+        {
+            // 101
+            question: "What is the full form of PAN in a network",
+            optionA: "Private Area Network",
+            optionB: "Personal Area Network",
+            optionC: "Permanent Area Network",
+            optionD: "None of these",
+            correctAnswer: "Personal Area Network"
+        },
+
+        {
+            question: "एक नेटवर्क में पैन का पूरा रूप क्या है",
+            optionA: "प्राइवेट एरिया नेटवर्क",
+            optionB: "पर्सनल एरिया नेटवर्क",
+            optionC: "परमानेंट एरिया नेटवर्क",
+            optionD: "इनमें से कोई नहीं",
+            correctAnswer: "पर्सनल एरिया नेटवर्क"
+        },
+    ],
 
 
     
