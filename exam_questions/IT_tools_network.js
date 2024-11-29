@@ -1,0 +1,4280 @@
+const questions = [
+
+
+    // **************************************************************
+
+    //          IT TOOLS AND NETWORK 
+
+    // **************************************************************
+
+
+
+    [
+        {
+            // 1
+            question: "Which of the following is the brain of the computer?",
+            optionA: "Hard Disk",
+            optionB: "Monitor",
+            optionC: "CPU",
+            optionD: "Keyboard",
+            correctAnswer: "CPU"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन सा कंप्यूटर का मस्तिष्क है?",
+            optionA: "हार्ड डिस्क",
+            optionB: "मॉनीटर",
+            optionC: "सी.पी.यू.",
+            optionD: "कीबोर्ड",
+            correctAnswer: "सी.पी.यू."
+        },
+    ],
+
+    [
+        {
+            // 2
+            question: "Which of the following is a non-volatile memory?",
+            optionA: "RAM",
+            optionB: "Cache",
+            optionC: "ROM",
+            optionD: "Registers",
+            correctAnswer: "ROM"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन एक नॉन वोलाटाइल मेमोरी है?",
+            optionA: "रैम",
+            optionB: "कैश",
+            optionC: "रोम",
+            optionD: "रजिस्टर्स",
+            correctAnswer: "रोम"
+        },
+    ],
+
+    [
+        {
+            // 3
+            question: "Which of the following is the primary function of an operating system?",
+            optionA: "Manage hardware resources",
+            optionB: "Perform calculations",
+            optionC: "Design applications",
+            optionD: "Create websites",
+            correctAnswer: "Manage hardware resources"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन एक ऑपरेटिंग सिस्टम का प्राथमिक कार्य है?",
+            optionA: "हार्डवेयर संसाधनों का प्रबंधन करना",
+            optionB: "गणना करना",
+            optionC: "डिजाइन एप्पीलेकेशन्स्",
+            optionD: "वेबसाइट बनाना",
+            correctAnswer: "हार्डवेयर संसाधनों का प्रबंधन करना"
+        },
+    ],
+
+    [
+        {
+            // 4
+            question: "What is the full form of URL?",
+            optionA: "Uniform Resource Locator",
+            optionB: "Unified Resource Locator",
+            optionC: "Uniform Remote Locator",
+            optionD: "Unified Remote Locator",
+            correctAnswer: "Uniform Resource Locator"
+        },
+
+        {
+            question: "URL का पूरा रूप क्या है?",
+            optionA: "यूनिफ़ॉर्म रिसोर्स लोकेटर",
+            optionB: "यूनिफाइड रिसोर्स लोकेटर",
+            optionC: "यूनिफॉर्म रिमोट लोकेटर",
+            optionD: "यूनिफाइड रिमोट लोकेटर",
+            correctAnswer: "यूनिफ़ॉर्म रिसोर्स लोकेटर"
+        },
+    ],
+
+    [
+        {
+            // 5
+            question: "Which of the following is the smallest unit of data in a computer?",
+            optionA: "Byte",
+            optionB: "Bit",
+            optionC: "Kilobyte",
+            optionD: "Word",
+            correctAnswer: "Bit"
+        },
+
+        {
+            question: "कंप्यूटर में डेटा की सबसे छोटी इकाई निम्नलिखित में से कौन सी है?",
+            optionA: "बाइट",
+            optionB: "बिट",
+            optionC: "किलोबाइट",
+            optionD: "वर्ड",
+            correctAnswer: "बिट"
+        },
+    ],
+
+    [
+        {
+            // 6
+            question: "Which of the following is a type of software that allows a user to browse the internet?",
+            optionA: "Compiler",
+            optionB: "Browser",
+            optionC: "Editor",
+            optionD: "Spreadsheet",
+            correctAnswer: "Browser"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन सा सॉफ्टवेयर है जो उपयोगकर्ता को इंटरनेट ब्राउज़ करने की अनुमति देता है?",
+            optionA: "कम्पाइलर",
+            optionB: "ब्राउज़र",
+            optionC: "एडिटर",
+            optionD: "स्प्रेडशीट",
+            correctAnswer: "ब्राउज़र"
+        },
+    ],
+
+    [
+        {
+            // 7
+            question: "Which of the following is the function of the ALU (Arithmetic Logic Unit) in a computer?",
+            optionA: "Perform arithmetic operations",
+            optionB: "Manage input and output devices",
+            optionC: "Store data permanently",
+            optionD: "Control the entire computer system",
+            correctAnswer: "Perform arithmetic operations"
+        },
+
+        {
+            question: "कंप्यूटर में ALU (अरिथमैटिक लॉजिक यूनिट) का कार्य निम्नलिखित में से कौन सा कार्य है?",
+            optionA: "अंकगणितीय संचालन करना",
+            optionB: "इनपुट और आउटपुट उपकरणों का प्रबंधन करना",
+            optionC: "स्थायी रूप से डेटा स्टोर करना",
+            optionD: "पूरे कंप्यूटर सिस्टम को नियंत्रित करना",
+            correctAnswer: "अंकगणितीय संचालन करना"
+        },
+    ],
+
+    [
+        {
+            // 8
+            question: "Which type of computer memory is used to store data temporarily and is volatile?",
+            optionA: "ROM",
+            optionB: "Hard Disk",
+            optionC: "Flash Memory",
+            optionD: "RAM",
+            correctAnswer: "RAM"
+        },
+
+        {
+            question: "डेटा को अस्थायी रूप से संग्रहीत करने के लिए किस प्रकार की कंप्यूटर मेमोरी का उपयोग किया जाता है और जो वोलाटाइल है?",
+            optionA: "रोम",
+            optionB: "डार्ड डिस्क",
+            optionC: "फ्लैस मेमोरी",
+            optionD: "रैम",
+            correctAnswer: "रैम"
+        },
+    ],
+
+    [
+        {
+            // 9
+            question: "Which of the following is a common input device?",
+            optionA: "Printer",
+            optionB: "Monitor",
+            optionC: "Mouse",
+            optionD: "Speaker",
+            correctAnswer: "Mouse"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन एक सामान्य इनपुट डिवाइस है?",
+            optionA: "प्रिंटर",
+            optionB: "मॉनीटर",
+            optionC: "मॉउस",
+            optionD: "स्पीकर",
+            correctAnswer: "मॉउस"
+        },
+    ],
+
+    [
+        {
+            // 10
+            question: "Which of the following is a common output device?",
+            optionA: "Keyboard",
+            optionB: "Mouse",
+            optionC: "Printer",
+            optionD: "Scanner",
+            correctAnswer: "Printer"
+        },
+
+        {
+           question: "निम्नलिखित में से कौन एक सामान्य आउटपुट डिवाइस है?",
+           optionA: "कीबोर्ड",
+           optionB: "मॉउस",
+           optionC: "प्रिंटर",
+           optionD: "स्कैनर",
+           correctAnswer: "प्रिंटर"
+        },
+    ],
+
+    [
+        {
+            // 11
+            question: "Which device is used to connect multiple computers in a network and allows them to communicate?",
+            optionA: "Router",
+            optionB: "Switch",
+            optionC: "Hub",
+            optionD: "Modem",
+            correctAnswer: "Switch"
+        },
+
+        {
+            question: "किसी नेटवर्क में कई कंप्यूटरों को कनेक्ट करने के लिए किस डिवाइस का उपयोग किया जाता है और उन्हें संवाद करने की अनुमति देता है?",
+            optionA: "राउटर",
+            optionB: "स्विच",
+            optionC: "हब",
+            optionD: "मॉडम",
+            correctAnswer: "स्विच"
+        },
+    ],
+
+    [
+        {
+            // 12
+            question: "What does IP stand for in networking?",
+            optionA: "Internet Protocol",
+            optionB: "Internal Protocol",
+            optionC: "Integrated Protocol",
+            optionD: "International Protocol",
+            correctAnswer: "Internet Protocol"
+        },
+
+        {
+            question: "नेटवर्किंग में आईपी क्या है?",
+            optionA: "इंटरनेट प्रोटोकॉल",
+            optionB: "इंटरनल प्रोटोकॉल",
+            optionC: "इंटीग्रेटेड प्रोटोकॉल",
+            optionD: "इंटरनेशनल प्रोटोकॉल",
+            correctAnswer: "इंटरनेट प्रोटोकॉल"
+        },
+    ],
+
+    [
+        {
+            // 13
+            question: "Which protocol is used for sending email over the internet?",
+            optionA: "FTP",
+            optionB: "SMTP",
+            optionC: "HTTP",
+            optionD: "POP3",
+            correctAnswer: "SMTP"
+        },
+
+        {
+            question: "इंटरनेट पर ईमेल भेजने के लिए किस प्रोटोकॉल का उपयोग किया जाता है?",
+            optionA: "एफ़.टी.पी.",
+            optionB: "एस.एम.टी.पी.",
+            optionC: "एच.टी.टी.पी.",
+            optionD: "पी.ओ.पी.थ्री",
+            correctAnswer: "एस.एम.टी.पी."
+        },
+    ],
+
+    [
+        {
+            // 14
+            question: "Which of the following is a valid IP address?",
+            optionA: "256.255.255.0",
+            optionB: "192.168.0.1",
+            optionC: "300.200.100.50",
+            optionD: "500.500.500.500",
+            correctAnswer: "192.168.0.1"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन एक मान्य आईपी पता है?",
+            optionA: "256.255.255.0",
+            optionB: "192.168.0.1",
+            optionC: "300.200.100.50",
+            optionD: "500.500.500.500",
+            correctAnswer: "192.168.0.1"
+        },
+    ],
+
+    [
+        {
+            // 15
+            question: "Which layer of the OSI model is responsible for data encryption and decryption?",
+            optionA: "Application Layer",
+            optionB: "Transport Layer",
+            optionC: "Session Layer",
+            optionD: "Presentation Layer",
+            correctAnswer: "Presentation Layer"
+        },
+
+        {
+            question: "OSI मॉडल का कौन सी लेयर डेटा एन्क्रिप्शन और डिक्रिप्शन के लिए जिम्मेदार है?",
+            optionA: "एप्लीकेशन लेयर",
+            optionB: "ट्रांसपोर्ट लेयर",
+            optionC: "सेशन लेयर",
+            optionD: "प्रेजेन्टेशन लेयर",
+            correctAnswer: "प्रेजेन्टेशन लेयर"
+        },
+    ],
+
+    [
+        {
+            // 16
+            question: "What is the maximum speed of an Ethernet connection using Cat-5 cables?",
+            optionA: "100 Mbps",
+            optionB: "10 Mbps",
+            optionC: "1 Gbps",
+            optionD: "100 Gbps",
+            correctAnswer: "100 Mbps"
+        },
+
+        {
+            question: "कैट-5 केबलों का उपयोग करके ईथरनेट कनेक्शन की अधिकतम गति क्या है?",
+            optionA: "100 Mbps",
+            optionB: "10 Mbps",
+            optionC: "1 Gbps",
+            optionD: "100 Gbps",
+            correctAnswer: "100 Mbps"
+        },
+    ],
+
+    [
+        {
+            // 17
+            question: "Which of the following is the function of a router in a network?",
+            optionA: "Connects different types of networks",
+            optionB: "Amplifies signals for long-distance communication",
+            optionC: "Acts as a firewall to protect the network",
+            optionD: "Routes email between different servers",
+            correctAnswer: "Connects different types of networks"
+        },
+
+        {
+            question: "एक नेटवर्क में राउटर का कार्य निम्नलिखित में से कौन सा है?",
+            optionA: "विभिन्न प्रकार के नेटवर्क को जोड़ता है",
+            optionB: "लंबी दूरी के संचार के लिए सिग्नल्स को बढ़ाता है",
+            optionC: "नेटवर्क की सुरक्षा के लिए एक फ़ायरवॉल के रूप में कार्य करता है",
+            optionD: "विभिन्न सर्वरों के बीच ईमेल संचालन करता है",
+            correctAnswer: "विभिन्न प्रकार के नेटवर्क को जोड़ता है"
+        },
+    ],
+
+    [
+        {
+            // 18
+            question: "What is the full form of DNS in networking?",
+            optionA: "Digital Network System",
+            optionB: "Domain Name System",
+            optionC: "Data Network Service",
+            optionD: "Domain Name Server",
+            correctAnswer: "Domain Name System"
+        },
+
+        {
+            question: "नेटवर्किंग में DNS का पूरा रूप क्या है?",
+            optionA: "डिजिटल नेटवर्क सिस्टम",
+            optionB: "डोमेन नेम सिस्टम",
+            optionC: "डॉटा नेटवर्क सर्विस",
+            optionD: "डोमेन नेम सर्वर",
+            correctAnswer: "डोमेन नेम सिस्टम"
+        },
+    ],
+
+    [
+        {
+            // 19
+            question: "What is the purpose of a firewall in a network?",
+            optionA: "To encrypt data",
+            optionB: "To route traffic between networks",
+            optionC: "To monitor and filter incoming and outgoing traffic",
+            optionD: "To provide wireless internet access",
+            correctAnswer: "To monitor and filter incoming and outgoing traffic"
+        },
+
+        {
+            question: "एक नेटवर्क में फ़ायरवॉल का उद्देश्य क्या है?",
+            optionA: "डेटा एन्क्रिप्ट करने के लिए",
+            optionB: "नेटवर्क के बीच यातायात को रूट करने के लिए",
+            optionC: "इनकमिंग और आउटगोइंग ट्रैफ़िक की निगरानी और फ़िल्टर करने के लिए",
+            optionD: "वायरलेस इंटरनेट एक्सेस प्रदान करने के लिए",
+            correctAnswer: "इनकमिंग और आउटगोइंग ट्रैफ़िक की निगरानी और फ़िल्टर करने के लिए"
+        },
+    ],
+
+    [
+        {
+            // 20
+            question: "Which of the following is an example of a wireless communication technology?",
+            optionA: "Ethernet",
+            optionB: "Wi-Fi",
+            optionC: "USB",
+            optionD: "HDMI",
+            correctAnswer: "Wi-Fi"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन वायरलेस संचार प्रौद्योगिकी का एक उदाहरण है?",
+            optionA: "ईथरनेट",
+            optionB: "वाई-फाई",
+            optionC: "यू.एस.बी.",
+            optionD: "एच.डी.एम.आई.",
+            correctAnswer: "वाई-फाई"
+        },
+    ],
+
+    [
+        {
+            // 21
+            question: "Which of the following network protocols operates at the Transport Layer of the OSI model?",
+            optionA: "HTTP",
+            optionB: "FTP",
+            optionC: "IP",
+            optionD: "TCP",
+            correctAnswer: "TCP"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन सा नेटवर्क प्रोटोकॉल OSI मॉडल की ट्रांसपोर्ट लेयर पर संचालित होता है?",
+            optionA: "एच.टी.टी.पी.",
+            optionB: "एफ़.टी.पी.",
+            optionC: "आई.पी.",
+            optionD: "टी.सी.पी.",
+            correctAnswer: "टी.सी.पी."
+        },
+    ],
+
+    [
+        {
+            // 22
+            question: "What does the term subnetting refer to in networking?",
+            optionA: "Dividing a large network into smaller subnetworks",
+            optionB: "Connecting multiple subnets together to form a larger network",
+            optionC: "Encrypting network traffic between subnets",
+            optionD: "Managing IP addresses for subnets",
+            correctAnswer: "Dividing a large network into smaller subnetworks"
+        },
+
+        {
+            question: "नेटवर्किंग में सबनेटिंग शब्द का उल्लेख क्या है?",
+            optionA: "एक बड़े नेटवर्क को छोटे सबनेटवर्क में विभाजित करना",
+            optionB: "एक बड़ा नेटवर्क बनाने के लिए कई सबनेट को एक साथ जोड़ना",
+            optionC: "सबनेट के बीच नेटवर्क ट्रैफ़िक एन्क्रिप्ट करना",
+            optionD: "सबनेट के लिए आईपी पते का प्रबंधन करना",
+            correctAnswer: "एक बड़े नेटवर्क को छोटे सबनेटवर्क में विभाजित करना"
+        },
+    ],
+
+    [
+        {
+            // 23
+            question: "Which of the following IP address classes is used for multicast communication?",
+            optionA: "Class A",
+            optionB: "Class B",
+            optionC: "Class D",
+            optionD: "Class E",
+            correctAnswer: "Class D"
+        },
+
+        {
+            question: "मल्टीकास्ट संचार के लिए निम्नलिखित आईपी एड्रेस की कक्षाओं में से किस का उपयोग किया जाता है?",
+            optionA: "क्लास ए",
+            optionB: "क्लास बी",
+            optionC: "क्लास डी",
+            optionD: "क्लास ई",
+            correctAnswer: "क्लास डी"
+        },
+    ],
+
+    [
+        {
+            // 24
+            question: "In the TCP/IP protocol suite, what is the role of the ARP (Address Resolution Protocol)?",
+            optionA: "It resolves domain names into IP addresses",
+            optionB: "It resolves IP addresses into MAC (Media Access Control) addresses",
+            optionC: "It resolves routing loops in a network",
+            optionD: "It converts digital signals to analog signals",
+            correctAnswer: "It resolves IP addresses into MAC (Media Access Control) addresses"
+        },
+
+        {
+            question: "टीसीपी/आईपी प्रोटोकॉल सूट में, ए.आर.पी. (एड्रेस रिज़ॉल्यूशन प्रोटोकॉल) की भूमिका क्या है ?",
+            optionA: "यह डोमेन नामों को आईपी एड्रेस में हल करता है",
+            optionB: "यह आईपी एड्रेस को मैक (मीडिया एक्सेस कंट्रोल) एड्रेस में हल करता है",
+            optionC: "यह एक नेटवर्क में रूटिंग कमियों को हल करता है",
+            optionD: "यह डिजिटल सिग्नल को एनालॉग सिग्नल में परिवर्तित करता है",
+            correctAnswer: "यह आईपी एड्रेस को मैक (मीडिया एक्सेस कंट्रोल) एड्रेस में हल करता है"
+        },
+    ],
+
+    [
+        {
+            // 25
+            question: "Which layer of the OSI model is responsible for routing packets between different networks?",
+            optionA: "Application Layer",
+            optionB: "Network Layer",
+            optionC: "Transport Layer",
+            optionD: "Data Link Layer",
+            correctAnswer: "Network Layer"
+        },
+
+        {
+            question: "OSI मॉडल की कौन सी परत विभिन्न नेटवर्क के बीच पैकेट को रूट करने के लिए जिम्मेदार है?",
+            optionA: "एप्लीकेशन लेयर",
+            optionB: "नेटवर्क लेयर",
+            optionC: "ट्रांसपोर्ट लेयर",
+            optionD: "डाटा लिंक लेयर",
+            correctAnswer: "नेटवर्क लेयर"
+        },
+    ],
+
+    [
+        {
+            // 26
+            question: "What is the main difference between IPv4 and IPv6?",
+            optionA: "IPv4 uses 128-bit addresses, while IPv6 uses 32-bit addresses",
+            optionB: "IPv6 is faster than IPv4",
+            optionC: "IPv4 uses 32-bit addresses, while IPv6 uses 128-bit addresses",
+            optionD: "IPv4 supports encryption, while IPv6 does not",
+            correctAnswer: "IPv4 uses 32-bit addresses, while IPv6 uses 128-bit addresses"
+        },
+
+        {
+            question: "IPv4 और IPv6 के बीच मुख्य अंतर क्या है?",
+            optionA: "IPv4 128-बिट पते का उपयोग करता है, जबकि IPv6 32-बिट पते का उपयोग करता है",
+            optionB: "IPv6, IPv4 की तुलना में तेज है",
+            optionC: "IPv4 32-बिट पते का उपयोग करता है, जबकि IPv6 128-बिट पते का उपयोग करता है",
+            optionD: "IPv4 एन्क्रिप्शन का समर्थन करता है, जबकि IPv6 नहीं करता है",
+            correctAnswer: "IPv4 32-बिट पते का उपयोग करता है, जबकि IPv6 128-बिट पते का उपयोग करता है"
+        },
+    ],
+
+    [
+        {
+            // 27
+            question: "Which protocol is used to securely access a remote computer over a network?",
+            optionA: "FTP",
+            optionB: "SSH",
+            optionC: "HTTP",
+            optionD: "SNMP",
+            correctAnswer: "SSH"
+        },
+
+        {
+            question: "किस प्रोटोकॉल का उपयोग किसी नेटवर्क पर एक दूरस्थ कंप्यूटर तक सुरक्षित पहुंचने के लिए किया जाता है?",
+            optionA: "एफ़.टी.पी.",
+            optionB: "एस.एस.एच.",
+            optionC: "एच.टी.टी.पी.",
+            optionD: "एस.एन.एम.पी.",
+            correctAnswer: "एस.एस.एच."
+        },
+    ],
+
+    [
+        {
+            // 28
+            question: "Which of the following statements best describes NAT (Network Address Translation)?",
+            optionA: "A technique to secure network traffic using encryption",
+            optionB: "A method to assign dynamic IP addresses to devices on a local network",
+            optionC: "A technique to map private IP addresses to a public IP address for internet access",
+            optionD: "A protocol used to route packets across different subnets",
+            correctAnswer: "A technique to map private IP addresses to a public IP address for internet access"
+        },
+
+        {
+           question: "निम्नलिखित में से कौन सा कथन NAT (नेटवर्क एड्रेस ट्रांसलेशन) का सबसे अच्छा वर्णन करता है?",
+           optionA: "एन्क्रिप्शन का उपयोग करके नेटवर्क ट्रैफ़िक को सुरक्षित करने के लिए एक तकनीक",
+           optionB: "एक स्थानीय नेटवर्क पर उपकरणों के लिए डॉयनामिक आईपी एड्रेस असाइन करने की एक विधि",
+           optionC: "इंटरनेट एक्सेस के लिए निजी आईपी एड्रेस को पब्लिक आईपी एड्रेस में मैप करने के लिए एक तकनीक",
+           optionD: "विभिन्न सबनेट में पैकेट को रूट करने के लिए एक प्रोटोकॉल",
+           correctAnswer: "इंटरनेट एक्सेस के लिए निजी आईपी एड्रेस को पब्लिक आईपी एड्रेस में मैप करने के लिए एक तकनीक"
+        },
+    ],
+
+    [
+        {
+            // 29
+            question: "What is the primary advantage of using IPv6 over IPv4 in networking?",
+            optionA: "IPv6 supports higher speeds than IPv4",
+            optionB: "IPv6 uses simpler routing protocols",
+            optionC: "IPv6 has a larger address space, solving the problem of address exhaustion in IPv4",
+            optionD: "IPv6 is more secure than IPv4",
+            correctAnswer: "IPv6 has a larger address space, solving the problem of address exhaustion in IPv4"
+        },
+
+        {
+            question: "नेटवर्किंग में IPv4 के स्थान पर IPv6 का उपयोग करने का प्राथमिक लाभ क्या है?",
+            optionA: "IPv6, IPv4 की तुलना में उच्च गति का समर्थन करता है",
+            optionB: "IPv6 सरल रूटिंग प्रोटोकॉल का उपयोग करता है",
+            optionC: "IPv6 अधिकतम एड्रेस के साथ, IPv4 में एड्रेस खत्म होने की समस्या को हल करता है",
+            optionD: "IPv6, IPv4 की तुलना में अधिक सुरक्षित है",
+            correctAnswer: "IPv6 अधिकतम एड्रेस के साथ, IPv4 में एड्रेस खत्म होने की समस्या को हल करता है"
+        },
+    ],
+
+    [
+        {
+            // 30
+            question: "Which of the following is the primary advantage of cache memory over RAM",
+            optionA: "Cache memory is cheaper than RAM",
+            optionB: "Cache memory is slower than RAM",
+            optionC: "Cache memory is located closer to the CPU and operates at a higher speed",
+            optionD: "Cache memory is volatile, unlike RAM",
+            correctAnswer: "Cache memory is located closer to the CPU and operates at a higher speed"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन सा रैम की अपेक्षा कैश मेमोरी का प्राथमिक लाभ है",
+            optionA: "कैश मेमोरी रैम से सस्ती है",
+            optionB: "कैश मेमोरी रैम की तुलना में धीमी है",
+            optionC: "कैश मेमोरी सीपीयू के करीब स्थित होती है और उच्च गति से संचालित होती है",
+            optionD: "रैम के विपरीत कैश मेमोरी वोलाटाइल है",
+            correctAnswer: "कैश मेमोरी सीपीयू के करीब स्थित होती है और उच्च गति से संचालित होती है"
+        },
+    ],
+
+    [
+        {
+            // 31
+            question: "What is the primary function of the Central Processing Unit (CPU) in a computer",
+            optionA: "Store data",
+            optionB: "Execute instructions",
+            optionC: "Display images",
+            optionD: "Control input devices",
+            correctAnswer: "Execute instructions"
+        },
+
+        {
+            question: "कंप्यूटर में सी.पी.यू. का प्राथमिक कार्य क्या है",
+            optionA: "डेटा संग्रहण",
+            optionB: "निर्देशों को निष्पादित करना",
+            optionC: "चित्र प्रदर्शित करना",
+            optionD: "इनपुट उपकरण का नियंत्रण",
+            correctAnswer: "निर्देशों को निष्पादित करना"
+        },
+    ],
+
+    [
+        {
+            // 32
+            question: "Which of the following is an example of an input device?",
+            optionA: "Printer",
+            optionB: "Keyboard",
+            optionC: "Monitor",
+            optionD: "Speaker",
+            correctAnswer: "Keyboard"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन एक इनपुट डिवाइस का एक उदाहरण है?",
+            optionA: "प्रिंटर",
+            optionB: "कीबोर्ड",
+            optionC: "मॉनीटर",
+            optionD: "स्पीकर",
+            correctAnswer: "कीबोर्ड"
+        },
+    ],
+
+    [
+        {
+            // 33
+            question: "Which of the following is considered software?",
+            optionA: "Mouse",
+            optionB: "RAM",
+            optionC: "Windows OS",
+            optionD: "Printer",
+            correctAnswer: "Windows OS"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन सा सॉफ्टवेयर है?",
+            optionA: "माउस",
+            optionB: "रैम",
+            optionC: "विंडोज ओ.एस.",
+            optionD: "प्रिंटर",
+            correctAnswer: "विंडोज ओ.एस."
+        },
+    ],
+
+    [
+        {
+            // 34
+            question: "Which of these is an example of application software?",
+            optionA: "Windows 10",
+            optionB: "Linux",
+            optionC: "Microsoft Word",
+            optionD: "BIOS",
+            correctAnswer: "Microsoft Word"
+        },
+
+        {
+            question: "इनमें से कौन सा एप्लिकेशन सॉफ्टवेयर का एक उदाहरण है?",
+            optionA: "विंडोज 10",
+            optionB: "लिनक्स",
+            optionC: "माइक्रोसॉफ्ट वर्ड",
+            optionD: "बायोस",
+            correctAnswer: "माइक्रोसॉफ्ट वर्ड"
+        },
+    ],
+
+    [
+        {
+            // 35
+            question: "What does RAM stand for?",
+            optionA: "Read Only Memory",
+            optionB: "Random Access Memory",
+            optionC: "Read And Memory",
+            optionD: "Real-time Access Memory",
+            correctAnswer: "Random Access Memory"
+        },
+
+        {
+            question: "रैम का पूरा नाम",
+            optionA: "रीड ओनली मेमोरी",
+            optionB: "रैंडम एक्सेस मेमोरी",
+            optionC: "रीड एण्ड मेमोरी",
+            optionD: "रियल-टाइम एक्सेस मेमोरी",
+            correctAnswer: "रैंडम एक्सेस मेमोरी"
+        },
+    ],
+
+    [
+        {
+            // 36
+            question: "Which of the following is an example of an output device?",
+            optionA: "Microphone",
+            optionB: "Mouse",
+            optionC: "Printer",
+            optionD: "Keyboard",
+            correctAnswer: "Printer"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन एक आउटपुट डिवाइस का एक उदाहरण है?",
+            optionA: "माइक्रोफ़ोन",
+            optionB: "माउस",
+            optionC: "प्रिंटर",
+            optionD: "कीबोर्ड",
+            correctAnswer: "प्रिंटर"
+        },
+    ],
+
+    [
+        {
+            // 37
+            question: "Which of the following operating systems is open-source?",
+            optionA: "macOS",
+            optionB: "Windows",
+            optionC: "Linux",
+            optionD: "iOS",
+            correctAnswer: "Linux"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन सा ऑपरेटिंग सिस्टम ओपन-सोर्स है?",
+            optionA: "मैक ओ.एस.",
+            optionB: "विंडोज",
+            optionC: "लिनक्स",
+            optionD: "आई.ओ.एस.",
+            correctAnswer: "लिनक्स"
+        },
+    ],
+
+    [
+        {
+            // 38
+            question: "What is the primary function of the operating system?",
+            optionA: "To run applications",
+            optionB: "To manage hardware and software resources",
+            optionC: "To perform calculations",
+            optionD: "To input data",
+            correctAnswer: "To manage hardware and software resources"
+        },
+
+        {
+            question: "ऑपरेटिंग सिस्टम का प्राथमिक कार्य क्या है?",
+            optionA: "अनुप्रयोग चलाने के लिए",
+            optionB: "हार्डवेयर और सॉफ्टवेयर संसाधनों का प्रबंधन करने के लिए",
+            optionC: "गणना करने के लिए",
+            optionD: "इनपुट डेटा के लिए",
+            correctAnswer: "हार्डवेयर और सॉफ्टवेयर संसाधनों का प्रबंधन करने के लिए"
+        },
+    ],
+
+    [
+        {
+            // 39
+            question: "Which of these file extensions is associated with a video file?",
+            optionA: ".mp3",
+            optionB: ".jpg",
+            optionC: ".mp4",
+            optionD: ".txt",
+            correctAnswer: ".mp4"
+        },
+
+        {
+            question: "इनमें से कौन सा फ़ाइल एक्सटेंशन एक वीडियो फ़ाइल से जुड़ी है?",
+            optionA: ".एम.पी.3",
+            optionB: ".जे.पी.जी.",
+            optionC: ".एम.पी.4",
+            optionD: ".टी.एक्स.टी.",
+            correctAnswer: ".एम.पी.4"
+        },
+    ],
+
+    [
+        {
+            // 40
+            question: "Which of the following is NOT an example of a utility software?",
+            optionA: "Disk Cleanup",
+            optionB: "Antivirus software",
+            optionC: "Microsoft Excel",
+            optionD: "File Compression tools",
+            correctAnswer: "Microsoft Excel"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन एक यूटिलिटी सॉफ्टवेयर का उदाहरण नहीं है?",
+            optionA: "डिस्क क्लीनअप",
+            optionB: "एंटीवायरस सॉफ़्टवेयर",
+            optionC: "मॉइक्रोसॉफ्ट एक्सेल",
+            optionD: "फ़ाइल कम्प्रेशन टूल",
+            correctAnswer: "मॉइक्रोसॉफ्ट एक्सेल"
+        },
+    ],
+
+    [
+        {
+            // 41
+            question: "Which of the following is NOT part of the CPU?",
+            optionA: "Arithmetic Logic Unit (ALU)",
+            optionB: "Control Unit (CU)",
+            optionC: "Random Access Memory (RAM)",
+            optionD: "Registers",
+            correctAnswer: "Random Access Memory (RAM)"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन सीपीयू का हिस्सा नहीं है?",
+            optionA: "अंकगणितीय तर्क इकाई (ALU)",
+            optionB: "नियंत्रण यूनिट (CU)",
+            optionC: "रैंडम एक्सेस मेमोरी (RAM)",
+            optionD: "रजिस्टर",
+            correctAnswer: "रैंडम एक्सेस मेमोरी (RAM)"
+        },
+    ],
+
+    [
+        {
+            // 42
+            question: "Which of the following is the default file extension for Microsoft Word documents?",
+            optionA: ".docx",
+            optionB: ".xlsx",
+            optionC: ".pptx",
+            optionD: ".txt",
+            correctAnswer: ".docx"
+        },
+
+        {
+            question: "मॉइक्रोसॉफ्ट वर्ड दस्तावेज़ों के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन निम्नलिखित में से कौन सा है?",
+            optionA: ".docx",
+            optionB: ".xlsx",
+            optionC: ".pptx",
+            optionD: ".txt",
+            correctAnswer: ".docx"
+        },
+    ],
+
+    [
+        {
+            // 43
+            question: "Which of these is a type of non-volatile storage device?",
+            optionA: "RAM",
+            optionB: "Hard Drive",
+            optionC: "Cache",
+            optionD: "Register",
+            correctAnswer: "Hard Drive"
+        },
+
+        {
+            question: "इनमें से कौन एक प्रकार का नॉन-वोलाटाइल डिवाइस है?",
+            optionA: "रैम",
+            optionB: "हार्ड ड्राइव",
+            optionC: "कैश",
+            optionD: "रजिस्टर",
+            correctAnswer: "हार्ड ड्राइव"
+        },
+    ],
+
+    [
+        {
+            // 44
+            question: "What is the main advantage of SSD (Solid-State Drive) over HDD (Hard Disk Drive)?",
+            optionA: "Higher capacity",
+            optionB: "Lower cost",
+            optionC: "Faster speed",
+            optionD: "Longer lifespan",
+            correctAnswer: "Faster speed"
+        },
+
+        {
+            question: "HDD (हार्ड डिस्क ड्राइव) पर SSD (सॉलिड-स्टेट ड्राइव) का मुख्य लाभ क्या है?",
+            optionA: "उच्च क्षमता",
+            optionB: "कम लागत",
+            optionC: "तेज गति",
+            optionD: "कम जीवनकाल",
+            correctAnswer: "तेज गति"
+        },
+    ],
+
+    [
+        {
+            // 45
+            question: "Which of the following operating systems is specifically designed for mobile devices?",
+            optionA: "Windows 10",
+            optionB: "iOS",
+            optionC: "Linux",
+            optionD: "macOS",
+            correctAnswer: "iOS"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन सा ऑपरेटिंग सिस्टम विशेष रूप से मोबाइल उपकरणों के लिए डिज़ाइन किया गया है?",
+            optionA: "विंडोज 10",
+            optionB: "आईओएस",
+            optionC: "लिनक्स",
+            optionD: "मैक ओएस",
+            correctAnswer: "आईओएस"
+        },
+    ],
+
+    [
+        {
+            // 46
+            question: "Which of the following is an example of a wide-area network (WAN)?",
+            optionA: "A local Wi-Fi network in a home",
+            optionB: "A corporate LAN",
+            optionC: "The internet",
+            optionD: "A Bluetooth connection",
+            correctAnswer: "The internet"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन एक वाइड एरिया नेटवर्क (WAN) का एक उदाहरण है?",
+            optionA: "एक घर में एक स्थानीय वाई-फाई नेटवर्क",
+            optionB: "एक कॉर्पोरेट लैन",
+            optionC: "इंटरनेट",
+            optionD: "एक ब्लूटूथ कनेक्शन",
+            correctAnswer: "इंटरनेट"
+        },
+    ],
+
+    [
+        {
+            // 47
+            question: "Which operating system uses a taskbar for managing open applications?",
+            optionA: "macOS",
+            optionB: "Linux",
+            optionC: "Windows",
+            optionD: "iOS",
+            correctAnswer: "Windows"
+        },
+
+        {
+            question: "खुले अनुप्रयोगों के प्रबंधन के लिए कौन सा ऑपरेटिंग सिस्टम टास्कबार का उपयोग करता है?",
+            optionA: "मैक ओएस",
+            optionB: "लिनक्स",
+            optionC: "विंडोज",
+            optionD: "आईओएस",
+            correctAnswer: "विंडोज"
+        },
+    ],
+
+    [
+        {
+            // 48
+            question: "What is the purpose of an operating systems file management system?",
+            optionA: "To process instructions from applications",
+            optionB: "To provide security for the system",
+            optionC: "To manage the organization, storage, and retrieval of files",
+            optionD: "To install software",
+            correctAnswer: "To manage the organization, storage, and retrieval of files"
+        },
+
+        {
+            question: "एक ऑपरेटिंग सिस्टम फ़ाइल प्रबंधन प्रणाली का उद्देश्य क्या है?",
+            optionA: "अनुप्रयोगों से निर्देशों को संसाधित करने के लिए",
+            optionB: "सिस्टम के लिए सुरक्षा प्रदान करने के लिए",
+            optionC: "फाइलों के संगठन, भंडारण और पुनर्प्राप्ति का प्रबंधन करने के लिए",
+            optionD: "सॉफ़्टवेयर स्थापित करने के लिए",
+            correctAnswer: "फाइलों के संगठन, भंडारण और पुनर्प्राप्ति का प्रबंधन करने के लिए"
+        },
+    ],
+
+    [
+        {
+            // 49
+            question: "Which type of software is designed to interact directly with the hardware and manage the system?",
+            optionA: "Utility software",
+            optionB: "Application software",
+            optionC: "System software",
+            optionD: "Open source software",
+            correctAnswer: "System software"
+        },
+
+        {
+            question: "किस प्रकार के सॉफ़्टवेयर को सीधे हार्डवेयर के साथ बातचीत करने और सिस्टम का प्रबंधन करने के लिए डिज़ाइन किया गया है?",
+            optionA: "यूटिलिटी सॉफ़्टवेयर",
+            optionB: "एप्लिकेशन सॉफ़्टवेयर",
+            optionC: "सिस्टम सॉफ़्टवेयर",
+            optionD: "ओपन सोर्स सॉफ्टवेयर",
+            correctAnswer: "सिस्टम सॉफ़्टवेयर"
+        },
+    ],
+
+    [
+        {
+            // 50
+            question: "Which of the following is a method of sharing files over a Local Area Network (LAN)?",
+            optionA: "Bluetooth",
+            optionB: "Email",
+            optionC: "File sharing via networked folders",
+            optionD: "USB transfer",
+            correctAnswer: "File sharing via networked folders"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन लोकल एरिया नेटवर्क (LAN) पर फ़ाइलों को साझा करने की एक विधि है?",
+            optionA: "ब्लूटूथ",
+            optionB: "ईमेल",
+            optionC: "नेटवर्क फ़ोल्डर्स के माध्यम से फ़ाइल साझा करना",
+            optionD: "यूएसबी ट्रांसफर",
+            correctAnswer: "नेटवर्क फ़ोल्डर्स के माध्यम से फ़ाइल साझा करना"
+        },
+    ],
+
+    [
+        {
+            // 51
+            question: "Which of the following is the most common extension for executable files in Windows?",
+            optionA: ".exe",
+            optionB: ".bat",
+            optionC: ".dll",
+            optionD: ".zip",
+            correctAnswer: ".exe"
+        },
+
+        {
+            question: "विंडोज में निष्पादन योग्य फ़ाइलों के लिए निम्नलिखित में से कौन सा एक्सटेंशन है?",
+            optionA: ".exe",
+            optionB: ".bat",
+            optionC: ".dll",
+            optionD: ".zip",
+            correctAnswer: ".exe"
+        },
+    ],
+
+    [
+        {
+            // 52
+            question: "What is the primary function of the control unit (CU) within the CPU?",
+            optionA: "To store data",
+            optionB: "To perform arithmetic calculations",
+            optionC: "To direct the operation of the processor",
+            optionD: "To increase processor speed",
+            correctAnswer: "To direct the operation of the processor"
+        },
+
+        {
+            question: "CPU के भीतर कंट्रोल यूनिट (CU) का प्राथमिक कार्य क्या है?",
+            optionA: "डेटा संग्रहीत करना",
+            optionB: "अंकगणितीय गणना करना",
+            optionC: "प्रोसेसर के संचालन को निर्देशित करना",
+            optionD: "प्रोसेसर की गति बढ़ाना",
+            correctAnswer: "प्रोसेसर के संचालन को निर्देशित करना"
+        },
+    ],
+
+    [
+        {
+            // 53
+            question: "Which of the following is an open-source mobile operating system?",
+            optionA: "Android",
+            optionB: "iOS",
+            optionC: "Windows Phone",
+            optionD: "BlackBerry OS",
+            correctAnswer: "Android"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन एक ओपन-सोर्स मोबाइल ऑपरेटिंग सिस्टम है?",
+            optionA: "एंड्रॉइड",
+            optionB: "आईओएस",
+            optionC: "विंडोज फोन",
+            optionD: "ब्लैकबेरी ओएस",
+            correctAnswer: "एंड्रॉइड"
+        },
+    ],
+
+    [
+        {
+            // 54
+            question: "Which of the following is a characteristic of open-source software?",
+            optionA: "Closed source code",
+            optionB: "Free to use and modify",
+            optionC: "Paid software",
+            optionD: "Limited access to source code",
+            correctAnswer: "Free to use and modify"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन सा ओपन-सोर्स सॉफ्टवेयर की विशेषता है?",
+            optionA: "बंद सोर्स कोड",
+            optionB: "उपयोग करने और संशोधित करने की स्वतंत्रता",
+            optionC: "भुगतान आधारित सॉफ्टवेयर",
+            optionD: "सोर्स कोड तक सीमित पहुंच",
+            correctAnswer: "उपयोग करने और संशोधित करने की स्वतंत्रता"
+        },
+    ],
+
+    [
+        {
+            // 55
+            question: "What is the default file extension for image files captured by most digital cameras?",
+            optionA: "jpg",
+            optionB: "mp3",
+            optionC: "png",
+            optionD: "gif",
+            correctAnswer: "jpg"
+        },
+
+        {
+            question: "अधिकांश डिजिटल कैमरा द्वारा कैप्चर की गई छवि फ़ाइलों के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+            optionA: "jpg",
+            optionB: "mp3",
+            optionC: "png",
+            optionD: "gif",
+            correctAnswer: "jpg"
+        },
+    ],
+
+    [
+        {
+            // 56
+            question: "Which type of storage device is typically faster: SSD or HDD?",
+            optionA: "SSD",
+            optionB: "HDD",
+            optionC: "They are equally fast",
+            optionD: "It depends on the size of the storage",
+            correctAnswer: "SSD"
+        },
+
+        {
+            question: "किस प्रकार का स्टोरेज डिवाइस आमतौर पर तेज होता है: एसएसडी या एचडीडी?",
+            optionA: "एसएसडी",
+            optionB: "एचडीडी",
+            optionC: "वे समान रूप से तेज हैं",
+            optionD: "यह भंडारण के आकार पर निर्भर करता है",
+            correctAnswer: "एसएसडी"
+        },
+    ],
+
+    [
+        {
+            // 57
+            question: "Which file extension is typically associated with a PowerPoint presentation?",
+            optionA: "xlsx",
+            optionB: "pptx",
+            optionC: "docx",
+            optionD: "txt",
+            correctAnswer: "pptx"
+        },
+
+        {
+            question: "कौन सा फ़ाइल एक्सटेंशन आमतौर पर एक पावर प्वाइंट प्रेजेन्टेशन के साथ जुड़ा हुआ है?",
+            optionA: "xlsx",
+            optionB: "pptx",
+            optionC: "docx",
+            optionD: "txt",
+            correctAnswer: "pptx"
+        },
+    ],
+
+    [
+        {
+            // 58
+            question: "Which of the following is an example of a proprietary software",
+            optionA: "Apache Web Server",
+            optionB: "Google Chrome",
+            optionC: "Microsoft Word",
+            optionD: "Linux",
+            correctAnswer: "Microsoft Word"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन एक प्रोप्राइटरी सॉफ्टवेयर का एक उदाहरण है",
+            optionA: "अपाचे वेब सर्वर",
+            optionB: "गूगल क्रोम",
+            optionC: "माइक्रोसॉफ्ट वर्ड",
+            optionD: "लिनक्स",
+            correctAnswer: "माइक्रोसॉफ्ट वर्ड"
+        },
+    ],
+
+    [
+        {
+            // 59
+            question: "Which of the following is the primary function of the BIOS (Basic Input/Output System)",
+            optionA: "Store the operating system",
+            optionB: "Perform basic hardware initialization during boot-up",
+            optionC: "Manage user preferences and settings",
+            optionD: "Protect the computer from viruses",
+            correctAnswer: "Perform basic hardware initialization during boot-up"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन BIOS (बेसिक इनपुट/आउटपुट सिस्टम) का प्राथमिक कार्य है",
+            optionA: "ऑपरेटिंग सिस्टम को स्टोर करना",
+            optionB: "बूट-अप के दौरान बेसिक हार्डवेयर इनिशियलाइज़ेशन करना",
+            optionC: "उपयोगकर्ता वरीयताओं और सेटिंग्स को प्रबंधित करना",
+            optionD: "कंप्यूटर को वायरस से सुरक्षित रखना",
+            correctAnswer: "बूट-अप के दौरान बेसिक हार्डवेयर इनिशियलाइज़ेशन करना"
+        },
+    ],
+
+    [
+        {
+            // 60
+            question: "Which of the following is the fastest type of memory in a computer system?",
+            optionA: "RAM",
+            optionB: "Cache memory",
+            optionC: "Hard disk",
+            optionD: "SSD",
+            correctAnswer: "Cache memory"
+        },
+
+        {
+            question: "कंप्यूटर सिस्टम में सबसे तेज प्रकार की मेमोरी निम्नलिखित में से कौन सा है?",
+            optionA: "रैम",
+            optionB: "कैश मेमोरी",
+            optionC: "हार्ड डिस्क",
+            optionD: "एसएसडी",
+            correctAnswer: "कैश मेमोरी"
+        },
+    ],
+
+    [
+        {
+            // 61
+            question: "What is meaning of C in MICR",
+            optionA: "Code",
+            optionB: "Character",
+            optionC: "Copy",
+            optionD: "Convert",
+            correctAnswer: "Character"
+        },
+
+        {
+            question: "MICR में C का अर्थ क्या है",
+            optionA: "कोड",
+            optionB: "कैरेक्टर",
+            optionC: "कॉपी",
+            optionD: "कन्वर्ट",
+            correctAnswer: "कैरेक्टर"
+        },
+    ],
+
+    [
+        {
+            // 62
+            question: "Linux Operating system was developed by",
+            optionA: "Linus Torvalds",
+            optionB: "Ken Thompson",
+            optionC: "Dennis Ritchie",
+            optionD: "Bell Labs",
+            correctAnswer: "Linus Torvalds"
+        },
+
+        {
+            question: "लिनक्स ऑपरेटिंग सिस्टम किसके द्वारा विकसित किया गया था",
+            optionA: "लिनस टोरवाल्ड्स",
+            optionB: "केन थॉम्पसन",
+            optionC: "डेनिस रिची",
+            optionD: "बेल लैब्स",
+            correctAnswer: "लिनस टोरवाल्ड्स"
+        },
+    ],
+
+    [
+        {
+            // 63
+            question: "Which was the first network developed",
+            optionA: "NSFNET",
+            optionB: "ARPANET",
+            optionC: "MILNET",
+            optionD: "Ethernet",
+            correctAnswer: "ARPANET"
+        },
+
+        {
+            question: "पहला नेटवर्क विकसित किया गया था",
+            optionA: "NSFNET",
+            optionB: "ARPANET",
+            optionC: "MILNET",
+            optionD: "ईथरनेट",
+            correctAnswer: "ARPANET"
+        },
+    ],
+
+    [
+        {
+            // 64
+            question: "Full Name of IMEI",
+            optionA: "Internet Mobile Equipment Identity",
+            optionB: "International Mobile Equipment Information",
+            optionC: "International Mobile Equipment Identity",
+            optionD: "Internet Mobile Equipment Information",
+            correctAnswer: "International Mobile Equipment Identity"
+        },
+
+        {
+            question: "IMEI का पूरा नाम",
+            optionA: "इंटरनेट मोबाइल इक्यूपमेंट आइडेंटिटी",
+            optionB: "इंटरनेशनल मोबाइल इक्यूपमेंट इनफॉर्मेशन",
+            optionC: "इंटरनेशनल मोबाइल इक्यूपमेंट आइडेंटिटी",
+            optionD: "इंटरनेट मोबाइल इक्यूपमेंट इनफॉर्मेशन",
+            correctAnswer: "इंटरनेशनल मोबाइल इक्यूपमेंट आइडेंटिटी"
+        },
+    ],
+
+    [
+        {
+            // 65
+            question: "Full name of IDS",
+            optionA: "Intrusion Detection System",
+            optionB: "Internet Detection System",
+            optionC: "Intrusion Detection Software",
+            optionD: "Internet Detection Software",
+            correctAnswer: "Intrusion Detection System"
+        },
+
+        {
+            question: "आई.डी.एस. का पूरा नाम",
+            optionA: "इन्ट्रूजन डिटेक्शन सिस्टम",
+            optionB: "इंटरनेट डिटेक्शन सिस्टम",
+            optionC: "इन्ट्रूजन डिटेक्शन सॉफ्टवेयर",
+            optionD: "इंटरनेट डिटेक्शन सॉफ्टवेयर",
+            correctAnswer: "इन्ट्रूजन डिटेक्शन सिस्टम"
+        },
+    ],
+
+    [
+        {
+            // 66
+            question: "Full form of UTR",
+            optionA: "Unique Transport Reference",
+            optionB: "Unique Transaction Reference",
+            optionC: "Under Transaction Reference",
+            optionD: "Unique Transaction Report",
+            correctAnswer: "Unique Transaction Reference"
+        },
+
+        {
+            question: "यू.टी.आर. का पूरा रूप",
+            optionA: "यूनीक ट्रांसपोर्ट रिफरेंन्स",
+            optionB: "यूनीक ट्रांजेक्शन रिफरेंन्स",
+            optionC: "अन्डर रांजेक्शन रिफरेंन्स",
+            optionD: "यूनीक रांजेक्शन रिपोर्ट",
+            correctAnswer: "यूनीक ट्रांजेक्शन रिफरेंन्स"
+        },
+    ],
+
+    [
+        {
+            // 67
+            question: "ABRS stands for :",
+            optionA: "Aadhaar Based Reserve Service",
+            optionB: "Aadhaar Based Remittance Software",
+            optionC: "Aadhaar Based Reserve Software",
+            optionD: "Aadhaar Based Remittance Service",
+            correctAnswer: "Aadhaar Based Remittance Service"
+        },
+
+        {
+            question: "ए.बी.आर.एस. का पूर्ण रूप है:",
+            optionA: "आधार बेस्ड रिजर्व सर्विस",
+            optionB: "आधार बेस्ड रेमिटेन्श सॉफ्टवेयर",
+            optionC: "आधार बेस्ड रिजर्व सॉफ्टवेयर",
+            optionD: "आधार बेस्ड रेमिटेन्श सर्विस",
+            correctAnswer: "आधार बेस्ड रेमिटेन्श सर्विस"
+        },
+    ],
+
+    [
+        {
+            // 68
+            question: "Full form of EBCDIC",
+            optionA: "Extended Binary Coded Decimal Interchange Code",
+            optionB: "Extended Bit Coded Decimal Information Code",
+            optionC: "Extended Binary Coded Decimal Information Code",
+            optionD: "Extended Bit Coded Decimal Interchange Code",
+            correctAnswer: "Extended Binary Coded Decimal Interchange Code"
+        },
+
+        {
+            question: "EBCDIC का पूर्ण रूप",
+            optionA: "इक्सटेंडेड बाइनरी कोडेड डेसिमल इंटरचेंज कोड",
+            optionB: "इक्सटेंडेड बिट कोडेड डेसिमल इन्फॉर्मेशन कोड",
+            optionC: "इक्सटेंडेड बाइनरी कोडेड डेसिमल इन्फॉर्मेशन कोड",
+            optionD: "इक्सटेंडेड बिट कोडेड डेसिमल इंटरचेंज कोड",
+            correctAnswer: "इक्सटेंडेड बाइनरी कोडेड डेसिमल इंटरचेंज कोड"
+        },
+    ],
+
+    [
+        {
+            // 69
+            question: "Which is a Propritary Software",
+            optionA: "Linux",
+            optionB: "Windows",
+            optionC: "Ubuntu",
+            optionD: "Android",
+            correctAnswer: "Windows"
+        },
+
+        {
+            question: "कौन सा एक प्रोप्राइटरी सॉफ्टवेयर है",
+            optionA: "लिनक्सस",
+            optionB: "विंडोज",
+            optionC: "उबंटू",
+            optionD: "एंड्रॉइड",
+            correctAnswer: "विंडोज"
+        },
+    ],
+
+    [
+        {
+            // 70
+            question: "A private network within a company can be used to provide shared content for staff is known as",
+            optionA: "Extranet",
+            optionB: "Internet",
+            optionC: "Open-Source",
+            optionD: "Intranet",
+            correctAnswer: "Intranet"
+        },
+
+        {
+            question: "एक कंपनी के भीतर एक निजी नेटवर्क, जिसका उपयोग कर्मचारियों के लिए साझा सामग्री प्रदान करने के लिए किया जा सकता है",
+            optionA: "एक्स्ट्रानेट",
+            optionB: "इंटरनेट",
+            optionC: "ओपन-सोर्स",
+            optionD: "इंट्रानेट",
+            correctAnswer: "इंट्रानेट"
+        },
+    ],
+
+    [
+        {
+            // 71
+            question: "Shell is a ______",
+            optionA: "Hardware",
+            optionB: "Software",
+            optionC: "Storage",
+            optionD: "Account",
+            correctAnswer: "Software"
+        },
+
+        {
+            question: "शेल एक ______ है",
+            optionA: "हार्डवेयर",
+            optionB: "सॉफ़्टवेयर",
+            optionC: "भंडारण",
+            optionD: "खाता",
+            correctAnswer: "सॉफ़्टवेयर"
+        },
+    ],
+
+    [
+        {
+            // 72
+            question: "What is cipher text",
+            optionA: "Readable form of encrypted data",
+            optionB: "Non Readable form of encrypted data",
+            optionC: "Undecorated Text",
+            optionD: "Decorated Text",
+            correctAnswer: "Non Readable form of encrypted data"
+        },
+
+        {
+            question: "सिफर टेक्स्ट क्या है",
+            optionA: "एन्क्रिप्टेड डेटा का पठनीय रूप",
+            optionB: "एन्क्रिप्टेड डेटा का गैर पठनीय रूप",
+            optionC: "अविभाजित पाठ",
+            optionD: "सजाया हुआ पाठ",
+            correctAnswer: "एन्क्रिप्टेड डेटा का गैर पठनीय रूप"
+        },
+    ],
+
+    [
+        {
+            // 73
+            question: "The central processing unit",
+            optionA: "Is controlled by the input data entering the system",
+            optionB: "Is operated from the control panel",
+            optionC: "Controls all input, output and processing",
+            optionD: "Controls the auxiliary storage unit",
+            correctAnswer: "Controls all input, output and processing"
+        },
+
+        {
+            question: "सेन्ट्रल प्रोसेसिंग यूनिट",
+            optionA: "सिस्टम में प्रवेश करने वाले इनपुट डेटा द्वारा नियंत्रित किया जाता है",
+            optionB: "नियंत्रण कक्ष से संचालित होता है",
+            optionC: "सभी इनपुट, आउटपुट और प्रोसेसिंग को नियंत्रित करता है",
+            optionD: "सहायक भंडारण इकाई को नियंत्रित करता है",
+            correctAnswer: "सभी इनपुट, आउटपुट और प्रोसेसिंग को नियंत्रित करता है"
+        },
+    ],
+
+    [
+        {
+            // 74
+            question: "L1 is known as",
+            optionA: "DRAM",
+            optionB: "Primary Cache",
+            optionC: "Secondary Cache",
+            optionD: "SRAM",
+            correctAnswer: "Primary Cache"
+        },
+
+        {
+            question: "L1 के रूप में जाना जाता है",
+            optionA: "डी-रैम",
+            optionB: "प्राथमिक कैश",
+            optionC: "द्वितीयक कैश",
+            optionD: "एस-रैम",
+            correctAnswer: "प्राथमिक कैश"
+        },
+    ],
+
+    [
+        {
+            // 75
+            question: "Who invented Analytical engine",
+            optionA: "Charles Babbage",
+            optionB: "Blaise Pascal",
+            optionC: "Percy Edwin Ludgate",
+            optionD: "None of these",
+            correctAnswer: "Charles Babbage"
+        },
+
+        {
+            question: "जिसने विश्लेषणात्मक इंजन का आविष्कार किया",
+            optionA: "चार्ल्स बैबेज",
+            optionB: "ब्लाइस पास्कल",
+            optionC: "पर्सी एडविन लुडगेट",
+            optionD: "इनमें से कोई नहीं",
+            correctAnswer: "चार्ल्स बैबेज"
+        },
+    ],
+
+    [
+        {
+            // 76
+            question: "Which of the following devices can be used to input directly printed text",
+            optionA: "OCR",
+            optionB: "OMR",
+            optionC: "MICR",
+            optionD: "All of the above",
+            correctAnswer: "OCR"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन से डिवाइस का उपयोग सीधे मुद्रित पाठ को इनपुट करने के लिए किया जा सकता है",
+            optionA: "ओसीआर",
+            optionB: "ओएमआर",
+            optionC: "माइकर",
+            optionD: "ऊपर के सभी",
+            correctAnswer: "ओसीआर"
+        },
+    ],
+
+    [
+        {
+            // 77
+            question: "Who is the father of internet",
+            optionA: "Vint Cerf",
+            optionB: "Tim-Berners-Lee",
+            optionC: "Ray Tomlinson",
+            optionD: "Mark Anderson",
+            correctAnswer: "Vint Cerf"
+        },
+
+        {
+            question: "इंटरनेट का पिता कौन है",
+            optionA: "विंट सर्फ",
+            optionB: "टिम-बैरनर्स-ली",
+            optionC: "रे-टॉमलिंसन",
+            optionD: "मार्क एंडरसन",
+            correctAnswer: "विंट सर्फ"
+        },
+    ],
+
+    [
+        {
+            // 78
+            question: "WWWW stands for",
+            optionA: "World Wide Web World",
+            optionB: "World Wide Web Worm",
+            optionC: "World Wide Worm Web",
+            optionD: "None of these",
+            correctAnswer: "World Wide Web Worm"
+        },
+
+        {
+            question: "WWWW stands for",
+            optionA: "वर्ल्ड वाइड वेब वर्ल्ड",
+            optionB: "वर्ल्ड वाइड वेब वर्म",
+            optionC: "वर्ल्ड वाइड वर्म वेब",
+            optionD: "इनमें से कोई नहीं",
+            correctAnswer: "वर्ल्ड वाइड वेब वर्म"
+        },
+    ],
+
+    [
+        {
+            // 79
+            question: "What is warm boot",
+            optionA: "Shut down",
+            optionB: "Restart",
+            optionC: "Sleep",
+            optionD: "Hibernate",
+            correctAnswer: "Restart"
+        },
+
+        {
+            question: "गर्म बूट क्या है",
+            optionA: "शट डाउन",
+            optionB: "री-स्टार्ट",
+            optionC: "स्लीप",
+            optionD: "हाइबरनेट",
+            correctAnswer: "री-स्टार्ट"
+        },
+    ],
+
+    [
+        {
+            // 80
+            question: "Running multiple programs at the same time is called",
+            optionA: "Multi-Tasking",
+            optionB: "Single Tasking",
+            optionC: "Forground Tasking",
+            optionD: "Symmetric",
+            correctAnswer: "Multi-Tasking"
+        },
+
+        {
+            question: "एक ही समय में कई कार्यक्रम चलाना कहा जाता है",
+            optionA: "मल्टी टॉस्किंग",
+            optionB: "सिंगल टॉस्किंग",
+            optionC: "फोरग्राउण्ड टॉस्किंग",
+            optionD: "सममित",
+            correctAnswer: "मल्टी टॉस्किंग"
+        },
+    ],
+
+    [
+        {
+            // 81
+            question: "Name the protocol which uses port no 80",
+            optionA: "HTTP",
+            optionB: "FTP",
+            optionC: "SMTP",
+            optionD: "DNS",
+            correctAnswer: "HTTP"
+        },
+
+        {
+            question: "पोर्ट नं 80 का उपयोग करने वाले प्रोटोकॉल का नाम बताइए",
+            optionA: "एच.टी.टी.पी.",
+            optionB: "एफ.टी.पी.",
+            optionC: "एस.एम.टी.पी.",
+            optionD: "डी.एन.एस.",
+            correctAnswer: "एच.टी.टी.पी."
+        },
+    ],
+
+    [
+        {
+            // 82
+            question: "A device only used in LAN",
+            optionA: "NIC",
+            optionB: "Modem",
+            optionC: "Router",
+            optionD: "Gateway",
+            correctAnswer: "NIC"
+        },
+
+        {
+            question: "एक उपकरण केवल जो लैन में उपयोग किया जाता है",
+            optionA: "एन.आई.सी.",
+            optionB: "मोडम",
+            optionC: "रूटर",
+            optionD: "गेटवे",
+            correctAnswer: "एन.आई.सी."
+        },
+    ],
+
+    [
+        {
+            // 83
+            question: "Personal Computer is :",
+            optionA: "Mini Computer",
+            optionB: "Micro Computer",
+            optionC: "Mainframe Computer",
+            optionD: "None of the above",
+            correctAnswer: "Micro Computer"
+        },
+
+        {
+            question: "पर्सनल कंप्यूटर है:",
+            optionA: "मिनी कंप्यूटर",
+            optionB: "माइक्रो कंप्यूटर",
+            optionC: "मेनफ्रेम कंप्यूटर",
+            optionD: "इनमे से कोई भी नहीं",
+            correctAnswer: "माइक्रो कंप्यूटर"
+        },
+    ],
+
+    [
+        {
+            // 84
+            question: "The technology used in optical disks is ______",
+            optionA: "Reflective",
+            optionB: "Refractive",
+            optionC: "Laser Beam",
+            optionD: "Diffraction",
+            correctAnswer: "Laser Beam"
+        },
+
+        {
+            question: "ऑप्टिकल डिस्क में उपयोग की जाने वाली तकनीक ______ है",
+            optionA: "चिंतनशील",
+            optionB: "अपवर्तक",
+            optionC: "लेजर किरण",
+            optionD: "विवर्तन",
+            correctAnswer: "लेजर किरण"
+        },
+    ],
+
+    [
+        {
+            // 85
+            question: "Which is an Unit to measure printing quality",
+            optionA: "CPM",
+            optionB: "PPM",
+            optionC: "DPI",
+            optionD: "LPM",
+            correctAnswer: "DPI"
+        },
+
+        {
+            question: "प्रिटिंग की गुणवत्ता को मापने के लिए एक इकाई कौन सी है",
+            optionA: "CPM",
+            optionB: "PPM",
+            optionC: "DPI",
+            optionD: "LPM",
+            correctAnswer: "DPI"
+        },
+    ],
+
+    [
+        {
+            // 86
+            question: "Which is correct for Encryption",
+            optionA: "Security",
+            optionB: "Reliability",
+            optionC: "Privacy",
+            optionD: "None of these",
+            correctAnswer: "Privacy"
+        },
+
+        {
+            question: "एन्क्रिप्शन के लिए क्या सत्य है",
+            optionA: "सुरक्षा",
+            optionB: "विश्वसनीयता",
+            optionC: "गोपनीयता",
+            optionD: "इनमें से कोई नहीं",
+            correctAnswer: "गोपनीयता"
+        },
+    ],
+
+    [
+        {
+            // 87
+            question: "What is the full form of PDA",
+            optionA: "Private Digital Assistant",
+            optionB: "Personal Digital Assistant",
+            optionC: "Personal Data Assistant",
+            optionD: "Personal Data Access",
+            correctAnswer: "Personal Data Assistant"
+        },
+
+        {
+            question: "पीडीए का पूरा रूप क्या है",
+            optionA: "प्राइवेट डिजिटल असिस्टेंट",
+            optionB: "पर्सनल डिज़िटल असिस्टेंट",
+            optionC: "पर्सनल डाटा असिस्टेंट",
+            optionD: "पर्सनल डाटा एक्सेस",
+            correctAnswer: "पर्सनल डाटा असिस्टेंट"
+        },
+    ],
+
+    [
+        {
+            // 88
+            question: "2 Nibble is equal to",
+            optionA: "2 Bit",
+            optionB: "4 Bit",
+            optionC: "1 Byte",
+            optionD: "2 Byte",
+            correctAnswer: "1 Byte"
+        },
+
+        {
+            question: "2 निबल के बराबर है",
+            optionA: "2 बिट",
+            optionB: "4 बिट",
+            optionC: "1 बाइट",
+            optionD: "2 बाइट",
+            correctAnswer: "1 बाइट"
+        },
+    ],
+
+    [
+        {
+            // 89
+            question: "Computer viruses is developed by",
+            optionA: "By Nature",
+            optionB: "By Machine",
+            optionC: "By Humans",
+            optionD: "All of the above",
+            correctAnswer: "By Humans"
+        },
+
+        {
+            question: "कंप्यूटर वायरस कि्सके द्वारा विकसित किया जाता है",
+            optionA: "प्रकृति द्वारा",
+            optionB: "मशीन द्वारा",
+            optionC: "मनुष्यों द्वारा",
+            optionD: "ऊपर के सभी",
+            correctAnswer: "मनुष्यों द्वारा"
+        },
+    ],
+
+    [
+        {
+            // 90
+            question: "In Which generation AI was used",
+            optionA: "Second Generation",
+            optionB: "Third Generation",
+            optionC: "Fourth Generation",
+            optionD: "Fifth Generation",
+            correctAnswer: "Fifth Generation"
+        },
+
+        {
+            question: "किस पीढ़ी में एआई का इस्तेमाल किया गया था",
+            optionA: "द्वितीय पीढ़ी",
+            optionB: "तीसरी पीढ़ी",
+            optionC: "चौथी पीढ़ी",
+            optionD: "पांचवीं पीढ़ी",
+            correctAnswer: "पांचवीं पीढ़ी"
+        },
+    ],
+
+    [
+        {
+            // 91
+            question: "Standard protocol for sending mail is",
+            optionA: "MIME",
+            optionB: "POP",
+            optionC: "SMTP",
+            optionD: "IMAP",
+            correctAnswer: "SMTP"
+        },
+
+        {
+            question: "मेल भेजने के लिए मानक प्रोटोकॉल है",
+            optionA: "MIME",
+            optionB: "POP",
+            optionC: "SMTP",
+            optionD: "IMAP",
+            correctAnswer: "SMTP"
+        },
+    ],
+
+    [
+        {
+            // 92
+            question: "An IBM System/38 represents the computer class of _______",
+            optionA: "Small-scale computer",
+            optionB: "Large-scale computer",
+            optionC: "Super computer",
+            optionD: "None of these",
+            correctAnswer: "Small-scale computer"
+        },
+
+        {
+            question: "एक आईबीएम सिस्टम/38 _______ के कंप्यूटर वर्ग का प्रतिनिधित्व करता है",
+            optionA: "छोटे पैमाने का कंप्यूटर",
+            optionB: "बड़े पैमाने का कंप्यूटर",
+            optionC: "सुपर कंप्यूटर",
+            optionD: "इनमें से कोई नहीं",
+            correctAnswer: "छोटे पैमाने का कंप्यूटर"
+        },
+    ],
+
+    [
+        {
+            // 93
+            question: "Which of the following is not a Linux based operating system",
+            optionA: "Ubuntu",
+            optionB: "Red Hat",
+            optionC: "Cent OS",
+            optionD: "BSD",
+            correctAnswer: "BSD"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन सा लिनक्स आधारित ऑपरेटिंग सिस्टम नहीं है",
+            optionA: "उबंटू",
+            optionB: "रेड हैट",
+            optionC: "सेंट ओएस",
+            optionD: "बीएसडी",
+            correctAnswer: "बीएसडी"
+        },
+    ],
+
+    [
+        {
+            // 94
+            question: "Which device can be used instead of Hub",
+            optionA: "Router",
+            optionB: "Bridge",
+            optionC: "Switch",
+            optionD: "Gateway",
+            correctAnswer: "Switch"
+        },
+
+        {
+            question: "हब के स्थान पर किस डिवाइस का उपयोग किया जा सकता है",
+            optionA: "रूटर",
+            optionB: "ब्रिज",
+            optionC: "स्विच",
+            optionD: "गेटवे",
+            correctAnswer: "स्विच"
+        },
+    ],
+
+    [
+        {
+            // 95
+            question: "Which memory refreshes again and again",
+            optionA: "ROM",
+            optionB: "RAM",
+            optionC: "PROM",
+            optionD: "EPROM",
+            correctAnswer: "RAM"
+        },
+
+        {
+            question: "कौन सी मेमोरी बार-बार रिफ्रेश होती है",
+            optionA: "रोम",
+            optionB: "रैम",
+            optionC: "प्रॉम",
+            optionD: "इ-प्रॉम",
+            correctAnswer: "रैम"
+        },
+    ],
+
+    [
+        {
+            // 96
+            question: "Which was the worlds first mini computer",
+            optionA: "IBM System/36",
+            optionB: "PDP-11",
+            optionC: "PDP-1",
+            optionD: "VAX 11",
+            correctAnswer: "PDP-11"
+        },
+
+        {
+            question: "दुनिया का पहला मिनी कंप्यूटर था",
+            optionA: "आईबीएम सिस्टम/36",
+            optionB: "पीडीपी-11",
+            optionC: "पीडीपी-1",
+            optionD: "वैक्स 11",
+            correctAnswer: "पीडीपी -11"
+        },
+    ],
+
+    [
+        {
+            // 97
+            question: "Which is not an Antivirus",
+            optionA: "AVG",
+            optionB: "Bit defender",
+            optionC: "VLC",
+            optionD: "Norton",
+            correctAnswer: "VLC"
+        },
+
+        {
+            question: "कौन एक एंटीवायरस नहीं है",
+            optionA: "ए.वी.जी.",
+            optionB: "बिट डिफेंडर",
+            optionC: "वी.एल.सी.",
+            optionD: "नॉर्टन",
+            correctAnswer: "वी.एल.सी."
+        },
+    ],
+
+    [
+        {
+            // 98
+            question: "What memory does the CPU have",
+            optionA: "RAM",
+            optionB: "ROM",
+            optionC: "Registers",
+            optionD: "Cache Memory",
+            correctAnswer: "Registers"
+        },
+
+        {
+            question: "सीपीयू के पास कौन सी मेमोरी है",
+            optionA: "रैम",
+            optionB: "रोम",
+            optionC: "रजिस्टर्स",
+            optionD: "कैश मैमोरी",
+            correctAnswer: "रजिस्टर्स"
+        },
+    ],
+
+    [
+        {
+            // 99
+            question: "Domain name for educational institutions",
+            optionA: ".org",
+            optionB: ".int",
+            optionC: ".edu",
+            optionD: "All of the above",
+            correctAnswer: ".edu"
+        },
+
+        {
+            question: "शैक्षणिक संस्थानों के लिए डोमेन नाम",
+            optionA: ".org",
+            optionB: ".int",
+            optionC: ".edu",
+            optionD: "ऊपर के सभी",
+            correctAnswer: ".edu"
+        },
+    ],
+
+    [
+        {
+            // 100
+            question: "What is an IMEI number used for",
+            optionA: "For mobile identification",
+            optionB: "To avail phone facility",
+            optionC: "To call international",
+            optionD: "None of these",
+            correctAnswer: "For mobile identification"
+        },
+
+        {
+            question: "IMEI नंबर किस लिए उपयोग किया जाता है",
+            optionA: "मोबाइल पहचान के लिए",
+            optionB: "फोन की सुविधा का लाभ उठाने के लिए",
+            optionC: "अंतर्राष्ट्रीय को कॉल के लिए",
+            optionD: "इनमें से कोई नहीं",
+            correctAnswer: "मोबाइल पहचान के लिए"
+        },
+    ],
+
+    [
+        {
+            // 101
+            question: "What is the full form of PAN in a network",
+            optionA: "Private Area Network",
+            optionB: "Personal Area Network",
+            optionC: "Permanent Area Network",
+            optionD: "None of these",
+            correctAnswer: "Personal Area Network"
+        },
+
+        {
+            question: "एक नेटवर्क में पैन का पूरा रूप क्या है",
+            optionA: "प्राइवेट एरिया नेटवर्क",
+            optionB: "पर्सनल एरिया नेटवर्क",
+            optionC: "परमानेंट एरिया नेटवर्क",
+            optionD: "इनमें से कोई नहीं",
+            correctAnswer: "पर्सनल एरिया नेटवर्क"
+        },
+    ],
+
+
+    
+
+
+
+    // ****************************************************************
+
+    //          WRITER QUESTIONS
+
+    // *****************************************************************
+
+
+
+
+
+
+
+
+    [
+        {
+            // 1
+            question: "Which of the following is the correct sequence of steps required to insert a footer in a Libreoffice Writer document?",
+            optionA: "Insert > Footer > Default Style",
+            optionB: "Insert > Footer",
+            optionC: "Insert > Header and Footer > Footer > Default Style",
+            optionD: "Insert > Header and Footer > Footer",
+            correctAnswer: "Insert > Header and Footer > Footer > Default Style"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन एक लिब्रेऑफिस राइटर दस्तावेज़ में एक फुटर डालने के लिए आवश्यक चरणों का सही अनुक्रम है?",
+            optionA: "इन्सर्ट > फुटर > डिफॉल्ट स्टाइल",
+            optionB: "इन्सर्ट > फुटर",
+            optionC: "इन्सर्ट > हेडर एण्ड फुटर > फुटर > डिफॉल्ट स्टाइल",
+            optionD: "इन्सर्ट > हेडर एण्ड फुटर > फुटर",
+            correctAnswer: "इन्सर्ट > हेडर एण्ड फुटर > फुटर > डिफॉल्ट स्टाइल"
+        },
+    ],
+
+    [
+        {
+            // 2
+            question: "Which of the following is the default font in Libreoffice Writer?",
+            optionA: "New Times Roman",
+            optionB: "liberation serif",
+            optionC: "Cambria",
+            optionD: "Calibri",
+            correctAnswer: "liberation serif"
+        },
+
+        {
+            question: "लिब्रेऑफिस राइटर में डिफ़ॉल्ट फ़ॉन्ट निम्नलिखित में से कौन सा है?",
+            optionA: "New Times Roman",
+            optionB: "liberation serif",
+            optionC: "Cambria",
+            optionD: "Calibri",
+            correctAnswer: "liberation serif"
+        },
+    ],
+
+    [
+        {
+            // 3
+            question: "Which of the following is the extension of .odt? ",
+            optionA: "Calc",
+            optionB: "Writer",
+            optionC: "Impress",
+            optionD: "None of these",
+            correctAnswer: "Writer"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन .odt का एक्स्टेंशन है?",
+            optionA: "कैल्क",
+            optionB: "राइटर",
+            optionC: "इम्प्रेस",
+            optionD: "इनमें से कोई नहीं",
+            correctAnswer: "राइटर"
+        }
+    ],
+
+    [
+        {
+            // 4
+            question: "What is the shortcut key to print in Libreoffice?",
+            optionA: "CTRL + P",
+            optionB: "Shift + P",
+            optionC: "Alt + P",
+            optionD: "None of these",
+            correctAnswer: "CTRL + P"
+        },
+
+        {
+            question: "लिब्रेऑफिस में प्रिंट करने के लिए शॉर्टकट कुंजी क्या है?",
+            optionA: "CTRL + P",
+            optionB: "Shift + P",
+            optionC: "Alt + P",
+            optionD: "इनमें से कोई नहीं",
+            correctAnswer: "CTRL + P"
+        }
+    ],
+
+    [
+        {
+            // 5
+            question: "What is the shortcut key for hyperlink in libreoffice?",
+            optionA: "CTRL + L",
+            optionB: "CTRL + K",
+            optionC: "CTRL + C",
+            optionD: "CTRL + J",
+            correctAnswer: "CTRL + K"
+        },
+
+        {
+            question: "लिब्रेऑफिस में हाइपरलिंक के लिए शॉर्टकट कुंजी क्या है?",
+            optionA: "CTRL + L",
+            optionB: "CTRL + K",
+            optionC: "CTRL + C",
+            optionD: "CTRL + J",
+            correctAnswer: "CTRL + K"
+        }
+    ],
+
+    [
+        {
+            // 6
+            question: "If you want to share a document and you want people to just see it and not edit it,then who should you use?",
+            optionA: "ODT",
+            optionB: "DOCX",
+            optionC: "PDF",
+            optionD: "DOC",
+            correctAnswer: "PDF"
+        },
+
+        {
+            question: "यदि आप एक दस्तावेज़ साझा करना चाहते हैं और आप चाहते हैं कि लोग इसे देखें और इसे एडिट न करें, तो आपको किसका उपयोग करना चाहिए?",
+            optionA: "ODT",
+            optionB: "DOCX",
+            optionC: "PDF",
+            optionD: "DOC",
+            correctAnswer: "PDF"
+        }
+    ],
+
+    [
+        {
+            // 7
+            question: "What is the line given above a text?",
+            optionA: "Below line",
+            optionB: "Overline",
+            optionC: "Up line",
+            optionD: "Upper line",
+            correctAnswer: "Overline"
+        },
+
+        {
+            question: "किसी टेक्स्ट के ऊपर दी गई रेखा क्या है?",
+            optionA: "Below line",
+            optionB: "Overline",
+            optionC: "Up line",
+            optionD: "Upper line",
+            correctAnswer: "Overline"
+        }
+    ],
+
+    [
+        {
+            // 8
+            question: "Which shortcut key is used for restoring or refresh the view of the currant document after changing the anti-aliasing setting in libreoffice writer?",
+            optionA: "CTRL + shift + R",
+            optionB: "Shift + CTRL+ X",
+            optionC: "Shift + CTRL + S",
+            optionD: "Shift + F",
+            correctAnswer: "CTRL + shift + R"
+        },
+
+        {
+            question: "लिब्रेऑफिस राइटर में एंटी-अलियासिंग सेटिंग को बदलने के बाद करंट दस्तावेज़ के दृश्य को री-स्टोर करने या री-फ्रेश करने के लिए किस शॉर्टकट कुंजी का उपयोग किया जाता है?",
+            optionA: "CTRL + shift + R",
+            optionB: "Shift + CTRL+ X",
+            optionC: "Shift + CTRL + S",
+            optionD: "Shift + F",
+            correctAnswer: "CTRL + shift + R"
+        }
+    ],
+
+    [
+        {
+            // 9
+            question: "Libreoffice writer what is the shortcut of a hypertext?",
+            optionA: "CTRL + H",
+            optionB: "CTRL + K",
+            optionC: "CTRL + l",
+            optionD: "CTRL + shift + H",
+            correctAnswer: "CTRL + K"
+        },
+
+        {
+            question: "लिब्रेऑफिस राइटर में हाइपरटेक्स्ट का शॉर्टकट क्या है?",
+            optionA: "CTRL + H",
+            optionB: "CTRL + K",
+            optionC: "CTRL + l",
+            optionD: "CTRL + shift + H",
+            correctAnswer: "CTRL + K"
+        }
+    ],
+
+    [
+        {
+            // 10
+            question: "What is the key for closing the libreoffice window?",
+            optionA: "CTRL + Q",
+            optionB: "CTRL + W",
+            optionC: "CTRL + shift + W",
+            optionD: "None Of these",
+            correctAnswer: "CTRL + Q"
+        },
+
+        {
+            question: "लिब्रेऑफिस विंडो को बंद करने के लिए कुंजी क्या है?",
+            optionA: "CTRL + Q",
+            optionB: "CTRL + W",
+            optionC: "CTRL + shift + W",
+            optionD: "None Of these",
+            correctAnswer: "CTRL + Q"
+        }
+    ],
+
+    [
+        {
+            // 11 
+            question: "What is the shortcut key for paste Special Dialog box in libreoffice?",
+            optionA: "CTRL + shift + A",
+            optionB: "CTRL + shift + X",
+            optionC: "CTRL + shift + V",
+            optionD: "CTRL + V",
+            correctAnswer: "CTRL + shift + V"
+        },
+
+        {
+            question: "लिब्रेऑफिस में पेस्ट स्पेशल डॉयलॉग बॉक्स के लिए शॉर्टकट कुंजी क्या है?",
+            optionA: "CTRL + shift + A",
+            optionB: "CTRL + shift + X",
+            optionC: "CTRL + shift + V",
+            optionD: "CTRL + V",
+            correctAnswer: "CTRL + shift + V"
+        }
+    ],
+
+    [
+        {
+            // 12
+            question: "What is the shortcut key to copy an image in Libreoffice",
+            optionA: "Alt + C",
+            optionB: "CTRL + shift + C",
+            optionC: "CTRL + C",
+            optionD: "Tab + C",
+            correctAnswer: "CTRL + C"
+        },
+
+        {
+            question: "लिब्रेऑफिस में एक इमेज को कॉपी करने के लिए शॉर्टकट कुंजी क्या है",
+            optionA: "Alt + C",
+            optionB: "CTRL + shift + C",
+            optionC: "CTRL + C",
+            optionD: "Tab + C",
+            correctAnswer: "CTRL + C"
+        }
+    ],
+
+    [
+        {
+            // 13
+            question: "Which is a key combination to insert page breaks in libreoffice writer?",
+            optionA: "Shift + A",
+            optionB: "Tab",
+            optionC: "CTRL + Enter",
+            optionD: "CTRL + C",
+            correctAnswer: "CTRL + Enter"
+        },
+
+        {
+            question: "लिब्रेऑफिस राइटर में पेज ब्रेक लगाने के लिए एक महत्वपूर्ण शॉर्टकट कौन सा है?",
+            optionA: "Shift + A",
+            optionB: "Tab",
+            optionC: "CTRL + Enter",
+            optionD: "CTRL + C",
+            correctAnswer: "CTRL + Enter"
+        }
+    ],
+
+    [
+        {
+            // 14
+            question: "Libreoffice Writer has file extention for templates?",
+            optionA: ".ott",
+            optionB: ".doc",
+            optionC: ".odt",
+            optionD: ".odp",
+            correctAnswer: ".ott"
+        },
+
+        {
+            question: "लिब्रेऑफिस राइटर में टेम्प्लेट के लिए फाइल एक्सटेंशन है?",
+            optionA: ".ott",
+            optionB: ".doc",
+            optionC: ".odt",
+            optionD: ".odp",
+            correctAnswer: ".ott"
+        }
+    ],
+
+    [
+        {
+            // 15
+            question: "What is the maximum font size in libreoffice writer?",
+            optionA: "72",
+            optionB: "999.99",
+            optionC: "11",
+            optionD: "48",
+            correctAnswer: "999.99"
+        },
+
+        {
+            question: "लिब्रेऑफिस राइटर में अधिकतम फ़ॉन्ट साइज क्या है?",
+            optionA: "72",
+            optionB: "999.99",
+            optionC: "11",
+            optionD: "48",
+            correctAnswer: "999.99"
+        }
+    ],
+
+    [
+        {
+            // 16
+            question: "Letter writing, report preparation, document making, book writing etc. fall into which category?",
+            optionA: "Word Processing",
+            optionB: "Letter Posting",
+            optionC: "Blogging",
+            optionD: "Documentation",
+            correctAnswer: "Word Processing"
+        },
+
+        {
+            question: "पत्र लेखन, रिपोर्ट की तैयारी, दस्तावेज़ बनाना, पुस्तक लेखन आदि किस श्रेणी में आते हैं?",
+            optionA: "वर्ड प्रोसेसिंग",
+            optionB: "लेटर पोस्टिंग",
+            optionC: "ब्लॉगिंग",
+            optionD: "डॉक्यूमेंन्टेशन",
+            correctAnswer: "वर्ड प्रोसेसिंग"
+        }
+    ],
+
+    [
+        {
+            // 17
+            question: "What is the shortcut key for save as in libreoffice writer?",
+            optionA: "CTRL + SHIFT + S",
+            optionB: "CTRL + S",
+            optionC: "SHIFT + S",
+            optionD: "None of the above",
+            correctAnswer: "CTRL + SHIFT + S"
+        },
+
+        {
+            question: "लिब्रऑफिस राइटर में सेव ऐज के लिए शॉर्टकट कुंजी क्या है?",
+            optionA: "CTRL + SHIFT + S",
+            optionB: "CTRL + S",
+            optionC: "SHIFT + S",
+            optionD: "None of the above",
+            correctAnswer: "CTRL + SHIFT + S"
+        }
+    ],
+
+    [
+        {
+            // 18
+            question: "What is the shortcut key of Cut used in Libreoffice?",
+            optionA: "CTRL + C",
+            optionB: "CTRL + S",
+            optionC: "CTRL + X",
+            optionD: "CTRL + K",
+            correctAnswer: "CTRL + X"
+        },
+
+        {
+            question: "लिब्रेऑफिस में कट करने की शॉर्टकट कुंजी क्या है?",
+            optionA: "CTRL + C",
+            optionB: "CTRL + S",
+            optionC: "CTRL + X",
+            optionD: "CTRL + K",
+            correctAnswer: "CTRL + X"
+        }
+    ],
+
+    [
+        {
+            // 19
+            question: "What is the shortcut key for inserting a table in Libreoffice writer?",
+            optionA: "CTRL + F12",
+            optionB: "CTRL + F2",
+            optionC: "Crl + F1",
+            optionD: "None of the above",
+            correctAnswer: "CTRL + F12"
+        },
+
+        {
+            question: "लिब्रेऑफिस राइटर में एक टेबल इन्सर्ट करने के लिए शॉर्टकट कुंजी क्या है?",
+            optionA: "CTRL + F12",
+            optionB: "CTRL + F2",
+            optionC: "Crl + F1",
+            optionD: "इनमें से काई नहीं",
+            correctAnswer: "CTRL + F12"
+        }
+    ],
+
+    [
+        {
+            // 20
+            question: "What is the shortcut key to close the current window in libreoffice writer?",
+            optionA: "CTRL + Q",
+            optionB: "CTRL + W",
+            optionC: "CTRL + T",
+            optionD: "None of the above",
+            correctAnswer: "CTRL + W"
+        },
+
+        {
+            question: "लिब्रेऑफिस राइटर में वर्तमान विंडो को बंद करने के लिए शॉर्टकट कुंजी क्या है?",
+            optionA: "CTRL + Q",
+            optionB: "CTRL + W",
+            optionC: "CTRL + T",
+            optionD: "इनमें से कोई नहीं",
+            correctAnswer: "CTRL + W"
+        }
+    ],
+
+    [
+        {
+            // 21
+            question: "What is the Default margin in Libreoffice Writer?",
+            optionA: "0.50",
+            optionB: "0.79",
+            optionC: "0.20",
+            optionD: "0.70",
+            correctAnswer: "0.79"
+        },
+
+        {
+            question: "लिब्रेऑफिस राइटर में डिफ़ॉल्ट मार्जिन क्या है?",
+            optionA: "0.50",
+            optionB: "0.79",
+            optionC: "0.20",
+            optionD: "0.70",
+            correctAnswer: "0.79"
+        }
+    ],
+
+    [
+        {
+            // 22
+            question: "Libreoffice Writer has shortcut key to Redo?",
+            optionA: "CTRL + Z",
+            optionB: "CTRL + Y",
+            optionC: "CTRL + R",
+            optionD: "CTRL + shift + R",
+            correctAnswer: "CTRL + Y"
+        },
+
+        {
+            question: "लिब्रेऑफिस राइटर में रीडू के लिए शॉर्टकट कुंजी है?",
+            optionA: "CTRL + Z",
+            optionB: "CTRL + Y",
+            optionC: "CTRL + R",
+            optionD: "CTRL + shift + R",
+            correctAnswer: "CTRL + Y"
+        }
+    ],
+
+    [
+        {
+            // 23
+            question: "What is the shortcut key for Auto spell check used in Libreoffice Writer?",
+            optionA: "Shift + F7",
+            optionB: "CTRL + F7",
+            optionC: "Shift + F8",
+            optionD: "CTRL + Shift + F7",
+            correctAnswer: "Shift + F7"
+        },
+
+        {
+            question: "लिब्रेऑफिस राइटर में उपयोग किए जाने वाले ऑटो स्पेल चेक के लिए शॉर्टकट कुंजी क्या है?",
+            optionA: "Shift + F7",
+            optionB: "CTRL + F7",
+            optionC: "Shift + F8",
+            optionD: "CTRL + Shift + F7",
+            correctAnswer: "Shift + F7"
+        }
+    ],
+
+    [
+        {
+            // 24
+            question: "What is the Default font size in libreoffice Writer?",
+            optionA: "10",
+            optionB: "12",
+            optionC: "15",
+            optionD: "6",
+            correctAnswer: "12"
+        },
+
+        {
+            question: "लिब्रेऑफिस राइटर में डिफॉल्ट फॉन्ट साइज क्या होता है।",
+            optionA: "10",
+            optionB: "12",
+            optionC: "15",
+            optionD: "6",
+            correctAnswer: "12"
+        }
+    ],
+
+    [
+        {
+            // 25
+            question: "What is the maximum font size in libreoffice writer?",
+            optionA: "90",
+            optionB: "96",
+            optionC: "900",
+            optionD: "92",
+            correctAnswer: "96"
+        },
+
+        {
+            question: "लिब्रेऑफिस राइटर में अधिकतम फॉन्ट साइज क्या होता है।",
+            optionA: "90",
+            optionB: "96",
+            optionC: "900",
+            optionD: "92",
+            correctAnswer: "96"
+        }
+    ],
+
+    [
+        {
+            // 26
+            question: "In Libreoffice writer, mail merge option is in which menu?",
+            optionA: "Insert",
+            optionB: "Format",
+            optionC: "Tools",
+            optionD: "Form",
+            correctAnswer: "Tools"
+        },
+
+        {
+            question: "लिब्रेऑफिस राइटर में, मेल मर्ज विकल्प किस मेनू में है?",
+            optionA: "इन्सर्ट",
+            optionB: "फॉरमेट",
+            optionC: "टूल्स",
+            optionD: "फॉर्म",
+            correctAnswer: "टूल्स"
+        }
+    ],
+
+    [
+        {
+            // 27
+            question: "Which is the shortcut key to manage templates in libreoffice Writer?",
+            optionA: "CTRL + T",
+            optionB: "CTRL + Shift + N",
+            optionC: "Shift + N",
+            optionD: "CTRL + Z",
+            correctAnswer: "CTRL + Shift + N"
+        },
+
+        {
+            question: "लिब्रेऑफिस राइटर में टेम्प्लेट का प्रबंधन करने के लिए शॉर्टकट कुंजी कौन सी है?",
+            optionA: "CTRL + T",
+            optionB: "CTRL + Shift + N",
+            optionC: "Shift + N",
+            optionD: "CTRL + Z",
+            correctAnswer: "CTRL + Shift + N"
+        }
+    ],
+
+    [
+        {
+            // 28
+            question: "What is the minimum zoom percentage in libreoffice writer?",
+            optionA: "20%",
+            optionB: "30%",
+            optionC: "5%",
+            optionD: "15%",
+            correctAnswer: "20%"
+        },
+
+        {
+            question: "लिब्रेऑफिस राइटर में न्यूनतम ज़ूम प्रतिशत क्या है?",
+            optionA: "20%",
+            optionB: "30%",
+            optionC: "5%",
+            optionD: "15%",
+            correctAnswer: "20%"
+        }
+    ],
+
+    [
+        {
+            // 29
+            question: "What is the maximum font size in libreoffice writer? ",
+            optionA: "72",
+            optionB: "86",
+            optionC: "95",
+            optionD: "96",
+            correctAnswer: "96"
+        },
+
+        {
+            question: "लिब्रेऑफिस राइटर में अधिकतम फ़ॉन्ट आकार क्या है?",
+            optionA: "72",
+            optionB: "86",
+            optionC: "95",
+            optionD: "96",
+            correctAnswer: "96"
+        }
+
+
+    ],
+
+    [
+
+        {
+            //30
+            question: "What is the shortcut key of Superscript in libreoffice writer?",
+            optionA: "CTRL + Shift + P",
+            optionB: "CTRL + shift + B",
+            optionC: "CTRL + shift + S",
+            optionD: "CTRL + shift + D",
+            correctAnswer: "CTRL + Shift + P"
+        },
+
+        {
+            question: "लिब्रेऑफिस राइटर में सुपरस्क्रिप्ट की शॉर्टकट कुंजी क्या है?",
+            optionA: "CTRL + Shift + P",
+            optionB: "CTRL + shift + B",
+            optionC: "CTRL + shift + S",
+            optionD: "CTRL + shift + D",
+            correctAnswer: "CTRL + Shift + P"
+        }
+    ],
+
+    [
+        {
+            // 31
+            question: "What is the shortcut key for Autotext used in libreoffice writer?",
+            optionA: "CTRL + F3",
+            optionB: "CTRL + F4",
+            optionC: "CTRL + F2",
+            optionD: "CTRL + F1",
+            correctAnswer: "CTRL + F3"
+        },
+
+        {
+            question: "लिब्रेऑफिस राइटर में उपयोग किए जाने वाले ऑटोटेक्स्ट के लिए शॉर्टकट कुंजी क्या है?",
+            optionA: "CTRL + F3",
+            optionB: "CTRL + F4",
+            optionC: "CTRL + F2",
+            optionD: "CTRL + F1",
+            correctAnswer: "CTRL + F3"
+        }
+    ],
+
+
+    [
+        {
+            // 32
+            question: "Key combination CTRL + 3 is used for ______ in writer",
+            optionA: "AutoText",
+            optionB: "Auto complete",
+            optionC: "Heading 3",
+            optionD: "Triple Underline",
+            correctAnswer: "Heading 3"
+        },
+
+        {
+            question: "कुंजी संयोजन CTRL + 3 का उपयोग राइटर में ______ के लिए किया जाता है",
+            optionA: "ऑटोटेक्स्ट",
+            optionB: "ऑटो कम्प्लीट",
+            optionC: "हेडिंग 3",
+            optionD: "ट्रिपल अन्डरलाइन",
+            correctAnswer: "हेडिंग 3"
+        }
+    ],
+
+    [
+        {
+            // 32
+            question: "In Libreoffice writer, what is the default maximum size of the footnote?",
+            optionA: "1 inch",
+            optionB: "1.5 inch",
+            optionC: "2.5 inch",
+            optionD: "1.6 inch",
+            correctAnswer: "1 inch"
+        },
+
+        {
+            question: "लिब्रेऑफिस राइटर में, फुटनोट का डिफ़ॉल्ट अधिकतम आकार क्या है?",
+            optionA: "1 inch",
+            optionB: "1.5 inch",
+            optionC: "2.5 inch",
+            optionD: "1.6 inch",
+            correctAnswer: "1 inch"
+        }
+    ],
+
+    [
+        {
+            // 33
+            question: "What is shortcut key for double underline in libreoffice writer?",
+            optionA: "CTRL + SHIFT + D",
+            optionB: "CTRL + D",
+            optionC: "CTRL + U",
+            optionD: "CTRL + SHIFT + U",
+            correctAnswer: "CTRL + D"
+        },
+
+        {
+            question: "लिब्रेऑफिस राइटर में डबल अंडरलाइन के लिए शॉर्टकट कुंजी क्या है?",
+            optionA: "CTRL + SHIFT + D",
+            optionB: "CTRL + D",
+            optionC: "CTRL + U",
+            optionD: "CTRL + SHIFT + U",
+            correctAnswer: "CTRL + D"
+        }
+    ],  
+
+    [
+        {
+            // 34
+            question: "What is minimum font size in libreoffice writer?",
+            optionA: "16",
+            optionB: "6",
+            optionC: "2",
+            optionD: "3",
+            correctAnswer: "2"
+        },
+
+        {
+            question: "लिब्रेऑफिस  राइटर में न्यूनतम फ़ॉन्ट आकार क्या है?",
+            optionA: "16",
+            optionB: "6",
+            optionC: "2",
+            optionD: "3",
+            correctAnswer: "2"
+        }
+    ],
+
+
+    [
+        {
+            // 35
+            question: "What key is used to justify a paragraph?",
+            optionA: "CTRL + A",
+            optionB: "CTRL + J",
+            optionC: "CTRL + B",
+            optionD: "CTRL + C",
+            correctAnswer: "CTRL + J"
+        },
+
+        {
+            question: "एक पैराग्राफ को जस्टिफाइ करने के लिए किस कुंजी का उपयोग किया जाता है?",
+            optionA: "CTRL + A",
+            optionB: "CTRL + J",
+            optionC: "CTRL + B",
+            optionD: "CTRL + C",
+            correctAnswer: "CTRL + J"
+        }
+    ],
+
+
+    [
+        {
+            // 36
+            question: "The space left between the margin and the start of a paragraph is called____?",
+            optionA: "Spacing",
+            optionB: "Gutter",
+            optionC: "Indentation",
+            optionD: "Margin",
+            correctAnswer: "Indentation"
+        },
+
+        {
+            question: "मार्जिन और एक पैराग्राफ की शुरुआत के बीच छोड़ दिया गया स्थान ____ कहा जाता है?",
+            optionA: "स्पेस",
+            optionB: "गटर",
+            optionC: "इंडेन्टेशन",
+            optionD: "मार्जिन",
+            correctAnswer: "इंडेन्टेशन"
+        }
+    ],
+
+    [
+        {
+            // 37
+            question: "Which items are placed at the end of a document?",
+            optionA: "Footer",
+            optionB: "Header",
+            optionC: "End text",
+            optionD: "End Note",
+            correctAnswer: "End Note"
+        },
+
+        {
+            question: "किसी दस्तावेज़ के अंत में कौन से आइटम रखे गए हैं?",
+            optionA: "फुटर",
+            optionB: "हेडर",
+            optionC: "एण्ड टेक्स्ट",
+            optionD: "एण्ड नोट",
+            correctAnswer: "एण्ड नोट"
+        }
+    ],
+    
+    [
+        {
+            // 38
+            question: "A Number of text that appears little above the normal text is called?",
+            optionA: "Superscript",
+            optionB: "Supertext",
+            optionC: "Top text",
+            optionD: "Subscript",
+            correctAnswer: "Superscript"
+        },
+
+        {
+            question: "सामान्य पाठ से थोड़ा ऊपर दिखाई देने वाले टेक्स्ट को कहा जाता है?",
+            optionA: "सूपर स्क्रिप्ट",
+            optionB: "सूपर टेक्स्ट",
+            optionC: "टॉप टेक्स्ट",
+            optionD: "सब स्क्रिप्ट",
+            correctAnswer: "सूपर स्क्रिप्ट"
+        }
+    ],
+
+    [
+        {
+            // 39
+            question: "We can insert a page number at?",
+            optionA: "Footer",
+            optionB: "Header",
+            optionC: "Both A and B",
+            optionD: "None of these",
+            correctAnswer: "Both A and B"
+        },
+
+        {
+            question: "हम एक पृष्ठ संख्या _________ पर लगा सकते हैं?",
+            optionA: "फुटर",
+            optionB: "हेडर",
+            optionC: "A और B दोनों",
+            optionD: "इनमें से कोई नहीं",
+            correctAnswer: "A और B दोनों"
+        }
+    ],
+
+    [
+        {
+            // 40
+            question: "Libreoffice writer is a?",
+            optionA: "Word Processing Program",
+            optionB: "Spreadsheet Program",
+            optionC: "Presentation Program",
+            optionD: "None of the above",
+            correctAnswer: "Word Processing Program"
+        },
+
+        {
+            question: "लिब्रेऑफिस राइटर एक ________ है?",
+            optionA: "वर्ड प्रोसेसिंग प्रोग्राम",
+            optionB: "स्प्रेडशीट प्रोग्राम",
+            optionC: "प्रेजेंटेशन प्रोग्राम",
+            optionD: "इनमें से कोई नहीं",
+            correctAnswer: "वर्ड प्रोसेसिंग प्रोग्राम"
+        }
+    ],
+
+    [
+        {
+            // 41
+            question: "If you want to duplicate a selection of text, which button do you click?",
+            optionA: "Cut",
+            optionB: "Copy",
+            optionC: "Move",
+            optionD: "Duplicate",
+            correctAnswer: "Copy"
+        },
+
+        {
+            question: "यदि आप टेक्स्ट के चयन की नकल करना चाहते हैं, तो आप किस बटन पर क्लिक करते हैं?",
+            optionA: "कट",
+            optionB: "कॉपी",
+            optionC: "मूव",
+            optionD: "डुप्लीकेट",
+            correctAnswer: "कॉपी"
+        }
+    ],
+
+    [
+        {
+            // 42
+            question: "A Number of letter that appears little below the normal text is called?",
+            optionA: "Superscript",
+            optionB: "Subscript",
+            optionC: "Supertext",
+            optionD: "Top text",
+            correctAnswer: "Subscript"
+        },
+
+        {
+            question: "सामान्य पाठ से थोड़ा नीचे दिखाई देने वाले कई टेक्स्ट को कहा जाता है?",
+            optionA: "सूपर स्क्रिप्ट",
+            optionB: "सब स्क्रिप्ट",
+            optionC: "सूपरटेक्स्ट",
+            optionD: "टॉप टेक्स्ट",
+            correctAnswer: "सब स्क्रिप्ट"
+        }
+    ],
+
+    [
+        {
+            // 43
+            question: "To Delete the selected sentence, we can press the following key?",
+            optionA: "Backspace",
+            optionB: "Del",
+            optionC: "Both A and B",
+            optionD: "None of these",
+            correctAnswer: "Both A and B"
+        },
+
+        {
+            question: "चयनित वाक्य को डिलीट करने के लिये, हम निम्नलिखित कुंजी का उपयोग कर सकते है?",
+            optionA: "बैकस्पेस",
+            optionB: "डेल",
+            optionC: "A और B दोनों",
+            optionD: "इनमें से कोई नहीं",
+            correctAnswer: "A और B दोनों"
+        }
+    ],
+
+    [
+        {
+            // 44
+            question: "What is the smallest and largest font size available in formatting toolbar?",
+            optionA: "8 and 70",
+            optionB: "6 and 96",
+            optionC: "10 and 72",
+            optionD: "8 and 96",
+            correctAnswer: "6 and 96"
+        },
+
+        {
+            question: "फामेटिंग टूलबार में सबसे छोटा और सबसे बड़ा फ़ॉन्ट आकार कौनसा है?",
+            optionA: "8 और 70",
+            optionB: "6 और 96",
+            optionC: "10 और 72",
+            optionD: "8 और 96",
+            correctAnswer: "6 और 96"
+        }
+    ],
+
+    [
+        {
+            // 45
+            question: "What is the Default font size of a new writer document based on Normal template in libreoffice writer?",
+            optionA: "9pt",
+            optionB: "10pt",
+            optionC: "11pt",
+            optionD: "12pt",
+            correctAnswer: "12pt"
+        },
+
+        {
+            question: "लिब्रेऑफिस राइटर में सामान्य टेम्पलेट पर आधारित एक नए राइटर दस्तावेज़ का डिफ़ॉल्ट फ़ॉन्ट आकार क्या है?",
+            optionA: "9pt",
+            optionB: "10pt",
+            optionC: "11pt",
+            optionD: "12pt",
+            correctAnswer: "12pt"
+        }
+    ],
+
+    [
+        {
+            // 46
+            question: "How can you increase the font size of selected text?",
+            optionA: "CTRL + ;",
+            optionB: "CTRL + ]",
+            optionC: "CTRL + ,",
+            optionD: "CTRL + [",
+            correctAnswer: "CTRL + ]"
+        },
+
+        {
+            question: "आप चयनित टेक्स्ट के फ़ॉन्ट आकार को कैसे बढ़ा सकते हैं?",
+            optionA: "CTRL + ;",
+            optionB: "CTRL + ]",
+            optionC: "CTRL + ,",
+            optionD: "CTRL + [",
+            correctAnswer: "CTRL + ]"
+        }
+    ],
+
+    [
+        {
+            // 47
+            question: "Which option is used to close a file in libreoffice writer?",
+            optionA: "Exit",
+            optionB: "Quit",
+            optionC: "Close",
+            optionD: "None of these",
+            correctAnswer: "Close"
+        },
+
+        {
+            question: "लिब्रेऑफिस राइटर में एक फ़ाइल को बंद करने के लिए किस विकल्प का उपयोग किया जाता है?",
+            optionA: "ए्ग्जिट",
+            optionB: "क्विट",
+            optionC: "क्लोज",
+            optionD: "इनमें से कोई नहीं",
+            correctAnswer: "क्लोज"
+        }
+    ],
+
+    [
+        {
+            // 48
+            question: "Which would you choose to save a document with a new name?",
+            optionA: "Save as",
+            optionB: "Save",
+            optionC: "CTRL + S",
+            optionD: "None of the above ",
+            correctAnswer: "Save as"
+        },
+
+        {
+            question: "किसी डाक्यूमेंट को नये नाम से सेव करने के लिये किस विकल्प का चयन करेंगे?",
+            optionA: "सेव एज",
+            optionB: "सेव",
+            optionC: "CTRL + S",
+            optionD: "इनमे से कोई भी नहीं",
+            correctAnswer: "सेव एज"
+        }
+    ],
+
+    [
+        {
+            // 49
+            question: "To Copy selected text, press the key?",
+            optionA: "ALT + SHIFT + C",
+            optionB: "CTRL + SHIFT + V",
+            optionC: "CTRL + C",
+            optionD: "All of the above",
+            correctAnswer: "CTRL + C"
+        },
+
+        {
+            question: "चयनित टेक्स्ट को कॉपी करने के लिए, कुंजी दबाएं?",
+            optionA: "ALT + SHIFT + C",
+            optionB: "CTRL + SHIFT + V",
+            optionC: "CTRL + C",
+            optionD: "ऊपर के सभी",
+            correctAnswer: "CTRL + C"
+        }
+    ],
+
+    [
+        {
+            // 50
+            question: "Which enable us to send the same letter to different persons?",
+            optionA: "Macro",
+            optionB: "Mail Merge",
+            optionC: "Both A and B",
+            optionD: "None of the above",
+            correctAnswer: "Mail Merge"
+        },
+
+        {
+            question: "जो हमें अलग -अलग व्यक्तियों को एक ही पत्र भेजने में सक्षम बनाता है?",
+            optionA: "मेक्रो",
+            optionB: "मेल मर्ज",
+            optionC: "A और B दोनों",
+            optionD: "इनमें से कोई नहीं",
+            correctAnswer: "मेल मर्ज"
+        }
+    ],
+
+    [
+        {
+            // 51
+            question: "CTRL + W is used?",
+            optionA: "Save and Close Document",
+            optionB: "Save and Print the Document",
+            optionC: "Without Save, Close Document",
+            optionD: "Save Document",
+            correctAnswer: "Without Save, Close Document"
+        },
+
+        {
+            question: "CTRL + W का उपयोग किया जाता है?",
+            optionA: "सेव और क्लोज डॉक्यूमेन्ट",
+            optionB: "सेव और प्रिंट डॉक्यूमेन्ट",
+            optionC: "बिना सेव, क्लोज डॉक्यूमेन्ट",
+            optionD: "सेव डॉक्यूमेन्ट",
+            correctAnswer: "बिना सेव, क्लोज डॉक्यूमेन्ट"
+        }
+    ],
+
+    [
+        {
+            // 52
+            question: "Which of the following helps to reduce spelling error in the Document?",
+            optionA: "Auto Format",
+            optionB: "Auto Correct",
+            optionC: "Auto text",
+            optionD: "None of these",
+            correctAnswer: "Auto Correct"
+        },
+
+        {
+            question: "इनमे से किस विक्ल्प का उपयोग करके स्पेलिंग एरर को कम किया जा सकता है?",
+            optionA: "ऑटो फॉर्मेट",
+            optionB: "ऑटो करेक्ट",
+            optionC: "ऑटो टेक्स्ट",
+            optionD: "इनमें से कोई नहीं",
+            correctAnswer: "ऑटो करेक्ट"
+        }
+    ],
+
+    [
+        {
+            // 53
+            question: "Superscript, Subscript, outline, emboss, engrave are known as?",
+            optionA: "Text effects",
+            optionB: "Font effects",
+            optionC: "Font style",
+            optionD: "All of the above",
+            correctAnswer: "Text effects"
+        },
+
+        {
+            question: "सुपरस्क्रिप्ट, सबस्क्रिप्ट, रूपरेखा, एम्बॉस, इनगे्व के रूप में जाना जाता है?",
+            optionA: "टेक्स्ट इफेक्ट्स",
+            optionB: "फॉन्ट इफेक्ट्स",
+            optionC: "फॉन्ट स्टाइल",
+            optionD: "उपरोक्त सभी",
+            correctAnswer: "टेक्स्ट इफेक्ट्स"
+        }
+    ],
+
+    [
+        {
+            // 54
+            question: "Which operation you will perform if you need to move a block of text?",
+            optionA: "Cut and Paste",
+            optionB: "Copy and Paste",
+            optionC: "Paste and Cut",
+            optionD: "None of the above",
+            correctAnswer: "Cut and Paste"
+        },
+
+        {
+            question: "Which operation you will perform if you need to move a block of text?",
+            optionA: "Cut and Paste",
+            optionB: "Copy and Paste",
+            optionC: "Paste and Cut",
+            optionD: "None of the above",
+            correctAnswer: "Cut and Paste"
+        }
+    ],
+
+    [
+        {
+            // 55
+            question: "Landscape is?",
+            optionA: "Paper Size",
+            optionB: "A Font style",
+            optionC: "Page Orientation",
+            optionD: "Page layout",
+            correctAnswer: "Page Orientation"
+        },
+
+        {
+            question: "लैंडस्केप है ?",
+            optionA: "पेपर साइज",
+            optionB: "एक फांट साइज",
+            optionC: "पेज ओरिंटेशन",
+            optionD: "पेज लेआउट",
+            correctAnswer: "पेज ओरिंटेशन"
+        }
+    ],
+
+    [
+        {
+            // 56
+            question: "Selecting text means, selecting?",
+            optionA: "An entire sentence",
+            optionB: "A Word",
+            optionC: "Whole Document",
+            optionD: "All of the above",
+            correctAnswer: "All of the above"
+        },
+
+        {
+            question: "चयनित वाक्य से आशय, चयनित?",
+            optionA: "एक संपूर्ण वाक्य",
+            optionB: "एक शब्द",
+            optionC: "संपूर्ण डाक्यूमेंट",
+            optionD: "उपरोक्त सभी",
+            correctAnswer: "उपरोक्त सभी"
+        }
+    ],
+
+    [
+        {
+            // 57
+            question: "A character that is raised and smaller above the baseline is known as?",
+            optionA: "Capscript",
+            optionB: "Raised",
+            optionC: "Outlined",
+            optionD: "Superscript",
+            correctAnswer: "Superscript"
+        },
+
+        {
+            question: "आधार रेखा से ऊपर उठा हुआ और छोटा अक्षर क्या कहलाता है?",
+            optionA: "कैपस्क्रिप्ट",
+            optionB: "रेज्ड",
+            optionC: "आउटलाइन",
+            optionD: "सूपरस्क्रिप्ट",
+            correctAnswer: "सूपरस्क्रिप्ट"
+        }
+    ],
+
+    [
+        {
+            // 58
+            question: "CTRL + P used to?",
+            optionA: "Open Print Dialog Box",
+            optionB: "Open page Format Dialog box",
+            optionC: "Open save Dialog Box",
+            optionD: "Open paragraph Dialog Box",
+            correctAnswer: "Open Print Dialog Box"
+        },
+
+        {
+            question: "CTRL + P का उपयोग किया जाता है?",
+            optionA: "ओपेन प्रिंट डायलाॅग बाॅक्स",
+            optionB: "ओपेन पेज फॉर्मेट डायलाॅग बाॅक्स",
+            optionC: "ओपेन सेव डायलाॅग बाॅक्स",
+            optionD: "ओपेन पैराग्राफ डायलाॅग बाॅक्स",
+            correctAnswer: "ओपेन प्रिंट डायलाॅग बाॅक्स"
+        }
+    ],    
+     
+    [
+        {
+            // 59
+            question: "Change the _____ to create a document in wide format?",
+            optionA: "Page Margins",
+            optionB: "Page Orientation",
+            optionC: "Paper Style",
+            optionD: "Paper Source",
+            correctAnswer: "Page Orientation"
+        },
+
+        {
+            question: "Change the _____ to create a document in wide format?",
+            optionA: "पेज मार्जिन",
+            optionB: "पेज ओरिएन्टेशन",
+            optionC: "पेपर स्टाइल",
+            optionD: "पेपर सोर्स",
+            correctAnswer: "पेज ओरिएन्टेशन"
+        }
+    ],    
+     
+    [
+        {
+            // 60
+            question: "Where is the Commenting option in Libreoffice writer?",
+            optionA: "File",
+            optionB: "Edit",
+            optionC: "Format",
+            optionD: "Insert",
+            correctAnswer: "Insert"
+        },
+
+        {
+            question: "लिब्रेऑफिस राइटर में कमेंटिंग विकल्प कहाँ है?",
+            optionA: "फाइल",
+            optionB: "ए़डिट",
+            optionC: "फॉर्मेटt",
+            optionD: "इन्सर्ट",
+            correctAnswer: "इन्सर्ट"
+        }
+    ],     
+
+    [
+        {
+            // 61
+            question: "Shortcut of the activate Extension Manager in Libreoffice Writer is ______?",
+            optionA: "CTRL + E",
+            optionB: "CTRL + ALT + E",
+            optionC: "CTRL + SHIFT + E",
+            optionD: "CTRL + F9",
+            correctAnswer: "CTRL + ALT + E"
+        },
+
+        {
+            question: "लिब्रेऑफिस राइटरमें एक्सटेंशन मैनेजर को एक्टिवेट करने की शॉर्टकट कुंजी है_____?",
+            optionA: "CTRL + E",
+            optionB: "CTRL + ALT + E",
+            optionC: "CTRL + SHIFT + E",
+            optionD: "CTRL + F9",
+            correctAnswer: "CTRL + ALT + E"
+        }
+    ],    
+
+    [
+        {
+            // 62
+            question: "Shortcut key for save as is _________ ?",
+            optionA: "CTRL + S",
+            optionB: "CTRL + SHIFT + S",
+            optionC: "CTRL + ALT + S",
+            optionD: "None of these",
+            correctAnswer: "CTRL + SHIFT + S"
+        },
+
+        {
+            question: "सेव एज की शॉर्टकट कुंजी है _________ ?",
+            optionA: "CTRL + S",
+            optionB: "CTRL + SHIFT + S",
+            optionC: "CTRL + ALT + S",
+            optionD: "इनमें से कोई नही",
+            correctAnswer: "CTRL + SHIFT + S"
+        }
+    ],    
+
+    [
+        {
+            // 63
+            question: "Track change in Libreoffice does not allow to ______ ?",
+            optionA: "Merge Document",
+            optionB: "Compare Document",
+            optionC: "Record",
+            optionD: "Split Document",
+            correctAnswer: "Split Document"
+        },
+
+        {
+            question: " लिब्रेऑफिस राइटर में ट्रैक चेंजेस क्या करने की अनुमति नही देता ______ ?",
+            optionA: "मर्ज डाक्यूमेंट",
+            optionB: "कम्पेयर डाक्यूमेंट",
+            optionC: "रिकॉर्ड",
+            optionD: "स्प्लिट डाक्यूमेंट",
+            correctAnswer: "स्प्लिट डाक्यूमेंट"
+        }
+    ],    
+
+    [
+        {
+            // 64
+            question: "Libreoffice writer gives an option to export the document as ______ ?",
+            optionA: "PDF",
+            optionB: "EPUB",
+            optionC: "Both PDF and EPUB",
+            optionD: "Only JPG",
+            correctAnswer: "Both PDF and EPUB"
+        },
+
+        {
+            question: "लिब्रेऑफिस राइटर डाक्यूमेंट को एक्सपो ______ ?",
+            optionA: "PDF",
+            optionB: "EPUB",
+            optionC: "Both PDF और EPUB",
+            optionD: "Only JPG",
+            correctAnswer: "PDF और EPUB दोनो"
+        }
+    ],    
+
+    [
+        {
+            // 65
+            question: "Different meaning of word in a document can be searched from _______ ?",
+            optionA: "Distionary",
+            optionB: "Google",
+            optionC: "Thesaurus",
+            optionD: "spelling",
+            correctAnswer: "Thesaurus"
+        },
+
+        {
+            question: "एक डाक्यूमेंट में शब्द के अलग-अलग अर्थ खोजे जा सकते है _______ ?",
+            optionA: "डिक्सनरी",
+            optionB: "गूगल",
+            optionC: "थिसोरस",
+            optionD: "स्पेलिंग",
+            correctAnswer: "थिसोरस"
+        }
+    ],    
+
+    [
+        {
+            // 66
+            question: "Anchors can be placed to ________ ?",
+            optionA: "Character",
+            optionB: "Paragraph",
+            optionC: "Frame",
+            optionD: "All of the above",
+            correctAnswer: "All of the above"
+        },
+
+        {
+            question: "एंकर लगाया जा सकता है________ ?",
+            optionA: "कैरेक्टर",
+            optionB: "पैराग्राफ",
+            optionC: "फे्म",
+            optionD: "उपरोक्त सभी",
+            correctAnswer: "उपरोक्त सभी"
+        }
+    ],    
+
+    [
+        {
+            // 67
+            question: "Formatting marks can be toggled using ________ shortcut keys?",
+            optionA: "CTRL + F10",
+            optionB: "CTRL + F9",
+            optionC: "CTRL + F7",
+            optionD: "CTRL + F8",
+            correctAnswer: "CTRL + F10"
+        },
+
+        {
+            question: "फॉर्मेटिंग मार्क्स को ________ शॉर्टकट कुंजियों का उपयोग करके टॉगल किया जा सकता है?",
+            optionA: "CTRL + F10",
+            optionB: "CTRL + F9",
+            optionC: "CTRL + F7",
+            optionD: "CTRL + F8",
+            correctAnswer: "CTRL + F10"
+        }
+    ],    
+
+    [
+        {
+            // 68
+            question: "In order to Copy the format of the text document in another text document, we use?",
+            optionA: "Format painter",
+            optionB: "Copy formatting",
+            optionC: "Paint formatting",
+            optionD: "Clone Formatting",
+            correctAnswer: "Clone Formatting"
+        },
+
+        {
+            question: "किसी दस्तावेज़ में अन्य टेक्स्ट दस्तावेज़ के फॉर्मेट को कॉपी करने के लिए, हम उपयोग करते हैं?",
+            optionA: "फॉर्मेट पेंटर",
+            optionB: "कॉपी फॉर्मेटिंग",
+            optionC: "पेंट फॉर्मेटिंग",
+            optionD: "क्लोन फॉर्मेटिंग",
+            correctAnswer: "क्लोन फॉर्मेटिंग"
+        }
+    ],    
+
+    [
+        {
+            // 69
+            question: "To Digitally sign a document in Libreoffice writer we use Digital Signature option From _____ menu?",
+            optionA: "File",
+            optionB: "Edit",
+            optionC: "Insert",
+            optionD: "Tools",
+            correctAnswer: "File"
+        },
+
+        {
+            question: "लिब्रेऑफिस राइटर में एक दस्तावेज़ पर डिजिटल रूप से हस्ताक्षर करने के लिए हम _____ मेनू से डिजिटल हस्ताक्षर विकल्प का उपयोग करते हैं?",
+            optionA: "फ़ाइल",
+            optionB: "एडिट",
+            optionC: "इन्सर्ट",
+            optionD: "टूल्स",
+            correctAnswer: "फ़ाइल"
+        }
+    ],    
+
+    [
+        {
+            // 70
+            question: "Track Change in Libreoffice Writer does not allow one to ______ ?",
+            optionA: "Accept",
+            optionB: "Reject",
+            optionC: "Delete",
+            optionD: "Accept All",
+            correctAnswer: "Delete"
+        },
+
+        {
+            question: "लिब्रेऑफिस राइटर में ट्रैक चेंज ______ करने की अनुमति नहीं देता है?",
+            optionA: "स्वीकार करना",
+            optionB: "अस्वीकार करना",
+            optionC: "मिटाना",
+            optionD: "सभी स्वीकृत",
+            correctAnswer: "मिटाना"
+        }
+    ],    
+
+    [
+        {
+            // 71
+            question: "What is the Default location of Save File in libreoffice writer?",
+            optionA: "Desktop",
+            optionB: "Documents",
+            optionC: "Downloads",
+            optionD: "All of the above",
+            correctAnswer: "Documents"
+        },
+
+        {
+            question: "लिब्रेऑफिस राइटर में सेव फ़ाइल का डिफ़ॉल्ट स्थान क्या है?",
+            optionA: "डेस्कटॉप",
+            optionB: "डॉक्यूमेंट्स",
+            optionC: "डॉउनलोड्स",
+            optionD: "ऊपर के सभी",
+            correctAnswer: "डॉक्यूमेंट्स"
+        }
+    ],    
+
+    [
+        {
+            // 72
+            question: "In Libreoffice writer CTRL + SHIFT + F12 Shortcut key used for?",
+            optionA: "Unordered List",
+            optionB: "Ordered List",
+            optionC: "Definition List",
+            optionD: "No List",
+            correctAnswer: "No List"
+        },
+
+        {
+            question: "लिब्रेऑफिस राइटर में Ctrl + Shift + F12 शॉर्टकट कुंजी किसके लिए उपयोग किया जाता है?",
+            optionA: "अनऑर्डर लिस्ट",
+            optionB: "ऑर्डर लिस्ट",
+            optionC: "डिफनिशन लिस्ट",
+            optionD: "नो लिस्ट",
+            correctAnswer: "नो लिस्ट"
+        }
+    ],    
+
+    [
+        {
+            // 73
+            question: "In Libreoffice writer watermark option is available in which menu?",
+            optionA: "Insert",
+            optionB: "Edit",
+            optionC: "Format",
+            optionD: "Tool",
+            correctAnswer: "Format"
+        },
+
+        {
+            question: "लिब्रे ऑफिस राइटर में वॉटरमार्क विकल्प किस मेनू में उपलब्ध है?",
+            optionA: "इन्सर्ट",
+            optionB: "एडिट",
+            optionC: "फॉर्मेट",
+            optionD: "टूल्स",
+            correctAnswer: "फॉर्मेट"
+        }
+    ],    
+
+    [
+        {
+            // 74
+            question: "What is the purpose of style in libreoffice?",
+            optionA: "To Insert multimedia element",
+            optionB: "To format text and object consistently throughout a document",
+            optionC: "To create animations",
+            optionD: "To perform mathematical Calculations",
+            correctAnswer: "To format text and object consistently throughout a document"
+        },
+
+        {
+            question: "लिब्रे ऑफिस में स्टाइल का उद्देश्य क्या है?",
+            optionA: "मल्टीमीडिया तत्व डालने के लिए",
+            optionB: "एक दस्तावेज़ में लगातार टेक्स्ट और ऑब्जेक्ट को प्रारूपित करने के लिए",
+            optionC: "एनिमेशन बनाने के लिए",
+            optionD: "गणितीय गणना करने के लिए",
+            correctAnswer: "एक दस्तावेज़ में लगातार टेक्स्ट और ऑब्जेक्ट को प्रारूपित करने के लिए"
+        }
+    ],    
+
+    [
+        {
+            // 75
+            question: "What is the purpose of the header and footer feature in Libreoffice Writer?",
+            optionA: "To add page Number dates and other information to the top and bottom of each page",
+            optionB: "To insert Hyperlinks",
+            optionC: "To create bookmarks",
+            optionD: "To perform database queries",
+            correctAnswer: "To add page Number dates and other information to the top and bottom of each page"
+        },
+
+        {
+            question: "लिब्रे ऑफिस राइटर में हेडर और फूटर सुविधा का उद्देश्य क्या है?",
+            optionA: "प्रत्येक पृष्ठ के ऊपर और नीचे पृष्ठ संख्या दिनांक और अन्य जानकारी जोड़ने के लिए",
+            optionB: "हाइपरलिंक लगाने के लिए",
+            optionC: "बुकमार्क बनाने के लिए",
+            optionD: "डेटाबेस क्वेरी करने के लिए",
+            correctAnswer: "प्रत्येक पृष्ठ के ऊपर और नीचे पृष्ठ संख्या दिनांक और अन्य जानकारी जोड़ने के लिए"
+        }
+    ],    
+
+    [
+        {
+            // 76
+            question: "In which menu of libreoffice writer is the mail merge or letter wizard found?",
+            optionA: "Format",
+            optionB: "File",
+            optionC: "Tools",
+            optionD: "Insert",
+            correctAnswer: "Tools"
+        },
+
+        {
+            question: "लिब्रे ऑफिस राइटर के किस मेनू में मेल मर्ज या लेटर विज़ार्ड मिलता है?",
+            optionA: "फॉर्मेट",
+            optionB: "फाइल",
+            optionC: "टूल्स",
+            optionD: "इन्सर्ट",
+            correctAnswer: "टूल्स"
+        }
+    ],    
+
+    [
+        {
+            // 77
+            question: "What is the Shortcut key for insert table in Writer?",
+            optionA: "F12",
+            optionB: "CTRL + SHIFT + F12",
+            optionC: "CTRL + F11",
+            optionD: "CTRL + F12",
+            correctAnswer: "CTRL + F12"
+        },
+
+        {
+            question: "राइटर में टेबल सम्मिलित करने के लिए शॉर्टकट कुंजी क्या है?",
+            optionA: "F12",
+            optionB: "CTRL + SHIFT + F12",
+            optionC: "CTRL + F11",
+            optionD: "CTRL + F12",
+            correctAnswer: "CTRL + F12"
+        }
+    ],    
+
+    [
+        {
+            // 78
+            question: "What is the shortcut key for Auto text in libreoffice writer?",
+            optionA: "CTRL + F3",
+            optionB: "CTRL + F2",
+            optionC: "CTRL + 1",
+            optionD: "shift + F11",
+            correctAnswer: "CTRL + F3"
+        },
+
+        {
+            question: "लिब्रेऑफिस राइटर में ऑटो टेक्स्ट के लिए शॉर्टकट कुंजी क्या है?",
+            optionA: "CTRL + F3",
+            optionB: "CTRL + F2",
+            optionC: "CTRL + 1",
+            optionD: "shift + F11",
+            correctAnswer: "CTRL + F3"
+        }
+    ],    
+
+    [
+        {
+            // 79
+            question: "In Libreoffice Writer, Cut, Copy, Paste option in which menu?",
+            optionA: "File",
+            optionB: "Tools",
+            optionC: "Insert",
+            optionD: "Edit",
+            correctAnswer: "Edit"
+        },
+
+        {
+            question: "लिब्रेऑफिस राइटर में, कट, कॉपी, पेस्ट विकल्प किस मेनू में है?",
+            optionA: "फाइल",
+            optionB: "टूल्स",
+            optionC: "इन्सर्ट",
+            optionD: "एडिट",
+            correctAnswer: "एडिट"
+        }
+    ],    
+
+    [
+        {
+            // 80
+            question: "Which shortcut key is used to paste unformatted text?",
+            optionA: "CTRL + ALT + SHIFT + V",
+            optionB: "CTRL + SHIFT + ALT + P",
+            optionC: "CTRL + SHIFT + F5",
+            optionD: "None of these",
+            correctAnswer: "CTRL + ALT + SHIFT + V"
+        },
+
+        {   question: "किस शॉर्टकट कुंजी का उपयोग अनफॉर्मेटेड टेक्स्ट को पेस्ट करने के लिए किया जाता है?",
+            optionA: "CTRL + ALT + SHIFT + V",
+            optionB: "CTRL + SHIFT + ALT + P",
+            optionC: "CTRL + SHIFT + F5",
+            optionD: "इनमें से कोई नहीं",
+            correctAnswer: "CTRL + ALT + SHIFT + V"
+        }
+    ],    
+
+    [
+        {
+            // 81
+            question: "Shortcut key for line breaks in libreoffice writer?",
+            optionA: "Enter",
+            optionB: "Shift + Enter",
+            optionC: "CTRL + Enter",
+            optionD: "None of these",
+            correctAnswer: "Shift + Enter"
+        },
+
+        {
+            question: "लिब्रेऑफिस राइटर में लाइन ब्रेक के लिए शॉर्टकट कुंजी?",
+            optionA: "Enter",
+            optionB: "Shift + Enter",
+            optionC: "CTRL + Enter",
+            optionD: "इनमें से कोई नहीं",
+            correctAnswer: "Shift + Enter"
+        }
+    ],    
+
+    [
+        {
+            // 82
+            question: "What is the Primary purpose of using the Track change feature in Libreoffice Writer?",
+            optionA: "To adjust the font size and style of the document",
+            optionB: "To collaborate and review document change mode by multiple users",
+            optionC: "To automatically save the document at regular intervals",
+            optionD: "To Convert the document to a different file format",
+            correctAnswer: "To collaborate and review document change mode by multiple users"
+        },
+
+        {
+            question: "लिब्रेऑफिस राइटर में ट्रैक चेंजेस फीचर का उपयोग करने का प्राथमिक उद्देश्य क्या है?",
+            optionA: "डाक्यूमेंट के फ़ॉन्ट आकार और स्टाइल को समायोजित करने के लिए",
+            optionB: "कई उपयोगकर्ताओं द्वारा डाक्यूमेंट चेंज मोड का सहयोग और समीक्षा करने के लिए",
+            optionC: "नियमित अंतराल पर डाक्यूमेंटको स्वचालित रूप से सेव करने के लिए",
+            optionD: "डाक्यूमेंट को एक अलग फ़ाइल प्रारूप में बदलने के लिए",
+            correctAnswer: "कई उपयोगकर्ताओं द्वारा डाक्यूमेंट चेंज मोड का सहयोग और समीक्षा करने के लिए",
+        }
+    ],    
+
+    [
+        {
+            // 83
+            question: "To extend a selection to the beginning of the paragraph press?",
+            optionA: "CTRL + ALT + UP Arrow",
+            optionB: "ALT + SHIFT + UP Arrow",
+            optionC: "CTRL+ SHIFT + UP Arrow",
+            optionD: "CTRL + UP Arrow",
+            correctAnswer: "CTRL+ SHIFT + UP Arrow"
+        },
+
+        {
+            question: "पैराग्राफ प्रेस की शुरुआत के लिए एक चयन का विस्तार करने के लिए?",
+            optionA: "CTRL + ALT + UP Arrow",
+            optionB: "ALT + SHIFT + UP Arrow",
+            optionC: "CTRL+ SHIFT + UP Arrow",
+            optionD: "CTRL + UP Arrow",
+            correctAnswer: "CTRL+ SHIFT + UP Arrow"
+        }
+    ],    
+
+    [
+        {
+            // 84
+            question: "What is the shortcut key for Thesaurus in Libreoffice Writer?",
+            optionA: "F7",
+            optionB: "SHIFT + F7",
+            optionC: "CTRL + F7",
+            optionD: "None of these",
+            correctAnswer: "CTRL + F7"
+        },
+
+        {
+            question: "लिब्रेऑफिस राइटर में थिसाॅरस के लिए शॉर्टकट कुंजी क्या है?",
+            optionA: "F7",
+            optionB: "SHIFT + F7",
+            optionC: "CTRL + F7",
+            optionD: "इनमें से कोइ नही",
+            correctAnswer: "CTRL + F7"
+        }
+    ],    
+
+    [
+        {
+            // 85
+            question: "To exit from Libreoffice what is the shortcut key?",
+            optionA: "CTRL + E",
+            optionB: "CTRL + W",
+            optionC: "CTRL + T",
+            optionD: "CTRL + Q",
+            correctAnswer: "CTRL + Q"
+        },
+
+        {
+            question: "लिब्रेऑफिस से बाहर निकलने के लिए शॉर्टकट कुंजी क्या है?",
+            optionA: "CTRL + E",
+            optionB: "CTRL + W",
+            optionC: "CTRL + T",
+            optionD: "CTRL + Q",
+            correctAnswer: "CTRL + Q"
+        }
+    ],
+    
+    
+    [
+        {
+            // 86
+            question: "Shortcut to edit any formula in Writer Table",
+            optionA: "F1",
+            optionB: "F12",
+            optionC: "F2",
+            optionD: "F3",
+            correctAnswer: "F2"
+        },
+
+        {
+            question: "राइटर में टेबल के किसी भी सूत्र को एडिट करने के लिए शॉर्टकट",
+            optionA: "F1",
+            optionB: "F12",
+            optionC: "F2",
+            optionD: "F3",
+            correctAnswer: "F2"
+        }
+    ],
+
+    [
+        {
+            // 87
+            question: "Which style option is not available in Libreoffice writer?",
+            optionA: "Emphasis",
+            optionB: "Strong Emphasis",
+            optionC: "Quotation",
+            optionD: "Double Quotation",
+            correctAnswer: "Double Quotation"
+        },
+
+        {
+            question: "लिब्रेऑफिस राइटर में कौन सा स्टाइल विकल्प उपलब्ध नहीं है?",
+            optionA: "इम्फेसिस",
+            optionB: "स्टांग इम्फेसिस",
+            optionC: "कोटेशन",
+            optionD: "डबल कोटेशन",
+            correctAnswer: "डबल कोटेशन"
+        }
+    ],    
+
+    [
+        {
+            // 88
+            question: "Which is not true about Bookmarks?",
+            optionA: "Character cannot be used as a bookmarks name",
+            optionB: "Navigator is opened by F5 and jump to specific bookmarks",
+            optionC: "Lower list Impress using contain all the bookmarks in the current document",
+            optionD: "To delete a bookmark, select and press delete button",
+            correctAnswer: "To delete a bookmark, select and press delete button"
+        },
+
+        {
+            question: "बुकमार्क के बारे में सही नहीं है?",
+            optionA: "करेक्टर का उपयोग बुकमार्क नाम के रूप में नहीं किया जा सकता है",
+            optionB: "नेविगेटर F5 द्वारा खोला जाता है और विशिष्ट बुकमार्क पर पहुॅचा जाता है",
+            optionC: "लोअर लिस्ट इम्प्रेस का उपयोग करके वर्तमान डाॅक्यूमेंट में सभी बुकमार्क होते हैं",
+            optionD: "बुकमार्क को हटाने के लिए, डिलीट बटन का चयन करें और दबाएं",
+            correctAnswer: "बुकमार्क को हटाने के लिए, डिलीट बटन का चयन करें और दबाएं"
+        }
+    ],    
+
+    [
+        {
+            // 89
+            question: "It is not possible to Insert __________ in a document?",
+            optionA: "Image",
+            optionB: "Shape",
+            optionC: "Video",
+            optionD: "3D Model",
+            correctAnswer: "3D Model"
+        },
+
+        {
+            question: "एक दस्तावेज़ में __________ सम्मिलित करना संभव नहीं है?",
+            optionA: "इमेज",
+            optionB: "सेप",
+            optionC: "वीडियो",
+            optionD: "3D मॉडल",
+            correctAnswer: "3D मॉडल"
+        }
+    ],    
+
+    [
+        {
+            // 90
+            question: "Open remote option opens file from ________ ?",
+            optionA: "Desktop",
+            optionB: "Hard Disk",
+            optionC: "Pen Drive",
+            optionD: "Services",
+            correctAnswer: "Services"
+        },
+
+        {
+            question: "ओपन रिमोट विकल्प ______ से फ़ाइल खोलता है?",
+            optionA: "डेस्कटॉप",
+            optionB: "हार्ड डिस्क",
+            optionC: "पेन ड्राइव",
+            optionD: "सर्विसेज",
+            correctAnswer: "सर्विसेज"
+        }
+    ],    
+
+    [
+        {
+            // 91
+            question: "What can be done by inserting cross Reference in Libreoffice Writer?",
+            optionA: "Jumps to specific text passage",
+            optionB: "Insert referance as fields in the single document",
+            optionC: "Use object with caption bookmarks as target end",
+            optionD: "All of the above are possible",
+            correctAnswer: "All of the above are possible"
+        },
+
+        {
+            question: "लिब्रेऑफिस राइटर में क्रॉस रिफरेंस डालकर क्या किया जा सकता है?",
+            optionA: "विशिष्ट टेक्स्ट पैसेज पर जाना",
+            optionB: "एक दस्तावेज़ में फ़ील्ड के रूप में संदर्भ डालना",
+            optionC: "टारगेट के रूप में कैप्शन बुकमार्क के साथ ऑब्जेक्ट का उपयोग करना",
+            optionD: "उपरोक्त सभी संभव हैं",
+            correctAnswer: "उपरोक्त सभी संभव हैं"
+        }
+    ],    
+
+    [
+        {
+            // 92
+            question: "In Libreoffice writer, Ruler option is found in which menu?",
+            optionA: "Tools",
+            optionB: "View",
+            optionC: "File",
+            optionD: "Insert",
+            correctAnswer: "View"
+        },
+
+        {
+            question: "लिब्रेऑफिस राइटर में, रूलर विकल्प किस मेनू में पाया जाता है?",
+            optionA: "टूल्स",
+            optionB: "व्यू",
+            optionC: "फाइल",
+            optionD: "इन्सर्ट",
+            correctAnswer: "व्यू"
+        }
+    ],    
+
+    [
+        {
+            // 93
+            question: "Which two option in Libreoffice are used to specify Color?",
+            optionA: "RGB, CMYL",
+            optionB: "RGB, CMYK",
+            optionC: "RGB, RMYK",
+            optionD: "None of these",
+            correctAnswer: "RGB, CMYK"
+        },
+
+        {
+            question: "लिब्रेऑफिस में किस दो विकल्प का उपयोग रंग निर्दिष्ट करने के लिए किया जाता है?",
+            optionA: "RGB, CMYL",
+            optionB: "RGB, CMYK",
+            optionC: "RGB, RMYK",
+            optionD: "इनमें से कोई नहीं",
+            correctAnswer: "RGB, CMYK"
+        }
+    ],    
+
+    [
+        {
+            // 94
+            question: "Which of the following is not present in the status bar of Libreoffice writer?",
+            optionA: "Name of Computer",
+            optionB: "Total Page Number",
+            optionC: "Number of Characters",
+            optionD: "Total Words",
+            correctAnswer: "Name of Computer"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन सा लिब्रेऑफिस राइटर के स्टेट्स बार में मौजूद नहीं होता है?",
+            optionA: "कंप्यूटर का नाम",
+            optionB: "कुल पृष्ठ संख्या",
+            optionC: "वर्णों की संख्या",
+            optionD: "कुल शब्द",
+            correctAnswer: "कंप्यूटर का नाम"
+        }
+    ],    
+
+    [
+        {
+            // 95
+            question: "What is the shortcut for the style and formatting in Libreoffice Writer?",
+            optionA: "F11",
+            optionB: "F6",
+            optionC: "F12",
+            optionD: "F9",
+            correctAnswer: "F11"
+        },
+
+        {
+            question: "लिब्रेऑफिस राइटर में स्टाइल और फॉर्मेटिंग के लिए शॉर्टकट क्या है?",
+            optionA: "F11",
+            optionB: "F6",
+            optionC: "F12",
+            optionD: "F9",
+            correctAnswer: "F11"
+        }
+    ],    
+
+    [
+        {
+            // 96
+            question: "What is the shortcut key to full screen Libreoffice?",
+            optionA: "CTRL + SHIFT + J",
+            optionB: "CTRL + SHIFT + K",
+            optionC: "SHIFT + J",
+            optionD: "CTRL + SHIFT + F",
+            correctAnswer: "CTRL + SHIFT + J"
+        },
+
+        {
+            question: "लिब्रेऑफिस को पूर्ण स्क्रीन पर करने के लिए शॉर्टकट कुंजी क्या है?",
+            optionA: "CTRL + SHIFT + J",
+            optionB: "CTRL + SHIFT + K",
+            optionC: "SHIFT + J",
+            optionD: "CTRL + SHIFT + F",
+            correctAnswer: "CTRL + SHIFT + J"
+        }
+    ],    
+
+    [
+        {
+            // 97
+            question: "Maximum zoom percentage possible in Libreoffice writer?",
+            optionA: "100%",
+            optionB: "600%",
+            optionC: "400%",
+            optionD: "800%",
+            correctAnswer: "600%"
+        },
+
+        {
+            question: "लिब्रेऑफिस राइटर में अधिकतम ज़ूम प्रतिशत संभव है?",
+            optionA: "100%",
+            optionB: "600%",
+            optionC: "400%",
+            optionD: "800%",
+            correctAnswer: "600%"
+        }
+    ],    
+
+    [
+        {
+            // 98
+            question: "How many menus are found in Libreoffice Writer?",
+            optionA: "11",
+            optionB: "13",
+            optionC: "8",
+            optionD: "10",
+            correctAnswer: "11"
+        },
+
+        {
+            question: "लिब्रेऑफिस राइटर में कितने मेनू पाए जाते हैं?",
+            optionA: "11",
+            optionB: "13",
+            optionC: "8",
+            optionD: "10",
+            correctAnswer: "11"
+        }
+    ],    
+
+    [
+        {
+            // 99
+            question: "Which of the following is not a component of the Libreoffice suite?",
+            optionA: "Base",
+            optionB: "Writer",
+            optionC: "Impress",
+            optionD: "Explorer",
+            correctAnswer: "Explorer"
+        },
+
+        {
+            question: "निम्नलिखित में से कौन सा लिब्रेऑफिस सूट का एक घटक नहीं है?",
+            optionA: "बेस",
+            optionB: "राइटर",
+            optionC: "इम्प्रेस",
+            optionD: "एक्सप्रोरर",
+            correctAnswer: "एक्सप्रोरर"
+        }
+    ],    
+
+    [
+        {
+            // 100
+            question: "What is the Default file name in libreoffice writer?",
+            optionA: "ODT File",
+            optionB: "Untitled",
+            optionC: "New file",
+            optionD: "None of the above",
+            correctAnswer: "Untitled"
+        },
+
+        {
+            question: "लिब्रेऑफिस राइटर में डिफ़ॉल्ट फ़ाइल नाम क्या है?",
+            optionA: "ओ.डी.टी. फाइल",
+            optionB: "अन-टाइटल्ड",
+            optionC: "न्यू फाइल",
+            optionD: "इनमें से कोई नहीं",
+            correctAnswer: "अन-टाइटल्ड"
+        }
+    ],    
+
+   
+
+]
