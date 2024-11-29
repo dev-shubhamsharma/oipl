@@ -1,24 +1,13 @@
 const exams = [
     {
-        name :"Libreoffice Writer",
+        name :"IT Tools and Networking",
         totalQuestions : "100",
         timeInMinutes : "40",
         imgUrl : "images/writer.png",
-        id :"writer",
-        filename:"exam_questions/writer.js",
-        questionsAddedInFile:"100"
+        id :"it",
+        filename:"exam_questions/IT_tools_network.js",
+        questionsAddedInFile:"201"
 
     },
-
-    {
-        name :"Computer Basics and Network",
-        totalQuestions : "50",
-        timeInMinutes : "30",
-        imgUrl : "images/python.png",
-        id :"it",
-        filename:"exam_questions/it.js",
-        questionsAddedInFile:"101"
-
-    }
 
 ]
