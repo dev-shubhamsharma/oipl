@@ -5,7 +5,8 @@ var students = {
     "Vikas Maurya":"Vikas@oipl",
     "Alok Kumar Yadav":"Alok@oipl",
     "Alok Pandey":"Alok@oipl",
-    "Sadanand Yadav":"Sadanand@oipl"
+    "Sadanand Yadav":"Sadanand@oipl",
+    "Manoj Kumar":"Manoj@123",
     
     
 };
