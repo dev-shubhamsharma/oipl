@@ -1,12 +1,12 @@
 const exams = [
     {
-        name :"IT Tools and Networking",
+        name :"IT Tools and Writer",
         totalQuestions : "100",
-        timeInMinutes : "40",
+        timeInMinutes : "90",
         imgUrl : "images/writer.png",
         id :"it",
-        filename:"exam_questions/IT_tools_network.js",
-        questionsAddedInFile:"201"
+        filename:"exam_questions/chapter123.js",
+        questionsAddedInFile:"163"
 
     },
 
