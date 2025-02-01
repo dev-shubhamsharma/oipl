@@ -14,6 +14,22 @@ var students = {
     "Anurag":"Anurag@oipl",
     "Saroj Chauhan":"Saroj@oipl",
     "Anjana Maurya":"Anjana@oipl",
+    
+    "Mahesh Kumar":"Mahesh@123",
+    "Alok Pandey":"Alok@123",
+    "Prem Vishwakarma":"Prem@123",
+    "Akhilesh Yadav":"Akhilesh@123",
+    "Rohit Maurya":"Rohit@123",
+    "Shivnandan Sharma":"Shivnandan@123",
+    "Nauhar":"Nauhar@123",
+    "Dinesh Verma":"Dinesh@123",
+    "Amarjeet":"Amarjeet@123",
+    "Akash Kumar":"Akash@123",
+    "Gulzar Shah":"Gulzar@123",
+    "Nanbabu":"Nanbabu@123",
+    "Anand Kishor Goswami":"Anand@123",
+    // "":"",
+    
 
 
 
