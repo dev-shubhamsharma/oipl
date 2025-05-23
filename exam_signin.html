@@ -199,7 +199,7 @@
             </div>
             <p id="msg">User id or Password is incorrect</p>
         </div>
-        <button onclick="window.localStorage.clear();">x</button>
+        <button id="x-btn" style="display:none" onclick="window.localStorage.clear();">x</button>
     </main>
 
     <div class="preloader">
@@ -256,6 +256,7 @@
                     // alert("attempted found")
                     msg.innerHTML = "You have already attempted the Exam!"
                     msg.style.display = "block"    
+                    document.querySelector("x-btn").style.display = 'inline'
                 }
                 
                 
