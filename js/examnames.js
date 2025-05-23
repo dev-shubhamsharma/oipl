@@ -4,9 +4,9 @@ const exams = [
         totalQuestions : "100",
         timeInMinutes : "90",
         imgUrl : "images/writer.png",
-        id :"it",
+        id :"writer",
         filename:"exam_questions/writer.js",
-        questionsAddedInFile:"163"
+        questionsAddedInFile:"100"
 
     },
 
