@@ -9,5 +9,19 @@ var students = {
     "Manoj Kumar":"Manoj@123",
     "Shraddha Mishra":"Shraddha@123",
     
+    "Sakshi Mishra":"Sakshi@oipl",
+    "Divyanshi":"Divyanshi@oipl",
+    "Disha":"Disha@oipl",
+    "Azka Khan":"Azka@oipl",
+    "Saloni":"Saloni@oipl",
+    "Laxmi Verma":"Laxmi@oipl",
+    "Mukul Dwivedi":"Mukul@oipl",
+    "Abhishek Shukla":"Abhishek@oipl",
+    "Shivam Shukla":"Shivam@oipl",
+    "Shyambabu Pandey":"Shyam@oipl",
+    "Shiva":"Shiva@oipl",
+    "Vaibhav Singh":"Vaibhav@oipl",
+    "Prince Singh":"Prince@oipl",
+    
     
 };
