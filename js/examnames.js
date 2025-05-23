@@ -5,7 +5,7 @@ const exams = [
         timeInMinutes : "90",
         imgUrl : "images/writer.png",
         id :"it",
-        filename:"exam_questions/chapter123.js",
+        filename:"exam_questions/writer.js",
         questionsAddedInFile:"163"
 
     },
