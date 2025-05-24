@@ -57,6 +57,7 @@ var students = {
     "Priyanshu Shukla":"Priyanshu@123",
     "Vishal Mishra":"Vishal@123",
     "Laxmi Devi":"Laxmi@123",
+    "Prachi Tiwari":"Prachi@123",
     
     "Suneel Verma":"Suneel@123",
     "Sadhna Yadav":"Sadhna@123",
