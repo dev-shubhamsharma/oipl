@@ -44,7 +44,19 @@ var students = {
     "Vaibhav Singh":"Vaibhav@oipl",
     "Prince Singh":"Prince@oipl",
     
-    
+    "Anjali Kashyap":"Anjali@123",
+    "Mahi Sagar":"Mahi@123",
+    "Anju Kashyap":"Anju@123",
+    "Himali Pandey":"Himali@123",
+    "Aradhya Patwa":"Aradhya@123",
+    "Astha Kumari":"Astha@123",
+    "Umesh Tiwari":"Umesh@123",
+    "Vishal Shukla":"Vishal@123",
+    "Anuj Shukla":"Anuj@123",
+    "Anmol Ratan Tiwari":"Anmol@123",
+    "Priyanshu Shukla":"Priyanshu@123",
+    "Vishal Mishra":"Vishal@123",
+    "Laxmi Devi":"Laxmi@123",
     
     "Suneel Verma":"Suneel@123",
     "Sadhna Yadav":"Sadhna@123",
