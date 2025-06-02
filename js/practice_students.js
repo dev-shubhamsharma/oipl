@@ -22,6 +22,8 @@ var students = {
     "Shiva":"Shiva@oipl",
     "Vaibhav Singh":"Vaibhav@oipl",
     "Prince Singh":"Prince@oipl",
+
+    "Ramsagar Shahu":"Ram@oipl",
     
     
 };
