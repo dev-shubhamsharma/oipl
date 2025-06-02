@@ -28,6 +28,8 @@ var students = {
     "Gulzar Shah":"Gulzar@123",
     "Nanbabu":"Nanbabu@123",
     "Anand Kishor Goswami":"Anand@123",
+
+    "Ramsagar Shahu":"Ram@oipl",
     
     
     "Sakshi Mishra":"Sakshi@oipl",
