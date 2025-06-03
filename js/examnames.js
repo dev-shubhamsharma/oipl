@@ -13,7 +13,7 @@ const exams = [
         name :"Libreoffice Calc",
         totalQuestions : "100",
         timeInMinutes : "90",
-        imgUrl : "images/writer.png",
+        imgUrl : "images/calc.png",
         id :"calc",
         filename:"exam_questions/calc.js",
         questionsAddedInFile:"109"
