@@ -9,5 +9,15 @@ const exams = [
         questionsAddedInFile:"100"
 
     },
+    {
+        name :"Libreoffice Calc",
+        totalQuestions : "100",
+        timeInMinutes : "90",
+        imgUrl : "images/writer.png",
+        id :"calc",
+        filename:"exam_questions/calc.js",
+        questionsAddedInFile:"109"
+
+    },
 
 ]
