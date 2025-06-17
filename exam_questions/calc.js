@@ -2087,7 +2087,7 @@ const questions = [
             optionB: "0",
             optionC: "#DIV/0!",
             optionD: "10",
-            correctAnswer: "#Div/0!"
+            correctAnswer: "#DIV/0!"
         },
 
         {
