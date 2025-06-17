@@ -1,8 +1,8 @@
 const exams = [
     {
         name :"IT Tools and Writer",
-        totalQuestions : "100",
-        timeInMinutes : "90",
+        totalQuestions : "60",
+        timeInMinutes : "50",
         imgUrl : "images/writer.png",
         id :"writer",
         filename:"exam_questions/writer.js",
@@ -11,8 +11,8 @@ const exams = [
     },
     {
         name :"Libreoffice Calc",
-        totalQuestions : "100",
-        timeInMinutes : "90",
+        totalQuestions : "60",
+        timeInMinutes : "50",
         imgUrl : "images/calc.png",
         id :"calc",
         filename:"exam_questions/calc.js",
