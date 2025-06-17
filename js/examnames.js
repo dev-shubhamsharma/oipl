@@ -16,7 +16,7 @@ const exams = [
         imgUrl : "images/calc.png",
         id :"calc",
         filename:"exam_questions/calc.js",
-        questionsAddedInFile:"109"
+        questionsAddedInFile:"100"
 
     },
 
