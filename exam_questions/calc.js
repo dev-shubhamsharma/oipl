@@ -1622,10 +1622,10 @@ const questions = [
             // 80
             question: "Why does ###### appear in cells in Libreoffice Calc?",
             optionA: "The Formula used is wrong",
-            optionB: "The Cell's width is insufficient",
+            optionB: "The Cell\'s width is insufficient",
             optionC: "The data is not valid",
             optionD: "None of these",
-            correctAnswer: "The Cell's width is insufficient"
+            correctAnswer: "The Cell\'s width is insufficient"
         },
 
         {
@@ -1767,7 +1767,7 @@ const questions = [
     [
         {
             // 87
-            question: "If you have applied function =count('X','Y','Z',2,3) in Libreoffice Calc,what will be its result?",
+            question: "If you have applied function =count(\'X\',\'Y\',\'Z\',2,3) in Libreoffice Calc,what will be its result?",
             optionA: "5",
             optionB: "6",
             optionC: "2",
@@ -1776,7 +1776,7 @@ const questions = [
         },
 
         {
-            question: "यदि लिब्रेऑफिस कैल्क में आप यह फंक्शन =count('X','Y','Z',2,3) लगाते है तो इसका रिजल्ट क्या होगा?",
+            question: "यदि लिब्रेऑफिस कैल्क में आप यह फंक्शन =count(\'X\',\'Y\',\'Z\',2,3) लगाते है तो इसका रिजल्ट क्या होगा?",
             optionA: "5",
             optionB: "6",
             optionC: "2",
