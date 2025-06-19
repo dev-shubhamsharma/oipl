@@ -19,5 +19,15 @@ const exams = [
         questionsAddedInFile:"100"
 
     },
+    {
+        name :"Python Programming",
+        totalQuestions : "20",
+        timeInMinutes : "20",
+        imgUrl : "images/python.png",
+        id :"python",
+        filename:"exam_questions/python.js",
+        questionsAddedInFile:"20"
+
+    },
 
 ]
