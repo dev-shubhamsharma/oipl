@@ -422,13 +422,13 @@ const questions = [
 
     [
         {
-            // 1
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            // 21
+            question: "Which of the following is not a correct mode to open a file.",
+            optionA: "ab",
+            optionB: "rw",
+            optionC: "a+",
+            optionD: "r+",
+            correctAnswer: "rw"
         },
 
         {
@@ -443,13 +443,13 @@ const questions = [
 
     [
         {
-            // 1
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            // 22
+            question: "Which one of the following is the correct extension of the python file.",
+            optionA: ".python",
+            optionB: ".py",
+            optionC: ".p",
+            optionD: ".pyp",
+            correctAnswer: ".py"
         },
 
         {
@@ -464,13 +464,13 @@ const questions = [
 
     [
         {
-            // 1
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            // 23
+            question: "How do you close a file object(fp)",
+            optionA: "close(fp)",
+            optionB: "fclose(fp)",
+            optionC: "fp.close()",
+            optionD: "f.close(fp)",
+            correctAnswer: "fp.close()"
         },
 
         {
@@ -485,13 +485,13 @@ const questions = [
 
     [
         {
-            // 1
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            // 24
+            question: "How is a function declared in Python",
+            optionA: "def function function_name():",
+            optionB: "declare functon function_name():",
+            optionC: "def function_name():",
+            optionD: "declare function_name():",
+            correctAnswer: "def function_name():"
         },
 
         {
@@ -506,13 +506,13 @@ const questions = [
 
     [
         {
-            // 1
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            // 25
+            question: "Which of the following method is used to find the index of a specified element in a tuple.",
+            optionA: "index()",
+            optionB: "find()",
+            optionC: "search()",
+            optionD: "locate()",
+            correctAnswer: "index()"
         },
 
         {
@@ -527,13 +527,13 @@ const questions = [
 
     [
         {
-            // 1
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            // 26
+            question: "Which function is used to find the length of a string",
+            optionA: "len()",
+            optionB: "slen()",
+            optionC: "length()",
+            optionD: "strlen()",
+            correctAnswer: "len()"
         },
 
         {
@@ -548,13 +548,13 @@ const questions = [
 
     [
         {
-            // 1
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            // 27
+            question: "readlines() method returns ________",
+            optionA: "String",
+            optionB: "List",
+            optionC: "Dictionary",
+            optionD: "Tuple",
+            correctAnswer: "List"
         },
 
         {
@@ -569,13 +569,13 @@ const questions = [
 
     [
         {
-            // 1
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            // 28
+            question: "Which of the following declaration is incorrect",
+            optionA: "_x = 2",
+            optionB: "__x = 3",
+            optionC: "_xyz_ = 5",
+            optionD: "None of these",
+            correctAnswer: "None of these"
         },
 
         {
@@ -590,13 +590,13 @@ const questions = [
 
     [
         {
-            // 1
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            // 29
+            question: "Which term describes a loop that continues repeating without a terminating (ending) condition",
+            optionA: "Infinite loop",
+            optionB: "Conditional loop",
+            optionC: "Unlimited loop",
+            optionD: "None of these",
+            correctAnswer: "Infinite loop"
         },
 
         {
@@ -611,13 +611,13 @@ const questions = [
 
     [
         {
-            // 1
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            // 30
+            question: "Which symbol is used to represent the start & stop of a flowchart",
+            optionA: "arrow",
+            optionB: "rectangle",
+            optionC: "oval",
+            optionD: "diamond",
+            correctAnswer: "oval"
         },
 
         {
@@ -632,13 +632,13 @@ const questions = [
 
     [
         {
-            // 1
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
+            // 31
+            question: "____ immediately terminates the loop iteration",
+            optionA: "break",
+            optionB: "pass",
+            optionC: "continue",
+            optionD: "if",
+            correctAnswer: "continue"
         },
 
         {
