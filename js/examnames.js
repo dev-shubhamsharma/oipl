@@ -21,12 +21,12 @@ const exams = [
     },
     {
         name :"Python Programming",
-        totalQuestions : "20",
-        timeInMinutes : "20",
+        totalQuestions : "30",
+        timeInMinutes : "25",
         imgUrl : "images/python.png",
         id :"python",
         filename:"exam_questions/python.js",
-        questionsAddedInFile:"20"
+        questionsAddedInFile:"31"
 
     },
 
