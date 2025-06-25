@@ -3,12 +3,12 @@ const questions = [
     [
         {
             // 1
-            question: "_____ is a data file",
-            optionA: "Binary files",
-            optionB: "Text files",
-            optionC: "Both Binary files and Text files",
-            optionD: "None of the above",
-            correctAnswer: "Both Binary files and Text files"
+            question: "Which line of code correctly adds an item to the fruits dictionary with a key of 'grapes' and a value of 15?",
+            optionA: "fruits['grapes']",
+            optionB: "fruits['grapes'] = 15",
+            optionC: "insert 'grapes' in fruits",
+            optionD: "fruits[15] = 'grapes'",
+            correctAnswer: "fruits['grapes'] = 15"
         },
 
         {
@@ -24,12 +24,12 @@ const questions = [
     [
         {
             // 2
-            question: "Which line of code correctly adds an item to the fruits dictionary with a key of 'grapes' and a value of 15?",
-            optionA: "fruits['grapes']",
-            optionB: "fruits['grapes'] = 15",
-            optionC: "insert 'grapes' in fruits",
-            optionD: "fruits[15] = 'grapes'",
-            correctAnswer: "fruits['grapes'] = 15"
+            question: "_____ is a data file",
+            optionA: "Binary files",
+            optionB: "Text files",
+            optionC: "Both Binary files and Text files",
+            optionD: "None of the above",
+            correctAnswer: "Both Binary files and Text files"
         },
 
         {
@@ -87,6 +87,27 @@ const questions = [
     [
         {
             // 5
+            question: "fill in the line of the following python code for calculating the factorial of a number<br>def fact(num):<br>if num == 0:<br>return 1<br>else:<br>return ______________",
+            optionA: "num*fact(num-1)",
+            optionB: "(num-1)*(num-2)",
+            optionC: "num*(num-1)",
+            optionD: "fact(num)*fact(num-1)",
+            correctAnswer: "num*fact(num-1)"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 6
             question: "What is a recursive function?",
             optionA: "A functiona that calls other functions.",
             optionB: "A function which calls itself",
@@ -107,7 +128,7 @@ const questions = [
 
     [
         {
-            // 6
+            // 7
             question: "Which of the following is contained in NumPy library",
             optionA: "n-dimensional array object",
             optionB: "tools for integrating C/C++ and fortran code",
@@ -128,7 +149,7 @@ const questions = [
 
     [
         {
-            // 7
+            // 8
             question: "To add a new element to a list we use which python command",
             optionA: "list1.addEnd(5)",
             optionB: "list1.append(5)",
@@ -149,7 +170,7 @@ const questions = [
 
     [
         {
-            // 8
+            // 9
             question: "What is pip in python",
             optionA: "pip is the preferred installer program",
             optionB: "pip is the predefined installer package",
@@ -170,7 +191,49 @@ const questions = [
 
     [
         {
-            // 9
+            // 10
+            question: "What will be the output of the following python code<br>import numpy as np<br>arr = np.array([1,2,3,5,8])<br>arr = arr+1<br>print(arr[1])",
+            optionA: "3",
+            optionB: "2",
+            optionC: "5",
+            optionD: "None of these",
+            correctAnswer: "3"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 11
+            question: "What is the order of precedence in python<br>(i) Parentheses<br>(ii) Exponential<br>(iii) Multiplication<br>(iv) Division<br>(v) Addition<br>(vi) Subtraction",
+            optionA: "i, ii, iii, iv, v, vi",
+            optionB: "ii, i, iii, iv, v, vi",
+            optionC: "ii, i, iv, iii, v, vi",
+            optionD: "i, ii, iii, iv, vi, v",
+            correctAnswer: "i, ii, iii, iv, v, vi"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 12
             question: "Who developed python programming language",
             optionA: "Ray Tamilson",
             optionB: "Mark Zukerbarg",
@@ -191,7 +254,7 @@ const questions = [
 
     [
         {
-            // 10
+            // 13
             question: "______ reports all error with line numbers and produce faster object code then interpreter",
             optionA: "Compiler",
             optionB: "Assembler",
@@ -212,7 +275,7 @@ const questions = [
 
     [
         {
-            // 11
+            // 14
             question: "Array Processing package",
             optionA: "Numpy",
             optionB: "Array",
@@ -233,7 +296,7 @@ const questions = [
 
     [
         {
-            // 12
+            // 15
             question: "Which statement will return one line from a file (file object is f)",
             optionA: "f.readlines()",
             optionB: "f.readline()",
@@ -254,7 +317,7 @@ const questions = [
 
     [
         {
-            // 13
+            // 16
             question: "Suppose a list with name arr, contains 5 elements. you can get the 2nd element from the list using",
             optionA: "arr[-2]",
             optionB: "arr[1]",
@@ -275,7 +338,7 @@ const questions = [
 
     [
         {
-            // 14
+            // 17
             question: "To define a block in python, we use",
             optionA: "Indentation",
             optionB: "Function",
@@ -296,7 +359,7 @@ const questions = [
 
     [
         {
-            // 15
+            // 18
             question: "Python variable can not start with _______",
             optionA: "Alphabets",
             optionB: "Digits",
@@ -317,8 +380,8 @@ const questions = [
 
     [
         {
-            // 16
-            question: "output of x.count('l') if x is equal to 'hello'",
+            // 19
+            question: "Given a string x ='hello'<br>What is the output of x.count('l')?",
             optionA: "2",
             optionB: "1",
             optionC: "0",
@@ -338,7 +401,28 @@ const questions = [
 
     [
         {
-            // 17
+            // 20
+            question: "full() function requires 2 arguments minimum to pass in it",
+            optionA: "true",
+            optionB: "false",
+            optionC: "full() doesn't belong to numpy",
+            optionD: "None of the above",
+            correctAnswer: "true"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 21
             question: "In which language is python written",
             optionA: "PHP",
             optionB: "C",
@@ -359,7 +443,7 @@ const questions = [
 
     [
         {
-            // 18
+            // 22
             question: "The for loop in python is an________",
             optionA: "Entry controlled loop",
             optionB: "Exit controlled loop",
@@ -380,7 +464,7 @@ const questions = [
 
     [
         {
-            // 19
+            // 23
             question: "You can also create your own functions these functions are called",
             optionA: "Builtin functions",
             optionB: "User defined functions",
@@ -401,7 +485,7 @@ const questions = [
 
     [
         {
-            // 20
+            // 24
             question: "Choose the correct option with respect to python",
             optionA: "In python, a tuple can contain only integers as its elements",
             optionB: "In python, a tuple can contain only strings as its elements",
@@ -422,7 +506,7 @@ const questions = [
 
     [
         {
-            // 21
+            // 25
             question: "Which of the following is not a correct mode to open a file.",
             optionA: "ab",
             optionB: "rw",
@@ -443,7 +527,7 @@ const questions = [
 
     [
         {
-            // 22
+            // 26
             question: "Which one of the following is the correct extension of the python file.",
             optionA: ".python",
             optionB: ".py",
@@ -464,7 +548,7 @@ const questions = [
 
     [
         {
-            // 23
+            // 27
             question: "How do you close a file object(fp)",
             optionA: "close(fp)",
             optionB: "fclose(fp)",
@@ -485,7 +569,7 @@ const questions = [
 
     [
         {
-            // 24
+            // 28
             question: "How is a function declared in Python",
             optionA: "def function function_name():",
             optionB: "declare functon function_name():",
@@ -506,7 +590,49 @@ const questions = [
 
     [
         {
-            // 25
+            // 29
+            question: "What will be the output of the following code snippet? <br>a = {1:'A',2:'B',3:'C'}<br>b = {4:'D', 5:'E'}<br>a.update(b)<br>print(a)",
+            optionA: "(1,2,3,3,2,4,5,5)",
+            optionB: "{1:'A',2:'B',3:'C',4:'D',5:'E'}",
+            optionC: "None",
+            optionD: "{1,5}",
+            correctAnswer: "{1:'A',2:'B',3:'C',4:'D',5:'E'}"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 30
+            question: "What is the output of the following code<br>import numpy as np<br>a= np.array([1,5,4,7,8])<br>a=a+1<br>print(a[1])",
+            optionA: "4",
+            optionB: "5",
+            optionC: "6",
+            optionD: "None of these",
+            correctAnswer: "6"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 31
             question: "Which of the following method is used to find the index of a specified element in a tuple.",
             optionA: "index()",
             optionB: "find()",
