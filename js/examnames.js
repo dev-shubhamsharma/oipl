@@ -26,7 +26,7 @@ const exams = [
         imgUrl : "images/python.png",
         id :"python",
         filename:"exam_questions/python.js",
-        questionsAddedInFile:"31"
+        questionsAddedInFile:"51"
 
     },
 
