@@ -87,7 +87,7 @@ const questions = [
     [
         {
             // 5
-            question: "fill in the line of the following python code for calculating the factorial of a number<br>def fact(num):<br>if num == 0:<br>return 1<br>else:<br>return ______________",
+            question: "fill in the line of the following python code for calculating the factorial of a number<br>def fact(num):<br>&nbsp;&nbsp;if num == 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;return 1<br>&nbsp;&nbsp;else:<br>&nbsp;&nbsp;&nbsp;&nbsp;return ______________",
             optionA: "num*fact(num-1)",
             optionB: "(num-1)*(num-2)",
             optionC: "num*(num-1)",
@@ -653,8 +653,113 @@ const questions = [
 
     [
         {
-            // 26
-            question: "Which function is used to find the length of a string",
+            // 32
+            question: "Which of te following is correct with respect to following python code?<br>d={'a':3,'b':7}",
+            optionA: "dictionary d is created",
+            optionB: "a and b are the keys of dictionary d",
+            optionC: "3 and 7 are the values of dictionary d",
+            optionD: "All of the above",
+            correctAnswer: "All of the above"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 33
+            question: "What will be the output of the following code snippet<br>dict = {\"Amit\":1,\"Sumit\":2}<br>dict.update({\"Saurabh\":2})<br>print(dict)",
+            optionA: "Error",
+            optionB: "{\"Amit\":1,\"Sumit\":2}",
+            optionC: "{\"Amit\":1,\"Saurabh\":2}",
+            optionD: "{\"Amit\":1,\"Sumit\":2,\"Saurabh\":2}",
+            correctAnswer: "{\"Amit\":1,\"Sumit\":2,\"Saurabh\":2}"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 34
+            question: "What is the output of the following program?<br>print((1+2)+(1,3))",
+            optionA: "(1,2,3,4)",
+            optionB: "10",
+            optionC: "(2,3,4,1)",
+            optionD: "None of these",
+            correctAnswer: "(1,2,3,4)"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 35
+            question: "Which one is not the attribute of a file",
+            optionA: "rename",
+            optionB: "mode",
+            optionC: "closed",
+            optionD: "softspace",
+            correctAnswer: "rename"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 36
+            question: "What will be the datatype of the var in the below code snippet?<br>var = 10<br>print(type(var))<br>var = \"Hello\"<br>print(type(var))",
+            optionA: "str and int",
+            optionB: "int and str",
+            optionC: "int and int",
+            optionD: "str and str",
+            correctAnswer: "int and str"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 37
+            question: "Which function is used to find the length of a string?",
             optionA: "len()",
             optionB: "slen()",
             optionC: "length()",
@@ -674,8 +779,8 @@ const questions = [
 
     [
         {
-            // 27
-            question: "readlines() method returns ________",
+            // 38
+            question: "readlines() method return ________",
             optionA: "String",
             optionB: "List",
             optionC: "Dictionary",
@@ -695,8 +800,8 @@ const questions = [
 
     [
         {
-            // 28
-            question: "Which of the following declaration is incorrect",
+            // 39
+            question: "Which of the following declarations is incorrect?",
             optionA: "_x = 2",
             optionB: "__x = 3",
             optionC: "_xyz_ = 5",
@@ -716,8 +821,8 @@ const questions = [
 
     [
         {
-            // 29
-            question: "Which term describes a loop that continues repeating without a terminating (ending) condition",
+            // 40
+            question: "Which term describes a loop that continues repeating without a terminationg (ending) condition?",
             optionA: "Infinite loop",
             optionB: "Conditional loop",
             optionC: "Unlimited loop",
@@ -737,8 +842,29 @@ const questions = [
 
     [
         {
-            // 30
-            question: "Which symbol is used to represent the start & stop of a flowchart",
+            // 41
+            question: "What is the output of the following code?<br>x = 123<br>for i in x:<br>&nbsp;&nbsp;print(i)",
+            optionA: "1 2 3",
+            optionB: "123",
+            optionC: "Error",
+            optionD: "None of these",
+            correctAnswer: "Error"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 42
+            question: "What is the symbol used to represent start and stop of a flowchart",
             optionA: "arrow",
             optionB: "rectangle",
             optionC: "oval",
@@ -758,13 +884,223 @@ const questions = [
 
     [
         {
-            // 31
-            question: "____ immediately terminates the loop iteration",
+            // 43
+            question: "______ immediately terminated the current loop interations",
             optionA: "break",
             optionB: "pass",
             optionC: "continue",
             optionD: "if",
-            correctAnswer: "continue"
+            correctAnswer: "break"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 44
+            question: "A detailed flowchart is known as",
+            optionA: "Stack",
+            optionB: "Union",
+            optionC: "Macro",
+            optionD: "Micro",
+            correctAnswer: "Micro"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 45
+            question: "is python code compiled or interpreted?",
+            optionA: "Python code is both compiled and interpreted",
+            optionB: "Python code is neither compiled nor interpreted",
+            optionC: "Python code is only compiled",
+            optionD: "Python code is only interpreted",
+            correctAnswer: "Python code is both compiled and interpreted"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 46
+            question: "What is the output of the following code<br>i = 0<br>while i<5:<br>&nbsp;&nbsp;print(i)<br>&nbsp;&nbsp;i += 1<br>else:<br>&nbsp;&nbsp;print(0)",
+            optionA: "1 2 3",
+            optionB: "0 1 2 3",
+            optionC: "0 1 2 3 4 0",
+            optionD: "3 2 1",
+            correctAnswer: "0 1 2 3 4 0"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 47
+            question: "Part of algorithm which is repeated for fixed number of times is classified as",
+            optionA: "Iteration",
+            optionB: "Selection",
+            optionC: "Sequence",
+            optionD: "None of these",
+            correctAnswer: "Iteration"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 48
+            question: "The function pow(x,y,z) is evaluated as",
+            optionA: "(x**y)**z",
+            optionB: "(x**y)%z",
+            optionC: "(x**y)/z",
+            optionD: "(x**y)*z",
+            correctAnswer: "(x**y)%z"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 49
+            question: "How many keywords are there in python 3.7",
+            optionA: "32",
+            optionB: "33",
+            optionC: "31",
+            optionD: "30",
+            correctAnswer: "33"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 50
+            question: "Function blocks begin with the keyword____",
+            optionA: "function",
+            optionB: "def",
+            optionC: "method",
+            optionD: "None of the above",
+            correctAnswer: "def"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 51
+            question: "What type of data is:<br>arr = [(1,1),(2,2),(3,3)]",
+            optionA: "Tuple of lists",
+            optionB: "List of tuples",
+            optionC: "Array of tuples",
+            optionD: "Invalid type",
+            correctAnswer: "List of tuples"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 52
+            question: "What will be the output of the following?<br>print(sum(1,2,3))",
+            optionA: "3",
+            optionB: "6",
+            optionC: "1",
+            optionD: "Error",
+            correctAnswer: "Error"
+        },
+
+        {
+            question: "",
+            optionA: "",
+            optionB: "",
+            optionC: "",
+            optionD: "",
+            correctAnswer: ""
+        },
+    ],
+
+    [
+        {
+            // 53
+            question: "What is the output of this expression 3*1**3",
+            optionA: "1",
+            optionB: "3",
+            optionC: "9",
+            optionD: "7",
+            correctAnswer: "3"
         },
 
         {
@@ -1113,362 +1449,7 @@ const questions = [
         },
     ],
 
-    [
-        {
-            // 1
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-    ],
-
-    [
-        {
-            // 1
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-    ],
-
-    [
-        {
-            // 1
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-    ],
-
-    [
-        {
-            // 1
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-    ],
-
-    [
-        {
-            // 1
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-    ],
-
-    [
-        {
-            // 1
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-    ],
-
-    [
-        {
-            // 1
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-    ],
-
-    [
-        {
-            // 1
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-    ],
-
-    [
-        {
-            // 1
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-    ],
-
-    [
-        {
-            // 1
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-    ],
-
-    [
-        {
-            // 1
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-    ],
-
-    [
-        {
-            // 1
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-    ],
-
-    [
-        {
-            // 1
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-    ],
-
-    [
-        {
-            // 1
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-    ],
-
-    [
-        {
-            // 1
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-    ],
-
-    [
-        {
-            // 1
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-    ],
-
-    [
-        {
-            // 1
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-
-        {
-            question: "",
-            optionA: "",
-            optionB: "",
-            optionC: "",
-            optionD: "",
-            correctAnswer: ""
-        },
-    ],
+    
 
     [
         {
