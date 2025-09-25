@@ -140,6 +140,7 @@ var students = {
     "Alok":"Alok@oipl",
     "Loknath":"Loknath@oipl",
     "Sarvan":"Sarvan@oipl",
+"Divyanshi":"Divyanshi@oipl",
     
 }
 
