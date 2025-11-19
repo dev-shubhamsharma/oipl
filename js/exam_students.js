@@ -215,7 +215,30 @@ var students = {
     "Vishal Gupta":"oipl@123",
     "Zoya Bano":"oipl@123",
     "Ritesh":"oipl@123",
+
+    "Nandini Dwivedi":"Nandini@oipl",
+    "Sangini Singh":"Sangini@oipl",
+    "Khushi Devi":"Khushi@oipl",
+    "Kajal Tiwari":"Kajal@oipl",
+    "Janhvi Singh":"Janhvi@oipl",
+    "Shivani Gupta":"Shivani@oipl",
+    "Mridushi Tiwari":"Mridushi@oipl",
+    "Soumya Srivastava":"Soumya@oipl",
+    "Anushka Singh":"Anushka@oipl",
+    "Tannu Soni":"Tannu@oipl",
+    "Divyanshi Singh":"Divyanshi@oipl",
+    "Tarik Khan":"Tarik@oipl",
+    "Rahul Kumar Dwivedi":"Rahul@oipl",
+    "Abhishek Mishra":"Abhishek@oipl",
+    "Nitesh Srivastava":"Nitesh@oipl",
+    "Vikash Tiwari":"Vikash@oipl",
+    "Nauman Khan":"Nauman@oipl",
+    "Rishi Mishra":"Rishi@oipl",
+    "Anoop Tiwari":"Anoop@oipl",
+    "Prince Tiwari":"Prince@oipl",
+    
     
 }
+
 
 
