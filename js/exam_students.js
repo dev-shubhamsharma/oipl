@@ -231,6 +231,27 @@ var students = {
     "Rahul Kumar Dwivedi":"Rahul@oipl",
     "Abhishek Mishra":"Abhishek@oipl",
     "Nitesh Srivastava":"Nitesh@oipl",
+
+    "Sharad Tiwari":"Sharad@oipl",
+    "Faizal":"Faizal@oipl",
+    "Krishna Pandey":"Krishna@oipl",
+    "Diwakar Chaturvedi":"Diwakar@oipl",
+    "Harshita Vaishya":"Harshita@oipl",
+    "Saumya Shukla":"Saumya@oipl",
+    "Babli Tiwari":"Babli@oipl",
+    "Mohd Azeem":"Azeem@oipl",
+    "Saumya Singh":"Saumya@oipl",
+    "Vivek Shukla":"Vivek@oipl",
+    "Durgesh Singh":"Durgesh@oipl",
+    "Ashirwad Dixit":"Ashirwad@oipl",
+    "Sachin Awasthi":"Sachin@oipl",
+    "Ragini Kashyap":"Ragini@oipl",
+    "Priya Gupta":"Priya@oipl",
+    "Amit Rao":"Amit@oipl",
+    "Hariom Tiwari":"Hariom@oipl",
+
+
+    
     "Vikash Tiwari":"Vikash@oipl",
     "Nauman Khan":"Nauman@oipl",
     "Rishi Mishra":"Rishi@oipl",
