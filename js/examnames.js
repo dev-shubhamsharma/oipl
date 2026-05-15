@@ -2,11 +2,11 @@ const exams = [
     {
         name :"IT Tools and Writer",
         totalQuestions : "60",
-        timeInMinutes : "50",
+        timeInMinutes : "40",
         imgUrl : "images/writer.png",
         id :"writer",
-        filename:"exam_questions/writer.js",
-        questionsAddedInFile:"100"
+        filename:"exam_questions/chapter123.js",
+        questionsAddedInFile:"150"
 
     },
     {
